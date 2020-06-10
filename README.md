@@ -1,99 +1,57 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://www.just---design.com">
+    <img alt="JD" src="https://canary---yellow.com/wp-content/themes/virgilabloh/images/hammer.gif" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Just Design. That's It. 
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Work in progress.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## (Re)sources
+Organized alphabetically.
 
-## 🚀 Quick start
+- [Anti-Racism Design Resources](https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub)
+- [Fortress LA, Mike Davis](https://drive.google.com/file/d/1YAczqG10UIMqlpPDX3duWZ2fWHQDZVZ1/view)
+- [War and Architecture, Lebbeus Woods](https://www.are.na/block/2844797)
+- [Black Lives Matter "Ways You Can Help"](https://blacklivesmatters.carrd.co)
+- [Black Revolutionary Texts](https://drive.google.com/drive/folders/18y0_2wm85L113fVWYdgljq9uuIlmlbl3)
+- [Emails For Justice!](https://sayitagain.carrd.co)
+- [Black Producers / Artists / Labels for Bandcamp Day](https://docs.google.com/spreadsheets/u/4/d/1OIUBp4kFxmpWJihhq6WLwJQR1Am4DsD59bEYlJZxeGY/htmlview?usp=sharing&pru=AAABcqRQFJU*bRqSxO62y3r2jK-_cx7KQw)
+- [Defund12](https://defund12.org)
+- [BIPOC Studios, Dong-Ping Wong](https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview)
+- [Anti-racism resources for white people](https://docs.google.com/document/u/1/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic) 
 
-1.  **Create a Gatsby site.**
+To suggest additions, please email [marx@concurrent.studio](mailto:marx@concurrent.studio?subject=New%20Content%20Suggestion)
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+## Petitions
+- [Federally Required Psychological Screenings for Police Employment and Federal Reforms](http://chng.it/TP7q88f4gZ)
+- [Justice for Breonna Taylor](http://chng.it/rdTnkSxPR7)
+- [Justice for David McAtee](http://chng.it/YbRzyjfYzz)
+- [Justice for Ahmaud Arbery](http://chng.it/hhN6HnMkLk)
+- [Reopen Sandra Bland's Case](http://chng.it/tKTnmb2TQt)
+- [Commute Willie Simmons's Sentence](http://chng.it/NHNG7XxCKp)
+- [Justice for Alejandro Vargas Martinez](http://chng.it/ZDJRdF6Mpw)
+- [Justice for Tete Gulley](http://chng.it/rzK7pRyyy8)
+- [Dismiss the charges on Marshae Jones and charge the one who shot her and her unborn baby](http://chng.it/W8cW8sZrBX)
+- [Drop All Charges Against Incarcerated Trafficking Survivor Chrystul Kizer!](http://chng.it/RCzCzNLDsR)
+- [Julius Jones is innocent. Don't let him be executed by the state of Oklahoma.](http://chng.it/Lx9xc6HRRk)
+- [Reopen Kendrick Johnson's Case](http://chng.it/XRKDcR5xHW)
+- [Justice For Emerald Black](http://chng.it/2LLcRxKWfL)
+- [Justice for Dion Johnson](http://chng.it/2Z44mwJ5nY)
+  - [Family wants answers after Arizona DPS trooper fatally shoots Dion Johnson](https://www.fox10phoenix.com/news/family-wants-answers-after-arizona-dps-trooper-fatally-shoots-dion-johnson)
+- [Justice for Amir Worship](http://chng.it/BGnzMcTRsG)
+  - [‘Mom, they shot me’: Unarmed 12-year-old maimed in bed during SWAT raid](https://www.washingtonpost.com/nation/2019/08/09/amir-worship-chicago-swat-raid-knee-lawsuit/)
+- [Justice for Desmond Franklin](http://chng.it/Q9tFX8yNYy)
+  - [Hundreds of protesters show up demanding answers for the shooting death of Desmond Franklin by off-duty cop](https://www.news5cleveland.com/news/america-in-crisis/more-than-200-protesters-show-up-demanding-answers-for-the-shooting-death-of-desmond-franklin-by-off-duty-cop)
+- [Justice for the death of Joel Acevedo by off duty MPD Officer Michael Mattioli](http://chng.it/KdBDKMNy8j)
+  - [Family of Joel Acevedo demands justice during protest near home of Milwaukee Police officer Michael Mattioli](https://www.usatoday.com/story/news/2020/05/29/joel-acevedo-death-protest-milwaukee-mpd-officer-michael-mattioli-home/5284234002/)
+- [Charge the Hennepin County Medical Examiner for minimizing George Floyd's C.O.D.](http://chng.it/VL6V7gyRM4)
+- [Justice For Joāo Pedro](http://chng.it/hRQ7dgkN7t)
+- [Justice for Matthew Tucker](http://chng.it/MRBHPjxjRB)
+- [Abolish Prison Labour in the USA](http://chng.it/d5YR6HLQyT)
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
 
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+To suggest additions, please email [marx@concurrent.studio](mailto:marx@concurrent.studio?subject=New%20Petition%20Suggestion)
