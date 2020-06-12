@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "TheNeueBlack";
+    src: url("../fonts/TheNeue-Black.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProD";
+    src: url("../fonts/OfficeCodeProD-regular.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDMedium";
+    src: url("../fonts/OfficeCodeProD-medium.woff2");
+}
+
+body {
+    background: #222;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    /* background-image: linear-gradient(#63b1df, #9497c7, #ef519d); */
+    /* background-image: linear-gradient(#ef519d, #9497c7, #63b1df); */
+    color: white;
+    font-family: "OfficeCodeProDMedium", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3.2vw;
+}
+
+h3 {
+    font-size: 1.75vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.12em;
+    border-bottom: #ffffff 0.125em solid;
+}
+
+#mission {
+    color: #63b1df !important;
+    border-bottom: #63b1df 0.125em solid;
+}
+
+#readings {
+    color: #72aada !important;
+    border-bottom: #72aada 0.125em solid;
+}
+
+#films {
+    color: #82a3d1 !important;
+    border-bottom: #82a3d1 0.125em solid;
+}
+
+#bipoc-studios {
+    color: #8e9acb !important;
+    border-bottom: #8e9acb 0.125em solid;
+}
+
+#one-click-activism {
+    color: #a28fc2 !important;
+    border-bottom: #a28fc2 0.125em solid;
+}
+
+#featured-designer {
+    color: #be7fb7 !important;
+    border-bottom: #be7fb7 0.125em solid;
+}
+
+#acknowledgments {
+    color: #d66daa !important;
+    border-bottom: #d66daa 0.125em solid;
+}
+
+#suggest-an-addition {
+    color: #ef519d !important;
+    border-bottom: #ef519d 0.125em solid;
+}
+
+img {
+    width: 40vw;
+}
+
+#index {
+    position: absolute;
+    width: 100vw;
+    top: 10vh;
+}
+
+#just-design {
+    position: relative;
+    padding-bottom: 0.5em;
+    width: 100vw;
+    text-align: center;
+    font-family: "TheNeueBlack", Arial, sans-serif;
+    text-transform: uppercase;
+    line-height: 70%;
+}
+
+#links {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 1100px) {
+    #index {
+        top: 15vh;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 4.8vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index {
+        top: 10vh;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 5.6vw;
+    }
+
+    h3 {
+        font-size: 4.5vw;
+        line-height: 200%;
+    }
+}

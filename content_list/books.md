@@ -1,4 +1,10 @@
-# Readings 
+---
+slug: "/readings"
+date: "2020-06-10"
+title: "Readings"
+---
+
+# Readings1 
 
 ## Racial Justice
 ### Manifestos of the Moment
@@ -183,7 +189,25 @@
 	- "Kathryn Yusoff examines how the grammar of geology is foundational to establishing the extractive economies of subjective life and the earth under colonialism and slavery. She initiates a transdisciplinary conversation between black feminist theory, geography, and the earth sciences, addressing the politics of the Anthropocene within the context of race, materiality, deep time, and the afterlives of geology." [Summary c/o University of Minnesota Press](https://www.upress.umn.edu/book-division/books/a-billion-black-anthropocenes-or-none)
 
 ### Pedagogy and Resistance
-*TODO ⏳*
+- [**Pedagogy of the Oppressed**](https://envs.ucsc.edu/internships/internship-readings/freire-pedagogy-of-the-oppressed.pdf) {2}
+	- Authored by [Paulo Freire](https://www.freire.org/paulo-freire/)
+	- "Dedicated to the oppressed and based on his own experience helping Brazilian adults to read and write, Freire includes a detailed Marxist class analysis in his exploration of the relationship between the colonizer and the colonized. In the book, Freire calls traditional pedagogy the "banking model of education" because it treats the student as an empty vessel to be filled with knowledge, like a piggy bank. He argues that pedagogy should instead treat the learner as a co-creator of knowledge." [Summary c/o Wikipedia](https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed)
+
+- [**The Undercommons: Fugitive Planning & Black Study**](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6024&context=lkcsb_research) {2}
+	- Authored by [Stefano Harney](https://ubc.academia.edu/StefanoHarney) and [Fred Moten](https://www.poetryfoundation.org/poets/fred-moten)
+	- "In this series of essays Fred Moten and Stefano Harney draw on the theory and practice of the black radical tradition as it supports, inspires, and extends contemporary social and political thought and aesthetic critique." [Summary c/o Goodreads](https://www.goodreads.com/en/book/show/17398563-the-undercommons)
+
+- [**Teaching to Transgress: Education as the Practice of Freedom**](http://sites.utexas.edu/lsjcs/files/2018/02/Teaching-to-Transcend.pdf) {2}
+	- Authored by [bell hooks](http://www.bellhooksinstitute.com/#/about)
+	- "In Teaching to Transgress, bell hooks--writer, teacher, and insurgent black intellectual--writes about a new kind of education, educations as the practice of freedom. Teaching students to "transgress" against racial, sexual, and class boundaries in order to achieve the gift of freedom is, for hooks, the teacher's most important goal." [Summary c/o Goodreads](https://www.goodreads.com/book/show/27091.Teaching_to_Transgress)
+
+- [**A Third University is Possible**](https://manifold.umn.edu/read/a-third-university-is-possible/section/ba50806d-ff18-4100-9998-784aecb42ae4) {2}
+	- Authored by [la paperson](https://ethnicstudies.ucsd.edu/people/yang.html)
+	- "Drawing parallels to Third Cinema and Black filmmaking assemblages, A Third University Is Possible ultimately presents new ways of using language to develop a framework for hotwiring university “machines” to the practical work of decolonization." [Summary c/o University of Minnesota Press](https://www.upress.umn.edu/book-division/books/a-third-university-is-possible)
+
+- [**Toward What Justice?: Describing Diverse Dreams of Justice in Education**]() {2}
+	- Authored by [Eve Tuck](http://www.evetuck.com/bio) and [K. Wayne Yang](https://ethnicstudies.ucsd.edu/people/yang.html)
+	- "Toward What Justice? brings together compelling ideas from a wide range of intellectual traditions in education to discuss corresponding and sometimes competing definitions of justice." [Summary c/o Goodreads](https://www.goodreads.com/book/show/38367072-toward-what-justice)
 
 ### Racial Construction through Form, Style + Aesthetics
 *TODO ⏳*
@@ -338,6 +362,61 @@
 #### Material Culture
 *TODO ⏳*
 
+### Syllabus for Racial Justice in Urban Design
+- [**There Goes the 'Hood: Views of Gentrification from the Ground Up**]() [<sup>3<sup>](#Sources)
+	- Authored by [Lance Freeman](https://www.arch.columbia.edu/faculty/190-lance-freeman)
+	- "The ghetto, the inner city, the 'hood -- these terms have been applied as monikers for black neighborhoods and conjure up images of places that are off-limits to outsiders, places to be avoided after sundown, and paragons of pathology. Portrayed as isolated pockets of deviance and despair, these neighborhoods have captured the imagination of journalists and social scientists who have chronicled the challenges and risks of living in such neighborhoods. But what happens when commerce, the middle class -- globalization, if you will -- comes to these forlorn neighborhoods? When whites who were a rare sighting are suddenly neighbors? We are accustomed to focusing on the social pathologies, government neglect, and the causes of the inner city's inexorable decline. We thus know how people feel about the crime, the lack of opportunity, and feelings of being left behind or looked over. But we know less about how people feel when the fortunes of their neighborhoods brighten. How do people feel when gentrification comes to the 'hood?" [Summary c/o NPR](https://www.npr.org/templates/story/story.php?storyId=5569466)
+
+- [**Fair and Healthy Land Use: Environmental Justice and Planning**]() [<sup>3<sup>](#Sources)
+	- Authored by [Craig Anthony Arnold](https://louisville.edu/law/faculty-staff/faculty-directory/arnold-tony)
+	- "Lawsuits challenging the disproportionate effects of government decisions on low-income and minority communities are on the rise. Studies show that low-income families and racial minorities are more likely to suffer from health issues related to pollution. Grassroots environmental justice groups are increasingly fighting the siting of LULUs in low-income and minority communities. The principles these groups adopt are good planning principles: that no person or neighborhood should be burdened by harmful environmental conditions and that all persons should have the opportunity for meaningful participation in the decisions affecting the health, safety, and identity of their community." [Summary c/o APA](https://www.planning.org/publications/report/9026874/)
+
+- [**Aesthetics of Equity**]() [<sup>3<sup>](#Sources)
+	- Authored by [Craig Wilkins](https://taubmancollege.umich.edu/faculty/directory/craig-wilkins)
+	- "Architecture is often thought to be a diary of a society, filled with symbolic representations of specific cultural moments. However, as Craig L. Wilkins observes, that diary includes far too few narratives of the diverse cultures in U.S. society. In The Aesthetics of Equity, Wilkins states that the discipline of architecture has a resistance to African Americans at every level." [Summary c/o University of Minnesota Press](https://www.upress.umn.edu/book-division/books/the-aesthetics-of-equity)
+
+- [**The Crisis of the African-American Architect: Conflicting Cultures of Architecture and (Black) Power**]() [<sup>3<sup>](#Sources)
+	- Authored by [Melvin L. Mitchell](https://www.goodreads.com/author/show/1018651.Melvin_L_Mitchell)
+	- "" (Taken from source)
+
+- [**Urban Planning and the African-American Community: In the Shadows**]() [<sup>3<sup>](#Sources)
+	- Authored by [June Manning Thomas](https://taubmancollege.umich.edu/faculty/directory/june-manning-thomas) and [Marsha Ritzdorf](https://www.acsp.org/page/AwardRitzdorf)
+	- "" (Taken from source)
+
+- [**Redevelopment and Race Planning a Finer City in Postwar Detroit**]() [<sup>3<sup>](#Sources)
+	- Authored by [June Manning Thomas](https://taubmancollege.umich.edu/faculty/directory/june-manning-thomas)
+	- "In the decades following World War II, professional city planners in Detroit made a concerted effort to halt the city's physical and economic decline. Their successes included an award-winning master plan, a number of laudable redevelopment projects, and exemplary planning leadership in the city and the nation. Yet despite their efforts, Detroit was rapidly transforming into a notorious symbol of urban decay. In Redevelopment and Race: Planning a Finer City in Postwar Detroit, June Manning Thomas takes a look at what went wrong, demonstrating how and why government programs were ineffective and even destructive to community needs." [Summary c/o Wayne State University Press](https://www.wsupress.wayne.edu/books/detail/redevelopment-and-race)
+
+- [**Planning Atlanta**]() [<sup>3<sup>](#Sources)
+	- Authored by [Harley F. Etienne](https://taubmancollege.umich.edu/faculty/directory/harley-etienne)
+	- "In Planning Atlanta, two dozen planning practitioners and thought leaders bring the story to life. Together they trace the development of projects like Freedom Parkway and the Jimmy Carter Presidential Library. They examine the impacts of race relations on planning and policy. They explore Atlanta’s role as a 19th-century rail hub—and as the home of the world’s busiest airport. They probe the city’s economic and environmental growing pains. And they look toward new plans that will shape Atlanta’s next incarnation." [Summary c/o Routledge](https://www.routledge.com/Planning-Atlanta-1st-Edition/Etienne-Faga/p/book/9781611901269)
+
+- [**The Black Metropolis in the 21st Century: Race, Power, and the Politics of Place**]() [<sup>3<sup>](#Sources)
+	- Authored by [Robert Bullard](https://drrobertbullard.com/)
+	- "This book brings together key essays that seek to make visible and expand our understanding of the role of government (policies, programs, and investments) in shaping cities and metropolitan regions; the costs and consequences of uneven urban and regional growth patterns; suburban sprawl and public health, transportation, and economic development; and the enduring connection of place, space, and race in the era of increased globalization." [Summary c/o Barnes and Noble](https://www.barnesandnoble.com/w/black-metropolis-in-the-twenty-first-century-robert-d-bullard/1101602870)
+
+- [**Growing smarter : achieving livable communities, environmental justice, and regional equity**]() [<sup>3<sup>](#Sources)
+	- Authored by [Robert Bullard](https://drrobertbullard.com/)
+	- "Experts from academia, government, and nonprofit organizations offer an environmental justice perspective on Smart Growth, discussing equitable solutions to suburban sprawl and urban decay." [Summary c/o WorldCat](https://www.worldcat.org/title/growing-smarter-achieving-livable-communities-environmental-justice-and-regional-equity/oclc/70292152)
+
+- [**Just Sustainabilities: Development in an Unequal World**]() [<sup>3<sup>](#Sources)
+	- Authored by [Julian Agyeman](https://julianagyeman.com/) and [Robert Bullard](https://drrobertbullard.com/) and [Bob Evans](https://www.worldwhoswho.com/public/views/entry.html?id=sl2170097)
+	- "Environmental activists and academics alike are realizing that a sustainable society must be a just one. Environmental degradation is almost always linked to questions of human equality and quality of life. Throughout the world, those segments of the population that have the least political power and are the most marginalized are selectively victimized by environmental crises. Just Sustainabilities argues that social and environmental justice within and between nations should be an integral part of the policies and agreements that promote sustainable development. " [Summary c/o MIT Press](https://mitpress.mit.edu/books/just-sustainabilities)
+
+- [**Race, Poverty, and American Cities**]() [<sup>3<sup>](#Sources)
+	- Authored by [John Charles Boger](https://law.unc.edu/people/john-charles-boger/) and [Judith Welch Wegner](https://law.unc.edu/people/judith-welch-wegner/)
+	- "Precise connections between race, poverty, and the condition of America's cities are drawn in this collection of seventeen essays. Policymakers and scholars from a variety of disciplines analyze the plight of the urban poor since the riots of the 1960s and the resulting 1968 Kerner Commission Report on the status of African Americans. In essays addressing health care, education, welfare, and housing policies, the contributors reassess the findings of the report in light of developments over the last thirty years, including the Los Angeles riots of 1992." [Summary c/o UNC Press](https://uncpress.org/book/9780807845783/race-poverty-and-american-cities/)
+
+- [**Black Metropolis: A Study of Negro Life in a Northern City**]() [<sup>3<sup>](#Sources)
+	- Authored by [St. Clair Drake](https://en.wikipedia.org/wiki/St._Clair_Drake) and [Horace R. Cayton Jr.](https://en.wikipedia.org/wiki/Horace_R._Cayton_Jr.)
+	- "Ground-breaking when first published in 1945, Black Metropolis remains a landmark study of race and urban life. Based on a mass of research conducted by Works Progress Administration field workers in the late 1930s, it is a historical and sociological account of the people of Chicago's South Side, the classic urban ghetto. Drake and Cayton's findings not only offer a generalized analysis of black migration, settlement, community structure, and black-white race relations in the early part of the twentieth century, but also tell us what has changed in the last hundred years and what has not. This edition includes the original Introduction by Richard Wright and a new Foreword by William Julius Wilson." [Summary c/o Google Books](https://books.google.com/books/about/Black_Metropolis.html?id=8RPgI6EhRvwC)
+
+- [**The Philadelphia Negro**]() [<sup>3<sup>](#Sources)
+	- Authored by [W.E.B. Dubois](https://www.naacp.org/naacp-history-w-e-b-dubois/)
+	- "The Philadelphia Negro is a sociological study of African Americans in Philadelphia written by W. E. B. Du Bois. Commissioned by the University of Pennsylvania and published in 1899 with the intent of identifying social problems present in the African American community. It was the first sociological case study of a black community in the United States and one of the earliest examples of sociology as a statistically based social science. Du Bois gathered information for the study in the period between August 1896 and December 1897." [Summary c/o Wikipedia](https://en.wikipedia.org/wiki/The_Philadelphia_Negro)
+
+
 ## Sources
 <a href="https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"><sup>1</sup> Anti-racism Design Resources</a><br/>
-<a href="https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail"><sup>2</sup> SPACE/RACE Reading List</a>
+<a href="https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail"><sup>2</sup> SPACE/RACE Reading List</a><br/>
+<a href="https://www.google.com/url?q=https://www.colorlines.com/articles/check-out-syllabus-urban-design-course-somehow-doesnt-exist-yet&sa=D&ust=1591783697616000"><sup>3</sup> Syllabus for Racial Justice in Urban Design</a>
