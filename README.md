@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  JUST DESIGN. THAT'S ALL IT TAKES. 
+  JUST DESIGN.<br/>THAT'S ALL IT TAKES. 
 </h1>
 
 Work in progress.
