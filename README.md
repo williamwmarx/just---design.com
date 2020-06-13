@@ -22,7 +22,7 @@ Organized alphabetically.
 - [Emails For Justice!](https://sayitagain.carrd.co)
 - [Black Producers / Artists / Labels for Bandcamp Day](https://docs.google.com/spreadsheets/u/4/d/1OIUBp4kFxmpWJihhq6WLwJQR1Am4DsD59bEYlJZxeGY/htmlview?usp=sharing&pru=AAABcqRQFJU*bRqSxO62y3r2jK-_cx7KQw)
 - [Defund12](https://defund12.org)
-- [BIPOC Studios, Dong-Ping Wong](https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview)
+- [BIPOC Studio c/o Dong-Ping Wong & Associates](https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview)
 - [Anti-racism resources for white people](https://docs.google.com/document/u/1/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic) 
 - [Black Photographers Covering Protests 2020](https://docs.google.com/spreadsheets/d/1DMDZZGSq5YLqlskIf30yM2p8G944grtHR_0zKl6MAXY/edit#gid=0)
 - [The Color of Fear, Lee Mun Wah](https://vimeo.com/127289854)
