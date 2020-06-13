@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/main.css";
 
 export default function Home() {
   return (
@@ -10,10 +11,10 @@ export default function Home() {
       transform: "translate(0%, -50%)"
     }}>
       <h1 style={{fontSize: "3vw"}}>
-        &#10071;&#10071;&nbsp;4️⃣&nbsp;0️⃣&nbsp;4️⃣&nbsp;&#10071;&#10071;<br/><br/>
-        😕 we couldn't find your page 😕<br/>
-        🏠 <a style={{color: "white"}} href="https://just---design.com">return home</a> 🏠<br/><br/>
-        &#10071;&#10071;&nbsp;4️⃣&nbsp;0️⃣&nbsp;4️⃣&nbsp;&#10071;&#10071;
+        <span role="img" aria-label="exclamation mark">&#10071;</span><span role="img" aria-label="exclamation mark">&#10071;</span>&nbsp;<span role="img" aria-label="keycap digit four">4️⃣</span>&nbsp;<span role="img" aria-label="keycap digit four">0️⃣</span>&nbsp;<span role="img" aria-label="keycap digit four">4️⃣</span>&nbsp;<span role="img" aria-label="exclamation mark">&#10071;</span><span role="img" aria-label="exclamation mark">&#10071;</span><br/><br/>
+        <span role="img" aria-label="confused face">😕</span> we couldn't find your page <span role="img" aria-label="confused face">😕</span><br/>
+        <span role="img" aria-label="house">🏠</span> <a style={{color: "white"}} href="https://just---design.com">return home</a> <span role="img" aria-label="house">🏠</span>s<br/><br/>
+        <span role="img" aria-label="exclamation mark">&#10071;</span><span role="img" aria-label="exclamation mark">&#10071;</span>&nbsp;<span role="img" aria-label="keycap digit four">4️⃣</span>&nbsp;<span role="img" aria-label="keycap digit four">0️⃣</span>&nbsp;<span role="img" aria-label="keycap digit four">4️⃣</span>&nbsp;<span role="img" aria-label="exclamation mark">&#10071;</span><span role="img" aria-label="exclamation mark">&#10071;</span><br/><br/>
       </h1>
     </div>
   )

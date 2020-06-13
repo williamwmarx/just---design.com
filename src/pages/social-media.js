@@ -17,13 +17,13 @@ export default function Home() {
       </div>
         
       <div>
-        <img className="social-media-image" src={imageOne} alt="image one"/><br/>
-        <img className="social-media-image" src={imageTwo} alt="image two"/><br/>
-        <img className="social-media-image" src={imageThree} alt="image three"/><br/>
-        <img className="social-media-image" src={imageFour} alt="image four"/><br/>
-        <img className="social-media-image" src={imageFive} alt="image five"/><br/>
-        <img className="social-media-image" src={imageSix} alt="image six"/><br/>
-        <img className="social-media-image" src={imageSeven} alt="image seven"/><br/>
+        <img className="social-media-image" src={imageOne} alt="one"/><br/>
+        <img className="social-media-image" src={imageTwo} alt="two"/><br/>
+        <img className="social-media-image" src={imageThree} alt="three"/><br/>
+        <img className="social-media-image" src={imageFour} alt="four"/><br/>
+        <img className="social-media-image" src={imageFive} alt="five"/><br/>
+        <img className="social-media-image" src={imageSix} alt="six"/><br/>
+        <img className="social-media-image" src={imageSeven} alt="seven"/><br/>
       </div>
     </div>
   )
