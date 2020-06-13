@@ -21,12 +21,12 @@ export default function Home() {
         </p>
         <p>
           We strive for complete transparency. 
-          See the <a href="acknowledgments">acknowledgments</a> page for a list of both sources and thank yous.
-          See the <a href="requests">requests</a> page for an up-to-date list of sources requested and whether or not they were approved. 
+          See the <a href="../acknowledgments">acknowledgments</a> page for a list of both sources and thank yous.
+          See the <a href="../requests">requests</a> page for an up-to-date list of sources requested and whether or not they were approved. 
           Factual accuracy and pertinence to just design are the only criteria needed for approval.
         </p>
         <p>
-          If you'd like to share this site, visit the <a href="social-media">social media</a> page for some pre-made graphics.
+          If you'd like to share this site, visit the <a href="../social-media">social media</a> page for some pre-made graphics.
         </p>
       </div>
     </div>

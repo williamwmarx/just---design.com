@@ -61,7 +61,7 @@ export default function Home() {
 
         {/* Suggest an Addition */}
         <h3>
-          <a id="suggest-an-addition-nav" href="mailto:info@concurrent.studio?Subject=Suggest%20An%20Addition%20📨">
+          <a id="suggest-an-addition-nav" href="mailto:marx@concurrent.studio?Subject=Suggest%20An%20Addition%20📨">
             Suggest an Addition <span role="img" aria-label="incoming envelope">📨</span> →
           </a>
         </h3>
