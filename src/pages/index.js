@@ -14,7 +14,7 @@ export default function Home() {
         <h3><a id="mission" href="mission">Mission 💬 →</a></h3>
         <h3><a id="readings" href="readings">Readings 📖 →</a></h3>
         <h3><a id="films" href="films">Films 🎬 →</a></h3>
-        <h3><a id="bipoc-studios" href="bipoc-studios">BIPOC Studios 📐 →</a></h3>
+        <h3><a id="bipoc-praxes" href="bipoc-praxes">BIPOC Praxes 📐 →</a></h3>
         <h3><a id="one-click-activism" href="one-click-activism">One Click Activism 🚨 →</a></h3>
         <h3><a id="featured-designer" href="featured-designer">Featured Designer 👤 →</a></h3>
         <h3><a id="acknowledgments" href="acknowledgments">Acknowledgments 🙏 →</a></h3>

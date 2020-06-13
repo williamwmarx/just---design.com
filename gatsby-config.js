@@ -7,5 +7,14 @@
 module.exports = {
   /* Your site config here */
   plugins : [
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+          options: {
+            custom: {
+              families: ["OfficeCodeProD, OfficeCodeProDItalic, OfficeCodeProDThin, OfficeCodeProDThinItalic, OfficeCodeProDMedium, OfficeCodeProDMediumItalic, OfficeCodeProDBold, OfficeCodeProDBoldItalic, TheNeueBlack"],
+              urls: ["/fonts/fonts.css"],
+            },
+          },
+    }
   ]
 }

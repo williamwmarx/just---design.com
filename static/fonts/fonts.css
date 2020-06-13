@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "TheNeueBlack";
+    src: url("TheNeue-Black.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProD";
+    src: url("OfficeCodeProD-Regular.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDItalic";
+    src: url("OfficeCodeProD-RegularItalic.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDLight";
+    src: url("OfficeCodeProD-Light.woff2");
+}
+
+
+@font-face {
+    font-family: "OfficeCodeProDLightItalic";
+    src: url("OfficeCodeProD-LightItalic.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDMedium";
+    src: url("OfficeCodeProD-Medium.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDMediumItalic";
+    src: url("OfficeCodeProD-MediumItalic.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDBold";
+    src: url("OfficeCodeProD-Bold.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDBoldItalic";
+    src: url("OfficeCodeProD-BoldItalic.woff2");
+}
