@@ -3,18 +3,18 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    /* background-image: linear-gradient(#63b1df, #9497c7, #ef519d); */
-    /* background-image: linear-gradient(#ef519d, #9497c7, #63b1df); */
     color: white;
     font-family: "OfficeCodeProDMedium", Arial, sans-serif;
 }
 
 h1 {
     font-size: 4vw;
+    margin: 0px auto 0px auto;
 }
 
 h2 {
     font-size: 3.2vw;
+    margin: 0px auto 0px auto;
 }
 
 h3 {
@@ -28,70 +28,93 @@ a {
     border-bottom: #ffffff 0.125em solid;
 }
 
-#mission {
+#mission-nav {
     color: #63b1df !important;
     border-bottom: #63b1df 0.125em solid;
 }
 
-#readings {
+#readings-nav {
     color: #72aada !important;
     border-bottom: #72aada 0.125em solid;
 }
 
-#films {
+#films-nav {
     color: #82a3d1 !important;
     border-bottom: #82a3d1 0.125em solid;
 }
 
-#bipoc-praxes {
+#bipoc-praxes-nav {
     color: #8e9acb !important;
     border-bottom: #8e9acb 0.125em solid;
 }
 
-#one-click-activism {
+#one-click-activism-nav {
     color: #a28fc2 !important;
     border-bottom: #a28fc2 0.125em solid;
 }
 
-#featured-designer {
+#featured-designers-nav {
     color: #be7fb7 !important;
     border-bottom: #be7fb7 0.125em solid;
 }
 
-#acknowledgments {
+#acknowledgments-nav {
     color: #d66daa !important;
     border-bottom: #d66daa 0.125em solid;
 }
 
-#suggest-an-addition {
+#suggest-an-addition-nav {
     color: #ef519d !important;
     border-bottom: #ef519d 0.125em solid;
 }
 
-img {
-    width: 40vw;
-}
-
-#index {
+.root {
     position: absolute;
     width: 100vw;
     top: 10vh;
 }
 
-#just-design {
+.just-design {
     position: relative;
-    padding-bottom: 0.5em;
+    margin: 2em auto 0.5em auto;
     width: 100vw;
     text-align: center;
     font-family: "TheNeueBlack", Arial, sans-serif;
     text-transform: uppercase;
-    line-height: 70%;
+}
+
+.gradientText {
+    background: linear-gradient(90deg, #63b1df, #9497c7, #ef519d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pinkText {
+    color: #ef519d !important;
 }
 
 #links {
     position: relative;
     text-align: center;
     width: 100vw;
+}
+
+.text-content {
+    position: relative;
+    width: 60vw;
+    left: 20vw;
+    top: 2vh;
+    line-height: 150%;
+}
+
+.social-media-image {
+    position: relative;
+    left: 30vw;
+    width: 40vw;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 2vh auto 2vh auto;
 }
 
 @media only screen and (max-width: 1100px) {
