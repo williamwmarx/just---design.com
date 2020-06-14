@@ -15,13 +15,12 @@ export default function Home() {
       <div className="text-content">
         <p className="OCP">
           Key:&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="red circle">🔴</span>Black Owned</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="orange circle">🟠</span>Indigenous Owned</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="yellow circle">🟡</span>Women Owned</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="green circle">🟢</span>Non-Binary Owned</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="blue circle">🔵</span>Hiring</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="blue circle">🟣</span>Looking for Collaborators</span>,&nbsp;
-          <span><span className="idEmoji" role="img" aria-label="construction">🚧</span>Taken from BIPOC Studios Doc</span>
+          <span><span className="idEmoji" role="img" aria-label="red circle">🔴&nbsp;</span>Black Owned</span>,&nbsp;
+          <span><span className="idEmoji" role="img" aria-label="orange circle">🟠&nbsp;</span>Indigenous Owned</span>,&nbsp;
+          <span><span className="idEmoji" role="img" aria-label="yellow circle">🟡&nbsp;</span>Women Owned</span>,&nbsp;
+          <span><span className="idEmoji" role="img" aria-label="green circle">🟢&nbsp;</span>Non-Binary Owned</span>,&nbsp;
+          <span><span className="idEmoji" role="img" aria-label="blue circle">🔵&nbsp;</span>Hiring</span>,&nbsp;
+          <span><span className="idEmoji" role="img" aria-label="blue circle">🟣&nbsp;</span>Looking for Collaborators</span>,&nbsp;
         </p>
         <p>
           Please note: emoji colors have no meaning or correlation to their catagories. The order of these categories was inherited from the original document.<br/>
@@ -33,29 +32,30 @@ export default function Home() {
             let emoji_html = null;
             let emoji_string = "";
             if (data.black_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"red circle\">🔴</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"red circle\">🔴&nbsp;</span>"
             }
             if (data.indigenous_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"orange circle\">🟠</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"orange circle\">🟠&nbsp;</span>"
             }
             if (data.women_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"yellow circle\">🟡</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"yellow circle\">🟡&nbsp;</span>"
             }
             if (data.non_binary_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"green circle\">🟢</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"green circle\">🟢&nbsp;</span>"
             }
             if (data.hiring) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🔵</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🔵&nbsp;</span>"
             }
             if (data.looking_for_collaborators) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🟣</span>"
-            }
-            if (data.taken_from == "BIPOC Studios c/o Dong-Ping Wong") {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"white circle\">🚧</span>"
+              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🟣&nbsp;</span>"
             }
             if (emoji_string != "") {
               emoji_html = <div style={{paddingBottom: "0.5em"}} dangerouslySetInnerHTML={{__html: emoji_string}}></div>
+            } else {
+              emoji_html = <div style={{lineHeight: "185%"}}><br/></div>
             }
+
+            let ig_break = null;
             
             let link = <br/>
             if (data.contact[0]["email"] != null) {
@@ -67,11 +67,11 @@ export default function Home() {
               }
               let url = data.contact[0]["email"]
               if (url.includes("@")) {
-                link = <span><a className="gradient-button PoppinsMedium" href={`mailto:${url}`}>{contact_name} 📨 <span className="OCP">→</span></a><br/></span>
+                link = <span><a className="gradient-button PoppinsMedium" href={`mailto:${url}?body=${contact_name},`}>{contact_name} 📨 <span className="OCP">→</span></a><br/></span>
               } else {
                 link = <span><a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={url}>{contact_name} 🌐 <span className="OCP">→</span></a><br/></span>
               }
-              
+              ig_break = <br/>
             }
 
             return (
@@ -97,7 +97,7 @@ export default function Home() {
                         loc = " | " + location
                       }
                       return(
-                        <span>{loc}</span>
+                        <span> {loc}</span>
                       );
                     })}
                   </Card.Subtitle>
@@ -113,7 +113,7 @@ export default function Home() {
                           <a key={`ig_item_${ig_index}`} className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={`https://instagram.com/${ig}`} style={{marginBottom: "0.5em"}}>
                             @{ig} 📸 <span className="OCP">→</span>
                           </a>
-                          <br/>
+                          {ig_break}
                         </span>
                       );
                     })}
