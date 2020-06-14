@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="text-content">
         <p>
-          DESIGNERS.
+          EVERY DAY, A NEW DESIGNER. MORE SOON.
         </p>
       </div>
     </div>

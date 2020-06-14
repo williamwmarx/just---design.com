@@ -1,0 +1,204 @@
+{
+    "bipoc_praxes": [
+        {
+            "studio_name": "AAmp Studio",
+            "source_link": "https://www.instagram.com/aampstudio",
+            "location": "Toronto/Maine/Los Angeles",
+            "type": "Architecture, Design, Branding",
+            "contact": [{
+                "name": "Anne-Marie Armstrong",
+                "email": "hello@aampstudio.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned",
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "ACID, LLC",
+            "source_link": "https://www.instagram.com/acid.llc",
+            "location": "Los Angeles/Vancouver",
+            "type": "Design",
+            "contact": [{
+                "name": "Shun Kinoshita",
+                "email": "office@acid-llc.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": null,
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "AD-WO",
+            "source_link": "https://www.instagram.com/ad_wo",
+            "location": "Providence",
+            "type": "Architecture",
+            "contact": [{
+                "name": "Emanuel Admassu",
+                "email": null
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "Aeism Agency",
+            "source_link": "https://www.instagram.com/aei.sm",
+            "location": "Paris, London, Dublin",
+            "type": "Design",
+            "contact": [{
+                "name": null,
+                "email": "hello@aei.sm"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned"
+            ],
+            "hiring": true,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "AFARAI",
+            "source_link": "https://www.instagram.com/afainadejong",
+            "location": "Amsterdam",
+            "type": "architecture/design and research",
+            "contact": [{
+                "name": "Afaina de Jong",
+                "email": "me@afarai.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned",
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "AFROMINIMA",
+            "source_link": "https://www.instagram.com/afrominima",
+            "location": "Lagos",
+            "type": null,
+            "contact": [{
+                "name": "Olubunmi Adeyemi",
+                "email": "afrominima@gmail.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": true
+        },
+        {
+            "studio_name": "Agency—Agency",
+            "source_link": "https://www.instagram.com/teicarpenter",
+            "location": "NYC / Toronto",
+            "type": "Architecture",
+            "contact": [{
+                "name": "Tei Carpenter",
+                "email": "info@agency-agency.us"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "Aisha Densmore-Bey",
+            "source_link": "https://www.instagram.com/aishadbdesigner",
+            "location": "Boston",
+            "type": "Architecture",
+            "contact": [{
+                "name": null,
+                "email": null
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned",
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "ALAO",
+            "source_link": "https://www.instagram.com/actLAB_ao",
+            "location": "NYC",
+            "type": "Architecture, Design",
+            "contact": [{
+                "name": "Aya Maceda",
+                "email": "aya@al-ao.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "Alaska-Alaska",
+            "source_link": "https://www.instagram.com/alaska___alaska",
+            "location": "London",
+            "type": "Design",
+            "contact": [{
+                "name": null,
+                "email": null
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Black Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        },
+        {
+            "studio_name": "Alda Ly Architecture & Design",
+            "source_link": "https://www.instagram.com/alda_ly_architecture",
+            "location": "NYC",
+            "type": "Architecture",
+            "contact": [{
+                "name": "Alda Ly",
+                "email": "alda@alda-ly.com"
+            }],
+            "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
+            "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "tags": [
+                "Women Owned"
+            ],
+            "hiring": false,
+            "hiring_positions": null,
+            "looking_for_collaborators": false
+        }
+    ]
+}
+
