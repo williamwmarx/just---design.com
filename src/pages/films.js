@@ -35,7 +35,7 @@ export default function Home() {
                   </Card.Subtitle>
                   <Card.Text>{data.summary}</Card.Text>
                   <Card.Text><a rel="noreferrer" target="_blank" href={data.summary_source_link}>Summary c/o {data.summary_source}</a></Card.Text>
-                  <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>View this film →</a><br />
+                  <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>View this film 🎞 <span className="OCP">→</span></a><br />
                 </Card.Body>
               </Card>
             );

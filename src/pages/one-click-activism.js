@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="text-content">
         <p>
-          Note: Do NOT donate to change.org– the money does not go to any causes, but rather the corporation itself.
+          Note: Please do NOT donate to change.org– the money does not go to any causes, but rather the corporation itself.
         </p>
         <br/>
         <div className="cards">
@@ -24,7 +24,7 @@ export default function Home() {
                 <Card.Body>
                   <Card.Title className="PoppinsMedium">{data.title}</Card.Title>
                   <Card.Text>{data.summary}</Card.Text>
-                  <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>Sign this petition →</a><br />
+                  <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>Sign this petition ✍️ <span className="OCP">→</span></a><br />
                 </Card.Body>
               </Card>
             );
