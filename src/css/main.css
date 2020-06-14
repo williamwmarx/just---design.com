@@ -39,6 +39,11 @@ a:hover {
     grid-template-columns: repeat(4, 1fr) !important;
 }
 
+.idEmoji {
+    font-size: 1em !important;
+    padding: 0.5em 0.5em 0.5em auto !important;
+}
+
 .gradient-button {
     transition: 0.5s;
     background-image: linear-gradient(90deg, #63b1df, #9497c7, #ef519d);
