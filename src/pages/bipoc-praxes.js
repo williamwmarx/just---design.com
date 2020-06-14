@@ -23,7 +23,7 @@ export default function Home() {
               } else {
                 contact_name = data.contact[0]["email"]
               }
-              link = <span><br/><a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.contact[0]["email"]}>{contact_name} 📨 →</a><br/></span>
+              link = <span><br/><a className="gradient-button PoppinsMedium" href={`mailto:${data.contact[0]["email"]}`}>{contact_name} 📨 →</a><br/></span>
             }
 
             return (
