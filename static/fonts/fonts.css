@@ -43,3 +43,18 @@
     font-family: "OfficeCodeProDBoldItalic";
     src: url("OfficeCodeProD-BoldItalic.woff2");
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("Poppins-Bold.ttf");
+}

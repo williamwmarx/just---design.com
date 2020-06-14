@@ -12,56 +12,56 @@ export default function Home() {
       <div id="links">
         {/* MISSION */}
         <h3>
-          <a id="mission-nav" href="mission">
+          <a id="mission-nav" className="OCP" href="mission">
             Mission <span role="img" aria-label="speech bubble">💬</span> →
           </a>
         </h3>
 
         {/* READINGS */}
         <h3>
-          <a id="readings-nav" href="readings">
+          <a id="readings-nav" className="OCP" href="readings">
             Readings <span role="img" aria-label="open book">📖</span> →
           </a>
         </h3>
 
         {/* FILMS */}
         <h3>
-          <a id="films-nav" href="films">
+          <a id="films-nav" className="OCP" href="films">
             Films <span role="img" aria-label="clapper board">🎬</span> →
           </a>
         </h3>
 
         {/* BIPOC PRAXES */}
         <h3>
-          <a id="bipoc-praxes-nav" href="bipoc-praxes">
+          <a id="bipoc-praxes-nav" className="OCP" href="bipoc-praxes">
             BIPOC Praxes <span role="img" aria-label="triangular ruler">📐</span> →
           </a>
         </h3>
 
         {/* ONE CLICK ACTIVISM */}
         <h3>
-          <a id="one-click-activism-nav" href="one-click-activism">
+          <a id="one-click-activism-nav" className="OCP" href="one-click-activism">
             One Click Activism <span role="img" aria-label="police car light">🚨</span> →
           </a>
         </h3>
 
         {/* Featured Designers */}
         <h3>
-          <a id="featured-designers-nav" href="featured-designers">
+          <a id="featured-designers-nav" className="OCP" href="featured-designers">
             Featured Designers <span role="img" aria-label="bust in silhouette">👤</span> →
           </a>
         </h3>
 
         {/* Acknowledgments */}
         <h3>
-          <a id="acknowledgments-nav" href="acknowledgments">
+          <a id="acknowledgments-nav" className="OCP" href="acknowledgments">
             Acknowledgments <span role="img" aria-label="folded hands">🙏</span> →
           </a>
         </h3>
 
         {/* Suggest an Addition */}
         <h3>
-          <a id="suggest-an-addition-nav" href="mailto:marx@concurrent.studio?Subject=Suggest%20An%20Addition%20📨">
+          <a id="suggest-an-addition-nav" className="OCP" href="mailto:marx@concurrent.studio?Subject=Suggest%20An%20Addition%20📨">
             Suggest an Addition <span role="img" aria-label="incoming envelope">📨</span> →
           </a>
         </h3>
