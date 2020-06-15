@@ -54,6 +54,7 @@ a:hover {
     display: inline-block;
     border-bottom: none !important;
     padding: 6px 12px 6px 12px !important;
+    margin-top: 0.25em;
 }
 .gradient-button:hover{
     background-position: right center; 

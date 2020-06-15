@@ -15,6 +15,8 @@ module.exports = {
               urls: ["/fonts/fonts.css"],
             },
           },
-    }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
   ]
 }
