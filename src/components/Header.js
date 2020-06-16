@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Apple_Touch_Icon } from "../../static/apple-touch-icon.png";
 
 export default function Header() {
     return (
@@ -65,7 +64,6 @@ export default function Header() {
 
             {/* TITLE, STYLES, FAVICON */}
             <title>Just Design. That's All It Takes.</title>
-            <link rel="apple-touch-icon" href={Apple_Touch_Icon}/>
         </Helmet>
     );
 }

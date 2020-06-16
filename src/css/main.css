@@ -88,27 +88,74 @@ a:hover {
 }
 
 .card {
-    background-color: #191919;
-    padding: 1.5em 1em 1em 1em;
-    border-radius: 0.5em;
+    background-color: #1c1c1c;
+    /* border-style: solid; */
+    /* border-left-color: #be7fb7 !important; */
+    /* border-color: white; */
+    /* background-image: linear-gradient(#191919, #191919), linear-gradient(90deg, #63b1df,#9497c7, #ef519d);
+    background-origin: border-box;
+    background-clip: content-box, border-box; */
+}
+
+.card-bg {
+    background-color: #333;
+    /* background-image: linear-gradient(#63b1df, #9497c7, #ef519d); */
+}
+
+.card-header {
+    margin: 0 0 0 0.4em;
+    padding: 1.25em 0.5em 1em 1em;
+    background-color: #1c1c1c;
+}
+
+.card-body {
+    margin: 0 0 0 0.4em;
+    padding: 0em 0.5em 1.25em 1em;
+    background-color: #1c1c1c;
 }
 
 .card-title {
     font-family: "PoppinsMedium", Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+    color: #fafafa;
+    font-size: 1.4em;
+    margin-bottom: 0;
+    /* background: linear-gradient(90deg, #63b1df,#9497c7, #ef519d);
+    background-clip: text;
+    color: transparent; */
 }
 
 .card-subtitle-p {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: #aaa;
     padding: 0;
-    margin: 0.25em 0 0 0;
+    margin: 0.15em 0 0 0;
 }
 
 .card-subtitle-a {
     color: #aaa;
+    text-decoration: underline;
+}
+
+.card-subtitle-a:hover {
+    color: #aaa;
+    text-decoration: underline;
+}
+
+.card-text {
+    margin: 0em 1em 0.5em 0.75em;
+    font-size: 1em;
+    line-height: 140%;
+}
+
+.card-text-a {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 40%;
+    color: #888;
+    padding: 0px;
     text-decoration: none;
 }
 
@@ -128,7 +175,9 @@ a:hover {
     display: inline-block;
     border-bottom: none;
     padding: 6px 12px 6px 12px;
-    margin-top: 0.25em;
+    margin-top: 0.75em;
+    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 .gradient-button:hover{
     background-position: right center; 

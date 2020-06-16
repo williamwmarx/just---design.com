@@ -11,26 +11,33 @@ export default function Home() {
       <div className="card-content">
         <div className="cards">
           {Films.films.map((data, index) => {
+            let source = null;
+            if (data.summary_source != null) {
+              source = <span className="card-text"><a className="card-text-a" rel="noreferrer" target="_blank" href={data.summary_source_link}><br/>Summary c/o {data.summary_source}</a></span>
+            }
+
             return (
               <div key={`content_item_${index}`} className="card">
-                <p className="card-title">{data.title}</p>
-                <p className="card-subtitle-p">
-                  {data.creators.map((creators, c_index) => {
-                    if (c_index == 0) {
-                      return (
-                        <a key={`creator_item_${c_index}`} className="card-subtitle-a" rel="noreferrer" target="_blank" href={creators.link} style={{color: "#6c757d !important"}}>{creators.name}</a>                        
-                      );
-                    } else if (c_index > 0) {
-                      return (
-                        <span>&nbsp;and&nbsp;<a key={`creator_item_${c_index}`} className="card-subtitle-a" rel="noreferrer" target="_blank" href={creators.link}>{creators.name}</a></span>                  
-                      );
-                    }
-                    
-                  })}
-                </p>
-                <p>{data.summary}</p>
-                <p><a rel="noreferrer" target="_blank" href={data.summary_source_link}>Summary c/o {data.summary_source}</a></p>
-                <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>View this film 🎞 <span className="OCP">→</span></a><br />
+                <div className="card-bg">
+                  <div className="card-header">
+                    <p className="card-title">{data.title}</p>
+                    <p className="card-subtitle-p">
+                      {data.creators.map((creators, c_index) => {
+                        let creator = ""
+                        if (c_index === 0) {
+                            creator = <a key={`creator_item_${c_index}`} className="card-subtitle-a" rel="noreferrer" target="_blank" href={creators.link} style={{color: "#6c757d !important"}}>{creators.name}</a>                        
+                        } else if (c_index > 0) {
+                            creator = <span>&nbsp;and&nbsp;<a key={`creator_item_${c_index}`} className="card-subtitle-a" rel="noreferrer" target="_blank" href={creators.link}>{creators.name}</a></span>                  
+                        }
+                        return creator;
+                      })}
+                    </p>
+                  </div>
+                  <div className="card-body">
+                    <p className="card-text">{data.summary}{source}</p>
+                    <a className="gradient-button card-text" rel="noreferrer" target="_blank" href={data.source_link}>View this film 🎞 <span className="OCP">→</span></a><br />
+                  </div>
+                </div>
               </div>
             );
           })}

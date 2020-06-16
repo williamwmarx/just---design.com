@@ -7,6 +7,17 @@
 module.exports = {
   /* Your site config here */
   plugins : [
+  {
+  resolve: `gatsby-plugin-manifest`,
+  options: {
+    name: `JUST DESIGN.`,
+    short_name: `JUST DESIGN.`,
+    start_url: `/`,
+    background_color: `#111111`,
+    display: `standalone`,
+    icon: `static/images/favicon.png`,
+  },
+    },
     {
       resolve: "gatsby-plugin-web-font-loader",
           options: {

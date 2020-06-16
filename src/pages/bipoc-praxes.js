@@ -1,4 +1,5 @@
 import React from "react";
+import Emoji from "../components/Emoji.js"
 import BIPOC_praxes from "../../content/bipoc_praxes.json"
 import "../css/main.css";
 import JustDesignBIPOCPraxes from "../../static/images/just---bipoc-praxes.png"
@@ -25,31 +26,31 @@ export default function Home() {
         
         <div className="cards">
           {BIPOC_praxes.bipoc_praxes.map((data, index) => {
-            let emoji_html = null;
-            let emoji_string = "";
-            if (data.black_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"red circle\">🔴&nbsp;</span>"
-            }
-            if (data.indigenous_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"orange circle\">🟠&nbsp;</span>"
-            }
-            if (data.women_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"yellow circle\">🟡&nbsp;</span>"
-            }
-            if (data.non_binary_owned) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"green circle\">🟢&nbsp;</span>"
-            }
-            if (data.hiring) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🔵&nbsp;</span>"
-            }
-            if (data.looking_for_collaborators) {
-              emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🟣&nbsp;</span>"
-            }
-            if (emoji_string != "") {
-              emoji_html = <div style={{paddingBottom: "0.5em"}} dangerouslySetInnerHTML={{__html: emoji_string}}></div>
-            } else {
-              emoji_html = <div style={{lineHeight: "185%"}}><br/></div>
-            }
+            // let emoji_html = null;
+            // let emoji_string = "";
+            // if (data.black_owned) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"red circle\">🔴&nbsp;</span>"
+            // }
+            // if (data.indigenous_owned) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"orange circle\">🟠&nbsp;</span>"
+            // }
+            // if (data.women_owned) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"yellow circle\">🟡&nbsp;</span>"
+            // }
+            // if (data.non_binary_owned) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"green circle\">🟢&nbsp;</span>"
+            // }
+            // if (data.hiring) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🔵&nbsp;</span>"
+            // }
+            // if (data.looking_for_collaborators) {
+            //   emoji_string += "<span class=\"idEmoji\" role=\"img\" aria-label=\"blue circle\">🟣&nbsp;</span>"
+            // }
+            // if (emoji_string !== "") {
+            //   emoji_html = <div style={{paddingBottom: "0.5em"}} dangerouslySetInnerHTML={{__html: emoji_string}}></div>
+            // } else {
+            //   emoji_html = <div style={{lineHeight: "185%"}}><br/></div>
+            // }
 
             let ig_break = null;
             
@@ -63,52 +64,50 @@ export default function Home() {
               }
               let url = data.contact[0]["email"]
               if (url.includes("@")) {
-                link = <span><a className="gradient-button PoppinsMedium" href={`mailto:${url}?body=${contact_name},`}>{contact_name} 📨 <span className="OCP">→</span></a><br/></span>
+                link = <span><a className="gradient-button PoppinsMedium" href={`mailto:${url}?body=${contact_name},`}>{contact_name} <Emoji name="incoming envelope" emoji="📨"/> <span className="OCP">→</span></a><br/></span>
               } else {
-                link = <span><a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={url}>{contact_name} 🌐 <span className="OCP">→</span></a><br/></span>
+                link = <span><a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={url}>{contact_name} <Emoji name="globe with meridians" emoji="🌐"/> <span className="OCP">→</span></a><br/></span>
               }
               ig_break = <br/>
             }
 
             return (
               <div key={`content_item_${index}`} className="card">
-                {emoji_html}
-                <p className="card-title">{data.studio_name}</p>
-                <p className="card-subtitle-p">
-                  {data.type.map((type, type_index) => {
-                    let t = type;
-                    if (type_index > 0) {
-                      t = " | " + type
-                    }
-                    return(
-                      <span>{t}</span>
-                    );
-                  })}
-                </p>
-                <p>
-                  {data.location.map((location, location_index) => {
-                    let loc = location;
-                    if (location_index > 0) {
-                      loc = " | " + location
-                    }
-                    return(
-                      <span> {loc}</span>
-                    );
-                  })}
-                </p>
+                {/* {emoji_html} */}
+                <div className="card-header">
+                  <p className="card-title">{data.studio_name}</p>
+                  <p className="card-subtitle-p">
+                    {data.type.map((type, type_index) => {
+                      let t = type;
+                      if (type_index > 0) {
+                        t = ", " + type
+                      }
+                      return(
+                        <span>{t}</span>
+                      );
+                    })}
+                  </p>
+                  <p>
+                    {data.location.map((location, location_index) => {
+                      let loc = location;
+                      if (location_index > 0) {
+                        loc = ", " + location
+                      }
+                      return(
+                        <span> {loc}</span>
+                      );
+                    })}
+                  </p>
+                </div>
                 <p>{data.summary}</p>
                 <span>
-                  {data.instagram.map((ig, ig_index) => {
-                    let spacing = null;
-                    if (ig_index > 0) {
-                      spacing = <br/>
-                    }
+                  {data.instagram.map((ig, ig_index) => {        
                     return (
-                      <span>
+                      <span className="card-text-p">
                         <a key={`ig_item_${ig_index}`} className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={`https://instagram.com/${ig}`} style={{marginBottom: "0.5em"}}>
                           @{ig} 📸 <span className="OCP">→</span>
                         </a>
-                        {ig_break}
+                        {/* {ig_break} */}
                       </span>
                     );
                   })}

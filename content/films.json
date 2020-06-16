@@ -36,7 +36,7 @@
                 "link": "https://tisch.nyu.edu/cinema-studies/faculty/manthia-diawara"
             }],
             "summary": "A documentation of Manthia Diawara's conversations with Martinican philosopher, writer, and poet Édouard Glissant aboard the Queen Mary II on their transatlantic journey.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -50,7 +50,7 @@
                 "link": "https://www.instagram.com/davechappelle/"
             }],
             "summary": "From Dave: Normally I wouldn't show you something so unrefined, I hope you understand",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -69,12 +69,12 @@
             "summary": "Jane Elliott, anti-racism activist and educator, and Roland S. Martin, host and managing editor of News One Now, discuss “Race, Gender & Identity in the Workplace.” at The U-M Women of Color Task Force's annual Career Conference",
             "summary_source": "University of Michigan Center for the Education of Women+",
             "summary_source_link": "http://www.cew.umich.edu/news-story/anti-racism-activist-jane-elliott-and-news-one-now-host-roland-s-martin-to-give-keynote-at-35th-annual-wctf-career-conference/",
-            "taken_from": "Self",
+            "taken_from": null,
             "taken_from_link": null,
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
-            "title": "Civil Rights | James Baldwin Interview | Mavis on Four",
+            "title": "Civil Rights: James Baldwin Interview. Mavis on Four",
             "source_link": "https://youtu.be/3Wht4NSf7E4",
             "creators": [{
                 "name": "James Baldwin",
@@ -84,9 +84,9 @@
                 "link": "https://en.wikipedia.org/wiki/Mavis_Nicholson"
             }],
             "summary": "Mavis Nicholson speaks exclusively to American Civil rights activist and renown Playwright novelist, essayist, poet, and social critic James Baldwin.",
-            "summary_source": "Taken from self",
+            "summary_source": null,
             "summary_source_link": null,
-            "taken_from": "Self",
+            "taken_from": null,
             "taken_from_link": null,
             "tag": "Race, Racism and Racial Capitalism"
         },
@@ -98,9 +98,9 @@
                 "link": "http://janeelliott.com/"
             }],
             "summary": "Recording of Jane Elliott's famed Brown Eye, Blue Eye exercise, which she started the day after Martin Luther King Jr.'s murder while teaching third grade.",
-            "summary_source": "Self",
+            "summary_source": null,
             "summary_source_link": null,
-            "taken_from": "Self",
+            "taken_from": null,
             "taken_from_link": null,
             "tag": "Race, Racism and Racial Capitalism"
         }
