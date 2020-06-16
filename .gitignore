@@ -1,5 +1,7 @@
 # Illustrator
 **/*.ai
+# Photoshop 
+**/*.psd
 
 # Logs
 logs
