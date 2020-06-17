@@ -22,24 +22,24 @@ export default function Home() {
         <div className="cards">
           {Petitions.petitions.map((data, index) => {
             let emoji_html = null;
-            let emoji_string = "";
             if (data.tag === "Justice") {
-              emoji_string += "<span><Emoji=\"balance scale\" emoji=\"⚖️\"/>&nbsp;</span>"
+              emoji_html = <a><Emoji name="balance scale" emoji="⚖️"/></a>
             }
             if (data.tag === "Legislation") {
-              emoji_string += "<span><Emoji=\"fountain pen\" emoji=\"🖋\"/>&nbsp;</span>"
-            }
-            if (emoji_string !== "") {
-              emoji_html = <div style={{paddingBottom: "0.5em"}} dangerouslySetInnerHTML={{__html: emoji_string}}></div>
-            } else {
-              emoji_html = <div style={{lineHeight: "185%"}}><br/></div>
+              emoji_html = <a><Emoji name="fountain pen" emoji="🖋"/></a>
             }
             return (
               <div key={`content_item_${index}`} className="card">
-                {emoji_html}
-                <p className="card-title">{data.title}</p>
-                <p>{data.summary}</p>
-                <a className="gradient-button PoppinsMedium" rel="noreferrer" target="_blank" href={data.source_link}>Sign this petition <Emoji name="writing hand" emoji="✍️"/> <span className="OCP">→</span></a><br />
+                  <div className="card-bg">
+                    <div className="card-header">
+                      <p className="card-subtitle-p" style={{marginBottom: "0.75em"}}>{emoji_html}</p>
+                      <p className="card-title">{data.title}</p>
+                    </div>
+                    <div className="card-body">
+                      <p className="card-text">{data.summary}</p>
+                      <a className="gradient-button card-text" rel="noreferrer" target="_blank" href={data.source_link}>Sign this petition <Emoji name="writing hand" emoji="✍️"/> <span className="OCP">→</span></a><br />
+                    </div>
+                  </div>
               </div>
             );
           })}

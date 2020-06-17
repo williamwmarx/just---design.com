@@ -153,9 +153,7 @@
             "location": [
                 "Lagos"
             ],
-            "type": [
-                "null"
-            ],
+            "type": [],
             "contact": [
                 {
                     "name": "Olubunmi Adeyemi",
@@ -511,9 +509,7 @@
             "instagram": [
                 "baida.to"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Association"
             ],
@@ -538,9 +534,7 @@
             "instagram": [
                 "blackfemarc"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Association"
             ],
@@ -593,9 +587,7 @@
             "instagram": [
                 "realbrandingchicks"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Branding"
             ],
@@ -814,9 +806,7 @@
             "instagram": [
                 "designforjustice"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Association"
             ],
@@ -929,12 +919,8 @@
         {
             "studio_name": "Educated Guess",
             "instagram": [],
-            "location": [
-                "null"
-            ],
-            "type": [
-                "null"
-            ],
+            "location": [],
+            "type": [],
             "contact": [
                 {
                     "name": null,
@@ -1502,7 +1488,7 @@
             ],
             "taken_from": "BIPOC Studios c/o Dong-Ping Wong",
             "taken_from_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
-            "black_owned": false,
+            "black_owned": true,
             "indigenous_owned": false,
             "women_owned": false,
             "non_binary_owned": false,
@@ -2323,7 +2309,7 @@
             ],
             "contact": [
                 {
-                    "name": "Galo CCañizares or Stephanie Sang Delgado",
+                    "name": "Galo Cañizares or Stephanie Sang Delgado",
                     "email": "hello@officeca.com"
                 }
             ],
@@ -2342,9 +2328,7 @@
             "instagram": [
                 "officeiii"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Architecture"
             ],
@@ -2955,12 +2939,8 @@
             "instagram": [
                 "studioseancanty"
             ],
-            "location": [
-                "null"
-            ],
-            "type": [
-                "null"
-            ],
+            "location": [],
+            "type": [],
             "contact": [
                 {
                     "name": "Sean Canty",
@@ -2982,9 +2962,7 @@
             "instagram": [
                 "studiozeren"
             ],
-            "location": [
-                "null"
-            ],
+            "location": [],
             "type": [
                 "Architecture"
             ],
