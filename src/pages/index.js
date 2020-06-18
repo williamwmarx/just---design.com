@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import "../css/main.css";
 import Emoji from "../components/Emoji";
 import JustDesign from "../../static/images/just---design.png"
@@ -6,6 +7,8 @@ import JustDesign from "../../static/images/just---design.png"
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. THAT'S ALL IT TAKES." defer={false} />
+
       <img className="just-design" src={ JustDesign } alt="JUST DESIGN. THAT'S ALL IT TAKES."/>
 
       <div id="links">

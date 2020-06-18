@@ -7,16 +7,22 @@
 module.exports = {
   /* Your site config here */
   plugins : [
-  {
-  resolve: `gatsby-plugin-manifest`,
-  options: {
-    name: `JUST DESIGN.`,
-    short_name: `JUST DESIGN.`,
-    start_url: `/`,
-    background_color: `#111111`,
-    display: `standalone`,
-    icon: `static/images/favicon.png`,
-  },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `JUST DESIGN.`,
+        short_name: `JUST DESIGN.`,
+        start_url: `/`,
+        background_color: `#111111`,
+        display: `standalone`,
+        icon: `static/images/favicon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-169387993-1"
+      }
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
@@ -29,5 +35,7 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`
   ]
 }

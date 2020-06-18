@@ -1,10 +1,13 @@
 import React from "react";
+import Helmet from "react-helmet";
 import "../css/main.css";
 import JustDesignAcknowledgments from "../../static/images/just---acknowledgments.png"
 
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. ACKNOWLEDGMENTS." defer={false} />
+
       <img id="just-acknowledgments" src={ JustDesignAcknowledgments } alt="JUST DESIGN. ACKNOWLEDGMENTS."/>
         
       <div className="text-content">

@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import Emoji from "../components/Emoji.js"
 import BIPOC_praxes from "../../content/bipoc_praxes.json"
 import "../css/main.css";
@@ -7,6 +8,8 @@ import JustDesignBIPOCPraxes from "../../static/images/just---bipoc-praxes.png"
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. BIPOC PRAXES." defer={false} />
+
       <img className="just-design" src={ JustDesignBIPOCPraxes } alt="JUST DESIGN. BIPOC PRAXES."/>
 
       <div className="card-content">

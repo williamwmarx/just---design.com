@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import Emoji from "../components/Emoji.js"
 import Petitions from "../../content/petitions.json"
 import "../css/main.css";
@@ -7,6 +8,8 @@ import JustDesignOCA from "../../static/images/just---one-click-activism.png"
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. ONE CLICK ACTIVISM." defer={false} />
+
       <img id="just-oca" src={ JustDesignOCA } alt="JUST DESIGN. ONE CLICK ACTIVISM."/>
 
       <div className="card-content">

@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import Films from "../../content/films.json"
 import "../css/main.css";
 import JustDesignFilms from "../../static/images/just---films.png"
@@ -6,6 +7,8 @@ import JustDesignFilms from "../../static/images/just---films.png"
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. FILMS." defer={false} />
+
       <img className="just-design" src={ JustDesignFilms } alt="JUST DESIGN. FILMS."/>
 
       <div className="card-content">

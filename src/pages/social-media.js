@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import "../css/main.css";
 import JustDesignGram from "../../static/images/just---the-gram.png";
 import imageOne from "../../static/images/one.png";
@@ -12,6 +13,8 @@ import imageSeven from "../../static/images/seven.png";
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. HELMET." defer={false} />
+
       <img id="just-acknowledgments" src={ JustDesignGram } alt="JUST DESIGN. DO IT FOR THE 'GRAM."/>
         
       <div>

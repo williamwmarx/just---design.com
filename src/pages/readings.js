@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import Emoji from "../components/Emoji.js"
 import "../css/main.css";
 import Readings from "../../content/readings.json"
@@ -7,6 +8,8 @@ import JustDesignReadings from "../../static/images/just---readings.png"
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. READINGS." defer={false} />
+
       <img className="just-design" src={ JustDesignReadings } alt="JUST DESIGN. READINGS."/>
 
       <div className="card-content">

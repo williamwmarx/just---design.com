@@ -1,10 +1,13 @@
 import React from "react";
+import Helmet from "react-helmet";
 import "../css/main.css";
 import JustDesignMission from "../../static/images/just---mission.png"
 
 export default function Home() {
   return (
     <div className="root">
+      <Helmet title="JUST DESIGN. MISSION." defer={false} />
+
       <img className="just-design" src={ JustDesignMission } alt="JUST DESIGN. MISSION."/>
 
       <div className="text-content">
