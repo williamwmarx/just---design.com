@@ -1,15 +1,18 @@
+/* Import React */
 import React from "react";
-import Helmet from "react-helmet";
-import "../css/main.css";
-import JustDesignMission from "../../static/images/just---mission.png"
+/* Import Components */
+import Head from "../components/Head";
+import Title from "../components/Title";
+/* Import Styles */
+import "../sass/main.sass";
 
-export default function Home() {
+export default function Mission() {
   return (
     <div className="root">
-      <Helmet title="JUST DESIGN. MISSION." defer={false} />
+      <Head title="JUST DESIGN. MISSION."/>
 
-      <img className="just-design" src={ JustDesignMission } alt="JUST DESIGN. MISSION."/>
-
+      <Title name="MISSION."/>
+      <br/>
       <div className="text-content">
         <p>
           Our systems have been designed for injustice, 

@@ -1,0 +1,390 @@
+$background: #111111
+$color1: #63b1df
+$color2: #9497c7
+$color3: #ef519d
+$gradient: linear-gradient(90deg, $color1, $color2, $color3)
+
+body 
+    background: #111
+    margin: 0!important
+    color: white
+    font-family: "Poppins", Arial, sans-serif
+
+$header_font_size: 5vw
+
+h1
+    font-family: "VTCCarrie", Poppins, Arial, Helvetica, sans-serif
+    text-align: center 
+    font-weight: normal
+    font-size: $header_font_size
+    line-height: 90%
+    margin: 0px
+    padding: 0px
+
+h2 
+    font-family: "VTCCarrie", Poppins, Arial, Helvetica, sans-serif
+    text-align: center 
+    font-weight: normal
+    font-size: 0.85*$header_font_size
+    margin: 0px
+    padding: 0px
+
+h3 
+    font-size: 1.35vw
+    a
+        font-family: "OfficeCodeProDMedium", Helvetica, Arial, sans-serif
+        text-decoration: none
+        border-bottom: white 0.125em solid
+
+p 
+    font-size: 1.4em
+    line-height: 125%
+
+a 
+    color: white
+
+a:hover 
+    text-decoration: none
+
+hr
+    margin: 0px
+    border: transparent
+    background-color: transparent
+    background-image: $gradient 
+
+.indentText 
+    margin: 0 0 0.4em 2vw !important
+
+.indentText2
+    margin: 0 0 0.4em 4vw !important
+
+.menu 
+    position: relative
+    border-radius: .5em
+    margin-bottom: 2em
+    background-image: linear-gradient(90deg, #63b1df, #9497c7, #ef519d)
+    width: 12em
+    background-size: 200% auto
+
+    select
+        width: 100%
+        font-family: "PoppinsMedium"
+        font-size: 100%
+        padding: 0.75em 
+        display: block
+        color: white
+        box-sizing: border-box
+        border: 2px solid transparent
+        border-radius: .5em
+        -webkit-appearance: none
+        -moz-appearance: none
+        -o-appearance: none
+        appearance: none
+        background-color: #111 !important
+        background-image: url("../../static/images/down_point.png")
+        background-position: 94% center
+        background-repeat: no-repeat
+        background-size: 10%
+        background-clip: padding-box
+        border: solid 2px transparent
+        outline: none
+        background-color: transparent
+    &:hover
+        background-position: right center 
+
+
+.page-header 
+    position: relative
+    margin: 1.5em auto 0em auto
+
+.root 
+    position: absolute
+    width: 100vw
+    top: 6vh
+    padding-bottom: 10vh
+
+.text-content 
+    position: relative
+    width: 60vw
+    left: 20vw
+    top: 1.5em
+    line-height: 150%
+    
+    p
+        a 
+            color: white
+            text-decoration: underline $color1
+        a:hover
+            text-decoration: underline $color2
+
+#links 
+    position: relative
+    text-align: center
+    width: 100vw
+    padding-top: 1em
+
+.card-content 
+    position: relative
+    width: 80vw
+    left: 10vw
+    padding-top: 4em
+
+    div > p > a
+        color: white
+        text-decoration: underline $color1
+        &:hover
+            text-decoration: underline $color2
+
+
+.cards 
+    margin: 0 auto
+    display: flex
+    flex-flow: column wrap
+    align-content: space-between
+    height: 250vh
+
+.card 
+    width: 32%
+    margin-bottom: 20px
+
+.card:nth-child(3n+1)
+    order: 1 
+
+.card:nth-child(3n+2)
+    order: 2 
+
+.card:nth-child(3n)
+    order: 3 
+
+.cards::before, .cards::after 
+  content: ""
+  flex-basis: 100%
+  width: 0
+  order: 2
+
+.card-bg 
+    background-color: #333
+
+.card-header 
+    margin: 0 0 0 0.4em
+    padding: 1.25em 0.5em 0.5em 1em
+    background-color: #1c1c1c
+
+.card-body 
+    margin: 0 0 0 0.4em
+    padding: 0.5em 0.5em 1.25em 1em
+    background-color: #1c1c1c
+
+.card-title 
+    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    padding: 0
+    margin: 0
+    color: #fafafa
+    font-size: 1.4em
+    margin-bottom: 0
+
+.card-subtitle-p 
+    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    font-size: 1.2em
+    color: #aaa
+    padding: 0
+    margin: 0.15em 0 0.15em 0
+
+
+.card-subtitle-p-2 
+    font-family: "Poppins", Arial, Helvetica, sans-serif
+    font-size: 1.1em
+    color: #888
+    padding: 0
+    margin: 0 0 0 0
+
+.card-subtitle-a 
+    color: #aaa !important
+    text-decoration: none !important
+    border-bottom: solid 0.15em #999
+
+.card-subtitle-a:hover 
+    border-bottom: solid 0.15em #aaa
+
+.card-text 
+    margin: 0em 1em 0.5em 0.75em
+    font-size: 1em
+    line-height: 140%
+
+.card-text-a 
+    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    font-size: 0.9em
+    line-height: 40%
+    color: #888
+    padding: 0px
+    text-decoration: none
+
+
+.idEmoji 
+    font-size: 1em
+    padding: 0.5em 0.5em 0.5em auto
+
+
+.gradient-button 
+    text-decoration: none
+    transition: 0.5s
+    background-image: linear-gradient(90deg, #63b1df, #9497c7, #ef519d)
+    background-size: 200% auto
+    border-radius: 0.5em
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+    cursor: pointer
+    display: inline-block
+    border-bottom: none
+    padding: 6px 12px 6px 12px
+    margin-top: 0.75em
+    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    font-size: 1em
+    &:hover
+        background-position: right center 
+
+
+.PoppinsMedium 
+    font-family: "PoppinsMedium", Arial, sans-serif
+
+
+.PoppinsBold 
+    font-family: "PoppinsBold", Arial, sans-serif
+
+
+
+
+
+.gradientText 
+    background: linear-gradient(90deg, #63b1df, #9497c7, #ef519d)
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+
+.pinkText 
+    color: #ef519d
+
+
+
+#links > a 
+    text-decoration: none
+    padding-bottom: 0.12em
+    border-bottom: #ffffff 0.125em solid
+
+
+.card-content > p > a 
+    color: white
+    text-decoration: underline #63b1df
+
+
+.card-content > p > a:hover 
+    text-decoration: underline #389cd6
+
+
+.card-content > p > span > a 
+    color: white
+    text-decoration: underline #63b1df
+
+
+.card-content > p > span > a:hover 
+    text-decoration: underline #389cd6
+
+
+
+
+
+.social-media-image 
+    position: relative
+    left: 30vw
+    width: 40vw
+    border: 1px solid #ddd
+    border-radius: 10px
+    margin: 2vh auto 2vh auto
+
+
+
+@media only screen and (max-width: 1500px) 
+    h1
+        font-size: 1.2 * $header_font_size
+    
+    h2
+        font-size: 1.2 * 0.85 * $header_font_size
+    
+
+    h3 
+        font-size: 1.5vw
+    
+    .just-design 
+        width: 28vw
+        left: 36vw
+
+@media only screen and (max-width: 1100px) 
+    h1
+        font-size: 1.5 * $header_font_size
+    
+    h2
+        font-size: 1.5 * 0.85 * $header_font_size
+
+    h3 
+        font-size: 2.2vw
+    
+
+    .text-content 
+        width: 70vw
+        left: 15vw
+    
+    p 
+        font-size: 1.3em
+    
+    .card 
+        width: 48%
+    
+    .card:nth-child(2n+1) 
+        order: 1 
+
+    .card:nth-child(2n) 
+        order: 2 
+
+
+@media only screen and (max-width: 700px) 
+    h1
+        font-size: 2.5 * $header_font_size
+    
+    h2
+        font-size: 2.5 * 0.85 * $header_font_size
+
+    h3 
+        font-size: 3.1vw
+        line-height: 175%
+    
+
+    p 
+        font-size: 1.1em
+    
+
+    .cards 
+        left: 10vw
+        display: grid
+        grid-gap: 1rem
+        grid-template-columns: repeat(1, 1fr)
+    
+
+    .card 
+        width: 80vw
+    
+
+    .indentText 
+        margin: 0 0 0.4em 5vw !important
+
+    .indentText2
+        margin: 0 0 0.4em 10vw !important
+    
+
+    .gradient-button 
+        font-size: 0.9em
+
+@media only screen and (max-width: 400px) 
+    h3 
+        font-size: 4vw
+        line-height: 175%
+    

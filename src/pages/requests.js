@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import "../css/main.css"
+import "../sass/main.sass";
 
 export default function Home() {
   return (

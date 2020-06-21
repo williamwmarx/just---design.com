@@ -1,0 +1,223 @@
+{
+    "graphic_design_elements": {
+        "typefaces": [
+            {
+                "font": "Carrie",
+                "font_link": "https://www.vocaltype.co/history-of/carrie",
+                "foundry": "VOCAL TYPE",
+                "foundry_link": "https://www.vocaltype.co/",
+                "css_fontface": "VTCCarrie",
+                "fontSize": "125%",
+                "letterSpacing": "normal"
+            },
+            {
+                "font": "Office Code Pro D",
+                "font_link": "https://github.com/nathco/Office-Code-Pro",
+                "foundry": "Nathan Rutzky",
+                "foundry_link": "https://nath.co/",
+                "css_fontface": "OfficeCodeProDMedium",
+                "fontSize": "115%",
+                "letterSpacing": "-1px"
+            },
+            {
+                "font": "Poppins",
+                "font_link": "https://github.com/itfoundry/Poppins",
+                "foundry": "Indian Type Foundry",
+                "foundry_link": "https://www.indiantypefoundry.com/",
+                "css_fontface": "PoppinsMedium",
+                "fontSize": "110%",
+                "letterSpacing": "normal"
+            }
+        ],
+        "color_palette": [
+            {
+                "color_name": "Background",
+                "hex": "#111111",
+                "rgb": "17, 17, 17",
+                "cmyk": "0%, 0%, 0%, 93%",
+                "source": null,
+                "source_link": null,
+                "creators": []
+            },
+            {
+                "color_name": "Gradient Color 1",
+                "hex": "#63b1df",
+                "rgb": "99, 177, 223",
+                "cmyk": "56%, 21%, 0%, 13%",
+                "source": "\"This Is What I Know About Art\" Cover",
+                "source_link": "https://www.penguinrandomhouse.com/books/612188/this-is-what-i-know-about-art-by-kimberly-drew-illustrated-by-ashley-lukashevsky/",
+                "creators": [
+                    {
+                        "name": "Kimberly Drew",
+                        "link": "https://www.instagram.com/museummammy"
+                    }
+                ]
+            },
+            {
+                "color_name": "Gradient Color 2",
+                "hex": "#9497c7",
+                "rgb": "148, 151, 199",
+                "cmyk": "26%, 24%, 0%, 22%",
+                "source": "One Drop Can Make a Rainbow",
+                "source_link": "https://www.instagram.com/p/B6niRV0JE4S/",
+                "creators": [
+                    {
+                        "name": "Alaska-Alaska",
+                        "link": "https://www.instagram.com/alaska___alaska/"
+                    }
+                ]
+            },
+            {
+                "color_name": "Gradient Color 3",
+                "hex": "#ef519d",
+                "rgb": "239, 81, 157",
+                "cmyk": "0%, 66%, 34%, 6%",
+                "source": "Seriously Fun: Light Study",
+                "source_link": "https://www.instagram.com/p/BknjgrFg0Cj/",
+                "creators": [
+                    {
+                        "name": "Oana Stănescu",
+                        "link": "http://oanas.net/"
+                    },
+                    {
+                        "name": "Akane Moriyama",
+                        "link": "http://akanemoriyama.com/"
+                    }
+                ]
+            }
+        ]
+    },
+    "content": [
+        {
+            "title": "Anti-Racism Design Resources",
+            "source_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "complete": false
+        },
+        {
+            "title": "SPACE/RACE Reading List",
+            "source_link": "https://docs.google.com/document/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/",
+            "complete": false
+        },
+        {
+            "title": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/",
+            "source_link": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "complete": false
+        },
+        {
+            "title": "Syllabus for an Urban Design Course That Somehow Doesn't Exist Yet",
+            "source_link": "https://www.colorlines.com/articles/check-out-syllabus-urban-design-course-somehow-doesnt-exist-yet",
+            "complete": true
+        },
+        {
+            "title": "Race/Architecture/Decolonization Design Resources - The Architecture Lobby Toronto",
+            "source_link": "https://docs.google.com/spreadsheets/d/1CUoilFaGcBSWUP_fRaTL3ovDflM2UpaRTPYjzM08VTI/edit#gid=0",
+            "complete": false
+        },
+        {
+            "title": "ALL MONUMENTS MUST FALL: A SYLLABUS",
+            "source_link": "https://www.ianalanpaul.com/wp-content/uploads/2017/08/AllMonumentsMustFall_Syllabus.pdf",
+            "complete": false
+        },
+        {
+            "title": "The Decolonizing {Puncturing/ RESPONSIBLE EXPANSION/ de-Westernizing} Design Reader An in-progress, collaborative project",
+            "source_link": "https://docs.google.com/document/d/1Hbymt6a3zz044xF_LCqGfTmXJip3cetj5sHlxZEjtJ4/edit",
+            "complete": false
+        },
+        {
+            "title": "Ways You Can Help",
+            "source_link": "https://blacklivesmatters.carrd.co/",
+            "complete": false
+        },
+        {
+            "title": "Black Revolutionary Books and Complimentary Texts: A Drop for Black Liberation",
+            "source_link": "https://drive.google.com/drive/u/0/folders/1TrqfLp8DrCzCni58SB4-CEVSBlg0Kzq6",
+            "complete": false
+        },
+        {
+            "title": "Emails for Justice!",
+            "source_link": "https://sayitagain.carrd.co/",
+            "complete": false
+        },
+        {
+            "title": "Black Producers / Artists / Labels for Bandcamp Day",
+            "source_link": "https://docs.google.com/spreadsheets/u/4/d/1OIUBp4kFxmpWJihhq6WLwJQR1Am4DsD59bEYlJZxeGY/htmlview?usp=sharing&pru=AAABcqRQFJU*bRqSxO62y3r2jK-_cx7KQw",
+            "complete": false
+        },
+        {
+            "title": "BIPOC Studios",
+            "source_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
+            "complete": false
+        },
+        {
+            "title": "Defund12",
+            "source_link": "https://defund12.org/",
+            "complete": false
+        },
+        {
+            "title": "Anti-racism resources for white people",
+            "source_link": "https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/",
+            "complete": false
+        },
+        {
+            "title": "Black Photographers Covering Protests 2020",
+            "source_link": "https://docs.google.com/spreadsheets/d/1DMDZZGSq5YLqlskIf30yM2p8G944grtHR_0zKl6MAXY/edit#gid=0",
+            "complete": false
+        },
+        {
+            "title": "Black Owned Bookstores",
+            "source_link": "https://www.instagram.com/worn__ware/",
+            "complete": false
+        },
+        {
+            "title": "Critical Reading",
+            "source_link": "https://drive.google.com/drive/u/0/folders/1vJTfZMZvrh3sEpF6unAdi8ZUDYAkgzUt",
+            "complete": false
+        },
+        {
+            "title": "SPACE/GENDER READING LIST",
+            "source_link": "https://docs.google.com/document/d/1sID0xZn_4NvXwUjC-grcl-SmRtHYgdhg7axlY4_dxTA/edit",
+            "complete": false
+        },
+        {
+            "title": "SPACE/BODY READING LIST",
+            "source_link": "https://docs.google.com/document/d/1dZp2MFZtnMpY49lfYrc9tD9-CEHIFpAVi0MfGk_tXxg/edit",
+            "complete": false
+        },
+        {
+            "title": "QUEER MALL Resources",
+            "source_link": "https://www.queermall.online/resources",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "complete": false
+        }
+    ]
+}
+

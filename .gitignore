@@ -3,6 +3,9 @@
 # Photoshop 
 **/*.psd
 
+# Assets Folder
+assets
+
 # Logs
 logs
 *.log

@@ -1,0 +1,64 @@
+{
+    "navigation": [
+        {
+            "title": "Mission",
+            "emoji": "💬",
+            "emoji_name": "speech bubble",
+            "link": "mission"
+        },
+        {
+            "title": "Readings",
+            "emoji": "📖",
+            "emoji_name": "open book",
+            "link": "readings"
+        },
+        {
+            "title": "Media",
+            "emoji": "📺",
+            "emoji_name": "television",
+            "link": "media"
+        },
+        {
+            "title": "Resources",
+            "emoji": "🧰",
+            "emoji_name": "toolbox",
+            "link": "resources"
+        },
+        {
+            "title": "BIPOC Praxes",
+            "emoji": "📐",
+            "emoji_name": "triangular ruler",
+            "link": "bipoc-praxes"
+        },
+        {
+            "title": "One Click Activism",
+            "emoji": "🗳",
+            "emoji_name": "ballot box with ballot",
+            "link": "one-click-activism"
+        },
+        {
+            "title": "Featured Designers",
+            "emoji": "👤",
+            "emoji_name": "bust in silhouette",
+            "link": "featured-designers"
+        },
+        {
+            "title": "Acknowledgments",
+            "emoji": "🙏",
+            "emoji_name": "folded hands",
+            "link": "acknowledgments"
+        },
+        {
+            "title": "IG @just_____design",
+            "emoji": "✨",
+            "emoji_name": "sparkles",
+            "link": "https://www.instagram.com/just_____design/"
+        },
+        {
+            "title": "Suggest an Addition",
+            "emoji": "📨",
+            "emoji_name": "incoming envelope",
+            "link": "mailto:suggestions@just---design.com?Subject=Suggest%20An%20Addition%20📨"
+        }
+    ]
+}

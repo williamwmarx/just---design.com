@@ -1,5 +1,5 @@
 {
-    "films": [
+    "media": [
         {
             "title": "The Color of Fear",
             "source_link": "https://vimeo.com/127289854",
@@ -12,6 +12,7 @@
             "summary_source_link": "https://www.stirfryseminars.com/store/products/cof1.php",
             "taken_from": "Hassan Rahim on Instagram",
             "taken_from_link": "https://www.instagram.com/hassanrahim/",
+            "typename": "film",
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
@@ -26,6 +27,7 @@
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
+            "typename": "film",
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
@@ -40,6 +42,7 @@
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
+            "typename": "film",
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
@@ -54,23 +57,7 @@
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
-            "tag": "Race, Racism and Racial Capitalism"
-        },
-        {
-            "title": "Anti-racism activist Jane Elliott & Roland Martin 2017 WCTF Conference Keynote Address",
-            "source_link": "https://youtu.be/LNgS78-Wjcc",
-            "creators": [{
-                "name": "Jane Elliott",
-                "link": "http://janeelliott.com/"
-            }, {
-                "name": "Roland Martin",
-                "link": "https://rolandsmartin.com/"
-            }],
-            "summary": "Jane Elliott, anti-racism activist and educator, and Roland S. Martin, host and managing editor of News One Now, discuss “Race, Gender & Identity in the Workplace.” at The U-M Women of Color Task Force's annual Career Conference",
-            "summary_source": "University of Michigan Center for the Education of Women+",
-            "summary_source_link": "http://www.cew.umich.edu/news-story/anti-racism-activist-jane-elliott-and-news-one-now-host-roland-s-martin-to-give-keynote-at-35th-annual-wctf-career-conference/",
-            "taken_from": null,
-            "taken_from_link": null,
+            "typename": "video",
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
@@ -88,6 +75,7 @@
             "summary_source_link": null,
             "taken_from": null,
             "taken_from_link": null,
+            "typename": "video",
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
@@ -102,7 +90,27 @@
             "summary_source_link": null,
             "taken_from": null,
             "taken_from_link": null,
+            "typename": "video",
             "tag": "Race, Racism and Racial Capitalism"
+        },
+        {
+            "title": "Naomi Murakawa & #BlackLivesMatter: Liberals, Guns and the Roots of the U.S. Prison Explosion",
+            "source_link": "https://youtu.be/pyHeroT6uv4",
+            "creators": [{
+                "name": "Naomi Murakawa",
+                "link": "https://aas.princeton.edu/people/naomi-murakawa"
+            }, {
+                "name": "Laura Flanders",
+                "link": "https://lauraflanders.org/"
+            }
+        ],
+            "summary": "Naomi Murakawa indicts liberals for growing the system of mass incarceration, and we take a look back at our coverage of the Black Lives Matter movement. All that and a few words from me on mandatory minimums in 1790 and since.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": null,
+            "taken_from_link": null,
+            "typename": "interview",
+            "tag": "Prison Industrial Complex"
         }
     ]
 }
