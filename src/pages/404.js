@@ -3,6 +3,7 @@ import React from "react";
 /* Import Components */
 import Emoji from "../components/Emoji";
 import Head from "../components/Head";
+import Link from "../components/Link";
 import Title from "../components/Title";
 /* Import Styles */
 import "../sass/main.sass";
@@ -18,11 +19,12 @@ export default function Home() {
     }}>
       <Head title="JUST DESIGN. 404."/>
       <Title name="ERROR 404."/>
-      <h3 style={{fontSize: "2em"}}>
-        <a href="https://just---design.com">
+      <br/><br/>
+      <span style={{fontFamily: "OfficeCodeProDMedium", fontSize: "2em"}}>
+        <Link href="https://just---design.com">
           Return Home <Emoji name="house" emoji="🏠"/> →
-        </a>
-      </h3>
+        </Link>
+      </span>
     </div>
   )
 }

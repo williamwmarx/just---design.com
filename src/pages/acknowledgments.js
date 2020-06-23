@@ -12,11 +12,10 @@ export default function Acknowledgments() {
   return (
     <TextContent title="ACKNOWLEDGMENTS">        
       {/* GENERAL CREDITS */}
-      <p>
+      <p style={{fontSize: "110%"}}>
         This site is intended to be as transparent as possible. As such, all sources used to build it are listed below.
         If you are interested in the source code for the site itself, that can be found on <Link href="https://github.com/concurrent-studio/just---design.com">GitHub</Link>.  
       </p>
-      <br/>
 
       {/* GRAPHIC DESIGN ELEMENTS CREDITS */}
       <TextContent.Section>Graphic Design Elements</TextContent.Section>
@@ -50,27 +49,27 @@ export default function Acknowledgments() {
               marginLeft: "0.5em"
             }
 
-            let source = (
-              <TextContent.TextIndent>
-                Source:&nbsp;
-                  <Link href={data.source_link}>{data.source}</Link>
-                  &nbsp;c/o&nbsp;
-                  {data.creators.map((creators, index) => {
-                    let creator_html = null
-                    if (index === 0) creator_html = <Link href={creators.link}>{creators.name}</Link>
-                    else creator_html = <span> and <Link href={creators.link}>{creators.name}</Link></span>
-                    return creator_html;
-                  })}
-              </TextContent.TextIndent>
-            )
-
             return (
               <div key={`content_item_${index}`}>
                 <TextContent.Text>{data.color_name}:</TextContent.Text>
                 <TextContent.TextIndent>HEX:<span style={color_detail}>{data.hex}</span></TextContent.TextIndent>
                 <TextContent.TextIndent>RGB:<span style={color_detail}>{data.rgb}</span></TextContent.TextIndent>
                 <TextContent.TextIndent>CMYK:<span style={color_detail}>{data.cmyk}</span></TextContent.TextIndent>
-                {source}
+                {
+                  data.source &&
+                  <TextContent.TextIndent>
+                    Source:&nbsp;
+                      <Link href={data.source_link}>{data.source}</Link>
+                      &nbsp;c/o&nbsp;
+                      {data.creators.map((creators, index) => {
+                        let creator_html = null
+                        if (index === 0) creator_html = <Link href={creators.link}>{creators.name}</Link>
+                        else creator_html = <span> and <Link href={creators.link}>{creators.name}</Link></span>
+                        return creator_html;
+                      })}
+                  </TextContent.TextIndent>
+                }
+                <br/>
               </div>
             );
           })}
@@ -81,7 +80,7 @@ export default function Acknowledgments() {
         {AcknowledgmentsData.content.map((data, index) => {
           let complete = ""
           if (data.complete) complete = "✅"
-          else complete = "⏳"
+          // else complete = "⏳"
           return (
             <TextContent.Text key={`content_item_${index}`}>
               <Link href={data.source_link}>{data.title}</Link>

@@ -57,7 +57,7 @@ export default function Home() {
         {Index.navigation.map((data, index) => {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (
-            <h3 key={`content_item_${index}`}>
+            <h3 key={`link_${index}`}>
               <a href={data.link} style={{
                 color: nav_color,
                 borderBottomColor: nav_color

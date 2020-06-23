@@ -6,7 +6,7 @@ export default class CardStack extends React.Component {
         super(props);
         this.state = {
             height: 500000,
-            width: window.innerWidth
+            width: 100000
         };
     }
                                 
@@ -33,8 +33,16 @@ export default class CardStack extends React.Component {
     }
   
     componentDidMount() {
-        this.update_cards_dims()
-        window.addEventListener("resize", this.update_cards_dims.bind(this));
+        // Calculate initial gradient bar width, slightly off due to font load speed
+      this.update_cards_dims();
+
+      // Wait 10ms and do it again just to be more accurate
+      this.timer = setInterval(
+        () => this.update_cards_dims(),
+        10,
+      );
+      // Bind window resize to creating new dimensions for the gradient bar
+      window.addEventListener("resize", this.update_cards_dims.bind(this));
     }
 
     componentWillUnmount() {
