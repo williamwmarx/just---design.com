@@ -28,7 +28,14 @@ let HiringEmoji = <Emoji emoji="🛠" name="hammer and wrench"/>
 let CollabEmoji = <Emoji emoji="🔎" name="magnifying glass tilted right"/>
 let BIPOCStudiosEmoji = <Emoji emoji="📓" name="notebook"/>
 
-function BIPOCStudiosHeader() {
+let instagram_user = "https://instagram.com/"
+let dpw_media = "https://instagram.com/p/CBEpwOgJcaM"
+if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
+  instagram_user = "instagram://user?username="
+  dpw_media = "instagram://media?id=2325166941643589260_1412961043"
+}
+
+function BIPOCStudios() {
   return (
     <div>
       <CardContent.Header>Key</CardContent.Header>
@@ -42,90 +49,124 @@ function BIPOCStudiosHeader() {
       <br/>
       <CardContent.Header>Credit</CardContent.Header>
         <CardContent.Text>
-          All credit for this page goes to <Link href="https://www.instagram.com/dongpingwong/">Dong-Ping Wong</Link> &amp; <Link href="https://www.instagram.com/p/CBEpwOgJcaM/">Associates</Link> for the creation of this database on the aforementioned <Link href="https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview">BIPOC Studios Google Doc</Link>.
+          All credit for this page goes to <Link href={`${instagram_user}dongpingwong/`}>Dong-Ping Wong</Link> &amp; <Link href={dpw_media}>Associates</Link> for the creation of this database on the aforementioned <Link href="https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview">BIPOC Studios Google Doc</Link>.
           This page is merely intended to make 
         </CardContent.Text>
+      <br/>
+      <CardStack>
+        {BIPOCPraxesData["bipoc_studios"].data.map((data, index) => {
+          let emoji_html = (
+            <span>
+              {data.black_owned && <span>{BlackOwnedImage}&nbsp;&nbsp;</span>}
+              {data.indigenous_owned && <span>{IndigenousOwnedImage}&nbsp;&nbsp;</span>}
+              {data.non_binary_owned && <span>{NonBinaryOwnedImage}&nbsp;&nbsp;</span>}
+              {data.women_owned && <span>{WomenOwnedImage}&nbsp;&nbsp;</span>}
+              {data.hiring && <span><Emoji emoji="🛠" name="hammer and wrench"/>&nbsp;</span>}
+              {data.looking_for_collaborators && <span>{CollabEmoji}&nbsp;</span>}
+              {<span>{BIPOCStudiosEmoji}&nbsp;</span>}
+            </span>
+          );
+
+          let link = null
+          if (data.contact[0]["email"] != null) {
+            let contact_name = null;
+            if (data.contact[0]["name"] != null)  contact_name = data.contact[0]["name"]
+            else contact_name = data["studio_name"]
+            let url = data.contact[0]["email"]
+            if (url.includes("@")) link = <Card.Link href={`mailto:${url}?body=${contact_name}—`} text={contact_name} emoji_name="incoming envelope" emoji="📨"/>
+            else link = <Card.Link href={url} text={contact_name} emoji_name="globe with meridians" emoji="🌐"/>
+          }
+
+          let hiring_positions = null;
+          if ((data.hiring || data.looking_for_collaborators) && data.hiring_positions) {
+            hiring_positions = (
+              <Card.Text>
+                {data.hiring && <span>{HiringEmoji}&nbsp;</span>}
+                {data.looking_for_collaborators && <span>{CollabEmoji}&nbsp;</span>}
+                {data.hiring_positions}
+              </Card.Text>
+            )
+          }
+
+          return (
+            <Card key={`card_${index}`}>
+              <Card.Header>
+                <Card.Tags>{emoji_html}</Card.Tags>
+                <Card.Title>{data.studio_name}</Card.Title>
+                {
+                  data.type !== [] &&
+                  <Card.Subtitle>
+                    {data.type.map((type, type_index) => {
+                      let t = type;
+                      if (type_index > 0) t = ", " + type
+                      return <span>{t}</span>
+                    })}
+                  </Card.Subtitle>
+                }
+                {
+                  data.location !== [] &&
+                  <Card.Subtitle2>
+                    {data.location.map((location, location_index) => {
+                      let loc = location;
+                      if (location_index > 0) loc = ", " + location
+                      return <span key={`content_item_${location_index}`}>{loc}</span>
+                    })}
+                  </Card.Subtitle2>
+                }
+              </Card.Header>
+              <Card.Body>
+                {hiring_positions}
+                {data.instagram.map((ig, ig_index) => {
+                  return <Card.Link key={`${instagram_user}${ig_index}`} href={`${instagram_user}${ig}`} text={`@${ig}`} emoji="📸" emoji_name="camera with flash"/>
+                })}
+                {link}
+              </Card.Body>
+            </Card>
+          );
+        })}
+      </CardStack>
     </div>
   )
 }
 
-function BIPOCStudiosCards() {
+function Canty200BlackCreators() {
   return (
-    <CardStack>
-      {BIPOCPraxesData["bipoc_studios"].content.map((data, index) => {
-        let emoji_html = (
-          <span>
-            {data.black_owned && <span>{BlackOwnedImage}&nbsp;&nbsp;</span>}
-            {data.indigenous_owned && <span>{IndigenousOwnedImage}&nbsp;&nbsp;</span>}
-            {data.non_binary_owned && <span>{NonBinaryOwnedImage}&nbsp;&nbsp;</span>}
-            {data.women_owned && <span>{WomenOwnedImage}&nbsp;&nbsp;</span>}
-            {data.hiring && <span><Emoji emoji="🛠" name="hammer and wrench"/>&nbsp;</span>}
-            {data.looking_for_collaborators && <span>{CollabEmoji}&nbsp;</span>}
-            {<span>{BIPOCStudiosEmoji}&nbsp;</span>}
-          </span>
-        );
-
-        let link = null
-        if (data.contact[0]["email"] != null) {
-          let contact_name = null;
-          if (data.contact[0]["name"] != null)  contact_name = data.contact[0]["name"]
-          else contact_name = data["studio_name"]
-          let url = data.contact[0]["email"]
-          if (url.includes("@")) link = <Card.Link href={`mailto:${url}?body=${contact_name}—`} text={contact_name} emoji_name="incoming envelope" emoji="📨"/>
-          else link = <Card.Link href={url} text={contact_name} emoji_name="globe with meridians" emoji="🌐"/>
-        }
-
-        let hiring_positions = null;
-        if ((data.hiring || data.looking_for_collaborators) && data.hiring_positions) {
-          hiring_positions = (
-            <Card.Text>
-              {data.hiring && <span>{HiringEmoji}&nbsp;</span>}
-              {data.looking_for_collaborators && <span>{CollabEmoji}&nbsp;</span>}
-              {data.hiring_positions}
-            </Card.Text>
-          )
-        }
-
-        return (
-          <Card key={`card_${index}`}>
-            <Card.Header>
-              <Card.Tags>{emoji_html}</Card.Tags>
-              <Card.Title>{data.studio_name}</Card.Title>
-              {
-                data.type !== [] &&
-                <Card.Subtitle>
-                  {data.type.map((type, type_index) => {
-                    let t = type;
-                    if (type_index > 0) t = ", " + type
-                    return <span>{t}</span>
-                  })}
-                </Card.Subtitle>
-              }
-              {
-                data.location !== [] &&
-                <Card.Subtitle2>
-                  {data.location.map((location, location_index) => {
-                    let loc = location;
-                    if (location_index > 0) loc = ", " + location
-                    return <span key={`content_item_${location_index}`}>{loc}</span>
-                  })}
-                </Card.Subtitle2>
-              }
-            </Card.Header>
-            <Card.Body>
-              {hiring_positions}
-              {data.instagram.map((ig, ig_index) => {
-                return <Card.Link key={`ig_item_${ig_index}`} href={`https://instagram.com/${ig}`} text={`@${ig}`} emoji="📸" emoji_name="camera with flash"/>
-              })}
-              {link}
-            </Card.Body>
-          </Card>
-        );
-      })}
-    </CardStack>
+    <div>
+      <CardContent.Header>Credit</CardContent.Header>
+        <CardContent.Text>
+          All credit for this page goes to <Link href="http://www.seancanty.net/">Sean Canty</Link> for the creation of this database through <Link href={`${instagram_user}sean_canty_/`}>Instagram stories </Link> and his <Link href="https://airtable.com/universe/expJajWdokNAa6zqN/200-black-creators?explore=true">Airtable page</Link>.
+        </CardContent.Text>
+      <br/>
+      <CardStack>
+        {BIPOCPraxesData["canty_200"].data.map((data, index) => {
+          return (
+            <Card key={`card_${index}`}>
+              <Card.Header>
+                <Card.Title>{data.studio_name}</Card.Title>
+                {
+                  data.type !== [] &&
+                  <Card.Subtitle>
+                    {data.type.map((type, type_index) => {
+                      let t = type;
+                      if (type_index > 0) t = ", " + type
+                      return <span>{t}</span>
+                    })}
+                  </Card.Subtitle>
+                }
+              </Card.Header>
+              <Card.Body>
+                <Card.Link href={`${instagram_user}${data.instagram}`} text={`@${data.instagram}`} emoji="📸" emoji_name="camera with flash"/>
+                <Card.Link href={data.website_url} text={data.website_name} emoji_name="globe with meridians" emoji="🌐"/>
+              </Card.Body>
+            </Card>
+          );
+        })}
+      </CardStack>
+    </div>
   )
 }
 
+// MAIN RENDER
 export default class BIPOCPraxes extends React.Component {
   constructor(props) {
     super(props);
@@ -140,9 +181,6 @@ export default class BIPOCPraxes extends React.Component {
   }
 
   render() {
-    let content = null;
-    if (this.state.value === "BIPOC Studios") content = <div><BIPOCStudiosHeader/><br/><BIPOCStudiosCards/></div>
-
     return (
       <CardContent title="BIPOC PRAXES.">
         <CardContent.Header>Select</CardContent.Header>
@@ -158,8 +196,8 @@ export default class BIPOCPraxes extends React.Component {
             })}
           </select>
         </div>
-
-        {content}
+        {this.state.value === "BIPOC Studios" && <BIPOCStudios/>}
+        {this.state.value === "200 Black Creators" && <Canty200BlackCreators/>}
       </CardContent>
     );
   }

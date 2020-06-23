@@ -1,5 +1,6 @@
 {
-    "readings": [{
+    "Manifestos": [
+        {
             "title": "The BlackSpace Manifesto",
             "source_link": "https://www.blackspace.org/manifesto",
             "authors": [{
@@ -7,7 +8,7 @@
                 "link": "https://www.blackspace.org/about-blackspace"
             }],
             "summary": "An essential manifesto. Each point should be carefully considered and integrated into all future projects.",
-            "summary_source": "Self",
+            "summary_source": null,
             "summary_source_url": null,
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
@@ -21,12 +22,14 @@
                 "link": "http://waithinktank.com/About-WAI-Think-Tank"
             }],
             "summary": "Considerations on the state of architecture and the components that it ecompasses ⚠️",
-            "summary_source": "Self",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
             "tag": "Manifesto"
-        },
+        }
+    ],
+    "Essays": [
         {
             "title": "There Goes the 'Hood: Views of Gentrification from the Ground Up",
             "source_link": null,
@@ -270,7 +273,7 @@
                 }
             ],
             "summary": "Our goal in this article is to remind readers what is unsettling about decolonization. Decolonization brings about the repatriation of Indigenous land and life; it is not a metaphor for other things we want to do to improve our societies and schools.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -284,7 +287,7 @@
                 "link": "http://www.indigenousaction.org/about-2/"
             }],
             "summary": "This provocation is intended to intervene in some of the current tensions around solidarity/support work as the current trajectories are counter-liberatory from my perspective.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -298,7 +301,7 @@
                 "link": "https://www.poetryfoundation.org/poets/audre-lorde"
             }],
             "summary": "It is learning how to take our differences and make them strengths. For the master's tools will never dismantle the master's house. They may allow us temporarily to beat him at his own game, but they will never enable us to bring about genuine change.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -312,7 +315,7 @@
                 "link": "https://www.poetryfoundation.org/poets/audre-lorde"
             }],
             "summary": "I have come to believe over and over again that what is most important to me must be spoken, made verbal and shared, even at the risk of having it bruised or misunderstood. That the speaking profits me, beyond any other effect.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -326,7 +329,7 @@
                 "link": "https://culturalanthropology.duke.edu/people/walter-mignolo"
             }],
             "summary": "The need for political and epistemic de-linking here comes to the fore, as well as decolonializing and de-colonial knowledges, necessary steps for imagining and building democratic, just, and nonimperial/colonial societies.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -373,7 +376,7 @@
                 }
             ],
             "summary": "The colonial genealogy of the contemporary nation-state border frames any politics of their opening. Borders are opened when they are approached, conceptually and practically, as ambivalent, porous, fluid, and negotiated. At the same time, borders, whether closed or opened, are also historical artifacts of a colonial episteme.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -401,7 +404,7 @@
                 "link": "https://www.poetryfoundation.org/poets/james-baldwin"
             }],
             "summary": "Dear James: I have begun this letter five times and torn it up five times. I keep seeing your face, which is also the face of your father and my brother. I have known both of you all your lives and have carried your daddy in my arms and on my shoulders, kissed him and spanked him and watched him learn to walk. I don't know if you have known anybody from that far back, if you have loved anybody that long, first as an infant, then as a child, then as a man. You gain a strange perspective on time and human pain and effort.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -443,7 +446,7 @@
                 "link": "https://en.wikipedia.org/wiki/Walter_Rodney"
             }],
             "summary": "In the search for an understanding of what is now called “underdevelopment” in Africa, the limits of enquiry have had to be fixed as far apart as the fifteenth century, on the one hand and the end of the colonial period, on the other hand.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -462,7 +465,7 @@
                 }
             ],
             "summary": "This essay assumes that the ultimate expression of sovereignty resides, to a large degree, in the power and the capacity to dictate who may live and who must die.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -476,7 +479,7 @@
                 "link": "https://en.wikipedia.org/wiki/Achille_Mbembe"
             }],
             "summary": "Twenty one years after freedom, we have now fully entered what looks like a negative moment. This is a moment most African postcolonial societies have experienced. Like theirs in the late 1970s, 1980s and 1990s, ours is gray and almost murky. It lacks clarity.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -504,7 +507,7 @@
                 "link": "https://en.wikipedia.org/wiki/Theodore_W._Allen"
             }],
             "summary": "A treatment of racial slavery as a response to class struggle and of the consequences for the entire working class.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -588,7 +591,7 @@
                 "link": "https://english.ucr.edu/people/faculty/david-lloyd/"
             }],
             "summary": "Some 25 years after its publication, Gayatri Chakravorty Spivak's “Can the Subaltern Speak?” continues to cause an ethical consternation not fully explicable by its apparent political claims. This article explores the grounds for that effect by elaborating the philosophical system of representation that the original essay only partially addresses in its reading of Marx's writings.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -601,7 +604,7 @@
                 "link": "https://www.britannica.com/biography/Benedict-Anderson"
             }],
             "summary": "In an age when it is so common for progressive, cosmopolitan intellectuals (particularly in Europe?) to insist on the near-pathological character of nationalism, its roots in fear and hatred of the Other, and its affinities with racism, it is useful to remind ourselves that nations inspire love, and often profoundly self-sacrificing love.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -629,7 +632,7 @@
                 "link": "https://complit.fas.harvard.edu/people/homi-k-bhabha"
             }],
             "summary": "The discourse of post-Enlightenment English colonialism often speaks in a tongue that is forked, not false. If colonialism takes power in the name of history, it repeatedly exercises its authority through the figures of farce. For the epic intention of the civilizing mission, \"human and not wholly human\" in the famous words of Lord Rosebery, \"writ by the finger of the Divine\" often produces a text rich in the traditions of trompe l'oeil, irony, mimicry, and repetition. In this comic turn from the high ideals of the colonial imagination to its low mimetic literary effects, mimicry emerges as one of the most elusive and effective strategies of colonial power and knowledge.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -643,7 +646,7 @@
                 "link": "https://enriquedussel.com/Home_en.html"
             }],
             "summary": "In this book, I consider a constellation which European or United States thinkers often neglect and which involves far more than what Ihab Hassan has called an \"ideological commitment to minorities in politics, sex, and language.\" I focus on the immense majority of humanity, the seventy-five per cent of the world situated in the southern hemisphere, the excolonial world. These exploited, excluded, and poor peoples, whom Fanon termed the \"wretched of the earth,\" consume less than fifteen per cent of the planet's income. Their history of oppression began five hundred years ago.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -657,7 +660,7 @@
                 "link": "https://www.britannica.com/biography/Edward-Said"
             }],
             "summary": "Appeals to the past are among the commonest of strategies in interpretations of the present. What animates such appeals is not only disagree- . ment about what happened in the past and .what the past was, but uncenainty about whether the past really is past, over and concluded, or whether it continues, albeit in di1ferent forms, perhaps. This problem animates all sorts of discussions--about influence, about blame and judgement, about present actualities and future priorities.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -671,7 +674,7 @@
                 "link": "https://www.goodreads.com/author/show/1368779.Jeffrey_C_Stone"
             }],
             "summary": "The long-standing view of an eighteenth century cartographic reformation of Africa is challenged. Pre-colonial cartography of Africa is, instead, characterized by methodological continuity, which is still evident in the cartography of the nineteenth century European explorers, whereas the major discontinuity coincides with the beginnings of colonial rule. The cartographic requirements for the implementation of colonial rule on the ground are different from those which foster a more remote imperial relationship. The attributes of imperial cartography are now reasserting themselves in the post-colonial period.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -704,7 +707,7 @@
                 }
             ],
             "summary": "The essays we bring together in this volume and which together we present to the English reader represent stages in our own personal work for which we each assume responsibility. Circumstances have, however, made them the elements of a dialogue which has grown closer in recent years and which we would now like to share with the reader. It is our contribution to the elucidation of a burning question: What is the specificity of contemporary racism? How can it be related to class division within capitalism and to the contradictions of the nation-state? And, conversely, in what respects does the phenomenon of racism lead us to rethink the articulation of nationalism and the class stuggle?",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -718,7 +721,7 @@
                 "link": "https://en.wikipedia.org/wiki/An%C3%ADbal_Quijan"
             }],
             "summary": "What is termed globalization is the culmination of a process that began with the constitution of America and colonial/modern Eurocentered capitalism as a new global power. One of the fundamental axes of this model of power is the social classification of the world’s population around the idea of race, a mental construction that expresses the basic experience of colonial domination and pervades the more important dimensions of global power, including its specific rationality: Eurocentrism.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_url": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -732,7 +735,7 @@
                 "link": "https://aap.cornell.edu/people/samia-henni"
             }],
             "summary": "The frame of reference for the vast majority of architectural histories and theories is central Europe and northern America, which often exclude the dynamic histories of colonialism, extraction, imperialism, migration, slavery, and wars, in spite of the fact that architects, decision makers, and populations have always been involved in these activities. What is often called “peripheries,” “Global South,” “developing countries,” “non-Western world,” or the “Other” exists in reference or in opposition to the so-called “centers,” “Global North,” “developed countries,” “Western-world,” or the “Self.” This set of measurements derives from and results in a world order that has colonial features. The assessment of the validity of architecture and its histories and theories is based on certain notions, paradigms, figures, forms, texts, buildings, and styles. This mechanism of evaluation regulates the understanding and interpretation of architecture, as well as the inclusion and exclusion of its histories and theories. It also promotes and privileges certain cultural and intellectual aspects over others. Consequently, these criteria play a crucial role in institutionalizing architectural histories and theories.",
-            "summary_source": "Taken from source",
+            "summary_source": null,
             "summary_source_link": null,
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
@@ -915,6 +918,239 @@
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
             "tag": "Pedagogy and Resistance"
+        }
+    ],
+    "Statements": [
+        {
+            "title": "adrienne maree brown on creating the future",
+            "source_link": "https://www.deemjournal.com/stories/amb",
+            "authors": [{
+                "name": "adrienne maree brown",
+                "link": "http://adriennemareebrown.net/"
+            }],
+            "summary": "Renaissance thinker, creator, and author adrienne maree brown is best known for her work in social justice activism and facilitation alongside her ground-breaking books Emergent Strategy: Shaping Change, Changing Worlds (2017) and Pleasure Activism: The Politics of Feeling Good (2019). Deem’s Alice Grandoit joined adrienne for a conversation about her journey and her hopes for what’s to come.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "To Architects and Designers Leading the Industry",
+            "source_link": "https://www.instagram.com/p/CA-WwKFJwcE/",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "",
+            "source_link": "",
+            "authors": [{
+                "name": "",
+                "link": ""
+            }],
+            "summary": "",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         }
     ]
 }

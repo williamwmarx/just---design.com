@@ -2,7 +2,7 @@
     "bipoc_studios": {
         "source": "BIPOC Studios",
         "source_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
-        "content": [
+        "data": [
             {
                 "studio_name": "AAmp Studio",
                 "instagram": [
@@ -61,7 +61,7 @@
             {
                 "studio_name": "AD-WO",
                 "instagram": [
-                    "ad_wo"
+                    "ad__wo"
                 ],
                 "location": [
                     "Providence"
@@ -3082,6 +3082,1909 @@
                 "hiring": false,
                 "hiring_positions": null,
                 "looking_for_collaborators": false
+            }
+        ]
+    }, 
+    "canty_200": {
+        "source": "200 Black Creators",
+        "source_link": "https://airtable.com/universe/expJajWdokNAa6zqN/200-black-creators?explore=true",
+        "data": [
+            {
+                "studio_name": "Emanuel Admassu",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "eadmassu",
+                "website_name": "ad-wo.com",
+                "website_url": "http://ad-wo.com"
+            },
+            {
+                "studio_name": "Germane David",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "gmane16",
+                "website_name": "germanebarnes.com",
+                "website_url": "https://germanebarnes.com"
+            },
+            {
+                "studio_name": "Nina Cooke John",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "ninacookejohn",
+                "website_name": "cookejohn.com",
+                "website_url": "https://cookejohn.com"
+            },
+            {
+                "studio_name": "Jerome Byron",
+                "type": [
+                    "Architect",
+                    "Furniture Designer",
+                    "Brand Experience Design"
+                ],
+                "instagram": "jeromebyron",
+                "website_name": "jbyron-h.com",
+                "website_url": "https://jbyron-h.com"
+            },
+            {
+                "studio_name": "Patrick Boateng",
+                "type": [
+                    "Entrepreneur",
+                    "Urban Planner"
+                ],
+                "instagram": "themarscolony",
+                "website_name": "ceylonskincare.com",
+                "website_url": "https://www.ceylonskincare.com/"
+            },
+            {
+                "studio_name": "Dana McKinney",
+                "type": [
+                    "Architect",
+                    "Urban Planner"
+                ],
+                "instagram": "dmckinney13",
+                "website_name": "youtube.com",
+                "website_url": "https://www.youtube.com/watch?v=bXChJZxLMm4"
+            },
+            {
+                "studio_name": "Jacqueline Shaw Clark",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "jcqlntshw",
+                "website_name": "twitter.com",
+                "website_url": "https://twitter.com/jcqlntshw?lang=en"
+            },
+            {
+                "studio_name": "Jerome W Haferd & K Brandt Knapp",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "brandt_haferd",
+                "website_name": "brandthaferd.com",
+                "website_url": "https://brandthaferd.com/"
+            },
+            {
+                "studio_name": "Sara Zewde",
+                "type": [
+                    "Landscape Architect"
+                ],
+                "instagram": "zewdiac",
+                "website_name": "studio-zewde.com",
+                "website_url": "https://www.studio-zewde.com"
+            },
+            {
+                "studio_name": "Stephen Burks",
+                "type": [
+                    "Industrial Designer",
+                    "Furniture Designer"
+                ],
+                "instagram": "stephenburksmanmade",
+                "website_name": "stephenburksmanmade.com",
+                "website_url": "https://www.stephenburksmanmade.com/"
+            },
+            {
+                "studio_name": "Stephen Gray",
+                "type": [
+                    "Architect",
+                    "Urban Planner"
+                ],
+                "instagram": "sgrayud",
+                "website_name": "grayscalecollaborative.com",
+                "website_url": "https://www.grayscalecollaborative.com/"
+            },
+            {
+                "studio_name": "Teran Evans",
+                "type": [
+                    "Product Designer",
+                    "Architect",
+                    "Brand + Strategy"
+                ],
+                "instagram": "teran.evans",
+                "website_name": "twitter.com",
+                "website_url": "https://twitter.com/teranevans?lang=en"
+            },
+            {
+                "studio_name": "Myles Omeally",
+                "type": [
+                    "Product Designer",
+                    "Footwear Designer"
+                ],
+                "instagram": "myles_omeally",
+                "website_name": "instagram.com",
+                "website_url": "https://www.instagram.com/arete_create/?hl=en"
+            },
+            {
+                "studio_name": "Efe",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "efebyefe",
+                "website_name": [
+                    "nan"
+                ],
+                "website_url": "https://nan"
+            },
+            {
+                "studio_name": "Victor Jones",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "latoire",
+                "website_name": "fievrejones.com",
+                "website_url": "https://www.fievrejones.com/"
+            },
+            {
+                "studio_name": "Toni L",
+                "type": [
+                    "Architect",
+                    "Urban Planner",
+                    "Urbanist"
+                ],
+                "instagram": "tonilynn745",
+                "website_name": "urbanac.city",
+                "website_url": "https://urbanac.city/"
+            },
+            {
+                "studio_name": "Sekou Cooke",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "sekou21",
+                "website_name": "sekoucooke.com",
+                "website_url": "http://www.sekoucooke.com/"
+            },
+            {
+                "studio_name": "Deanna L Van Buren",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "deannavanburen",
+                "website_name": "designingjustice.org",
+                "website_url": "https://www.designingjustice.org"
+            },
+            {
+                "studio_name": "Jean Brownhill",
+                "type": [
+                    "Architect",
+                    "Entrepreneur"
+                ],
+                "instagram": "jeanbrownhill",
+                "website_name": "jeanbrownhill.com",
+                "website_url": "https://jeanbrownhill.com/"
+            },
+            {
+                "studio_name": "Michelle Wilkinson",
+                "type": [
+                    "Curator"
+                ],
+                "instagram": "michelleinthemix",
+                "website_name": "harvard.edu",
+                "website_url": "https://loebfellowship.gsd.harvard.edu/fellows-alumni/fellows-search/michellewilkinson/"
+            },
+            {
+                "studio_name": "Marc Norman",
+                "type": [
+                    "Urban Planner"
+                ],
+                "instagram": "norman_m_archive",
+                "website_name": "marcnorman.net",
+                "website_url": "https://marcnorman.net/"
+            },
+            {
+                "studio_name": "Justin Garrett Moore",
+                "type": [
+                    "Urban Planner"
+                ],
+                "instagram": "j.g.moore",
+                "website_name": "urbanpatch.rw",
+                "website_url": "http://urbanpatch.rw/"
+            },
+            {
+                "studio_name": "Liz Ogbu",
+                "type": [
+                    "Architect",
+                    "Entrepreneur",
+                    "Urbanist"
+                ],
+                "instagram": "lizogbu",
+                "website_name": "lizogbu.com",
+                "website_url": "http://www.lizogbu.com/"
+            },
+            {
+                "studio_name": "Mira Henry",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "mira_henry",
+                "website_name": "currentinterestsla.com",
+                "website_url": "https://currentinterestsla.com/"
+            },
+            {
+                "studio_name": "V",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "therealmitchmcewen",
+                "website_name": "anoffice.us",
+                "website_url": "http://anoffice.us/"
+            },
+            {
+                "studio_name": "Jonathan Jackson",
+                "type": [
+                    "Graphic Designer",
+                    "Architect"
+                ],
+                "instagram": "atticusfinch_jackson",
+                "website_name": "wsdia.com",
+                "website_url": "https://wsdia.com/"
+            },
+            {
+                "studio_name": "Kudzanai-Violet Hwami",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "mwana.wevhu",
+                "website_name": "newframe.com",
+                "website_url": "https://www.newframe.com/nostalgia-undone-remembering-zimbabwes-past/"
+            },
+            {
+                "studio_name": "Arcmanoro Niles",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "arcmanoro",
+                "website_name": "arcmanoro.com",
+                "website_url": "http://www.arcmanoro.com/"
+            },
+            {
+                "studio_name": "Mabel O",
+                "type": [
+                    "Architect",
+                    "Historian"
+                ],
+                "instagram": "studio_and",
+                "website_name": "columbia.edu",
+                "website_url": "https://www.arch.columbia.edu/faculty/34-mabel-o-wilson"
+            },
+            {
+                "studio_name": "Hansy Better",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "hansybetter",
+                "website_name": "studioluz.net",
+                "website_url": "http://studioluz.net/"
+            },
+            {
+                "studio_name": "Tessa Kaneene",
+                "type": [
+                    "Urban Planner"
+                ],
+                "instagram": "tessakaneene",
+                "website_name": "twitter.com",
+                "website_url": "https://twitter.com/tessakaneene?lang=en"
+            },
+            {
+                "studio_name": "Mahfuz Sultan",
+                "type": [
+                    "Architect",
+                    "Design Critic",
+                    "Creative Consultant"
+                ],
+                "instagram": "mahfuzsultan",
+                "website_name": "clocksssss.com",
+                "website_url": "https://www.clocksssss.com/"
+            },
+            {
+                "studio_name": "Alyse Archer-Coit\u00e9",
+                "type": [
+                    "Creative Consultant",
+                    "Editor"
+                ],
+                "instagram": "aaah.lys",
+                "website_name": "curbed.com",
+                "website_url": "https://ny.curbed.com/2018/9/10/17801572/brooklyn-home-tour-fort-greene-alyse-archer-coite"
+            },
+            {
+                "studio_name": "Francis Ke\u0301re\u0301",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "kerefrancis",
+                "website_name": "kere-architecture.com",
+                "website_url": "http://www.kere-architecture.com/"
+            },
+            {
+                "studio_name": "David Adjaye",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "adjaye_visual_sketchbook",
+                "website_name": "adjaye.com",
+                "website_url": "https://www.adjaye.com/"
+            },
+            {
+                "studio_name": "Jennifer Newson",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "dreamthecombine",
+                "website_name": "dreamthecombine.com",
+                "website_url": "http://www.dreamthecombine.com/"
+            },
+            {
+                "studio_name": "Amina Blacksher",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "aminablacksher",
+                "website_name": "atelier-amina.com",
+                "website_url": "https://www.atelier-amina.com/"
+            },
+            {
+                "studio_name": "Franck Gauthe\u0301",
+                "type": [
+                    "Taste Maker",
+                    "Stylist"
+                ],
+                "instagram": "jazziscool",
+                "website_name": "instagram.com",
+                "website_url": "https://www.instagram.com/thecoolestmanyouknow/?hl=en"
+            },
+            {
+                "studio_name": "Kerry James Marshall",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "Kerryjamesmarshs",
+                "website_name": "artsy.net",
+                "website_url": "https://www.artsy.net/artist/kerry-james-marshall"
+            },
+            {
+                "studio_name": "Nick Cave",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "nickcaveart",
+                "website_name": "nickcaveart.com",
+                "website_url": "http://nickcaveart.com/Main/Intro.html"
+            },
+            {
+                "studio_name": "Gerald Lovell",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "geraldlovell",
+                "website_name": "ppowgallery.com",
+                "website_url": "https://www.ppowgallery.com/artist/gerald-lovell/work"
+            },
+            {
+                "studio_name": "Mario Gooden",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "mario_gooden_thisishowwework",
+                "website_name": "huffgooden.com",
+                "website_url": "https://huffgooden.com"
+            },
+            {
+                "studio_name": "Doreen Adengo",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "dadengo",
+                "website_name": "adengoarchitecture.com",
+                "website_url": "https://www.adengoarchitecture.com"
+            },
+            {
+                "studio_name": "Yinka Ilori",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "yinka_ilori",
+                "website_name": "yinkailori.com",
+                "website_url": "https://www.yinkailori.com"
+            },
+            {
+                "studio_name": "Quardean Lewis-Allen",
+                "type": [
+                    "Architect",
+                    "Entrepreneur"
+                ],
+                "instagram": "khwar_deen",
+                "website_name": "youthdesigncenter.org",
+                "website_url": "http://youthdesigncenter.org/"
+            },
+            {
+                "studio_name": "Anyeley Hallov\u00e1",
+                "type": [
+                    "Real Estate Developer"
+                ],
+                "instagram": "anyeleyhallova",
+                "website_name": "projectpdx.com",
+                "website_url": "http://projectpdx.com/firm_items/anyeley-hallova/"
+            },
+            {
+                "studio_name": "Antwaun Sargent",
+                "type": [
+                    "Writer",
+                    "Curator",
+                    "Critic"
+                ],
+                "instagram": "sirsargent",
+                "website_name": "antwaunsargent.com",
+                "website_url": "https://www.antwaunsargent.com/"
+            },
+            {
+                "studio_name": "Corey T",
+                "type": [
+                    "Art Director",
+                    "Fashion Editor"
+                ],
+                "instagram": "coreytstokes",
+                "website_name": "linkin.bio",
+                "website_url": "https://linkin.bio/highsnobiety"
+            },
+            {
+                "studio_name": "Ekene Ijeoma",
+                "type": [
+                    "Artist",
+                    "Entrepreneur"
+                ],
+                "instagram": "ekeneijeoma",
+                "website_name": "studioijeoma.com",
+                "website_url": "https://studioijeoma.com/"
+            },
+            {
+                "studio_name": "Rashid Johnson",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "rashidjohnson",
+                "website_name": "cnn.com",
+                "website_url": "https://www.cnn.com/style/article/rashid-johnson-personal-essay-anxiety/index.html"
+            },
+            {
+                "studio_name": "Amy Sherlad",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "asherald",
+                "website_name": "amysherald.com",
+                "website_url": "http://www.amysherald.com/"
+            },
+            {
+                "studio_name": "Kimberly Dowdell",
+                "type": [
+                    "Architect",
+                    "Urbanist"
+                ],
+                "instagram": "knd7112",
+                "website_name": "hok.com",
+                "website_url": "https://www.hok.com/people/leadership/view/kimberly-dowdell/"
+            },
+            {
+                "studio_name": "Kara Walker",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kara_walker_offical",
+                "website_name": "artsy.net",
+                "website_url": "https://www.artsy.net/artist/kara-walker"
+            },
+            {
+                "studio_name": "Theaster Gates",
+                "type": [
+                    "Artist",
+                    "Entrepreneur"
+                ],
+                "instagram": "theastergates",
+                "website_name": "theastergates.com",
+                "website_url": "https://www.theastergates.com/"
+            },
+            {
+                "studio_name": "Joy Labinjo",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "joylabinjo",
+                "website_name": "co.uk",
+                "website_url": "https://joylabinjo.co.uk/"
+            },
+            {
+                "studio_name": "Kenturah Davis",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kenturah",
+                "website_name": "kenturah.com",
+                "website_url": "http://www.kenturah.com/"
+            },
+            {
+                "studio_name": "Darell Fields",
+                "type": [
+                    "Architect",
+                    "Writer",
+                    "Design Critic"
+                ],
+                "instagram": "explore",
+                "website_name": "berkeley.edu",
+                "website_url": "https://ced.berkeley.edu/ced/faculty-staff/darell-fields"
+            },
+            {
+                "studio_name": "Nick Roseboro",
+                "type": [
+                    "Designer",
+                    "Architectural Designer"
+                ],
+                "instagram": "architensions",
+                "website_name": "architensions.com",
+                "website_url": "http://architensions.com/"
+            },
+            {
+                "studio_name": "Chris Glass",
+                "type": [
+                    "Brand Experience Design",
+                    "Taste Maker"
+                ],
+                "instagram": "herrglass",
+                "website_name": "kinfolk.com",
+                "website_url": "https://www.kinfolk.com/at-work-with-chris-glass/"
+            },
+            {
+                "studio_name": "Samantha Josaphat",
+                "type": [
+                    "Architect",
+                    "Designer"
+                ],
+                "instagram": "studio397",
+                "website_name": "studio-397.com",
+                "website_url": "https://www.studio-397.com/"
+            },
+            {
+                "studio_name": "Felecia Davis",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "fadometer",
+                "website_name": "wordpress.com",
+                "website_url": "https://fadstudio.wordpress.com/"
+            },
+            {
+                "studio_name": "Danei Cesario",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "daneicesario",
+                "website_name": "wallendaub.com",
+                "website_url": "https://www.wallendaub.com/"
+            },
+            {
+                "studio_name": "Adair Curtis",
+                "type": [
+                    "Interior Designer"
+                ],
+                "instagram": "adair_curtis",
+                "website_name": "instagram.com",
+                "website_url": "https://www.instagram.com/stylinghollywood/?hl=en"
+            },
+            {
+                "studio_name": "Marva Griffin",
+                "type": [
+                    "Curator",
+                    "Entrepreneur"
+                ],
+                "instagram": "explore",
+                "website_name": "salonemilano.it",
+                "website_url": "https://www.salonemilano.it/"
+            },
+            {
+                "studio_name": "Derek Ham",
+                "type": [
+                    "Architect",
+                    "Designer",
+                    "Graphic Designer"
+                ],
+                "instagram": "derek.a.ham",
+                "website_name": "logicgrip.com",
+                "website_url": "https://logicgrip.com/director/index.html"
+            },
+            {
+                "studio_name": "Anthony Titus",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "anthonytitusstudio",
+                "website_name": "nytedu.com",
+                "website_url": "https://nytedu.com/faculty/anthony-titus/"
+            },
+            {
+                "studio_name": "Kennedy Yanko\u00a0",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kennedyyanko",
+                "website_name": "kennedyyanko.com",
+                "website_url": "https://kennedyyanko.com/"
+            },
+            {
+                "studio_name": "Virgil Abloh",
+                "type": [
+                    "Art Director",
+                    "Fashion Designer",
+                    "Architect"
+                ],
+                "instagram": "virgilabloh",
+                "website_name": "canary---yellow.com",
+                "website_url": "https://canary---yellow.com/"
+            },
+            {
+                "studio_name": "Samuel Ross",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "design.by.samuelross",
+                "website_name": "sr-a.com",
+                "website_url": "https://sr-a.com/samuel-ross/"
+            },
+            {
+                "studio_name": "Kerby Jean-Raymond",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "pyermoss",
+                "website_name": "pyermoss.com",
+                "website_url": "https://pyermoss.com/"
+            },
+            {
+                "studio_name": "Maxwell Osborne",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "publicschoolnyc",
+                "website_name": "publicschoolnyc.com",
+                "website_url": "https://www.publicschoolnyc.com/"
+            },
+            {
+                "studio_name": "TELFAR CLEMENS",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "telfarglobal",
+                "website_name": "telfar.net",
+                "website_url": "https://shop.telfar.net/"
+            },
+            {
+                "studio_name": "Tajh Rust",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "tajhrust",
+                "website_name": "tajhrust.com",
+                "website_url": "http://www.tajhrust.com/"
+            },
+            {
+                "studio_name": "Deana Lawson",
+                "type": [
+                    "Artist",
+                    "Photographer"
+                ],
+                "instagram": "explore",
+                "website_name": "sikkemajenkinsco.com",
+                "website_url": "https://www.sikkemajenkinsco.com/deana-lawson"
+            },
+            {
+                "studio_name": "Isis Davis-Marks",
+                "type": [
+                    "Writer",
+                    "Artist"
+                ],
+                "instagram": "idavismarks",
+                "website_name": "isisdavismarks.com",
+                "website_url": "http://www.isisdavismarks.com/"
+            },
+            {
+                "studio_name": "Asad Syrkett",
+                "type": [
+                    "Editor",
+                    "Writer",
+                    "Brand + Strategy"
+                ],
+                "instagram": "as4d",
+                "website_name": "asadsyrkett.com",
+                "website_url": "http://www.asadsyrkett.com/"
+            },
+            {
+                "studio_name": "Seyi Adelekun",
+                "type": [
+                    "Designer"
+                ],
+                "instagram": "seyi_adelekun",
+                "website_name": "futurearchitectureplatform.org",
+                "website_url": "https://futurearchitectureplatform.org/projects/635464be-b817-4e55-93c4-df1e834ca561/"
+            },
+            {
+                "studio_name": "Lauren Halsey",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "summaeverythang",
+                "website_name": "laurenhalsey.com",
+                "website_url": "http://www.laurenhalsey.com/"
+            },
+            {
+                "studio_name": "Walter Hood",
+                "type": [
+                    "Landscape Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "hooddesignstudio.com",
+                "website_url": "http://www.hooddesignstudio.com/"
+            },
+            {
+                "studio_name": "Allison Grace Williams",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "harvard.edu",
+                "website_url": "https://aadn.gsd.harvard.edu/people/allison-grace-williams/"
+            },
+            {
+                "studio_name": "Diane Jones Allen",
+                "type": [
+                    "Landscape Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "uta.edu",
+                "website_url": "https://mentis.uta.edu/explore/profile/diane-allen"
+            },
+            {
+                "studio_name": "Phil Freelon",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "citylab.com",
+                "website_url": "https://www.citylab.com/design/2019/07/phil-freelon-buildings-architecture-african-american-history/593593/"
+            },
+            {
+                "studio_name": "Milton S",
+                "type": [
+                    "Architect",
+                    "Writer",
+                    "Educator"
+                ],
+                "instagram": "curry.milton",
+                "website_name": "usc.edu",
+                "website_url": "https://about.usc.edu/deans/milton-curry/"
+            },
+            {
+                "studio_name": "Lesley Lokko",
+                "type": [
+                    "Architect",
+                    "Educator"
+                ],
+                "instagram": "explore",
+                "website_name": "lesleylokko.com",
+                "website_url": "https://www.lesleylokko.com/"
+            },
+            {
+                "studio_name": "J",
+                "type": [
+                    "Architect",
+                    "Educator"
+                ],
+                "instagram": "yolande_daniels",
+                "website_name": "usc.edu",
+                "website_url": "https://arch.usc.edu/people/j-yolande-daniels"
+            },
+            {
+                "studio_name": "Lisa Hunt",
+                "type": [
+                    "Artist",
+                    "Designer"
+                ],
+                "instagram": "creativehunt",
+                "website_name": "lisahuntcreative.com",
+                "website_url": "https://www.lisahuntcreative.com/"
+            },
+            {
+                "studio_name": "Tamu Green",
+                "type": [
+                    "Interior Designer"
+                ],
+                "instagram": "luxpadinteriors",
+                "website_name": "luxpadinteriors.com",
+                "website_url": "http://www.luxpadinteriors.com/"
+            },
+            {
+                "studio_name": "Brooke Lang ",
+                "type": [
+                    "Interior Designer"
+                ],
+                "instagram": "brooke.lang.design",
+                "website_name": "brookelang.com",
+                "website_url": "http://www.brookelang.com/"
+            },
+            {
+                "studio_name": "J",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "artsy.net",
+                "website_url": "https://www.artsy.net/article/artsy-editorial-max-bond-jr-new-yorks-influential-black-architect"
+            },
+            {
+                "studio_name": "Norma Merrick Sklarek",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "bwaf.org",
+                "website_url": "https://pioneeringwomen.bwaf.org/norma-merrick-sklarek/"
+            },
+            {
+                "studio_name": "Julian Abele",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "upenn.edu",
+                "website_url": "https://archives.upenn.edu/exhibits/penn-people/biography/julian-francis-abele"
+            },
+            {
+                "studio_name": "Kehinde Wiley",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kehindewiley",
+                "website_name": "kehindewiley.com",
+                "website_url": "http://kehindewiley.com/"
+            },
+            {
+                "studio_name": "Diedrick Brackens",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "deedsweaves",
+                "website_name": "diedrickbrackens.com",
+                "website_url": "https://www.diedrickbrackens.com/"
+            },
+            {
+                "studio_name": "Sean Canty",
+                "type": [
+                    "Architectural Designer",
+                    "Designer",
+                    "Educator"
+                ],
+                "instagram": "sean_canty_",
+                "website_name": "seancanty.net",
+                "website_url": "http://seancanty.net/"
+            },
+            {
+                "studio_name": "Nate Lewis",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "nloois",
+                "website_name": "nytimes.com",
+                "website_url": "https://www.nytimes.com/2020/03/19/arts/design/nate-lewis-art-fridman-gallery.html?0p19G=0038"
+            },
+            {
+                "studio_name": "Kia N",
+                "type": [
+                    "Designer",
+                    "Design Advocate"
+                ],
+                "instagram": "kianweatherspoon",
+                "website_name": "fastcompany.com",
+                "website_url": "https://www.fastcompany.com/90512732/interior-design-is-a-human-right-not-a-luxury"
+            },
+            {
+                "studio_name": "Delfin Finley",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "delfin",
+                "website_name": "delfinfinley.com",
+                "website_url": "https://www.delfinfinley.com/"
+            },
+            {
+                "studio_name": "Hannah Beachler",
+                "type": [
+                    "Production Designer"
+                ],
+                "instagram": "explore",
+                "website_name": "hannahbeachlerpd.com",
+                "website_url": "https://www.hannahbeachlerpd.com/"
+            },
+            {
+                "studio_name": "Tschabalala Self",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "tschabalalaself",
+                "website_name": "tschabalalaself.com",
+                "website_url": "https://tschabalalaself.com/"
+            },
+            {
+                "studio_name": "Olympia Auset",
+                "type": [
+                    "Urbanist",
+                    "Entrepreneur"
+                ],
+                "instagram": "supr.mrkt",
+                "website_name": "suprmarkt.la",
+                "website_url": "https://suprmarkt.la/"
+            },
+            {
+                "studio_name": "Sanford Biggers",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "sanfordbiggers",
+                "website_name": "artnews.com",
+                "website_url": "https://www.artnews.com/art-news/news/guggenheim-fellowships-sanford-biggers-zoe-leonard-1202683471/"
+            },
+            {
+                "studio_name": "Mia Harrison",
+                "type": [
+                    "Artist",
+                    "Writer",
+                    "Critic",
+                    "Architect"
+                ],
+                "instagram": "miaimaniharrison",
+                "website_name": "miaiharrison.com",
+                "website_url": "https://www.miaiharrison.com/"
+            },
+            {
+                "studio_name": "Mariam I",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "mariamkamr",
+                "website_name": "ateliermasomi.com",
+                "website_url": "http://www.ateliermasomi.com/"
+            },
+            {
+                "studio_name": "Harvey Bouterse",
+                "type": [
+                    "Artist",
+                    "Designer",
+                    "Product Designer"
+                ],
+                "instagram": "harvey.b.hrvi",
+                "website_name": "tumblr.com",
+                "website_url": "https://hrvi.tumblr.com/"
+            },
+            {
+                "studio_name": "Ini Archibong",
+                "type": [
+                    "Product Designer",
+                    "Artist"
+                ],
+                "instagram": "iniarchibong",
+                "website_name": "designbyini.com",
+                "website_url": "https://www.designbyini.com"
+            },
+            {
+                "studio_name": "Mamy Tall",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "mamytall",
+                "website_name": "lequotidien.sn",
+                "website_url": "https://www.lequotidien.sn/mami-tall-architecte-diamniadio-nest-pas-une-smart-city/"
+            },
+            {
+                "studio_name": "Papi",
+                "type": [
+                    "Artist",
+                    "Designer"
+                ],
+                "instagram": "l.artrepreneur",
+                "website_name": "papi.studio",
+                "website_url": "https://papi.studio/"
+            },
+            {
+                "studio_name": "Leonie Badger",
+                "type": [
+                    "Product Designer",
+                    "Entrepreneur"
+                ],
+                "instagram": "studiobadge",
+                "website_name": "studiobadge.com",
+                "website_url": "https://studiobadge.com/"
+            },
+            {
+                "studio_name": "Kandis Williams",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kandis_williams",
+                "website_name": "patreon.com",
+                "website_url": "https://www.patreon.com/cassandrapress"
+            },
+            {
+                "studio_name": "Hugh Hayden",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "huthhayden",
+                "website_name": "hughhayden.com",
+                "website_url": "https://hughhayden.com/"
+            },
+            {
+                "studio_name": "Jeremy O",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "jeremyoharris",
+                "website_name": "theparisreview.org",
+                "website_url": "https://www.theparisreview.org/blog/2020/02/26/sex-in-the-theater-jeremy-o-harris-and-samuel-delany-in-conversation/"
+            },
+            {
+                "studio_name": "Kevin Beasley",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kevinmbeasley",
+                "website_name": "caseykaplangallery.com",
+                "website_url": "https://caseykaplangallery.com/artists/beasley/"
+            },
+            {
+                "studio_name": "Hannah black",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "nanpansky",
+                "website_name": "vimeo.com",
+                "website_url": "https://vimeo.com/hannahblack/"
+            },
+            {
+                "studio_name": "Juliana Huxtable",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "julianahuxtable",
+                "website_name": "guggenheim.org",
+                "website_url": "https://www.guggenheim.org/artwork/artist/juliana-huxtable"
+            },
+            {
+                "studio_name": "Emma Amos",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "emmaamos.com",
+                "website_url": "https://emmaamos.com/"
+            },
+            {
+                "studio_name": "Yetunde Olaiya",
+                "type": [
+                    "Historian"
+                ],
+                "instagram": "explore",
+                "website_name": "pratt.edu",
+                "website_url": "https://www.pratt.edu/faculty_and_staff/bio/?id=dDVPcDhucWl3Uk95aHhycGJrZ2xFZz09"
+            },
+            {
+                "studio_name": "Sondra Perry",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "sondraperry.com",
+                "website_url": "https://sondraperry.com/"
+            },
+            {
+                "studio_name": "Kalup Linzy",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "kaluplinzy",
+                "website_name": "kaluplinzystudio.com",
+                "website_url": "https://www.kaluplinzystudio.com/"
+            },
+            {
+                "studio_name": "Precious Okoyomon",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "devilintraining_",
+                "website_name": "thecut.com",
+                "website_url": "https://www.thecut.com/2019/12/they-seem-cool-poet-precious-okoyomon.html"
+            },
+            {
+                "studio_name": "Martine Syms",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "martinesy.ms",
+                "website_url": "https://martinesy.ms/"
+            },
+            {
+                "studio_name": "Mark Grattan",
+                "type": [
+                    "Designer",
+                    "Furniture Designer"
+                ],
+                "instagram": "markgrattan",
+                "website_name": "vidivixi.com",
+                "website_url": "http://www.vidivixi.com/"
+            },
+            {
+                "studio_name": "Remi Connolly-Taylor",
+                "type": [
+                    "Architect",
+                    "Designer"
+                ],
+                "instagram": "remict_studio",
+                "website_name": "twitter.com",
+                "website_url": "https://twitter.com/remict_studio?lang=en"
+            },
+            {
+                "studio_name": "Kunle\u0301 Adeyemi",
+                "type": [
+                    "Architect",
+                    "Designer"
+                ],
+                "instagram": "nleworks",
+                "website_name": "nleworks.com",
+                "website_url": "http://www.nleworks.com/"
+            },
+            {
+                "studio_name": "Danny Giles",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "dgilesstudio",
+                "website_name": "dannygiles.com",
+                "website_url": "http://www.dannygiles.com/"
+            },
+            {
+                "studio_name": "American Artist",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "ivorytower_headass",
+                "website_name": "americanartist.us",
+                "website_url": "https://americanartist.us/"
+            },
+            {
+                "studio_name": "Heron Preston",
+                "type": [
+                    "Artist",
+                    "Designer"
+                ],
+                "instagram": "heronpreston",
+                "website_name": "heronpreston.com",
+                "website_url": "https://www.heronpreston.com/en/US"
+            },
+            {
+                "studio_name": "Jon Gray",
+                "type": [
+                    "Culinary Advocate"
+                ],
+                "instagram": "ghettogray",
+                "website_name": "ghettogastro.com",
+                "website_url": "https://ghettogastro.com/"
+            },
+            {
+                "studio_name": "Nana Yaa",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "lalanana7",
+                "website_name": "alltheprettybirds.com",
+                "website_url": "https://www.alltheprettybirds.com/pretty-birds-nana-yaa-asare-boadu/"
+            },
+            {
+                "studio_name": "Mark Gardner",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "gigajellyroll",
+                "website_name": "jaklitschgardner.com",
+                "website_url": "http://jaklitschgardner.com/"
+            },
+            {
+                "studio_name": "Sharon Egretta Sutton",
+                "type": [
+                    "Scholar",
+                    "Educator",
+                    "Design Advocate"
+                ],
+                "instagram": "sharonegretta",
+                "website_name": "newschool.edu",
+                "website_url": "https://www.newschool.edu/parsons/faculty/sharon-egretta-sutton/"
+            },
+            {
+                "studio_name": "Paul Mpagi Sepuya",
+                "type": [
+                    "Artist",
+                    "Photographer"
+                ],
+                "instagram": "pagmi",
+                "website_name": "paulsepuya.com",
+                "website_url": "https://www.paulsepuya.com/"
+            },
+            {
+                "studio_name": "EJ Hill",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "iheartbeuys",
+                "website_name": "ejhill.info",
+                "website_url": "http://ejhill.info/"
+            },
+            {
+                "studio_name": "Frederick Anderson",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "frederickanderson_designer",
+                "website_name": "frederickandersoncollection.com",
+                "website_url": "https://www.frederickandersoncollection.com/"
+            },
+            {
+                "studio_name": "Victor Vines",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "vines.architecture",
+                "website_name": "vinesarc.com",
+                "website_url": "http://vinesarc.com/"
+            },
+            {
+                "studio_name": "Martin Puryear",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "matthewmarks.com",
+                "website_url": "https://www.matthewmarks.com/new-york/artists/martin-puryear/"
+            },
+            {
+                "studio_name": "Edward Buchanan",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "sansovino6",
+                "website_name": "nytimes.com",
+                "website_url": "https://www.nytimes.com/2019/02/21/fashion/milan-edward-buchanan-race.html"
+            },
+            {
+                "studio_name": "Stephen Slaughter",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "stephenslaughters",
+                "website_name": "linkedin.com",
+                "website_url": "https://www.linkedin.com/in/stephen-slaughter-8744938/"
+            },
+            {
+                "studio_name": "Olalekan Jeyifous",
+                "type": [
+                    "Artist",
+                    "Designer"
+                ],
+                "instagram": "kidcadaver",
+                "website_name": "vigilism.com",
+                "website_url": "http://vigilism.com/"
+            },
+            {
+                "studio_name": "Gabriela de Matos",
+                "type": [
+                    "Architect",
+                    "Design Advocate"
+                ],
+                "instagram": "gabdematos",
+                "website_name": "com.br",
+                "website_url": "https://www.archdaily.com.br/br/936598/iabsp-lanca-plano-emergencial-para-arquitetura-em-meio-a-pandemia-de-covid-19"
+            },
+            {
+                "studio_name": "Cory Henry",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "ateliercoryhenry",
+                "website_name": "a-ch.com",
+                "website_url": "https://a-ch.com/"
+            },
+            {
+                "studio_name": "Selasi Setufe, Neba Sere, Akua Danso & Alisha Morenike Fisher",
+                "type": [
+                    "Design Advocate",
+                    "Architect",
+                    "Designer"
+                ],
+                "instagram": "blackfemarc",
+                "website_name": "blackfemarc.com",
+                "website_url": "https://www.blackfemarc.com/"
+            },
+            {
+                "studio_name": "Jeana Dunlap",
+                "type": [
+                    "Urban Planner",
+                    "Urbanist"
+                ],
+                "instagram": "jdunlap_502",
+                "website_name": "harvard.edu",
+                "website_url": "https://loebfellowship.gsd.harvard.edu/fellows-alumni/fellows-search/jeanadunlap/"
+            },
+            {
+                "studio_name": "Verma Wevlyn Panton",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "wikipedia.org",
+                "website_url": "https://en.wikipedia.org/wiki/Verma_Panton"
+            },
+            {
+                "studio_name": "Paul Revere Williams",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "paulrwilliamsproject.org",
+                "website_url": "https://www.paulrwilliamsproject.org/about/paul-revere-williams-architect/"
+            },
+            {
+                "studio_name": "Wangechi Mutu\u00a0",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "wangechistudio",
+                "website_name": "saatchigallery.com",
+                "website_url": "https://www.saatchigallery.com/artists/wangechi_mutu.htm"
+            },
+            {
+                "studio_name": "Tomashi Jackson",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "tomashi_ashi",
+                "website_name": "artsy.net",
+                "website_url": "https://www.artsy.net/collection/tomashi-jacksons-future-fair-online-picks"
+            },
+            {
+                "studio_name": "Duro Olowu",
+                "type": [
+                    "Fashion Designer"
+                ],
+                "instagram": "duroolowu",
+                "website_name": "duroolowu.com",
+                "website_url": "https://www.duroolowu.com/"
+            },
+            {
+                "studio_name": "Mickalene Thomas",
+                "type": [
+                    "Artist",
+                    "Photographer",
+                    "Filmmaker",
+                    "Curator"
+                ],
+                "instagram": "mickalenethomas",
+                "website_name": "mickalenethomas.com",
+                "website_url": "https://www.mickalenethomas.com/"
+            },
+            {
+                "studio_name": "Amanda Williams",
+                "type": [
+                    "Artist",
+                    "Architect",
+                    "Educator"
+                ],
+                "instagram": "awstudioart",
+                "website_name": "youtube.com",
+                "website_url": "https://www.youtube.com/watch?v=3j3YHGU5WE4"
+            },
+            {
+                "studio_name": "Thelma Golden\u00a0",
+                "type": [
+                    "Curator"
+                ],
+                "instagram": "thelmagolden",
+                "website_name": "studiomuseum.org",
+                "website_url": "https://studiomuseum.org/"
+            },
+            {
+                "studio_name": "Kimberly Drew",
+                "type": [
+                    "Author",
+                    "Writer",
+                    "Advocate"
+                ],
+                "instagram": "museummammy",
+                "website_name": "bookshop.org",
+                "website_url": "https://bookshop.org/books/this-is-what-i-know-about-art/978"
+            },
+            {
+                "studio_name": "Nina Chanel Abney",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "ninachanel",
+                "website_name": "ninachanel.com",
+                "website_url": "https://ninachanel.com/"
+            },
+            {
+                "studio_name": "Toyin Ojih Odutola",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "toyinojihodutola",
+                "website_name": "jackshainman.com",
+                "website_url": "https://jackshainman.com/viewing_room/tell_me_a_story_i_dont_care_if_its_true"
+            },
+            {
+                "studio_name": "Paul Anthony Smith",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "paulanthonysmithstudio",
+                "website_name": "artnews.com",
+                "website_url": "https://www.artnews.com/art-in-america/features/paul-anthony-smith-56528/"
+            },
+            {
+                "studio_name": "El Anatsui",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "elanatsuiart",
+                "website_name": "el-anatsui.com",
+                "website_url": "http://el-anatsui.com/"
+            },
+            {
+                "studio_name": "Odili Donald Odita",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "odiliodita",
+                "website_name": "odilidonaldodita.com",
+                "website_url": "https://www.odilidonaldodita.com/"
+            },
+            {
+                "studio_name": "Mokena Makeka",
+                "type": [
+                    "Architect",
+                    "Artist"
+                ],
+                "instagram": "makekamokena",
+                "website_name": "makekadesigns.com",
+                "website_url": "http://www.makekadesigns.com/"
+            },
+            {
+                "studio_name": "Mark Bradford",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "hauserwirth.com",
+                "website_url": "https://www.hauserwirth.com/artists/2838-mark-bradford"
+            },
+            {
+                "studio_name": "Charles Gaines",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "st__francis",
+                "website_name": "hauserwirth.com",
+                "website_url": "https://www.hauserwirth.com/artists/21845-charles-gaines"
+            },
+            {
+                "studio_name": "Carrie Mae Weems",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "carriemaeweems",
+                "website_name": "carriemaeweems.net",
+                "website_url": "http://carriemaeweems.net/"
+            },
+            {
+                "studio_name": "Jay Cephas",
+                "type": [
+                    "Historian",
+                    "Urbanist"
+                ],
+                "instagram": "nuarchitecture",
+                "website_name": "northeastern.edu",
+                "website_url": "https://camd.northeastern.edu/faculty/jay-cephas/"
+            },
+            {
+                "studio_name": "Anishka Clarke",
+                "type": [
+                    "Interior Designer"
+                ],
+                "instagram": "ishkadesigns",
+                "website_name": "ishkadesigns.com",
+                "website_url": "http://www.ishkadesigns.com/"
+            },
+            {
+                "studio_name": "Malene Barnett",
+                "type": [
+                    "Artist",
+                    "Activist",
+                    "Design Advocate"
+                ],
+                "instagram": "malene.barnett",
+                "website_name": "malenebarnett.com",
+                "website_url": "https://malenebarnett.com/"
+            },
+            {
+                "studio_name": "Charlotte Bravo Cannon",
+                "type": [
+                    "Designer",
+                    "Entrepreneur"
+                ],
+                "instagram": "thevintagevogue",
+                "website_name": "westelm.com",
+                "website_url": "https://www.westelm.com/products/lcl-the-vintage-vogue-linnea-coasters-e1176/?pkey=s%7Cthe+vintage+vogue%7C1"
+            },
+            {
+                "studio_name": "Gordon Kipping",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "gordonkipping",
+                "website_name": "gtects.com",
+                "website_url": "http://www.gtects.com/"
+            },
+            {
+                "studio_name": "Mpho Matsipa",
+                "type": [
+                    "Historian",
+                    "Urbanist"
+                ],
+                "instagram": "joburg_bureau",
+                "website_name": "africanmobilities.org",
+                "website_url": "https://www.africanmobilities.org/"
+            },
+            {
+                "studio_name": "Peter Mabeo",
+                "type": [
+                    "Furniture Designer",
+                    "Product Design",
+                    "Designer"
+                ],
+                "instagram": "explore",
+                "website_name": "mabeofurniture.com",
+                "website_url": "https://www.mabeofurniture.com/"
+            },
+            {
+                "studio_name": "Christian Benimana",
+                "type": [
+                    "Architect",
+                    "Advocate"
+                ],
+                "instagram": "christian_benimana",
+                "website_name": "ted.com",
+                "website_url": "https://www.ted.com/talks/christian_benimana_the_next_generation_of_african_architects_and_designers"
+            },
+            {
+                "studio_name": "Chris Union",
+                "type": [
+                    "Entrepreneur",
+                    "Taste Maker"
+                ],
+                "instagram": "chrisunion ",
+                "website_name": "unionlosangeles.com",
+                "website_url": "https://store.unionlosangeles.com/"
+            },
+            {
+                "studio_name": "Beth Gibbs",
+                "type": [
+                    "Entrepreneur",
+                    "Taste Maker"
+                ],
+                "instagram": "bephie",
+                "website_name": "bephie.com",
+                "website_url": "https://www.bephie.com/"
+            },
+            {
+                "studio_name": "Elizabeth Kennedy",
+                "type": [
+                    "Landscape Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "eklastudio.com",
+                "website_url": "https://www.eklastudio.com/"
+            },
+            {
+                "studio_name": "Austin Allen",
+                "type": [
+                    "Landscape Architect"
+                ],
+                "instagram": "explore",
+                "website_name": "lsu.edu",
+                "website_url": "https://design.lsu.edu/emeritus/austin-allen/"
+            },
+            {
+                "studio_name": "Lorna Simpson",
+                "type": [
+                    "Photographer"
+                ],
+                "instagram": "lornasimpson",
+                "website_name": "lsimpsonstudio.com",
+                "website_url": "https://lsimpsonstudio.com/"
+            },
+            {
+                "studio_name": "Abigail DeVille",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "victoriouspurple",
+                "website_name": "art21.org",
+                "website_url": "https://art21.org/artist/abigail-deville/"
+            },
+            {
+                "studio_name": "Derrick Adams",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "derrickadamsny",
+                "website_name": "derrickadams.com",
+                "website_url": "http://www.derrickadams.com/"
+            },
+            {
+                "studio_name": "Simone Leigh",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "simoneyvetteleigh",
+                "website_name": "e-flux.com",
+                "website_url": "https://www.e-flux.com/journal/105/302565/extended-notes-on-the-riot/"
+            },
+            {
+                "studio_name": "Lowery Stokes Sims",
+                "type": [
+                    "Curator"
+                ],
+                "instagram": "explore",
+                "website_name": "uci.edu",
+                "website_url": "https://art.arts.uci.edu/lowery-stokes-sims"
+            },
+            {
+                "studio_name": "Jeremy Sallee",
+                "type": [
+                    "Footwear Designer",
+                    "Design Director",
+                    "Product Designer"
+                ],
+                "instagram": "jermsal10",
+                "website_name": "jesusnewyork.com",
+                "website_url": "https://jesusnewyork.com/"
+            },
+            {
+                "studio_name": "Legacy Russell",
+                "type": [
+                    "Curator"
+                ],
+                "instagram": "ellerustle",
+                "website_name": "penguinrandomhouse.com",
+                "website_url": "https://www.penguinrandomhouse.com/books/646946/glitch-feminism-by-legacy-russell/"
+            },
+            {
+                "studio_name": "Sergio Max, Sonya",
+                "type": [
+                    "Architect",
+                    "Designer"
+                ],
+                "instagram": "launionstudio",
+                "website_name": "facebook.com",
+                "website_url": "https://www.facebook.com/launionstudio206/"
+            },
+            {
+                "studio_name": "Mark Raymond ",
+                "type": [
+                    "Architect"
+                ],
+                "instagram": "markraymondarchitect",
+                "website_name": "markraymond.com",
+                "website_url": "http://www.markraymond.com/"
+            },
+            {
+                "studio_name": "Kapwani Kiwanga",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "kapwanikiwanga.org",
+                "website_url": "http://kapwanikiwanga.org/"
+            },
+            {
+                "studio_name": "Arthur Jafa",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "anamibia",
+                "website_name": "nytimes.com",
+                "website_url": "https://www.nytimes.com/2019/08/14/t-magazine/arthur-jafa-in-bloom.html"
+            },
+            {
+                "studio_name": "Julie Mehretu",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "explore",
+                "website_name": "moma.org",
+                "website_url": "https://www.moma.org/artists/25414"
+            },
+            {
+                "studio_name": "Ment Nelson",
+                "type": [
+                    "Artist"
+                ],
+                "instagram": "mentnelson",
+                "website_name": "mentnelson.com",
+                "website_url": "https://www.mentnelson.com/"
+            },
+            {
+                "studio_name": "Sepake Angiama",
+                "type": [
+                    "Curator",
+                    "Educator"
+                ],
+                "instagram": "suburbanelectrostar",
+                "website_name": "deemjournal.com",
+                "website_url": "https://www.deemjournal.com/stories/sepake-angiama"
+            },
+            {
+                "studio_name": "Yesomi Umolu",
+                "type": [
+                    "Curator",
+                    "Advocate"
+                ],
+                "instagram": "yesomi_umolu",
+                "website_name": "uchicago.edu",
+                "website_url": "https://arthistory.uchicago.edu/faculty/profiles/umolu"
+            },
+            {
+                "studio_name": "Rasheedah Phillips",
+                "type": [
+                    "Designer",
+                    "Design Advocate"
+                ],
+                "instagram": "blackquantumfuturism",
+                "website_name": "blackquantumfuturism.com",
+                "website_url": "https://www.blackquantumfuturism.com/"
+            },
+            {
+                "studio_name": "Jason Mayden",
+                "type": [
+                    "Product Designer",
+                    "Footwear Designer",
+                    "Entrepreneur"
+                ],
+                "instagram": "jasonmayden",
+                "website_name": "youtube.com",
+                "website_url": "https://www.youtube.com/watch?v=8XHjJknlTd4"
+            },
+            {
+                "studio_name": "Ralph Gilles",
+                "type": [
+                    "Design Director",
+                    "Industrial Designer",
+                    "Transportation Designer"
+                ],
+                "instagram": "ralphgilles",
+                "website_name": "chrysler.com",
+                "website_url": "https://www.chrysler.com/"
+            },
+            {
+                "studio_name": "Kevin Bethune",
+                "type": [
+                    "Industrial Designer",
+                    "Brand + Strategy"
+                ],
+                "instagram": "kevinbethune",
+                "website_name": "dreamsdesignandlife.com",
+                "website_url": "https://www.dreamsdesignandlife.com/"
+            },
+            {
+                "studio_name": "Jarrett Gilmore",
+                "type": [
+                    "Footwear Designer"
+                ],
+                "instagram": "jarrettgilmoredesign",
+                "website_name": "myportfolio.com",
+                "website_url": "https://gilmorejarrett.myportfolio.com/"
+            },
+            {
+                "studio_name": "Rotimi Solola",
+                "type": [
+                    "Industrial Designer"
+                ],
+                "instagram": "rotimi_solola",
+                "website_name": "so-design.co",
+                "website_url": "https://www.so-design.co/"
+            },
+            {
+                "studio_name": "Christopher Benjamin",
+                "type": [
+                    "Industrial Designer",
+                    "Transportation Designer"
+                ],
+                "instagram": "chrisabenjamin",
+                "website_name": "linkedin.com",
+                "website_url": "https://www.linkedin.com/in/chris-benjamin-5b67734/"
+            },
+            {
+                "studio_name": "Crystal Windham",
+                "type": [
+                    "Design Director",
+                    "Industrial Designer"
+                ],
+                "instagram": "explore",
+                "website_name": "idsa.org",
+                "website_url": "https://www.idsa.org/members/crystal-windham"
+            },
+            {
+                "studio_name": "Mansour Ourasanah",
+                "type": [
+                    "Industrial Designer",
+                    "Product Designer"
+                ],
+                "instagram": "explore",
+                "website_name": "vilcek.org",
+                "website_url": "https://vilcek.org/news/vilcek-prizewinner-spotlight-mansour-ourasanah/"
+            },
+            {
+                "studio_name": "Tyler Mitchell",
+                "type": [
+                    "Photographer"
+                ],
+                "instagram": "tylersphotos",
+                "website_name": "tylermitchell.co",
+                "website_url": "https://www.tylermitchell.co/"
+            },
+            {
+                "studio_name": "Stephanie Ribeiro",
+                "type": [
+                    "Architect",
+                    "Design Advocate"
+                ],
+                "instagram": "ste_rib",
+                "website_name": "globo.com",
+                "website_url": "https://revistamarieclaire.globo.com/Blogs/BlackGirlMagic/noticia/2020/02/virgindade-e-construcao-social.html?fbclid=IwAR0skun0uqHc571gHjnmdhdHCaxqa4Ms3KcVLELlZdY--JgSJB9rzycY9E8"
+            },
+            {
+                "studio_name": "Larry Sass",
+                "type": [
+                    "Architect",
+                    "Educator"
+                ],
+                "instagram": "larrythesass",
+                "website_name": "mit.edu",
+                "website_url": "http://ddf.mit.edu/"
             }
         ]
     }
