@@ -1,88 +1,99 @@
 import React from "react";
-import Helmet from "react-helmet";
 import Emoji from "../components/Emoji.js"
-import Title from "../components/Title.js"
 import OneClickActivismData from "../../content/one-click-activism.json"
 import "../sass/main.sass";
+import Card from "../components/Card.js";
+import CardContent from "../components/CardContent.js";
+import CardStack from "../components/CardStack.js";
+import Link from "../components/Link.js";
 
 export default class OneClickActivism extends React.Component {
   constructor(props) {
     super(props);
+    this.cardstackRef = React.createRef();
+    this.handleChange = this.handleChange.bind(this);
     this.state = {
-      height: 500000
+      value: "Petitions"
     };
   }
-  
-  get_cards_height() {
-    let total_height = 0; 
-    let average_height = 0; 
-    let max_height = 0;
-    let cards = document.getElementsByClassName("card")
-    for (let i = 0; i < cards.length; i++) {
-      let card_height = cards[i].offsetHeight+parseInt(20)
-      total_height += card_height;
-      if (card_height > max_height) {
-        max_height = card_height;
-      }
-    }
-    if (window.innerWidth < 1100) {
-      average_height = total_height/2;
-    } else {
-      average_height = total_height/3;
-    }
-    return Math.ceil(average_height + max_height);
-  }
 
-  componentDidMount() {
-    this.setState({
-      height: this.get_cards_height()
-    })
+  handleChange(event) {
+    this.cardstackRef.current.update_cards_dims();
+    this.setState({value: event.target.value});
   }
 
   render() {
+    let justice_emoji = <Emoji emoji="⚖️" name="balance scale"/>
+    let legislation_emoji = <Emoji emoji="🖋" name="fountain pen"/>
+
     return (
-      <div className="root">
-        <Helmet title="JUST DESIGN. ONE CLICK ACTIVISM." defer={false} />
-  
-        <Title name="ONE CLICK ACTIVISM."/>
-  
-        <div className="card-content">
-          <p style={{margin: "0 0 0.5em 0", padding: "0px", fontFamily: "PoppinsMedium", fontSize: "150%", color: "#aaa"}}>Key</p>
-          <p className="indentText"><Emoji emoji="⚖️" name="balance scale"/>&nbsp;&nbsp;Justice</p>
-          <p className="indentText"><Emoji emoji="🖋" name="fountain pen"/>&nbsp;&nbsp;Legislation</p>
-          <br/>
-          <p style={{margin: "0 0 0.5em 0", padding: "0px", fontFamily: "PoppinsMedium", fontSize: "150%", color: "#aaa"}}>Note</p>
-          <p className="indentText">
-            Please do NOT donate to change.org– the money does not go to any causes, but rather the corporation itself.
-          </p>
-          <br/>
-          <div className="cards" style={{height: this.state.height}}>
-            {OneClickActivismData.petitions.map((data, index) => {
-              let emoji_html = null;
-              if (data.tag === "Justice") {
-                emoji_html = <a><Emoji name="balance scale" emoji="⚖️"/></a>
-              }
-              if (data.tag === "Legislation") {
-                emoji_html = <a><Emoji name="fountain pen" emoji="🖋"/></a>
-              }
+      <CardContent title="ONE CLICK ACTIVISM.">
+        <CardContent.Header>Select Activism Type</CardContent.Header>
+        <div className="menu">
+          <select value={this.state.value} onChange={this.handleChange}>
+            {Object.keys(OneClickActivismData).map((key, source_index) => {
               return (
-                <div key={`content_item_${index}`} className="card">
-                    <div className="card-bg">
-                      <div className="card-header">
-                        <p className="card-subtitle-p" style={{marginBottom: "0.75em"}}>{emoji_html}</p>
-                        <p className="card-title">{data.title}</p>
-                      </div>
-                      <div className="card-body">
-                        <p className="card-text">{data.summary}</p>
-                        <a className="gradient-button card-text" rel="noreferrer" target="_blank" href={data.source_link}>Sign this petition <Emoji name="writing hand" emoji="✍️"/> <span className="OCP">→</span></a><br />
-                      </div>
-                    </div>
-                </div>
+                <option key={`content_item_${source_index}`} value={OneClickActivismData[key]["name"]}>
+                  {OneClickActivismData[key]["name"]}
+                </option>
               );
             })}
-          </div>
+          </select>
         </div>
-      </div>
+
+        {
+          this.state.value === "Petitions" && 
+          <div>
+            <CardContent.Header>Key</CardContent.Header>
+            <CardContent.Text>{justice_emoji}&nbsp;&nbsp;Justice</CardContent.Text>
+            <CardContent.Text>{legislation_emoji}&nbsp;&nbsp;Legislation</CardContent.Text>
+            <br/>
+            <CardContent.Header>Note</CardContent.Header>
+            <CardContent.Text>Please do NOT donate to <Link href="https://www.change.org/">Change.org</Link>– the money does not go to any causes, but rather the corporation itself.</CardContent.Text>
+            <br/>
+          </div>
+        }
+
+        <CardStack ref={this.cardstackRef}>
+          {
+            this.state.value === "Petitions" && 
+            OneClickActivismData.petitions.data.map((data, index) => {
+              let emoji_tag = null;
+              if (data.tag === "Justice") emoji_tag = <a>{justice_emoji}</a>
+              if (data.tag === "Legislation") emoji_tag = <a>{legislation_emoji}</a>
+
+              return (
+                <Card key={`card_${index}`}>
+                  <Card.Header>
+                    <Card.Tags>{emoji_tag}</Card.Tags>
+                    <Card.Title>{data.title}</Card.Title>
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Text>{data.summary}</Card.Text>
+                    <Card.Link href={data.source_link} text="Sign this petition" emoji="✍️" emoji_name="writing hand"/>
+                  </Card.Body>
+                </Card>
+              );
+            })
+          }
+          {
+            this.state.value === "Emails" && 
+            OneClickActivismData.emails.data.map((data, index) => {
+              return (
+                <Card key={`card_${index}`}>
+                  <Card.Header>
+                  <Card.Title>{data.title}</Card.Title>
+                  <Card.Subtitle>{data.location}</Card.Subtitle>
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Link href={data.source_link} text="Send this email" emoji="📧" emoji_name="email"/>
+                  </Card.Body>
+                </Card>
+              );
+            })
+          }
+        </CardStack>
+      </CardContent>
     )
   }
 }

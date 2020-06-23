@@ -17,9 +17,11 @@ export default function Home() {
       transform: "translate(0%, -50%)"
     }}>
       <Head title="JUST DESIGN. 404."/>
-      <Title name="404. PAGE NOT FOUND."/>
+      <Title name="ERROR 404."/>
       <h3 style={{fontSize: "2em"}}>
-        <a href="https://just---design.com">Return Home <Emoji name="house" emoji="🏠"/> →</a>
+        <a href="https://just---design.com">
+          Return Home <Emoji name="house" emoji="🏠"/> →
+        </a>
       </h3>
     </div>
   )

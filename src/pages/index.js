@@ -5,7 +5,7 @@ import Emoji from "../components/Emoji";
 import Head from "../components/Head";
 import Title from "../components/Title";
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/index.component.sass";
 /* Import Data */
 import Index from "../../content/index.json"
 /* HELPER FUNCTIONS FOR GENERATING COLOR GRADIENT FOR NAV LINKS */

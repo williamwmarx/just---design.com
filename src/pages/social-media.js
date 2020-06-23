@@ -1,7 +1,6 @@
 import React from "react";
-import Helmet from "react-helmet";
+import Head from "../components/Head"
 import Title from "../components/Title"
-import "../sass/main.sass";
 import imageOne from "../../static/images/one.png";
 import imageTwo from "../../static/images/two.png";
 import imageThree from "../../static/images/three.png";
@@ -11,22 +10,31 @@ import imageSix from "../../static/images/six.png";
 import imageSeven from "../../static/images/seven.png";
 import imageEight from "../../static/images/eight.png";
 
+let story_image = {
+    position: "relative",
+    left: "30vw",
+    width: "40vw",
+    border: "1px solid #ddd",
+    borderRadius: "10px",
+    margin: "2vh auto 2vh auto"
+}
+
 export default function Home() {
   return (
     <div className="root">
-      <Helmet title="JUST DESIGN. SOCIAL MEDIA." defer={false} />
+      <Head title="JUST DESIGN. SOCIAL MEDIA."/>
 
       <Title name="DO IT FOR THE 'GRAM."/>
         
       <div>
-        <img className="social-media-image" src={imageOne} alt="one"/><br/>
-        <img className="social-media-image" src={imageTwo} alt="two"/><br/>
-        <img className="social-media-image" src={imageThree} alt="three"/><br/>
-        <img className="social-media-image" src={imageFour} alt="four"/><br/>
-        <img className="social-media-image" src={imageFive} alt="five"/><br/>
-        <img className="social-media-image" src={imageSix} alt="six"/><br/>
-        <img className="social-media-image" src={imageSeven} alt="seven"/><br/>
-        <img className="social-media-image" src={imageEight} alt="eight"/><br/>
+        <img style={story_image} src={imageOne} alt="one"/><br/>
+        <img style={story_image} src={imageTwo} alt="two"/><br/>
+        <img style={story_image} src={imageThree} alt="three"/><br/>
+        <img style={story_image} src={imageFour} alt="four"/><br/>
+        <img style={story_image} src={imageFive} alt="five"/><br/>
+        <img style={story_image} src={imageSix} alt="six"/><br/>
+        <img style={story_image} src={imageSeven} alt="seven"/><br/>
+        <img style={story_image} src={imageEight} alt="eight"/><br/>
       </div>
     </div>
   )
