@@ -38,7 +38,7 @@ export default class Media extends React.Component {
 
           <div className="menu">
             <select value={this.state.value} onChange={this.handleChange}>
-              {media_typenames.map((typename, source_index) => {
+              {media_typenames.sort().map((typename, source_index) => {
                 return (
                   <option key={`content_item_${source_index}`} value={typename}>
                     {typename.charAt(0).toUpperCase() + typename.substr(1).toLowerCase()}
@@ -49,11 +49,12 @@ export default class Media extends React.Component {
           </div>
 
         <CardStack ref={this.cardstackRef}>
-          {MediaData.media.map((data, index) => {
+          {MediaData.media.sort(function () {return .5 - Math.random();}).map((data, index) => {
             let source = null;
             if (data.summary_source != null) source = <Card.Subtext href={data.summary_source_link}>Summary c/o {data.summary_source}</Card.Subtext>
             let emoji_name = null;
             let emoji = null;
+            let verb = "View";
             if (data.typename === "film") {
               emoji_name = "film frames"
               emoji="🎞️"
@@ -63,6 +64,10 @@ export default class Media extends React.Component {
             } else if (data.typename === "video") {
               emoji_name = "video camera"
               emoji="📹"
+            } else if (data.typename === "audiobook") {
+              emoji_name = "speaker with high volume"
+              emoji="🔊"
+              verb="Listen to"
             }
             if (this.state.value === "All" || this.state.value === data.typename) {
               return (
@@ -83,7 +88,7 @@ export default class Media extends React.Component {
                     {
                       source && <Card.Text>{source}</Card.Text>
                     }
-                    <Card.Link href={data.source_link} text={`View this ${data.typename}`} emoji={emoji} emoji_name={emoji_name}/>
+                    <Card.Link href={data.source_link} text={`${verb} this ${data.typename}`} emoji={emoji} emoji_name={emoji_name}/>
                   </Card.Body>
                 </Card>
               )

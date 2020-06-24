@@ -26,16 +26,16 @@ export default class OneClickActivism extends React.Component {
     let justice_emoji = <Emoji emoji="⚖️" name="balance scale"/>
     let legislation_emoji = <Emoji emoji="🖋" name="fountain pen"/>
     let arch_emoji = <Emoji emoji="🏘" name="group of houses"/>
-
+    let awareness_emoji = <Emoji emoji="👁" name="eye"/>
     return (
       <CardContent title="ONE CLICK ACTIVISM.">
         <CardContent.Header>Select Activism Type</CardContent.Header>
         <div className="menu">
           <select value={this.state.value} onChange={this.handleChange}>
-            {Object.keys(OneClickActivismData).map((key, idx) => {
+            {Object.keys(OneClickActivismData).sort().map((key, idx) => {
               return (
-                <option key={`option_${idx}`} value={OneClickActivismData[key]["name"]}>
-                  {Object.keys(OneClickActivismData)[idx]}
+                <option key={`option_${idx}`} value={OneClickActivismData[idx]}>
+                  {key}
                 </option>
               );
             })}
@@ -46,6 +46,8 @@ export default class OneClickActivism extends React.Component {
           this.state.value === "Petitions" && 
           <div>
             <CardContent.Header>Key</CardContent.Header>
+            <CardContent.Text>{arch_emoji}&nbsp;&nbsp;Architecture/Design</CardContent.Text>
+            <CardContent.Text>{awareness_emoji}&nbsp;&nbsp;Awareness</CardContent.Text>
             <CardContent.Text>{justice_emoji}&nbsp;&nbsp;Justice</CardContent.Text>
             <CardContent.Text>{legislation_emoji}&nbsp;&nbsp;Legislation</CardContent.Text>
             <br/>
@@ -56,7 +58,7 @@ export default class OneClickActivism extends React.Component {
         }
 
         <CardStack ref={this.cardstackRef}>
-          {OneClickActivismData[this.state.value].map((data, index) => {
+          {OneClickActivismData[this.state.value].sort(function () {return .5 - Math.random();}).map((data, index) => {
             return (
               <Card key={`card_${index}`}>
                 <Card.Header>
@@ -64,6 +66,7 @@ export default class OneClickActivism extends React.Component {
                     {(data.tag === "Justice") && justice_emoji}
                     {(data.tag === "Legislation") && legislation_emoji}
                     {(data.tag === "Architecture/Design") && arch_emoji}
+                    {(data.tag === "Awareness") && awareness_emoji}
                   </Card.Tags>
                   <Card.Title>{data.title}</Card.Title>
                 </Card.Header>

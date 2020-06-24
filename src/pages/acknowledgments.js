@@ -1,8 +1,9 @@
 /* Import React */
 import React from "react";
 /* Import Components */
-import Link from "../components/Link";
-import TextContent from "../components/TextContent";
+import Emoji from "../components/Emoji.js";
+import Link from "../components/Link.js";
+import TextContent from "../components/TextContent.js";
 /* Import Styles */
 import "../sass/main.sass";
 /* Import Data */
@@ -77,12 +78,17 @@ export default function Acknowledgments() {
 
       {/* CONTENT SOURCES CREDITS */}
       <TextContent.Section>Content</TextContent.Section>
-        {AcknowledgmentsData.content.map((data, index) => {
+      <TextContent.Subsection>Key</TextContent.Subsection>
+      <TextContent.Text><Emoji emoji="✅" emoji_name="check mark"/> Source catalogued</TextContent.Text>
+      <TextContent.Text><Emoji emoji="⏳" emoji_name="hourglass with flowing sand"/> To be done</TextContent.Text>
+      <br/>
+      <TextContent.Subsection>Sources</TextContent.Subsection>
+        {AcknowledgmentsData.content.sort(function(a, b) {return a.title.localeCompare(b.title);}).map((data, index) => {
           let complete = ""
-          if (data.complete) complete = "✅"
-          // else complete = "⏳"
+          if (data.complete) complete = <Emoji emoji="✅" emoji_name="check mark"/>
+          else complete = <Emoji emoji="⏳" emoji_name="hourglass with flowing sand"/>
           return (
-            <TextContent.Text key={`content_item_${index}`}>
+            <TextContent.Text key={`source_${index}`}>
               <Link href={data.source_link}>{data.title}</Link>
               &nbsp;{complete}
             </TextContent.Text>

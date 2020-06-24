@@ -46,6 +46,54 @@ function calculate_color(index, count) {
   return "#" + rgb_to_hex(color[0]) + rgb_to_hex(color[1]) + rgb_to_hex(color[2]); // Convert RGB to Hex
 }
 
+class HomeLink extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        href: null
+    }
+  }
+
+  async instagram(link) {
+      if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
+          if (link.includes("instagram.com/p/")) {
+              let response = await fetch("https://api.instagram.com/oembed/?url=" + link);
+              if (response.status === 200) {
+                  let result = await response.json();
+                  return "instagram://media?id=" + result["media_id"]
+              } else {
+                  return link
+              }
+          } else if (link.includes("instagram.com/")) {
+              let pathname = new URL(link).pathname.split("/")[1];
+              return "instagram://user?username=" + pathname;
+          }
+      } else {
+          return link
+      }
+  }
+
+  componentDidMount() {
+      this.setState({ href: this.props.href })
+      if (this.props.href) {
+          if (this.props.href.toLowerCase().includes("instagram")) {
+              this.instagram(this.props.href).then((result) => this.setState({ href: result }))
+          }
+      }
+  }
+  
+  render() {
+    return (
+      <a href={this.state.href} style={{
+        color: this.props.nav_color,
+        borderBottomColor: this.props.nav_color
+      }}>
+        {this.props.children}
+      </a>
+    )
+  }
+}
+
 export default function Home() {
   return (
     <div className="root">
@@ -58,12 +106,9 @@ export default function Home() {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (
             <h3 key={`link_${index}`}>
-              <a href={data.link} style={{
-                color: nav_color,
-                borderBottomColor: nav_color
-              }}>
+              <HomeLink href={data.link} nav_color={nav_color}>
                 {data.title} <Emoji name={data.emoji_name} emoji={data.emoji}/> →
-              </a>
+              </HomeLink>
             </h3>
           );
         })}

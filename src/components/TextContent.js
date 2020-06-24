@@ -14,7 +14,7 @@ export default class TextContent extends React.Component {
     static Subsection = ({ children }) => <p className="subsection">{children}</p>
     static Credit = props => (
         <span className="credit-text">
-            <Link href={props.content_source}>{props.content}</Link>
+            <Link alt={false} href={props.content_source}>{props.content}</Link>
             &nbsp;c/o&nbsp;
             <Link href={props.creator_source}>{props.creator}</Link>
         </span>

@@ -2,7 +2,7 @@
     "media": [
         {
             "title": "The Color of Fear",
-            "source_link": "https://vimeo.com/127289854",
+            "source_link": "https://vimeo.com/424513234",
             "creators": [{
                 "name": "Lee Mun Wah",
                 "link": "http://www.stirfryseminars.com/about/bios/bios_munwah.php"
@@ -94,23 +94,157 @@
             "tag": "Race, Racism and Racial Capitalism"
         },
         {
-            "title": "Naomi Murakawa & #BlackLivesMatter: Liberals, Guns and the Roots of the U.S. Prison Explosion",
-            "source_link": "https://youtu.be/pyHeroT6uv4",
+            "title": "Are Prisons Obsolete",
+            "source_link": "https://www.youtube.com/watch?v=JpSeevaW5sc&list=PLMp5zI6NyMrgW4iVkpyF4HY6bqUMJS7K2&index=1",
             "creators": [{
-                "name": "Naomi Murakawa",
-                "link": "https://aas.princeton.edu/people/naomi-murakawa"
-            }, {
-                "name": "Laura Flanders",
-                "link": "https://lauraflanders.org/"
-            }
-        ],
-            "summary": "Naomi Murakawa indicts liberals for growing the system of mass incarceration, and we take a look back at our coverage of the Black Lives Matter movement. All that and a few words from me on mandatory minimums in 1790 and since.",
+                "name": "Angela Y. Davis",
+                "link": "https://en.wikipedia.org/wiki/Angela_Davis"
+            }],
+            "summary": "In Are Prisons Obsolete?, Professor Davis seeks to illustrate that the time for the prison is approaching an end. She argues forthrightly for \"decarceration\", and argues for the transformation of the society as a whole.",
+            "summary_source": "GoodReads",
+            "summary_source_link": "https://www.goodreads.com/book/show/108428.Are_Prisons_Obsolete_",
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit",
+            "typename": "audiobook",
+            "tag": "Prison Industrial Complex"
+        },
+        {
+            "title": "13th",
+            "source_link": "https://www.youtube.com/watch?v=krfcq5pF8u8",
+            "creators": [{
+                "name": "Ava DuVernay",
+                "link": "http://www.avaduvernay.com/"
+            }],
+            "summary": "An exploration of the intersection of race, justice, and mass incarceration in the United States",
             "summary_source": null,
             "summary_source_link": null,
-            "taken_from": null,
-            "taken_from_link": null,
-            "typename": "interview",
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
             "tag": "Prison Industrial Complex"
+        },
+        {
+            "title": "AFROPUNK - The Documentary",
+            "source_link": "https://www.youtube.com/watch?v=fanQHFAxXH0",
+            "creators": [{
+                "name": "James Spooner",
+                "link": "https://www.instagram.com/monocletattoo/"
+            }],
+            "summary": "An exploration of race identity within the punk scene",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "After the Apology",
+            "source_link": "https://www.kanopy.com/product/after-apology",
+            "creators": [{
+                "name": "Larissa Behrendt",
+                "link": "https://www.uts.edu.au/staff/larissa.behrendt"
+            }],
+            "summary": "The removal of Indigenous children from their families has increased at an exponential rate since Prime Minister Kevin Rudd delivered the apology to the 'stolen generations' in 2008. In this riveting documentary, a group of Aboriginal women challenge government policies to bring their grandchildren home. Their grassroots actions spearhead a national conversation to curb skyrocketing rates of child removal.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "Freedom Riders",
+            "source_link": "https://www.kanopy.com/product/freedom-riders",
+            "creators": [{
+                "name": "Stanley Nelson",
+                "link": "https://www.pbs.org/blackpress/film/nelsonbio.html"
+            }],
+            "summary": "FREEDOM RIDERS is the powerful harrowing and ultimately inspirational story of six months in 1961 that changed America forever. From May until November 1961, more than 400 black and white Americans risked their lives--and many endured savage beatings and imprisonment--for simply traveling together on buses and trains as they journeyed through the Deep South. Deliberately violating Jim Crow laws, the Freedom Riders met with bitter racism and mob violence along the way, sorely testing their belief in nonviolent activism.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "I Am Not Your Negro",
+            "source_link": "https://www.kanopy.com/product/i-am-not-your-negro",
+            "creators": [{
+                "name": "James Baldwin",
+                "link": "https://www.poetryfoundation.org/poets/james-baldwin"
+            }],
+            "summary": "An Oscar-nominated documentary narrated by Samuel L. Jackson, I AM NOT YOUR NEGRO explores the continued peril America faces from institutionalized racism.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "Maya Angelou: And Still I Rise",
+            "source_link": "https://vimeo.com/182582378",
+            "creators": [{
+                "name": "Maya Angelou",
+                "link": "https://www.mayaangelou.com/"
+            }],
+            "summary": "The documentary, which was unanimously nominated for the Peabody Award, is the first feature documentary on the singer, dancer, activist, poet and writer who inspired generations with modern African-American thought that pushed boundaries.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "We Don't Need a Map",
+            "source_link": "https://www.kanopy.com/product/we-dont-need-map",
+            "creators": [{
+                "name": "Warwick Thornton",
+                "link": "https://en.wikipedia.org/wiki/Warwick_Thornton/"
+            }],
+            "summary": "The Southern Cross is the most famous constellation in the southern hemisphere. Ever since colonisation it's been claimed, appropriated and hotly-contested for ownership by a radical range of Australian groups. But for Aboriginal people the meaning of this heavenly body is deeply spiritual. And just about completely unknown. For a start, the Southern Cross isn't even a cross - it's a totem that's deeply woven into the spiritual and practical lives of Aboriginal people.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "film",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "Explained | Racial Wealth Gap | FULL EPISODE",
+            "source_link": "https://youtu.be/Mqrhn8khGLM",
+            "creators": [{
+                "name": "Ezra Klein",
+                "link": "https://www.instagram.com/ezraklein/"
+            }, {
+                "name": "Joe Posner",
+                "link": "https://www.instagram.com/joeposner"
+            }],
+            "summary": "Cory Booker and others discuss how slavery, housing discrimination and centuries of inequality have compounded to create a racial wealth gap.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "video",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "How American Slavery Helped Create Modern Day Policing",
+            "source_link": "https://youtu.be/6qtz5WPd86o",
+            "creators": [{
+                "name": "Felice León",
+                "link": "https://www.feliceleon.com/"
+            }],
+            "summary": "A brief history of American law enforcement and its ties to slavery",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "BIPOC Films and TV Shows",
+            "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
+            "typename": "video",
+            "tag": "Race, Racism, and Racial Capitalism"
         }
     ]
 }

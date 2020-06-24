@@ -76,7 +76,7 @@ export default class Link extends React.Component {
 
         let link = null;
         if (this.props.new_tab !== false) {
-            if (this.props.author !== false) {
+            if (this.props.author === true) {
                 link = <a rel="noreferrer" target="_blank" style={author_styles} onMouseEnter={authorHoverUnderlineColor} onMouseLeave={authorUnhoverUnderlineColor} href={this.state.href}>{this.props.children}</a>;
             } else {
                 link = (

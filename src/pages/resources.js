@@ -11,7 +11,7 @@ export default class Resources extends React.Component {
     this.cardstackRef = React.createRef();
     this.handleChange = this.handleChange.bind(this);
     this.state = {
-      value: Object.keys(ResourcesData)[0]
+      value: Object.keys(ResourcesData).sort()[0]
     };
   }
 
@@ -26,10 +26,10 @@ export default class Resources extends React.Component {
         <CardContent.Header>Select Text Type</CardContent.Header>
         <div className="menu">
           <select value={this.state.value} onChange={this.handleChange}>
-            {Object.keys(ResourcesData).sort().map((obj, idx) => {
+            {Object.keys(ResourcesData).sort().map((key, idx) => {
               return (
-                <option key={`option_${idx}`} value={Object.keys(ResourcesData)[idx]}>
-                  {Object.keys(ResourcesData)[idx]}
+                <option key={`option_${idx}`} value={key}>
+                  {key}
                 </option>
               );
             })}
@@ -57,7 +57,7 @@ export default class Resources extends React.Component {
                     </Card.Text>
                   }
                   {this.state.value === "Grants/Funding" && <Card.Link href={data.source_link} text="Get more information" emoji_name="money with wings" emoji="💸"/>}
-                  {this.state.value === "Entourage" && <Card.Link href={data.source_link} text="See the entourage" emoji_name="smiling face with sunglasses" emoji="😎"/>}
+                  {this.state.value === "Entourage" && <Card.Link href={data.source_link} text="Go to entourage" emoji_name="smiling face with sunglasses" emoji="😎"/>}
                 </Card.Body>
               </Card>
             );

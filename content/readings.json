@@ -1,34 +1,4 @@
 {
-    "Manifestos": [
-        {
-            "title": "The BlackSpace Manifesto",
-            "source_link": "https://www.blackspace.org/manifesto",
-            "authors": [{
-                "name": "BlackSpace",
-                "link": "https://www.blackspace.org/about-blackspace"
-            }],
-            "summary": "An essential manifesto. Each point should be carefully considered and integrated into all future projects.",
-            "summary_source": null,
-            "summary_source_url": null,
-            "taken_from": "Anti-racism Design Resources",
-            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
-            "tag": "Manifesto"
-        },
-        {
-            "title": "UN-MAKING ARCHITECTURE: An Anti-Racist Architecture Manifesto",
-            "source_link": "http://waithinktank.com/Anti-Racist-Manifesto",
-            "authors": [{
-                "name": "WAI Think Tank",
-                "link": "http://waithinktank.com/About-WAI-Think-Tank"
-            }],
-            "summary": "Considerations on the state of architecture and the components that it ecompasses ⚠️",
-            "summary_source": null,
-            "summary_source_link": null,
-            "taken_from": "Anti-racism Design Resources",
-            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
-            "tag": "Manifesto"
-        }
-    ],
     "Essays": [
         {
             "title": "There Goes the 'Hood: Views of Gentrification from the Ground Up",
@@ -232,20 +202,6 @@
             "taken_from": "Syllabus for Racial Justice in Urban Design",
             "taken_from_link": "https://www.colorlines.com/articles/check-out-syllabus-urban-design-course-somehow-doesnt-exist-yet",
             "tags": null
-        },
-        {
-            "title": "The Wretched of the Earth",
-            "source_link": "http://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
-            "authors": [{
-                "name": "Frantz Fannon",
-                "link": "https://plato.stanford.edu/entries/frantz-fanon/"
-            }],
-            "summary": "A psychiatric and psychologic analysis of the dehumanizing effects of colonization upon the individual and the nation, and discusses the broader social, cultural, and political implications inherent to establishing a social movement for the decolonization of a person and of a people. The French-language title derives from the opening lyrics of 'The Internationale'.",
-            "summary_source": "Wikipedia",
-            "summary_source_link": "https://en.wikipedia.org/wiki/The_Wretched_of_the_Earth",
-            "taken_from": "SPACE/RACE Reading List",
-            "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
-            "tag": "Decoloniality + Decolonization"
         },
         {
             "title": "Discourse on Colonialism",
@@ -1305,6 +1261,67 @@
             "summary": "“If you have not or are not actively decolonizing your design practive think critically about your desires and intentions before offering pro bono services to Black people”...",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "Typical Statements",
+            "source_link": "https://janeelliott.com/typical-statements",
+            "authors": [{
+                "name": "Jane Elliott",
+                "link": "https://janeelliott.com/"
+            }],
+            "summary": "A list of statements and clarifications",
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit"
+        },
+        {
+            "title": "FOR OUR WHITE FRIENDS DESIRING TO BE ALLIES",
+            "source_link": "https://sojo.net/articles/our-white-friends-desiring-be-allies",
+            "authors": [{
+                "name": "Courtney Ariel",
+                "link": "https://www.instagram.com/courtneyarielmusic/"
+            }],
+            "summary": "Author's Note: I'm writing this in hopes that it can be used to lighten the load of marginalized folks, keeping in mind that not all marginalized people want to engage in the ally conversation, and that is perfect as well. For those who do, my prayer is that when someone asks you the question, “how can I be a stronger ally?” you might choose to save your breath/energy and send this in its place.",
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit"
+        },
+        {
+            "title": "In Defense of Looting",
+            "source_link": "https://thenewinquiry.com/in-defense-of-looting/",
+            "authors": [{
+                "name": "Vicky Osterweil",
+                "link": "https://thenewinquiry.com/author/vicky-osterweil/"
+            }],
+            "summary": "For most of America’s history, one of the most righteous anti-white supremacist tactics available was looting.",
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit"
+        },
+        {
+            "title": "The BlackSpace Manifesto",
+            "source_link": "https://www.blackspace.org/manifesto",
+            "authors": [{
+                "name": "BlackSpace",
+                "link": "https://www.blackspace.org/about-blackspace"
+            }],
+            "summary": "An essential manifesto. Each point should be carefully considered and integrated into all future projects.",
+            "summary_source": null,
+            "summary_source_url": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Anti-Racism"
+        },
+        {
+            "title": "UN-MAKING ARCHITECTURE: An Anti-Racist Architecture Manifesto",
+            "source_link": "http://waithinktank.com/Anti-Racist-Manifesto",
+            "authors": [{
+                "name": "WAI Think Tank",
+                "link": "http://waithinktank.com/About-WAI-Think-Tank"
+            }],
+            "summary": "Considerations on the state of architecture and the components that it ecompasses, all arranged in an acrostic.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Anti-Racism"
         }
     ],
     "Books": [
@@ -1449,6 +1466,54 @@
             "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
             "tag": "",
             "free": true
+        },
+        {
+            "title": "Are Prisons Obsolete",
+            "source_link": "https://collectiveliberation.org/wp-content/uploads/2013/01/Are_Prisons_Obsolete_Angela_Davis.pdf",
+            "authors": [
+                {
+                    "name": "Angela Y. Davis",
+                    "link": "https://en.wikipedia.org/wiki/Angela_Davis"
+                }
+            ],
+            "summary": "In Are Prisons Obsolete?, Professor Davis seeks to illustrate that the time for the prison is approaching an end. She argues forthrightly for \"decarceration\", and argues for the transformation of the society as a whole.",
+            "summary_source": "GoodReads",
+            "summary_source_link": "https://www.goodreads.com/book/show/108428.Are_Prisons_Obsolete_",
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit",
+            "tag": "",
+            "free": true
+        },
+        {
+            "title": "The End of Policing",
+            "source_link": "https://www.versobooks.com/books/2426-the-end-of-policing",
+            "authors": [
+                {
+                    "name": "Alex S. Vitale",
+                    "link": "http://www.alex-vitale.info/"
+                }
+            ],
+            "summary": "How the police endanger us and why we need to find an alternative",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "AUS/US DONATIONS AND ANTI- RACISM RESOURCES",
+            "taken_from_link": "https://docs.google.com/document/d/125a9akJ9kfXxpnqCEPbFNy-FN6_WSagnv6Vb5ATvfJk/edit",
+            "tag": "",
+            "free": false
+        },
+        {
+            "title": "The Wretched of the Earth",
+            "source_link": "http://abahlali.org/wp-content/uploads/2011/04/Frantz-Fanon-The-Wretched-of-the-Earth-1965.pdf",
+            "authors": [{
+                "name": "Frantz Fannon",
+                "link": "https://plato.stanford.edu/entries/frantz-fanon/"
+            }],
+            "summary": "A psychiatric and psychologic analysis of the dehumanizing effects of colonization upon the individual and the nation, and discusses the broader social, cultural, and political implications inherent to establishing a social movement for the decolonization of a person and of a people. The French-language title derives from the opening lyrics of 'The Internationale'.",
+            "summary_source": "Wikipedia",
+            "summary_source_link": "https://en.wikipedia.org/wiki/The_Wretched_of_the_Earth",
+            "taken_from": "SPACE/RACE Reading List",
+            "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
+            "tag": "Decoloniality + Decolonization"
         }
     ]
 }
