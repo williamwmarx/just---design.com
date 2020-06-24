@@ -28,13 +28,6 @@ let HiringEmoji = <Emoji emoji="🛠" name="hammer and wrench"/>
 let CollabEmoji = <Emoji emoji="🔎" name="magnifying glass tilted right"/>
 let BIPOCStudiosEmoji = <Emoji emoji="📓" name="notebook"/>
 
-let instagram_user = "https://instagram.com/"
-let dpw_media = "https://instagram.com/p/CBEpwOgJcaM"
-if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
-  instagram_user = "instagram://user?username="
-  dpw_media = "instagram://media?id=2325166941643589260_1412961043"
-}
-
 function BIPOCStudios() {
   return (
     <div>
@@ -49,7 +42,7 @@ function BIPOCStudios() {
       <br/>
       <CardContent.Header>Credit</CardContent.Header>
         <CardContent.Text>
-          All credit for this page goes to <Link href={`${instagram_user}dongpingwong/`}>Dong-Ping Wong</Link> &amp; <Link href={dpw_media}>Associates</Link> for the creation of this database on the aforementioned <Link href="https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview">BIPOC Studios Google Doc</Link>.
+          All credit for this page goes to <Link href={`https://instagram.com/dongpingwong/`}>Dong-Ping Wong</Link> &amp; <Link href="https://instagram.com/p/CBEpwOgJcaM">Associates</Link> for the creation of this database on the aforementioned <Link href="https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview">BIPOC Studios Google Doc</Link>.
           This page is merely intended to make 
         </CardContent.Text>
       <br/>
@@ -117,7 +110,7 @@ function BIPOCStudios() {
               <Card.Body>
                 {hiring_positions}
                 {data.instagram.map((ig, ig_index) => {
-                  return <Card.Link key={`${instagram_user}${ig_index}`} href={`${instagram_user}${ig}`} text={`@${ig}`} emoji="📸" emoji_name="camera with flash"/>
+                  return <Card.Link key={`instagram_${ig_index}`} href={`https://instagram.com/${ig}`} text={`@${ig}`} emoji="📸" emoji_name="camera with flash"/>
                 })}
                 {link}
               </Card.Body>
@@ -134,7 +127,7 @@ function Canty200BlackCreators() {
     <div>
       <CardContent.Header>Credit</CardContent.Header>
         <CardContent.Text>
-          All credit for this page goes to <Link href="http://www.seancanty.net/">Sean Canty</Link> for the creation of this database through <Link href={`${instagram_user}sean_canty_/`}>Instagram stories </Link> and his <Link href="https://airtable.com/universe/expJajWdokNAa6zqN/200-black-creators?explore=true">Airtable page</Link>.
+          All credit for this page goes to <Link href="http://www.seancanty.net/">Sean Canty</Link> for the creation of this database through <Link href={`https://instagram.com/sean_canty_/`}>Instagram stories </Link> and his <Link href="https://airtable.com/universe/expJajWdokNAa6zqN/200-black-creators?explore=true">Airtable page</Link>.
         </CardContent.Text>
       <br/>
       <CardStack>
@@ -155,7 +148,7 @@ function Canty200BlackCreators() {
                 }
               </Card.Header>
               <Card.Body>
-                <Card.Link href={`${instagram_user}${data.instagram}`} text={`@${data.instagram}`} emoji="📸" emoji_name="camera with flash"/>
+                <Card.Link href={`https://instagram.com/${data.instagram}`} text={`@${data.instagram}`} emoji="📸" emoji_name="camera with flash"/>
                 <Card.Link href={data.website_url} text={data.website_name} emoji_name="globe with meridians" emoji="🌐"/>
               </Card.Body>
             </Card>
