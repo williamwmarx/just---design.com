@@ -53,7 +53,7 @@ export default function Home() {
 
       <Title name="THAT'S ALL IT TAKES." hide_bar={true}/>
 
-      <div id="links">
+      <div style={{paddingTop: "2vh"}}>
         {Index.navigation.map((data, index) => {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (
