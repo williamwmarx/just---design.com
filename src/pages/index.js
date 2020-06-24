@@ -54,22 +54,22 @@ class HomeLink extends React.Component {
     }
   }
 
-  async instagram(link) {
-      if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
+  async handle_link(link) {
+      if (link.includes("mailto:")) {
+        return "mailto:" + encodeURIComponent(link.split("mailto:")[1]);
+      } else if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
           if (link.includes("instagram.com/p/")) {
               let response = await fetch("https://api.instagram.com/oembed/?url=" + link);
               if (response.status === 200) {
                   let result = await response.json();
                   return "instagram://media?id=" + result["media_id"]
               } else {
-                  return link
+                  return encodeURIComponent(link)
               }
           } else if (link.includes("instagram.com/")) {
               let pathname = new URL(link).pathname.split("/")[1];
               return "instagram://user?username=" + pathname;
           }
-      } else {
-          return link
       }
   }
 
@@ -77,8 +77,8 @@ class HomeLink extends React.Component {
       this.setState({ href: this.props.href })
       if (this.props.href) {
           if (this.props.href.toLowerCase().includes("instagram")) {
-              this.instagram(this.props.href).then((result) => this.setState({ href: result }))
-          }
+            this.handle_link(this.props.href).then((result) => this.setState({ href: result }))
+          } 
       }
   }
   
