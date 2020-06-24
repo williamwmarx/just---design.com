@@ -1,11 +1,9 @@
 import React from "react";
-import Emoji from "../components/Emoji.js"
 import ResourcesData from "../../content/resources.json"
 import "../sass/main.sass";
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
-import Link from "../components/Link.js";
 
 export default class Resources extends React.Component {
   constructor(props) {
@@ -25,44 +23,45 @@ export default class Resources extends React.Component {
   render() {
     return (
       <CardContent title="RESOURCES.">
-        <CardContent.Header>Select Resource Type</CardContent.Header>
+        <CardContent.Header>Select Text Type</CardContent.Header>
         <div className="menu">
           <select value={this.state.value} onChange={this.handleChange}>
-            {Object.keys(ResourcesData).map((key, source_index) => {
+            {Object.keys(ResourcesData).sort().map((obj, idx) => {
               return (
-                <option key={`content_item_${source_index}`} value={ResourcesData[key]["name"]}>
-                  {ResourcesData[key]["name"]}
+                <option key={`option_${idx}`} value={Object.keys(ResourcesData)[idx]}>
+                  {Object.keys(ResourcesData)[idx]}
                 </option>
               );
             })}
           </select>
         </div>
 
-        {
-          this.state.value === "Architecture" && 
-          <div>
-            <CardContent.Header>Key</CardContent.Header>
-            <CardContent.Text>Something</CardContent.Text>
-            <br/>
-          </div>
-        }
-
         <CardStack ref={this.cardstackRef}>
-          {ResourcesData[this.state.value].data.map((data, index) => {
-              return (
-                <Card key={`card_${index}`}>
-                  {/* <Card.Header>
-                    <Card.Tags>{emoji_tag}</Card.Tags>
-                    <Card.Title>{data.title}</Card.Title>
-                  </Card.Header>
-                  <Card.Body>
-                    <Card.Text>{data.summary}</Card.Text>
-                    <Card.Link href={data.source_link} text="Sign this petition" emoji="✍️" emoji_name="writing hand"/>
-                  </Card.Body> */}
-                </Card>
-              );
-            })
-          }
+          {ResourcesData[this.state.value].sort().map((data, index) => {
+            return (
+              <Card key={`card_${index}`}>
+                <Card.Header>
+                  <Card.Title>{data.title}</Card.Title>
+                  <Card.Subtitle>
+                    {data.authors.map((author, a_idx) => {                  
+                      return <span key={`author_${a_idx}`}>{(a_idx > 0) && <span>&nbsp;and&nbsp;</span>}<Card.Author href={author.link}>{author.name}</Card.Author></span>
+                    })}
+                  </Card.Subtitle>
+                </Card.Header>
+                <Card.Body>
+                  {
+                    data.summary &&
+                    <Card.Text>
+                      {data.summary}
+                      {data.summary_source && <Card.Subtext href={data.summary_source_link}><br/>Summary c/o {data.summary_source}</Card.Subtext>}
+                    </Card.Text>
+                  }
+                  {this.state.value === "Grants/Funding" && <Card.Link href={data.source_link} text="Get more information" emoji_name="money with wings" emoji="💸"/>}
+                  {this.state.value === "Entourage" && <Card.Link href={data.source_link} text="See the entourage" emoji_name="smiling face with sunglasses" emoji="😎"/>}
+                </Card.Body>
+              </Card>
+            );
+          })}
         </CardStack>
       </CardContent>
     )

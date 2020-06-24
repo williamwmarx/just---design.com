@@ -903,7 +903,8 @@
         {
             "title": "Toward What Justice?: Describing Diverse Dreams of Justice in Education",
             "source_link": null,
-            "authors": [{
+            "authors": [
+                {
                     "name": "Eve Tuck",
                     "link": "http://www.evetuck.com/bio"
                 },
@@ -918,6 +919,169 @@
             "taken_from": "SPACE/RACE Reading List",
             "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
             "tag": "Pedagogy and Resistance"
+        },
+        {
+            "title": "Black Landscapes Matter",
+            "source_link": "http://groundupjournal.org/black-landscapes-matter",
+            "authors": [
+                {
+                    "name": "Kofi Boone",
+                    "link": "https://www.instagram.com/kofiboone/"
+                }
+            ],
+            "summary": "An exploration of the Black Lives Matter movement and its relation to landscape architecture",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Protest"
+        },
+        {
+            "title": "Co-Designing Black Neighborhood Heritage Conservation",
+            "source_link": "https://www.blackspace.org/neighborhood-projects",
+            "authors": [
+                {
+                    "name": "BlackSpace",
+                    "link": "https://www.blackspace.org/"
+                }, {
+                    "name": "Made in Brownsville",
+                    "link": "https://www.youthdesigncenter.org/"
+                }
+            ],
+            "summary": "BlackSpace is co-developing a heritage conservation effort with Brownsvillians centered around Black culture and space. The effort is focused on documenting, conserving and amplifying Black culture in Brownsville.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Conservation"
+        },
+        {
+            "title": "What Does It Mean to Decolonize Design?",
+            "source_link": "https://eyeondesign.aiga.org/what-does-it-mean-to-decolonize-design/",
+            "authors": [
+                {
+                    "name": "Anoushka Khandwala",
+                    "link": "https://www.instagram.com/anoushkakhandwala/"
+                }
+            ],
+            "summary": "Dismantling design history 101",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Decolonization"
+        },
+        {
+            "title": "Why Can’t the U.S. Decolonize Its Design Education?",
+            "source_link": "https://eyeondesign.aiga.org/why-cant-the-u-s-decolonize-its-design-education/",
+            "authors": [
+                {
+                    "name": "Margaret Andersen",
+                    "link": "https://www.instagram.com/magpieandersen/"
+                }
+            ],
+            "summary": "What truly diverse + inclusive international programs can teach Americans",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "The Planner's Beginner Guide to the #BlackLivesMatter Movement",
+            "source_link": "https://www.blackandurban.com/social-urbanism/2020/6/5/the-planners-beginner-guide-to-the-blacklivesmatter-movement",
+            "authors": [
+                {
+                    "name": "Danielle Dirksen",
+                    "link": "https://www.instagram.com/dani.d_98/"
+                }
+            ],
+            "summary": "This compilation of resources is meant to be a starter guide for those looking to educate themselves on the #BLM Movement. This document was compiled solely by myself, Danielle Dirksen, from outside sources and does not necessarily reflect on the views of METRANS Transportation Center or its partners.  I do not claim creation of any materials listed.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "Everyday Urban Planning Vocab/Theory for the Anti-Racist",
+            "source_link": "https://www.instagram.com/p/CBPGKEMHxoP/",
+            "authors": [
+                {
+                    "name": "Savanna Lim",
+                    "link": "https://www.instagram.com/sarvarnah/"
+                }
+            ],
+            "summary": "So you wanna have *the* conversation? Struggling to understand how systematic discrimination has worked in the past? Just want to expand your scope of planning knowledge? Here are some terms and theories specifically related to urban planning I’ve learned about that have helped me understand this country’s racist past.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "Design Thinking is a Rebrand for White Supremacy",
+            "source_link": "https://medium.com/@dabuzon/design-thinking-is-a-rebrand-for-white-supremacy-b3d31aa55831",
+            "authors": [
+                {
+                    "name": "Darin Buzon",
+                    "link": "https://darinbuzon.info/"
+                }
+            ],
+            "summary": "How the Current State of Design is Simply a Digitally Updated Status Quo",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "Dismantling White Supremacy Culture Within AIGA",
+            "source_link": "https://medium.com/@george_aye/decolonizing-aiga-a6cc8fb8692e",
+            "authors": [
+                {
+                    "name": "George Aye",
+                    "link": "http://greatergoodstudio.com/team/"
+                }
+            ],
+            "summary": "The American Institute of Graphic Arts, known as “the professional association for design”, dropped their longhand name and went with the acronym AIGA. But with longstanding issues of diversity, equity, and inclusion within the organization, patterns of fragility that perpetuate white supremacy culture and the silencing and erasure of Black voices and labor, I think we should check what the ‘A’ in AIGA stands for.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "Design Leadership: Now What?",
+            "source_link": "https://medium.com/@jenniferrittner/design-leadership-now-what-f57a5a21b168",
+            "authors": [
+                {
+                    "name": "Jennifer Rittner",
+                    "link": "https://productsofdesign.sva.edu/faculty/jen-rittner"
+                }
+            ],
+            "summary": "Leaders in the design community have expressed their desire to work toward equity within our industry, posting across social media the #BLM hashtag and affirming their support for inclusion. At the same time, many of them are asking, “what can we do next?”",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": ""
+        },
+        {
+            "title": "Black Vernacular: Architecture as Cultural Practice.?",
+            "source_link": "https://drive.google.com/file/d/12ddjOH1Kj6fVT0YDSNd-_ZwL4qTmBLo4/view?usp=sharing",
+            "authors": [
+                {
+                    "name": "bell hooks",
+                    "link": "http://www.bellhooksinstitute.com/#/about"
+                }
+            ],
+            "summary": "A consideration on the politics of black vernacular architecture",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Design Justice Library '20",
+            "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
+            "tag": ""
         }
     ],
     "Statements": [
@@ -935,222 +1099,356 @@
         {
             "title": "To Architects and Designers Leading the Industry",
             "source_link": "https://www.instagram.com/p/CA-WwKFJwcE/",
-            "authors": [{
-                "name": "",
-                "link": ""
-            }],
-            "summary": "",
+            "authors": [],
+            "summary": "A necessary statement about systemic racism in architecture and design. It feels wrong to summarize this text, please just read it.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Notes from a Black woman in architecture/design",
+            "source_link": "https://www.instagram.com/p/CBEsz1BJ-cY/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Melisa",
+                "link": "https://www.instagram.com/blackarc.design/"
             }],
-            "summary": "",
+            "summary": "On the current state of architecture/design and the need for dialog regarding bottom-up solutoins.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "America’s Cities Were Designed to Oppress",
+            "source_link": "https://www.bloomberg.com/news/articles/2020-06-03/how-to-design-justice-into-america-s-cities",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Bryan Lee Jr.",
+                "link": "https://www.instagram.com/bcleejr/"
             }],
-            "summary": "",
+            "summary": "Architects and planners have an obligation to protect health, safety and welfare through the spaces we design. As the George Floyd protests reveal, we’ve failed.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "What a Black Interior Designer Wants from the Interior Design Industry and Design",
+            "source_link": "https://www.instagram.com/p/CBLxhqYhW6g/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Carmeon Hamilton",
+                "link": "https://www.instagram.com/carmeon.hamilton/"
             }],
-            "summary": "",
+            "summary": "Five changes, each clear, concise and tangible, that must take place.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Unbuilding Racism",
+            "source_link": "https://medium.com/@designingjustice/unbuilding-racism-7eaf657be62a",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Designing Justice + Designing Spaces",
+                "link": "https://medium.com/@designingjustice"
             }],
-            "summary": "",
+            "summary": "Three steps towards an architecture of liberation.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "‘Safe Streets’ Are Not Safe for Black Lives",
+            "source_link": "https://www.bloomberg.com/news/articles/2020-06-08/-safe-streets-are-not-safe-for-black-lives",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Destiny Thomas",
+                "link": "https://twitter.com/DrDesThePlanner"
             }],
-            "summary": "",
+            "summary": "A transportation planner warns pedestrian-friendly street redesigns that happen without diverse public input can end up harming the communities they serve",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Design Justice Action Items",
+            "source_link": "https://www.instagram.com/tv/CBBgRGOAmH5/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Germane David",
+                "link": "https://germanebarnes.com/"
             }],
-            "summary": "",
+            "summary": "A short IGTV video on actionable items for architects and architecture-program administrators",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Urblandia: “Architecture and the Social Justice Narrative”",
+            "source_link": "https://open.spotify.com/episode/1u4GzreeVMsZnTUmKeajX0?t=0",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Germane David",
+                "link": "https://germanebarnes.com/"
             }],
-            "summary": "",
+            "summary": "A conversation about the current state of the architectural design profession and its institutional and educational biases.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Land loss has plagued black America since emancipation – is it time to look again at ‘black commons’ and collective ownership?",
+            "source_link": "https://theconversation.com/land-loss-has-plagued-black-america-since-emancipation-is-it-time-to-look-again-at-black-commons-and-collective-ownership-140514",
             "authors": [{
-                "name": "",
-                "link": ""
-            }],
-            "summary": "",
+                "name": "Julian Agyeman",
+                "link": "https://julianagyeman.com/"
+            }, {
+                "name": "Kofi Boone",
+                "link": "https://www.instagram.com/kofiboone/"
+            }
+            ],
+            "summary": "“Underlying the recent unrest sweeping U.S. cities over police brutality is a fundamental inequity in wealth, land and power that has circumscribed black lives since the end of slavery in the U.S.”...",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Lamcast: “Kofi Boone on BLM’s Challenge to Landscape Architecture”",
+            "source_link": "https://landscapearchitecturemagazine.org/2020/06/04/lamcast-kofi-boone-on-blms-challenge-to-landscape-architecture/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Kofi Boone",
+                "link": "https://www.instagram.com/kofiboone/"
             }],
-            "summary": "",
+            "summary": "In this interview, Boone discusses his writing and lectures on the Black Lives Matter movement’s intersection with African American landscapes, some of which have been resurfacing amid protests over the recent police-involved murders of George Floyd, Ahmaud Arbery, Breonna Taylor, and other black people.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Racism is built into U.S. cities. Here’s how architects can fight back",
+            "source_link": "https://www.fastcompany.com/90512407/racism-is-built-into-u-s-cities-heres-how-architects-can-fight-back",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Kimberly Dowdell",
+                "link": "https://www.instagram.com/knd7112/"
             }],
-            "summary": "",
+            "summary": "Police brutality and the coronavirus pandemic are two health crises that disproportionately impact black Americans. Architects, who take an oath to protect the “health, safety, and welfare” of the public, must be part of the solution.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "The Institute of Black Imagination podcast: Episode 2",
+            "source_link": "https://podcasts.apple.com/us/podcast/e2-dr-mabel-o-wilson-architect-and-scholar/id1516680750?i=1000477051166",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Mabel O. Wilson",
+                "link": "https://www.instagram.com/studio_and/"
             }],
-            "summary": "",
+            "summary": "Podcast discussing Mabel's backgorund, advice for architecture students, systemic racism in design and the radical change needed to fix this.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Architects, Designers and Planners: #BlackLivesMatter and You Must Speak Up!",
+            "source_link": "https://www.azuremagazine.com/article/architects-designers-and-planners-blacklivesmatter-and-you-must-speak-up/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Michael Ford",
+                "link": "https://www.instagram.com/thehiphoparchitect/"
             }],
-            "summary": "",
+            "summary": "Michael Ford calls on architects to respond to the continued, unprovoked and senseless murders of Black people in public spaces.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "NOMA’s Public Statement Regarding Racial Injustice",
+            "source_link": "https://noma.net/nomas-public-statement-regarding-racial-injustice-2020-may-31/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "NOMA",
+                "link": "https://noma.net/"
             }],
-            "summary": "",
+            "summary": "A call to NOMA's members and the broader professional community to condemn racism and take an active role in eliminating the racial biases that account for a myriad of social, economic, and health disparities, and most importantly, result in the loss of human lives – Black lives.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Balancing Act: Pascale Sablan on Advocacy and Action",
+            "source_link": "https://www.architecturalrecord.com/articles/14680-balancing-act-pascale-sablan-on-advocacy-and-action",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Pascale Sablan",
+                "link": "https://www.instagram.com/pascalesablan/"
             }],
-            "summary": "",
+            "summary": "A profile of Pascale Sablan, her work, her mission and what's needed.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Black Lives Matter is Not a Design Challenge.",
+            "source_link": "https://medium.com/design-toast/black-lives-matter-is-not-a-design-challenge-f6e452ff7821",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Schessa Garbutt",
+                "link": "https://www.instagram.com/the_schessa/"
             }],
-            "summary": "",
+            "summary": "“Black Lives Matter is not a design challenge. George Floyd is not a portrait exercise. You are not the next Shepard Fairey. This moment is not about you.”",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Blackout — Amplifying the Voices of Blackness Within Architecture",
+            "source_link": "https://www.architecturalrecord.com/articles/14674-opinion-blackout-amplifying-the-voices-of-blackness-within-architecture",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Sekou Cooke",
+                "link": "http://www.sekoucooke.com/"
             }],
-            "summary": "",
+            "summary": "Architect and educator Sekou Cooke considers the role of the profession in confronting historically entrenched racism and violence in the U.S.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "Stepping Up: Tiffany Brown on Leadership and Opportunity",
+            "source_link": "https://www.architecturalrecord.com/articles/14681-stepping-up-tiffany-brown-on-leadership-and-opportunity",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Tiffany Brown",
+                "link": "https://www.tiffanybrowndetroit.com/"
             }],
-            "summary": "",
+            "summary": "Commentary on statements vs. action and the necessary paths forward.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
         },
         {
-            "title": "",
-            "source_link": "",
+            "title": "To White and Non-Black People of Color Designers",
+            "source_link": "https://www.instagram.com/p/CBRKBxmji0r/",
             "authors": [{
-                "name": "",
-                "link": ""
+                "name": "Vanessa Newman",
+                "link": "https://www.instagram.com/fiveboi/"
             }],
-            "summary": "",
+            "summary": "“If you have not or are not actively decolonizing your design practive think critically about your desires and intentions before offering pro bono services to Black people”...",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        }
+    ],
+    "Books": [
+        {
+            "title": "Black Landscapes Matter",
+            "source_link": "https://www.upress.virginia.edu/title/5389",
+            "authors": [
+                {
+                    "name": "Walter Hood",
+                    "link": "http://www.hooddesignstudio.com/team"
+                }, {
+                    "name": "Grace Mitchell Tada",
+                    "link": "http://www.gracemitchelltada.com/"
+                }
+            ],
+            "summary": "The question “Do black landscapes matter?” cuts deep to the core of American history. From the plantations of slavery to contemporary segregated cities, from freedman villages to northern migrations for freedom, the nation’s landscape bears the detritus of diverse origins...",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "",
+            "free": false
         },
         {
-            "title": "",
-            "source_link": "",
-            "authors": [{
-                "name": "",
-                "link": ""
-            }],
-            "summary": "",
+            "title": "Black Towns, Black Futures: The Enduring Allure of a Black Place in the American West",
+            "source_link": "https://bookshop.org/books/black-towns-black-futures-the-enduring-allure-of-a-black-place-in-the-american-west/9781469653976",
+            "authors": [
+                {
+                    "name": "Karla Slocum",
+                    "link": "https://anthropology.unc.edu/person/karla-slocum/"
+                }
+            ],
+            "summary": "Giving us a complex window into Black town and rural life, Slocum ultimately makes the case that these communities are places for affirming, building, and dreaming of Black community success even as they contend with the sometimes marginality of Black and rural America.",
+            "summary_source": null,
+            "summary_source_link": null,
             "taken_from": "Anti-racism Design Resources",
-            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "",
+            "free": false
+        },
+        {
+            "title": "The House That Race Built: Original Essays by Toni Morrison, Angela Y. Davis, Cornel West, and Others on Black Americans and Politics in America",
+            "source_link": "https://bookshop.org/books/the-house-that-race-built-original-essays-by-toni-morrison-angela-y-davis-cornel-west-and-others-on-black-americans-and-politics-in-america/9780679760689",
+            "authors": [
+                {
+                    "name": "Wahneema Lubiano",
+                    "link": "https://aaas.duke.edu/people/wahneema-h-lubiano"
+                }
+            ],
+            "summary": "In these essays, brought together by the scholar Wahneema Lubiano, some of today's most respected intellectuals share their ideas on race, power, gender, and society",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "",
+            "free": false
+        },
+        {
+            "title": "The Aesthetics of Equity: Notes on Race, Space, Architecture, and Music",
+            "source_link": "https://bookshop.org/books/the-aesthetics-of-equity-notes-on-race-space-architecture-and-music/9780816646616",
+            "authors": [
+                {
+                    "name": "Craig L Wilkins",
+                    "link": "https://taubmancollege.umich.edu/faculty/directory/craig-wilkins"
+                }
+            ],
+            "summary": "Wilkins states that the discipline of architecture has a resistance to African Americans at every level, from the startlingly small number of architecture students to the paltry number of registered architects in the United States today",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "",
+            "free": false
+        },
+        {
+            "title": "Black Power: The Politics of Liberation in America",
+            "source_link": "https://drive.google.com/file/d/1mhP0DxE77ntg0y9E6mh2qWeV8QjjPW0L/view?usp=sharing",
+            "authors": [
+                {
+                    "name": "Kwame Ture",
+                    "link": "https://www.britannica.com/biography/Stokely-Carmichael"
+                }, {
+                    "name": "Charles V. Hamilton",
+                    "link": "https://en.wikipedia.org/wiki/Charles_V._Hamilton"
+                }
+            ],
+            "summary": "A detailed report of the deep systemic racism present in the US and a framework for progress",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Design Justice Library '20",
+            "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
+            "tag": "",
+            "free": true
+        },
+        {
+            "title": "East Harlem Triangle Plan",
+            "source_link": "https://drive.google.com/file/d/1eP6e5niL4KVQG5DMzTVYLl4bYvKM-2E7/view?usp=sharing",
+            "authors": [
+                {
+                    "name": "Architects' Renewal Committee in Harlem",
+                    "link": "https://www.nowwhat-architexx.org/articles/2018/11/27/architects-renewal-committee-in-harlem-arch#:~:text=The%20Architect's%20Renewal%20Committee%20in,new%20executive%20director%20in%201968"
+                }
+            ],
+            "summary": "A detailed report of the deep systemic racism present in the US and a framework for progress",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Design Justice Library '20",
+            "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
+            "tag": "",
+            "free": true
+        },
+        {
+            "title": "Justice in Place",
+            "source_link": "https://drive.google.com/file/d/1eP6e5niL4KVQG5DMzTVYLl4bYvKM-2E7/view?usp=sharing",
+            "authors": [
+                {
+                    "name": "Columbia GSAPP Urban Design",
+                    "link": "https://www.arch.columbia.edu/programs/9-m-s-architecture-and-urban-design"
+                }
+            ],
+            "summary": "Design for Equity in the Hudson Valley",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Design Justice Library '20",
+            "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
+            "tag": "",
+            "free": true
+        },
+        {
+            "title": "The Cornel West Reader",
+            "source_link": "https://drive.google.com/file/d/1gm21RbdMMK7QAtj6nSYlP_ztYSD7cToJ/view?usp=sharing",
+            "authors": [
+                {
+                    "name": "Cornel West",
+                    "link": "http://www.cornelwest.com/bio.html"
+                }
+            ],
+            "summary": "The Cornel West Reader traces the development of West's extraordinary career as academic, public intellectual, and activist. In his essays, articles, books, and interviews, West emerges as America's social conscience, urging attention to complicated issues of racial and economic justice, sexuality and gender, history and politics.",
+            "summary_source": "GoodReads",
+            "summary_source_link": "https://www.goodreads.com/book/show/221862.The_Cornel_West_Reader",
+            "taken_from": "Design Justice Library '20",
+            "taken_from_link": "https://drive.google.com/drive/folders/1F16RUA_YsRMYYbZCoWcIbAk_sjOuNFvj",
+            "tag": "",
+            "free": true
         }
     ]
 }

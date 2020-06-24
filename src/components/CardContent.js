@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "./Head.js";
 import Title from "./Title.js";
+import "../sass/main.sass";
 
 let header_style = {
     margin: "0 0 0.5em 0", 

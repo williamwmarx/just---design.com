@@ -1,7 +1,66 @@
 {
-    "architecture": {
-        "name": "Architecture",
-        "data": [
-        ]
-    }
+    "Grants/Funding": [
+        {
+            "title": "NOMA Foundation Fellowship",
+            "source_link": "https://noma.net/noma-foundation-fellowship/",
+            "authors": [{
+                "name": "NOMA",
+                "link": "https://noma.net/"
+            }],
+            "summary": "5 cities, 25 fellowships. 12 week paid internship with housing stipend and $1000 licensure stipend.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "Kaleidoscope Black Realities Grant",
+            "source_link": "https://www.kaleidoscope.fund/grant/black-realities-grant",
+            "authors": [{
+                "name": "Kaleidoscope",
+                "link": "https://www.kaleidoscope.fund/"
+            }],
+            "summary": "A monthly cash prize to media projects that explore the varied conditions, experiences, feelings, and range of humanity of the Black global community",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        }
+    ],
+    "Entourage": [
+        {
+            "title": "BLK IMG",
+            "source_link": "https://black-img.com/Cut-outs",
+            "authors": [{
+                "name": "Kordae Jatafa Henry",
+                "link": "https://www.instagram.com/jatafa/"
+            }, {
+                "name": "Rose Mary Florian",
+                "link": "https://www.instagram.com/rose_____f"
+            }],
+            "summary": "Black people as entourage – “If the power of an image lies in how one perceives oneself through that same image, then this perception shapes the way we idealize our futures. In this constant state of flux, our images become a revival for the under-represented and under-acknowledged; Reminders of the space we have claimed for ourselves to model a future that celebrates and uplifts us. We believe in the power of creating our own imagery to explore the design of multiple idealized futures. In an effort to reclaim our narrative we celebrate the invisibles with the representation of black and brown bodies through our digital catalog of over 350 cutouts from all over the world. We believe in the power of creating our own imagery through a collaborative process that uncovers hidden ideas capable of creating unlimited frontiers.”",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "Kaleidoscope",
+            "source_link": "https://kaleidoscope-arch.tumblr.com/",
+            "authors": [],
+            "summary": "Kaleidoscope challenges the dominance of gendernormativity, ableism and race-blindness in architectural drawings by diversifying the population of represented peoples in renderings. Choosing to include underrepresented people in drawings not only reflects reality, but also actively imagines a more just, inclusive, and pluralistic society.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "Nonscandinavia",
+            "source_link": "http://www.nonscandinavia.com/originals",
+            "authors": [],
+            "summary": "Scandinavia is great, but other places are too....",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        },
+        {
+            "title": "Escalalatina",
+            "source_link": "https://www.escalalatina.com/todos/",
+            "authors": [],
+            "summary": "“Escalalatina are the people who represent us. After a great difficulty finding local people for their graphic representations, and tired of having to use – foreign gourds- in their renders, a group of young Latino architects, inspired by SKALGUBBAR (by Teodor JE) , we created  Escalalatina, a growing collection of cuts of Latin Americans.”",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+        }
+    ]
 }

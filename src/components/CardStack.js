@@ -21,7 +21,7 @@ export default class CardStack extends React.Component {
             if (card_height > max_height) max_height = card_height;
         }
         if (window.innerWidth < 1100) {
-            average_height = total_height/1.95;
+            average_height = total_height/2;
         } else {
             average_height = total_height/3;
         }

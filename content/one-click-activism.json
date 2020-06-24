@@ -1,329 +1,424 @@
 {
-    "petitions": {
-        "name": "Petitions",
-        "data": [
-            {
-                "title": "Federally Required Psychological Screenings for Police Employment and Federal Reforms",
-                "source_link": "http://chng.it/TP7q88f4gZ",
-                "summary": "Introduce legislation requiring police officers to go through psychological screening every six months to one year.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Justice for Breonna Taylor",
-                "source_link": "http://chng.it/rdTnkSxPR7",
-                "summary": "File charges against Breonna Taylor's murderers, pay damages for her wrongful death to her family, appoint a special prosecutor to the case, enact federal legislation ending 'no-knock' warrants.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for David McAtee",
-                "source_link": "http://chng.it/YbRzyjfYzz",
-                "summary": "Identify and arrest the LMPD murderer who killed David McAtee.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Ahmaud Arbery: Pass Georgia Hate Crime Bill",
-                "source_link": "http://chng.it/mxVRGzmjDv",
-                "summary": "Enact House Bill 426, placing enhanced penalties for hate crimes in the state of Georgia.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Reopen Sandra Bland's Case",
-                "source_link": "http://chng.it/tKTnmb2TQt",
-                "summary": "Reopen the case into Sandra Bland's death and the jail conditions that led to it.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Commute Willie Simmons's Sentence",
-                "source_link": "http://chng.it/NHNG7XxCKp",
-                "summary": "Demand for Alabama Governor Kay Ivey to commute the sentance of Willie Simmons, who has spent the last 38 years in prison for stealing $9.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Alejandro Vargas Martinez",
-                "source_link": "http://chng.it/ZDJRdF6Mpw",
-                "summary": "Raise awareness around the death of Alejandro Vargas Martinez, an innocent 15 year old who was shot 7 times, with no arrests yet made.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Tete Gulley",
-                "source_link": "http://chng.it/rzK7pRyyy8",
-                "summary": "Demand the state medical examiner to release the autopsy paperwork to Tete’s family and the public and hold the Portland Police Bureau accountable for failure to investigate Tete's death.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Dismiss the charges on Marshae Jones and charge the one who shot her and her unborn baby",
-                "source_link": "http://chng.it/W8cW8sZrBX",
-                "summary": "Demand justice for Marshae Jones, who was shot while pregnant and charged with her unborn child's murder while the shooter walks free with no charges.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Drop All Charges Against Incarcerated Trafficking Survivor Chrystul Kizer!",
-                "source_link": "http://chng.it/RCzCzNLDsR",
-                "summary": "Dismiss charges against Chrystul Kizer, an incarcerated trafficking survivor who is being charged with life in prison for acting in self-defense against her trafficker.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Julius Jones is innocent. Don't let him be executed by the state of Oklahoma.",
-                "source_link": "http://chng.it/Lx9xc6HRRk",
-                "summary": "Pressure the state of Oklahoma to not execute Julius Jones, who was convicted of murder at 19 in a trial featuring explicit racial bias.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Reopen Kendrick Johnson's Case",
-                "source_link": "http://chng.it/XRKDcR5xHW",
-                "summary": "Reopen the case of Kendrick Johnson, an honor-roll student-athlete who was killed by a jealous classmate whose F.B.I.-agent-father helped obfuscate evidence of his son's involvement in said murder.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice For Emerald Black",
-                "source_link": "http://chng.it/2LLcRxKWfL",
-                "summary": "Demand justice for Emerald Black, a pregnant black woman, who upon being pulled over by police, was thrown to the ground by one officer while another stomped on her stomach, killing her unborn child.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Dion Johnson",
-                "source_link": "http://chng.it/2Z44mwJ5nY",
-                "summary": "Demand justice for Dion Johnson, who was shot and killed by police while unarmed and sleeping in his car.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Amir Worship",
-                "source_link": "http://chng.it/BGnzMcTRsG",
-                "summary": "Demand justice for Amir Worship, a 12 year old who was shot by police while sitting in his bed at home, after just having woken up",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Desmond Franklin",
-                "source_link": "http://chng.it/Q9tFX8yNYy",
-                "summary": "Demand justice for Desmond Franklin, a father of four, who was shot and killed by an off-duty police officer while stopped at a red light. The cop who shot him remains uncharged and is on paid leave.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for the death of Joel Acevedo by off duty MPD Officer Michael Mattioli",
-                "source_link": "http://chng.it/KdBDKMNy8j",
-                "summary": "Demand the immediate firing and arrest of the police officer who choked Joel Acevedo to death after inviting him to his house for a get-together.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Charge the Hennepin County Medical Examiner for minimizing George Floyd's C.O.D.",
-                "source_link": "http://chng.it/VL6V7gyRM4",
-                "summary": "Bring charges against the medical examiner who attempted to falsely misattribute George Floyd's death to heart disease, making it easier for Floyd's murderers to get off uncharged.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice For Joāo Pedro",
-                "source_link": "http://chng.it/hRQ7dgkN7t",
-                "summary": "Demand justice for Joāo Pedro, who was killed in his home by Rio de Janeiro police. In 2019 alone, Rio police killed 1,814 people; an all time record.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Matthew Tucker",
-                "source_link": "http://chng.it/MRBHPjxjRB",
-                "summary": "Demand the firing of Michael Hamilton of the Riverside County Police Department, shot and killed Matthew Tucker after he called police because he was having suicidal thoughts.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Abolish Prison Labour in the USA",
-                "source_link": "http://chng.it/d5YR6HLQyT",
-                "summary": "Under the 13th Amendment, slavery was abolished, except for those convicted of a crime. Now, prisoners in the US are used for labor by private corporations, while getting paid between 12 and 40 cents an hour.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Petition to Governor Brian Kemp to remove Rockdale County Sheriff Eric J. Levett",
-                "source_link": "http://chng.it/7ftTVwQbXh",
-                "summary": "Demand the removal of Rockdale County Sheriff Eric J. Levett who oversaw the blatant human rights violations leaidng to the death of Shali Tilson.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Elijah McClain",
-                "source_link": "http://chng.it/mRZwRV6Rpz",
-                "summary": "Demand justice for Elijah McClain who was killed by police while walking home after going to the convenience store to buy tea.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Children don't belong in cages",
-                "source_link": "http://chng.it/YrvhCDJTXN",
-                "summary": "End long-term, indefinite detention of immigrant children",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Demand Justice for Darren Rainey",
-                "source_link": "http://chng.it/hK8x89KzrR",
-                "summary": "Demand justice for Darren Rainey, who was killed by prison guards while in jail for a non-violent offense by being locked in an intentionally scalding hot shower for two hours.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Amiya Braxton",
-                "source_link": "http://chng.it/nQLvSwjB9X",
-                "summary": "Demand justice for Amiya Braxton, a 7 year old who was killed in her own driveway, after stepping off the school bus, by a driver who swerved off the road and onto her property.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Ban the use of inhumane rubber bullets",
-                "source_link": "http://chng.it/m4q8YXwp6v",
-                "summary": "Ban the use of rubber bullets, an incredibly damaging and potentially lethal form of weaponry being used by police against peaceful protesters.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Make racially motivated crime an act of terror and declare hate groups terrorist",
-                "source_link": "http://chng.it/SFQy27tG2s",
-                "summary": "A proposal to consider enacting legislation that labels hate crimes as acts of terror, declares hate groups as domestic terrorist organizations and requires law enforcement officers who kill civilians in the line of duty to be immediately taken into custody.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Justice For Amari Boone",
-                "source_link": "http://chng.it/K6drFNBqrf",
-                "summary": "Demand justice for Amari Boone, a three year old who was killed as a result of child abuse. No charges have been made.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Tamir Rice",
-                "source_link": "http://chng.it/YwcdL9n78j",
-                "summary": "Demand justice for Tamir Rice, who was killed by police at 12 years old.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "STOP ICE FROM POISONING IMMIGRANTS!",
-                "source_link": "http://chng.it/dN6vDqgVmz",
-                "summary": "ICE has been spraying immigrants with HDQ NEUTRAL 100 times a day, a germicidal detergent that causes skin irritation and serious eye damage.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Fire Jared Yuen #4362",
-                "source_link": "https://www.thepetitionsite.com/707/191/811/fire-jared-yuen-4362/",
-                "summary": "Fire Jared Yuen, the San Jose Police Officer who incited violence yelling \"shut up bitch\" and \"let's go motherfucker\" at peaceful protesters while fitted in police military gear.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Justice for Big Floyd",
-                "source_link": "https://www.justiceforbigfloyd.com/#petition",
-                "summary": "Demand justice for George \"Big\" Floyd, who was murdered by police after his neck was kneeled on for 8 minutes and 46 seconds.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Stop the war and end the famine in Yemen",
-                "source_link": "http://chng.it/zphqPGPhDF",
-                "summary": "Protest against the war in Yemen, where 2000 children monthly starve to death or die from preventable disease as a result of this needless conflict.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Awareness"
-            },
-            {
-                "title": "Justice for Darrien Hunt - Reopen his case",
-                "source_link": "http://chng.it/KhmPzbHj97",
-                "summary": "Reopen the case into the killing of Darrien Hunt, who was murdered by police who claim to have felt threatened by the 22 year as he was cosplaying an anime character, carrying a fake plastic sword.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "Change KKK status into Terrorist Organization",
-                "source_link": "http://chng.it/fTnqgsbQdS",
-                "summary": "Introduce legislation officially labeling the KKK a terrorist organization because that's what it is.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "5 months is too long for no charges. Cameron Lamb's family deserves justice.",
-                "source_link": "http://chng.it/NkcsZsgSXH",
-                "summary": "File charges against the police officers who murdered Cameron Lamb in his own driveway.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            },
-            {
-                "title": "PETITION TO TAKE DOWN ALL STATUES OF SLAVE TRADERS IN THE UK",
-                "source_link": "http://chng.it/p5q9PYVmDB",
-                "summary": "Remove all statues of slave traders in the UK",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Legislation"
-            },
-            {
-                "title": "Reopen the investigation of LaVena Johnson's death",
-                "source_link": "http://chng.it/LMRQ8KWw2D",
-                "summary": "Demand the case of US Army Private LaVena Johnson's death to be reopened after it was ruled a suicide, despite pleniful evidence of rape and murder.",
-                "taken_from": null,
-                "taken_from_link": null,
-                "tag": "Justice"
-            }
-        ]
-    },
-    "emails": {
-        "name": "Emails",
-        "data": [
-            {
-                "title": "Terminate contract with the Boston Police Department",
-                "location": "Boston",
-                "source_link": "mailto:william@marx.design"
-            }
-        ]
-    }
+    "Petitions": [
+        {
+            "title": "Federally Required Psychological Screenings for Police Employment and Federal Reforms",
+            "source_link": "http://chng.it/TP7q88f4gZ",
+            "summary": "Introduce legislation requiring police officers to go through psychological screening every six months to one year.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Justice for Breonna Taylor",
+            "source_link": "http://chng.it/rdTnkSxPR7",
+            "summary": "File charges against Breonna Taylor's murderers, pay damages for her wrongful death to her family, appoint a special prosecutor to the case, enact federal legislation ending 'no-knock' warrants.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for David McAtee",
+            "source_link": "http://chng.it/YbRzyjfYzz",
+            "summary": "Identify and arrest the LMPD murderer who killed David McAtee.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Ahmaud Arbery: Pass Georgia Hate Crime Bill",
+            "source_link": "http://chng.it/mxVRGzmjDv",
+            "summary": "Enact House Bill 426, placing enhanced penalties for hate crimes in the state of Georgia.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Reopen Sandra Bland's Case",
+            "source_link": "http://chng.it/tKTnmb2TQt",
+            "summary": "Reopen the case into Sandra Bland's death and the jail conditions that led to it.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Commute Willie Simmons's Sentence",
+            "source_link": "http://chng.it/NHNG7XxCKp",
+            "summary": "Demand for Alabama Governor Kay Ivey to commute the sentance of Willie Simmons, who has spent the last 38 years in prison for stealing $9.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Alejandro Vargas Martinez",
+            "source_link": "http://chng.it/ZDJRdF6Mpw",
+            "summary": "Raise awareness around the death of Alejandro Vargas Martinez, an innocent 15 year old who was shot 7 times, with no arrests yet made.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Tete Gulley",
+            "source_link": "http://chng.it/rzK7pRyyy8",
+            "summary": "Demand the state medical examiner to release the autopsy paperwork to Tete’s family and the public and hold the Portland Police Bureau accountable for failure to investigate Tete's death.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Dismiss the charges on Marshae Jones and charge the one who shot her and her unborn baby",
+            "source_link": "http://chng.it/W8cW8sZrBX",
+            "summary": "Demand justice for Marshae Jones, who was shot while pregnant and charged with her unborn child's murder while the shooter walks free with no charges.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Drop All Charges Against Incarcerated Trafficking Survivor Chrystul Kizer!",
+            "source_link": "http://chng.it/RCzCzNLDsR",
+            "summary": "Dismiss charges against Chrystul Kizer, an incarcerated trafficking survivor who is being charged with life in prison for acting in self-defense against her trafficker.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Julius Jones is innocent. Don't let him be executed by the state of Oklahoma.",
+            "source_link": "http://chng.it/Lx9xc6HRRk",
+            "summary": "Pressure the state of Oklahoma to not execute Julius Jones, who was convicted of murder at 19 in a trial featuring explicit racial bias.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Reopen Kendrick Johnson's Case",
+            "source_link": "http://chng.it/XRKDcR5xHW",
+            "summary": "Reopen the case of Kendrick Johnson, an honor-roll student-athlete who was killed by a jealous classmate whose F.B.I.-agent-father helped obfuscate evidence of his son's involvement in said murder.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice For Emerald Black",
+            "source_link": "http://chng.it/2LLcRxKWfL",
+            "summary": "Demand justice for Emerald Black, a pregnant black woman, who upon being pulled over by police, was thrown to the ground by one officer while another stomped on her stomach, killing her unborn child.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Dion Johnson",
+            "source_link": "http://chng.it/2Z44mwJ5nY",
+            "summary": "Demand justice for Dion Johnson, who was shot and killed by police while unarmed and sleeping in his car.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Amir Worship",
+            "source_link": "http://chng.it/BGnzMcTRsG",
+            "summary": "Demand justice for Amir Worship, a 12 year old who was shot by police while sitting in his bed at home, after just having woken up",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Desmond Franklin",
+            "source_link": "http://chng.it/Q9tFX8yNYy",
+            "summary": "Demand justice for Desmond Franklin, a father of four, who was shot and killed by an off-duty police officer while stopped at a red light. The cop who shot him remains uncharged and is on paid leave.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for the death of Joel Acevedo by off duty MPD Officer Michael Mattioli",
+            "source_link": "http://chng.it/KdBDKMNy8j",
+            "summary": "Demand the immediate firing and arrest of the police officer who choked Joel Acevedo to death after inviting him to his house for a get-together.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Charge the Hennepin County Medical Examiner for minimizing George Floyd's C.O.D.",
+            "source_link": "http://chng.it/VL6V7gyRM4",
+            "summary": "Bring charges against the medical examiner who attempted to falsely misattribute George Floyd's death to heart disease, making it easier for Floyd's murderers to get off uncharged.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice For Joāo Pedro",
+            "source_link": "http://chng.it/hRQ7dgkN7t",
+            "summary": "Demand justice for Joāo Pedro, who was killed in his home by Rio de Janeiro police. In 2019 alone, Rio police killed 1,814 people; an all time record.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Matthew Tucker",
+            "source_link": "http://chng.it/MRBHPjxjRB",
+            "summary": "Demand the firing of Michael Hamilton of the Riverside County Police Department, shot and killed Matthew Tucker after he called police because he was having suicidal thoughts.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Abolish Prison Labour in the USA",
+            "source_link": "http://chng.it/d5YR6HLQyT",
+            "summary": "Under the 13th Amendment, slavery was abolished, except for those convicted of a crime. Now, prisoners in the US are used for labor by private corporations, while getting paid between 12 and 40 cents an hour.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Petition to Governor Brian Kemp to remove Rockdale County Sheriff Eric J. Levett",
+            "source_link": "http://chng.it/7ftTVwQbXh",
+            "summary": "Demand the removal of Rockdale County Sheriff Eric J. Levett who oversaw the blatant human rights violations leaidng to the death of Shali Tilson.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Elijah McClain",
+            "source_link": "http://chng.it/mRZwRV6Rpz",
+            "summary": "Demand justice for Elijah McClain who was killed by police while walking home after going to the convenience store to buy tea.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Children don't belong in cages",
+            "source_link": "http://chng.it/YrvhCDJTXN",
+            "summary": "End long-term, indefinite detention of immigrant children",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Demand Justice for Darren Rainey",
+            "source_link": "http://chng.it/hK8x89KzrR",
+            "summary": "Demand justice for Darren Rainey, who was killed by prison guards while in jail for a non-violent offense by being locked in an intentionally scalding hot shower for two hours.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Amiya Braxton",
+            "source_link": "http://chng.it/nQLvSwjB9X",
+            "summary": "Demand justice for Amiya Braxton, a 7 year old who was killed in her own driveway, after stepping off the school bus, by a driver who swerved off the road and onto her property.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Ban the use of inhumane rubber bullets",
+            "source_link": "http://chng.it/m4q8YXwp6v",
+            "summary": "Ban the use of rubber bullets, an incredibly damaging and potentially lethal form of weaponry being used by police against peaceful protesters.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Make racially motivated crime an act of terror and declare hate groups terrorist",
+            "source_link": "http://chng.it/SFQy27tG2s",
+            "summary": "A proposal to consider enacting legislation that labels hate crimes as acts of terror, declares hate groups as domestic terrorist organizations and requires law enforcement officers who kill civilians in the line of duty to be immediately taken into custody.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Justice For Amari Boone",
+            "source_link": "http://chng.it/K6drFNBqrf",
+            "summary": "Demand justice for Amari Boone, a three year old who was killed as a result of child abuse. No charges have been made.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Tamir Rice",
+            "source_link": "http://chng.it/YwcdL9n78j",
+            "summary": "Demand justice for Tamir Rice, who was killed by police at 12 years old.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "STOP ICE FROM POISONING IMMIGRANTS!",
+            "source_link": "http://chng.it/dN6vDqgVmz",
+            "summary": "ICE has been spraying immigrants with HDQ NEUTRAL 100 times a day, a germicidal detergent that causes skin irritation and serious eye damage.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Fire Jared Yuen #4362",
+            "source_link": "https://www.thepetitionsite.com/707/191/811/fire-jared-yuen-4362/",
+            "summary": "Fire Jared Yuen, the San Jose Police Officer who incited violence yelling \"shut up bitch\" and \"let's go motherfucker\" at peaceful protesters while fitted in police military gear.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Justice for Big Floyd",
+            "source_link": "https://www.justiceforbigfloyd.com/#petition",
+            "summary": "Demand justice for George \"Big\" Floyd, who was murdered by police after his neck was kneeled on for 8 minutes and 46 seconds.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Stop the war and end the famine in Yemen",
+            "source_link": "http://chng.it/zphqPGPhDF",
+            "summary": "Protest against the war in Yemen, where 2000 children monthly starve to death or die from preventable disease as a result of this needless conflict.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Awareness"
+        },
+        {
+            "title": "Justice for Darrien Hunt - Reopen his case",
+            "source_link": "http://chng.it/KhmPzbHj97",
+            "summary": "Reopen the case into the killing of Darrien Hunt, who was murdered by police who claim to have felt threatened by the 22 year as he was cosplaying an anime character, carrying a fake plastic sword.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Change KKK status into Terrorist Organization",
+            "source_link": "http://chng.it/fTnqgsbQdS",
+            "summary": "Introduce legislation officially labeling the KKK a terrorist organization because that's what it is.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "5 months is too long for no charges. Cameron Lamb's family deserves justice.",
+            "source_link": "http://chng.it/NkcsZsgSXH",
+            "summary": "File charges against the police officers who murdered Cameron Lamb in his own driveway.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "PETITION TO TAKE DOWN ALL STATUES OF SLAVE TRADERS IN THE UK",
+            "source_link": "http://chng.it/p5q9PYVmDB",
+            "summary": "Remove all statues of slave traders in the UK",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Legislation"
+        },
+        {
+            "title": "Reopen the investigation of LaVena Johnson's death",
+            "source_link": "http://chng.it/LMRQ8KWw2D",
+            "summary": "Demand the case of US Army Private LaVena Johnson's death to be reopened after it was ruled a suicide, despite pleniful evidence of rape and murder.",
+            "taken_from": null,
+            "taken_from_link": null,
+            "tag": "Justice"
+        },
+        {
+            "title": "Notes on Credibility",
+            "source_link": "https://notesoncredibility.cargo.site/",
+            "summary": "A statement from the African American Student Union (AASU) and AfricaGSD to the administration of the Harvard Graduate School of Design",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Open Letter to the YSoA in Support of BLM",
+            "source_link": "https://blmysoa.cargo.site/",
+            "summary": "The YSoA must commit to engage its community and allocate its resources to affect systemic change with humility, transparency, and specificity. The following demands represent the collective voice of more than one hundred YSoA Alumni who met on Sunday, June 7th, and the many alumni who have co-signed, to reckon with our past and envision a progressive future for the school",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "UVA Students, Alums, Faculty: A-School Call to Action",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLScUs2UV4hYn_Hq-WdgAVhYP736hv5PhzTPdCGjqqaUvjWDd2Q/viewform",
+            "summary": "As you may have seen, last week Dean Ila Berman released a Message to the Community in regards to the killing of George Floyd. In response to this Message, a group of A-School students and alumni wrote a letter expressing a vital Call for Action.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "A Letter to the University of Toronto’s John H. Daniels Faculty of Architecture, Landscape, & Design (DFALD)",
+            "source_link": "https://mail.danielsdobetter.com/",
+            "summary": "On Dismantling Systemic Anti-Black Racism",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Sign the NOMAS@VT Statement On Racism",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLSdZpXytLhpEzVn4d4jpGYXN-5HRV5cvNOok4KQm5ct6-nAD3w/viewform",
+            "summary": "A condemnation of any and every form of racism that lives within the College of Architecture and Urban Studies at Virginia Tech and a set of demands to the college",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Rice School of Architecture Call to Action Co-Signees",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLSe0PyFsJuLzZvV0ev-JzDB3x-SI2EPn5f5zp_CgRrREYROPDg/viewform",
+            "summary": "Commentary on the current state of the Rice School of Architectre as well as a list of changes to be met",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Stuart Weitzman School of Design Letter Co-Signees",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLScepQVCUfhfZyRz8rizD0_WH-RV3_33j92_q65iWeYMMjOzqQ/viewform",
+            "summary": "“We call upon the administrative leadership of the School of Design to pursue immediate action across all departments towards dismantling the destructive biases and inequity which persists within our institution. We have outlined an initial fourteen recommendations for immediate action”",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Design Justice Actions for Taubman College",
+            "source_link": "https://designjusticeactions.cargo.site/",
+            "summary": "A statement from the students, student organizations, and alumni of University of Michigan Taubman College to Taubman Leadership and Faculty...",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        },
+        {
+            "title": "Design Justice for Black Lives Demands",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLSctUpDLNUXPvqVHutG-3wYMTcCLkOKYzIW3d6_4Tm4lBOUouA/viewform",
+            "summary": "Our obligation to each other, to the built environment, and in solidarity with black lives is to hold all complicit actors in these systems accountable, including organizations, schools, industry leaders, and legislative bodies. Design professions are as complicit as any. In accordance with our values and in defense of black lives, we demand the following...",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Architecture/Design"
+        }
+    ],
+    "Emails": [
+        {
+            "title": "Terminate contract with the Boston Police Department",
+            "source_link": "mailto:william@marx.design",
+            "summary": "some summary",
+            "taken_from": "something",
+            "taken_from_link": "taken fromasdfja",
+            "tag": "Boston"
+        }
+    ],
+    "More than One Click": [
+        {
+            "title": "Design As Protest",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLSfR_-ldhui-McI0_4CPOlZ40A5q-tphjTpJCrplkXTZtsmpdg/viewform",
+            "summary": "If you are interested in further engagement and support of DAP Actions, please review the Action Campaigns below and sign up to join our calls and begin supporting the rollout of that Action. Expected commitment is at least 1-2 (1hr) organizing calls per week and weekly independent work on your own schedule.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": null
+        },
+        {
+            "title": "Architecture is Complicit",
+            "source_link": "https://docs.google.com/forms/d/e/1FAIpQLSecfZRE7IbEHAb_s9Vsx1jyav3h00iSXtDsl9y4PYXPoIUuGA/viewform",
+            "summary": "First read the statement, if it resonates with you, click “Join Us” in the upper left-hand corner.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": null
+        },
+        {
+            "title": "Where Are the Black Designers?",
+            "source_link": "https://www.instagram.com/wherearetheblackdesigners/",
+            "summary": "Black designers: DM your poster asking, “Where are the Black designers?”,  to their Instagram; they will post every poster up until June 27th. Include the company you'd like them to @. Head over now to see instructions and examples.",
+            "taken_from": "Anti-racism Design Resources",
+            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": null
+        }
+    ]
 }

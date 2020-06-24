@@ -13,7 +13,7 @@ export default class Readings extends React.Component {
     this.cardstackRef = React.createRef();
     this.handleChange = this.handleChange.bind(this);
     this.state = {
-      value: Object.keys(ReadingsData)[0]
+      value: Object.keys(ReadingsData).sort()[0]
     };
   }
 
@@ -28,7 +28,7 @@ export default class Readings extends React.Component {
         <CardContent.Header>Select Text Type</CardContent.Header>
         <div className="menu">
           <select value={this.state.value} onChange={this.handleChange}>
-            {Object.keys(ReadingsData).map((obj, idx) => {
+            {Object.keys(ReadingsData).sort().map((obj, idx) => {
               return (
                 <option key={`option_${idx}`} value={Object.keys(ReadingsData)[idx]}>
                   {Object.keys(ReadingsData)[idx]}
@@ -45,11 +45,8 @@ export default class Readings extends React.Component {
                 <Card.Header>
                   <Card.Title>{data.title}</Card.Title>
                   <Card.Subtitle>
-                    {data.authors.map((author, a_index) => {
-                      let author_name = "";
-                      if (a_index === 0) author_name = <Card.Author key={`author_${a_index}`} href={author.link}>{author.name}</Card.Author>                        
-                      else if (a_index > 0) author_name = <span>&nbsp;and&nbsp;<Card.Author key={`author_${a_index}`} href={author.link}>{author.name}</Card.Author></span>
-                      return author_name;
+                    {data.authors.map((author, a_idx) => {                  
+                      return <span key={`author_${a_idx}`}>{(a_idx > 0) && <span>&nbsp;and&nbsp;</span>}<Card.Author href={author.link}>{author.name}</Card.Author></span>
                     })}
                   </Card.Subtitle>
                 </Card.Header>
@@ -61,9 +58,9 @@ export default class Readings extends React.Component {
                       {data.summary_source && <Card.Subtext href={data.summary_source_link}><br/>Summary c/o {data.summary_source}</Card.Subtext>}
                     </Card.Text>
                   }
-                  {this.state.value === "Statements" && <Card.Link href={data.source_link} text="Read this statement" emoji_name="memo" emoji="📝"/>}
+                  {this.state.value === "Statements" && <Card.Link href={data.source_link} text="View this statement" emoji_name="memo" emoji="📝"/>}
                   {this.state.value === "Essays" && <Card.Link href={data.source_link} text="Read this essay" emoji_name="page facing up" emoji="📄"/>}
-                  {this.state.value === "Book" && <Card.Link href={data.source_link} text="Read this book" emoji_name="stack of books" emoji="📚"/>}
+                  {this.state.value === "Books" && <Card.Link href={data.source_link} text="Read this book" emoji_name="stack of books" emoji="📚"/>}
                   {this.state.value === "Manifestos" && <Card.Link href={data.source_link} text="Read this manifesto" emoji_name="red textbook" emoji="📕"/>}
                 </Card.Body>
               </Card>
