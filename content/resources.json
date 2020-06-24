@@ -67,8 +67,32 @@
             "source_link": "https://www.gobotree.com/",
             "authors": [],
             "summary": "Gobotree is a web-based digital content library serving the needs of architects, 3d visualisers, VFX studios, game designers, matte painters and other creative professionals.",
-            "taken_from": "Anti-racism Design Resources",
-            "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub"
+            "taken_from": null,
+            "taken_from_link": null
+        },
+        {
+            "title": "Mr. Cutout",
+            "source_link": "https://www.mrcutout.com/",
+            "authors": [],
+            "summary": "A good image collection with a diverse range of people, and a free daily MB limit, past which you need to pay",
+            "taken_from": "Nonscandanavia",
+            "taken_from_link": "http://www.nonscandinavia.com/about"
+        },
+        {
+            "title": "Juan Carlos Ramos",
+            "source_link": "https://juancarlosramos.org/free-stuff/",
+            "authors": [],
+            "summary": "A small, but high-res collection of diverse people",
+            "taken_from": "Nonscandanavia",
+            "taken_from_link": "http://www.nonscandinavia.com/about"
+        },
+        {
+            "title": "SketchUp Texture",
+            "source_link": "https://www.sketchuptexture.com/search/label/CUT%20OUT%20PEOPLE",
+            "authors": [],
+            "summary": "A small, but high-res collection of diverse people",
+            "taken_from": "Nonscandanavia",
+            "taken_from_link": "Lots of free cutout packages based loosely around geography; pretty \"stock\" looking people, but a large selection"
         }
     ]
 }

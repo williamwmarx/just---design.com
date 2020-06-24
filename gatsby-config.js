@@ -26,12 +26,12 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
-          options: {
-            custom: {
-              families: ["OfficeCodeProD, OfficeCodeProDItalic, OfficeCodeProDThin, OfficeCodeProDThinItalic, OfficeCodeProDMedium, OfficeCodeProDMediumItalic, OfficeCodeProDBold, OfficeCodeProDBoldItalic, TheNeueBlack"],
-              urls: ["/fonts/fonts.css"],
-            },
-          },
+      options: {
+        custom: {
+          families: ["VTCCarrie, OfficeCodeProDMedium, OfficeCodeProDMediumItalic, Poppins, PoppinsMedium, PoppinsBold"],
+          urls: ["/fonts/fonts.css"]
+        }
+      }
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
