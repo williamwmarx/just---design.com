@@ -1,4 +1,9 @@
 @font-face {
+    font-family: "VTCCarrie";
+    src: url("VTCCarrie-Regular.woff2");
+}
+
+@font-face {
     font-family: "OfficeCodeProDMedium";
     src: url("OfficeCodeProD-Medium.woff2");
 }
@@ -21,10 +26,4 @@
 @font-face {
     font-family: "PoppinsBold";
     src: url("Poppins-Bold.ttf");
-}
-
-@font-face {
-    font-family: "VTCCarrie";
-    font-weight: normal;
-    src: url("VTCCarrie-Regular.woff2");
 }
