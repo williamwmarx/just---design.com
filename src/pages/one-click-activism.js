@@ -67,6 +67,7 @@ export default class OneClickActivism extends React.Component {
                     {(data.tag === "Legislation") && legislation_emoji}
                     {(data.tag === "Architecture/Design") && arch_emoji}
                     {(data.tag === "Awareness") && awareness_emoji}
+                    {(data.tag.startsWith("Text")) && data.tag}
                   </Card.Tags>
                   <Card.Title>{data.title}</Card.Title>
                 </Card.Header>
@@ -83,6 +84,10 @@ export default class OneClickActivism extends React.Component {
                   {
                     this.state.value === "More than One Click" && 
                     <Card.Link href={data.source_link} text="Put in the work" emoji="🔩" emoji_name="nut and bolt"/>
+                  }
+                  {
+                    this.state.value === "Texts" && 
+                    <Card.Link href={data.source_link} text="Send the text" emoji="📲" emoji_name="phone with arrow"/>
                   }
                 </Card.Body>
               </Card>
