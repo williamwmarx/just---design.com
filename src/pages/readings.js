@@ -58,7 +58,7 @@ export default class Readings extends React.Component {
                     </Card.Text>
                   }
                   {this.state.value === "Statements" && <Card.Link href={data.source_link} text="View this statement" emoji_name="memo" emoji="📝"/>}
-                  {this.state.value === "Essays" && <Card.Link href={data.source_link} text="Read this essay" emoji_name="page facing up" emoji="📄"/>}
+                  {this.state.value === "Papers" && <Card.Link href={data.source_link} text="Read this paper" emoji_name="page facing up" emoji="📄"/>}
                   {this.state.value === "Books" && data.free === true && <Card.Link href={data.source_link} text="Read this book" emoji_name="stack of books" emoji="📚"/>}
                   {this.state.value === "Books" && data.free !== true && <Card.Link href={data.source_link} text="Buy this book" emoji_name="stack of books" emoji="💰"/>}
                   {this.state.value === "Manifestos" && <Card.Link href={data.source_link} text="Read this manifesto" emoji_name="red textbook" emoji="📕"/>}

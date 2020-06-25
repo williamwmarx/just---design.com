@@ -64,19 +64,21 @@ class HomeLink extends React.Component {
                   let result = await response.json();
                   return "instagram://media?id=" + result["media_id"]
               } else {
-                  return encodeURIComponent(link)
+                  return link
               }
           } else if (link.includes("instagram.com/")) {
               let pathname = new URL(link).pathname.split("/")[1];
               return "instagram://user?username=" + pathname;
           }
+      } else {
+        return link
       }
   }
 
   componentDidMount() {
       this.setState({ href: this.props.href })
       if (this.props.href) {
-          if (this.props.href.toLowerCase().includes("instagram")) {
+          if (this.props.href.toLowerCase().includes("instagram") || this.props.href.toLowerCase().includes("mailto:")) {
             this.handle_link(this.props.href).then((result) => this.setState({ href: result }))
           } 
       }
@@ -98,7 +100,6 @@ export default function Home() {
   return (
     <div className="root">
       <Head title="JUST DESIGN. THAT'S ALL IT TAKES."/>
-
       <Title name="THAT'S ALL IT TAKES." hide_bar={true}/>
 
       <div style={{paddingTop: "2vh"}}>
