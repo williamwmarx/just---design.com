@@ -122,20 +122,6 @@
             "tag": "Decoloniality + Decolonization"
         },
         {
-            "title": "#StandingRockSyllabus",
-            "source_link": "https://nycstandswithstandingrock.files.wordpress.com/2016/10/standingrocksyllabus7.pdf",
-            "authors": [{
-                "name": "NYC Stands for Standing Rock Committee",
-                "lnk": "https://nycstandswithstandingrock.wordpress.com/about/"
-            }],
-            "summary": "This syllabus project contributes to the already substantial work of the Sacred Stones Camp, Red Warrior Camp, and the Oceti Sakowin Camp to resist the construction of the Dakota Access Pipeline, which threatens traditional and treaty-guaranteed Great Sioux Nation territory",
-            "summary_source": "NYC Stands with Standing Rock",
-            "summary_source_link": "https://nycstandswithstandingrock.wordpress.com/standingrocksyllabus/",
-            "taken_from": "SPACE/RACE Reading List",
-            "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail",
-            "tag": "Decoloniality + Decolonization"
-        },
-        {
             "title": "A Letter to my Nephew",
             "source_link": "https://progressive.org/magazine/letter-nephew/",
             "authors": [{
@@ -793,6 +779,20 @@
             "summary_source_link": null,
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
+            "tag": "Anti-Racism"
+        },
+        {
+            "title": "97 Things White People Can Do for Racial Justice",
+            "source_link": "https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234",
+            "authors": [{
+                "name": "Corinne Shutack",
+                "link": "https://medium.com/@cshutack"
+            }],
+            "summary": "Considerations on the state of architecture and the components that it ecompasses, all arranged in an acrostic.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Ways You Can Help",
+            "taken_from_link": "https://blacklivesmatters.carrd.co/#educate",
             "tag": "Anti-Racism"
         }
     ],

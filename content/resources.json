@@ -93,6 +93,529 @@
             "summary": "A small, but high-res collection of diverse people",
             "taken_from": "Nonscandanavia",
             "taken_from_link": "Lots of free cutout packages based loosely around geography; pretty \"stock\" looking people, but a large selection"
+        },
+        {
+            "title": "ALL MONUMENTS MUST FALL: A SYLLABUS",
+            "source_link": "https://www.ianalanpaul.com/wp-content/uploads/2017/08/AllMonumentsMustFall_Syllabus.pdf",
+            "authors": [],
+            "summary": "A crowd-sourced assemblage of materials relating to Confederate and other racist monuments to white supremacy; the history and theory of these monuments and monuments in general; and monument struggles worldwide",
+            "taken_from": null,
+            "taken_from_link": null
+        }
+    ],
+    "Syllabi": [
+        {
+            "title": "Justice in June",
+            "source_link": "https://docs.google.com/document/d/1H-Vxs6jEUByXylMS2BjGH1kQ7mEuZnHpPSs1Bpaqmw0/mobilebasic",
+            "authors": [
+                {
+                    "name": "Autumn Gupta",
+                    "link": "https://www.instagram.com/autumngupta/"
+                },
+                {
+                    "name": "Bryanna Wallace",
+                    "link": "https://www.instagram.com/brybry1217/"
+                }
+            ],
+            "summary": "Choose how much time you have each day to become more informed as step one to becoming an active ally to the black community. On this document are links to the learning resources and a schedule of what to do each day.",
+            "taken_from": "Ways You Can Help",
+            "taken_from_link": "https://blacklivesmatters.carrd.co/#educate"
+        },
+        {
+            "title": "#StandingRockSyllabus",
+            "source_link": "https://nycstandswithstandingrock.files.wordpress.com/2016/10/standingrocksyllabus7.pdf",
+            "authors": [{
+                "name": "NYC Stands for Standing Rock Committee",
+                "link": "https://nycstandswithstandingrock.wordpress.com/about/"
+            }],
+            "summary": "This syllabus project contributes to the already substantial work of the Sacred Stones Camp, Red Warrior Camp, and the Oceti Sakowin Camp to resist the construction of the Dakota Access Pipeline, which threatens traditional and treaty-guaranteed Great Sioux Nation territory",
+            "summary_source": "NYC Stands with Standing Rock",
+            "summary_source_link": "https://nycstandswithstandingrock.wordpress.com/standingrocksyllabus/",
+            "taken_from": "SPACE/RACE Reading List",
+            "taken_from_link": "https://docs.google.com/document/u/1/d/1p2GvScemyghCaQVkA3fDTsjqtprk7CPOryZv5-YUTkk/mobilebasic?usp=gmail"
+        },
+        {
+            "title": "Anti-Racism Resource List",
+            "source_link": "https://docs.google.com/document/d/1S5uckFHCA_XZkxG0Zg5U4GQGbY_RklZARwu43fqJH0E/mobilebasic",
+            "authors": [{
+                "name": "Tiffany Bowden",
+                "link": "https://www.instagram.com/rootedgoddess/"
+            }],
+            "summary": "Diving into the world of anti-racism for the first time can be confronting. It may feel challenging to understand your place and where to begin with educating yourself. Luckily, there are endless resources online to help you learn about anti-racism work, dismantle the unconscious biases that exist within yourself, and take action to create a more just society. This document is a compilation of resources and educators that have and continue to help me.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": null,
+            "taken_from_link": null
+        },
+        {
+            "title": "Anti-racist Packet",
+            "source_link": "https://docs.google.com/document/d/16tuiRYmXO7-O4A52A0oUBy3l5TBgbLifJ7TZIhEJHqY/edit",
+            "authors": [{
+                "name": "Jasmine Mitchell",
+                "link": "https://www.instagram.com/smooth_jas/"
+            }],
+            "summary": "It's time to get to work. Learning about racism is a lifelong process that can be uncomfortable but necessary. Your allyship is very valuable. Thankfully, there are a lot of resources available at your fingertips to learn more. This packet only touches the surface – it will then be YOUR responsibility to continue your education beyond these pages. Our education system has failed to teach us about black history, so we must teach it to ourselves.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": null,
+            "taken_from_link": null
+        }
+    ],
+    "Bookstores": [
+        {
+            "title": "Detroit Book City",
+            "source_link": "https://detroitbookcity.com",
+            "authors": [
+                {
+                    "name": "Detroit, MI",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Mahogany Books",
+            "source_link": "https://mahoganybooks.com",
+            "authors": [
+                {
+                    "name": "Washington, DC",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Uncle Bobbie's",
+            "source_link": "https://unclebobbies.com",
+            "authors": [
+                {
+                    "name": "Philadelphia, PE",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Hakim's Bookstore",
+            "source_link": "https://hakimsbookstore.com",
+            "authors": [
+                {
+                    "name": "Philadelphia, PA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Harriott's Bookshop",
+            "source_link": "https://harriettsbookshop.com",
+            "authors": [
+                {
+                    "name": "Philadelphia, PA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Ashay By the Bay",
+            "source_link": "https://ashaybythebay.com",
+            "authors": [
+                {
+                    "name": "Bay Area, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Marcus Bookstore",
+            "source_link": null,
+            "authors": [
+                {
+                    "name": "Oakland, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Eso Won Books",
+            "source_link": "https://esowonbookstore.com",
+            "authors": [
+                {
+                    "name": "Los Angeles, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Reparations Club",
+            "source_link": "https://rep.club",
+            "authors": [
+                {
+                    "name": "Los Angeles, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "The Lit Bar",
+            "source_link": "https://thelitbar.com",
+            "authors": [
+                {
+                    "name": "Bronx, NY",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Cafe con Libros",
+            "source_link": "https://cafeconlibrosbk.com",
+            "authors": [
+                {
+                    "name": "Brooklyn, NY",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Frugal Bookstore",
+            "source_link": "https://frugalbookstore.net",
+            "authors": [
+                {
+                    "name": "Roxbury, MA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Marcus Bookstore",
+            "source_link": null,
+            "authors": [
+                {
+                    "name": "Oakland, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Reparations Club",
+            "source_link": "https://rep.club",
+            "authors": [
+                {
+                    "name": "Los Angeles, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Malik Books",
+            "source_link": "https://malikbooks.com",
+            "authors": [
+                {
+                    "name": "Los Angeles, CA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Black Pearl Books",
+            "source_link": "https://blackpearlbookstore.com",
+            "authors": [
+                {
+                    "name": "Austin, TX",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Pan-African Connection Bookstore",
+            "source_link": "https://panafricanconnection.com",
+            "authors": [
+                {
+                    "name": "Dallas, TX",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "The Dock Bookshop",
+            "source_link": "https://thedockbookshop.com",
+            "authors": [
+                {
+                    "name": "Ft. Worth, TX",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Fulton Street Books",
+            "source_link": "https://fultonstreet918.com",
+            "authors": [
+                {
+                    "name": "Tulsa, OK",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Eye See Me Books",
+            "source_link": "https://eyeseeme.com",
+            "authors": [
+                {
+                    "name": "University City, MO",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "We Are Lit",
+            "source_link": "https://wearelitgr.com",
+            "authors": [
+                {
+                    "name": "Grand Rapids, MI",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "The Source Bookstore",
+            "source_link": "https://sourcebooksellers.com",
+            "authors": [
+                {
+                    "name": "Detroit, MI",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Black Stone Bookstore",
+            "source_link": "https://blackstonebookstore.com",
+            "authors": [
+                {
+                    "name": "Ypsilanti, MI",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Black & Nobel",
+            "source_link": "https://blackandnobel.com",
+            "authors": [
+                {
+                    "name": "Philadelphia, PA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Source of Knowledge",
+            "source_link": null,
+            "authors": [
+                {
+                    "name": "Newark, NJ",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Sister\u2019s Uptown Bookstore",
+            "source_link": "https://sistersuptownbookstore.com",
+            "authors": [
+                {
+                    "name": "Harlem, NYC",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Playground Annex",
+            "source_link": "https://playground-annex.myshopify.com",
+            "authors": [
+                {
+                    "name": "Brooklyn, NYC",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Sankofa Bookstore",
+            "source_link": "https://events.sankofa.com",
+            "authors": [
+                {
+                    "name": "Washington, DC",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Books and Crannies",
+            "source_link": "https://booksandcranniesva.com",
+            "authors": [
+                {
+                    "name": "Martinsville, VA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Liberation Station",
+            "source_link": "https://liberationstationbokstore.com",
+            "authors": [
+                {
+                    "name": "Durham, NC",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "For Keeps Books",
+            "source_link": "https://forkeepsbooks.com",
+            "authors": [
+                {
+                    "name": "Atlanta,GA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Medu Bookstore",
+            "source_link": "https://medubookstore.com",
+            "authors": [
+                {
+                    "name": "Atlanta, GA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "44th & 3rd Bookseller",
+            "source_link": "https://44thand3rdbookseller.com",
+            "authors": [
+                {
+                    "name": "Atlanta, GA",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Alkebu-Lan Images Bookstore",
+            "source_link": null,
+            "authors": [
+                {
+                    "name": "Nashville, TN",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
+        },
+        {
+            "title": "Kizzy's Books & more",
+            "source_link": "https://kizzysbooksandmore.com",
+            "authors": [
+                {
+                    "name": "Orlando, FL",
+                    "link": null
+                }
+            ],
+            "summary": null,
+            "taken_from": "QUEER MALL",
+            "taken_from_link": "https://www.queermall.online/resources"
         }
     ]
 }

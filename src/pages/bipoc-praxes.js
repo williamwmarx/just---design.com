@@ -86,33 +86,16 @@ function BIPOCStudios() {
               <Card.Header>
                 <Card.Tags>{emoji_html}</Card.Tags>
                 <Card.Title>{data.studio_name}</Card.Title>
-                {
-                  data.type !== [] &&
-                  <Card.Subtitle>
-                    {data.type.map((type, type_index) => {
-                      let t = type;
-                      if (type_index > 0) t = ", " + type
-                      return <span>{t}</span>
-                    })}
-                  </Card.Subtitle>
-                }
-                {
-                  data.location !== [] &&
-                  <Card.Subtitle2>
-                    {data.location.map((location, location_index) => {
-                      let loc = location;
-                      if (location_index > 0) loc = ", " + location
-                      return <span key={`content_item_${location_index}`}>{loc}</span>
-                    })}
-                  </Card.Subtitle2>
-                }
+                {data.type !== [] && <Card.Subtitle>{data.type}</Card.Subtitle>}
+                {data.location !== [] && <Card.Subtitle2>{data.location}</Card.Subtitle2>}
               </Card.Header>
               <Card.Body>
                 {hiring_positions}
-                {data.instagram.map((ig, ig_index) => {
+                {data.instagram && data.instagram.map((ig, ig_index) => {
                   return <Card.Link key={`instagram_${ig_index}`} href={`https://instagram.com/${ig}`} text={`@${ig}`} emoji="📸" emoji_name="camera with flash"/>
                 })}
                 {link}
+                {data.website && <Card.Link href={data.website} text="Go to website" emoji="🌐" emoji_name="globe with meridians"/>}
               </Card.Body>
             </Card>
           );

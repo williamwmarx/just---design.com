@@ -23,7 +23,7 @@ export default class Resources extends React.Component {
   render() {
     return (
       <CardContent title="RESOURCES.">
-        <CardContent.Header>Select Text Type</CardContent.Header>
+        <CardContent.Header>Select Resource Type</CardContent.Header>
         <div className="menu">
           <select value={this.state.value} onChange={this.handleChange}>
             {Object.keys(ResourcesData).sort().map((key, idx) => {
@@ -58,6 +58,8 @@ export default class Resources extends React.Component {
                   }
                   {this.state.value === "Grants/Funding" && <Card.Link href={data.source_link} text="Get more information" emoji_name="money with wings" emoji="💸"/>}
                   {this.state.value === "Entourage" && <Card.Link href={data.source_link} text="Go to entourage" emoji_name="smiling face with sunglasses" emoji="😎"/>}
+                  {this.state.value === "Syllabi" && <Card.Link href={data.source_link} text="See the syllabus" emoji_name="card index dividers" emoji="🗂"/>}
+                  {this.state.value === "Bookstores" && data.source_link && <Card.Link href={data.source_link} text="Go to site" emoji_name="globe with meridians" emoji="🌐"/>}
                 </Card.Body>
               </Card>
             );

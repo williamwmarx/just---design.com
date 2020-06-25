@@ -644,13 +644,141 @@
     ],
     "Emails": [
         {
-            "title": "Terminate contract with the Boston Police Department",
-            "source_link": "mailto:william@marx.design",
-            "summary": "some summary",
-            "taken_from": "something",
-            "taken_from_link": "taken fromasdfja",
-            "tag": "Boston"
-        }
+            "title": "NAACP Email",
+            "source_link": "https://tinyurl.com/NAACPJUSTICE",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email to Stop Police Brutality",
+            "source_link": "https://tinyurl.com/policebrutalitymustgo",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "George Floyd *Full Inbox*",
+            "source_link": "http://tinyurl.com/emailforfloyd/",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for David McAtee",
+            "source_link": "https://tinyurl.com/dmcjustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Breonna Taylor",
+            "source_link": "http://tinyurl.com/ycha6nuu",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for  Tamla Horsford",
+            "source_link": "https://tinyurl.com/tamlahhorsford",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Sandra Bland",
+            "source_link": "https://tinyurl.com/sandrajustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Ahmaud Arbery",
+            "source_link": "https://tinyurl.com/ahmaudemail",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Pamela Turner",
+            "source_link": "https://tinyurl.com/pturnerjustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Tony McDade",
+            "source_link": "https://tinyurl.com/tmcdadejustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Dion Johnson",
+            "source_link": "https://tinyurl.com/justice4djphoenix",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Manuel Ellis",
+            "source_link": "https://tinyurl.com/mellisjustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for James Scurlock",
+            "source_link": "https://tinyurl.com/jamesscur",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Jamel Floyd",
+            "source_link": "https://tinyurl.com/jfloydj",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Sean Monterrosa",
+            "source_link": "https://tinyurl.com/seanmrosa",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email for Desmond Franklin",
+            "source_link": "https://tinyurl.com/franklinjustice",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        },
+        {
+            "title": "Email to Free Julius Jones",
+            "source_link": "https://tinyurl.com/justiceforjj",
+            "summary": null,
+            "taken_from": "Emails for Justice!",
+            "taken_from_link": "https://sayitagain.carrd.co/",
+            "tag": ""
+        }        
     ],
     "Texts": [
         {
@@ -685,7 +813,7 @@
             "summary": "If you are interested in further engagement and support of DAP Actions, please review the Action Campaigns below and sign up to join our calls and begin supporting the rollout of that Action. Expected commitment is at least 1-2 (1hr) organizing calls per week and weekly independent work on your own schedule.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
-            "tag": null
+            "tag": ""
         },
         {
             "title": "Architecture is Complicit",
@@ -693,7 +821,7 @@
             "summary": "First read the statement, if it resonates with you, click “Join Us” in the upper left-hand corner.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
-            "tag": null
+            "tag": ""
         },
         {
             "title": "Where Are the Black Designers?",
@@ -701,7 +829,7 @@
             "summary": "Black designers: DM your poster asking, “Where are the Black designers?”,  to their Instagram; they will post every poster up until June 27th. Include the company you'd like them to @. Head over now to see instructions and examples.",
             "taken_from": "Anti-racism Design Resources",
             "taken_from_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
-            "tag": null
+            "tag": ""
         }
     ]
 }

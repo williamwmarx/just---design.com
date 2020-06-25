@@ -245,6 +245,36 @@
             "taken_from_link": "https://docs.google.com/document/d/1UjJlijTgUPcEQoLtCgaiVnVb4U5psdIj4ftiawPQrKI/mobilebasic",
             "typename": "video",
             "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "Systemic Racism Explained",
+            "source_link": "https://youtu.be/YrHIQIO_bdQ",
+            "creators": [{
+                "name": "act.tv",
+                "link": "https://www.act.tv/"
+            }],
+            "summary": "Systemic racism affects every area of life in the US. From incarceration rates to predatory loans, and trying to solve these problems requires changes in major parts of our system. Here's a closer look at what systemic racism is, and how we can solve it.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Ways You Can Help",
+            "taken_from_link": "https://blacklivesmatters.carrd.co/#educate",
+            "typename": "video",
+            "tag": "Race, Racism, and Racial Capitalism"
+        },
+        {
+            "title": "Roxane Gay, Anna Deavere Smith and Tay Anderson on the protests’ hope and despair",
+            "source_link": "https://www.pbs.org/newshour/show/roxane-gay-anna-deavere-smith-and-tay-anderson-on-the-protests-hope-and-despair",
+            "creators": [{
+                "name": "PBS",
+                "link": "https://www.pbs.org/newshour/"
+            }],
+            "summary": "For analysis of the deeper systemic issues that are underlying the country’s civic unrest, Judy Woodruff talks to Roxane Gay, a noted essayist and author whose work frequently addresses issues of race, identity and privilege; Anna Deavere Smith, award-winning playwright and actor; and Tay Anderson, a Denver school board member and activist who has been leading protests in that city.",
+            "summary_source": null,
+            "summary_source_link": null,
+            "taken_from": "Ways You Can Help",
+            "taken_from_link": "https://blacklivesmatters.carrd.co/#educate",
+            "typename": "video",
+            "tag": "Race, Racism, and Racial Capitalism"
         }
     ]
 }

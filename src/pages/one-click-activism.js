@@ -58,7 +58,7 @@ export default class OneClickActivism extends React.Component {
         }
 
         <CardStack ref={this.cardstackRef}>
-          {OneClickActivismData[this.state.value].sort(function () {return .5 - Math.random();}).map((data, index) => {
+          {OneClickActivismData[this.state.value].sort(function(a, b) {return a.title.localeCompare(b.title);}).map((data, index) => {
             return (
               <Card key={`card_${index}`}>
                 <Card.Header>

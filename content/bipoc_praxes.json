@@ -4,20 +4,57 @@
         "source_link": "https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview",
         "data": [
             {
+                "studio_name": "2dots Space",
+                "instagram": [
+                    "2dots.space"
+                ],
+                "website": null,
+                "location": "Accra, Ghana",
+                "type": "Design",
+                "contact": [
+                    {
+                        "name": "Aaron Yeboah",
+                        "email": "info@2dots.space"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "4RM+ULA",
+                "instagram": [
+                    "4rmula_architects"
+                ],
+                "website": null,
+                "location": "St. Paul, MN",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Shante Timberlake",
+                        "email": "shante@4rmula.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "We anticipate hiring in Q3/Q4 2020 (architecture)",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "AAmp Studio",
                 "instagram": [
                     "aampstudio"
                 ],
-                "location": [
-                    "Toronto",
-                    "Maine",
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design",
-                    "Branding"
-                ],
+                "website": "http://www.aampstudio.com/",
+                "location": "Toronto, Canada, Maine, Los Angeles, CA",
+                "type": "Architecture, Design, Branding",
                 "contact": [
                     {
                         "name": "Anne-Marie Armstrong",
@@ -33,17 +70,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "A\u00c7A",
+                "instagram": [
+                    "aldacapi"
+                ],
+                "website": "https://www.aldacapi.com",
+                "location": "San Francisco, California ",
+                "type": "Architecture, Design",
+                "contact": [
+                    {
+                        "name": "Alda Capi",
+                        "email": "alda@aldacapi.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "ACID, LLC",
                 "instagram": [
                     "acid.llc"
                 ],
-                "location": [
-                    "LA",
-                    "Vancouver"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA, Vancouver, Canada",
+                "type": "Design",
                 "contact": [
                     {
                         "name": "Shun Kinoshita",
@@ -59,25 +114,22 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "AD-WO",
+                "studio_name": "AD\u2014WO",
                 "instagram": [
                     "ad__wo"
                 ],
-                "location": [
-                    "Providence"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": "http://ad-wo.com/",
+                "location": "Providence, Rhode Island",
+                "type": "Architecture, Art, Design",
                 "contact": [
                     {
                         "name": "Emanuel Admassu",
-                        "email": null
+                        "email": "emanuel@ad-wo.com"
                     }
                 ],
                 "black_owned": true,
                 "indigenous_owned": false,
-                "women_owned": false,
+                "women_owned": true,
                 "non_binary_owned": false,
                 "hiring": false,
                 "hiring_positions": null,
@@ -88,14 +140,9 @@
                 "instagram": [
                     "aei.sm"
                 ],
-                "location": [
-                    "Paris",
-                    "London",
-                    "Dublin"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "Paris, France, London, UK, Dublin, Ireland",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -115,14 +162,9 @@
                 "instagram": [
                     "afainadejong"
                 ],
-                "location": [
-                    "Amsterdam"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design",
-                    "Research"
-                ],
+                "website": null,
+                "location": "Amsterdam, The Netherlands",
+                "type": "Architecture, Design, Research",
                 "contact": [
                     {
                         "name": "Afaina de Jong",
@@ -140,13 +182,11 @@
             {
                 "studio_name": "AFROMINIMA",
                 "instagram": [
-                    "afrominima",
-                    "the.da.brand"
+                    "afrominima"
                 ],
-                "location": [
-                    "Lagos"
-                ],
-                "type": [],
+                "website": null,
+                "location": "Lagos, Nigeria",
+                "type": "Industrial Design, Product Design",
                 "contact": [
                     {
                         "name": "Olubunmi Adeyemi",
@@ -158,21 +198,39 @@
                 "women_owned": false,
                 "non_binary_owned": false,
                 "hiring": false,
-                "hiring_positions": "looking for collaborators",
-                "looking_for_collaborators": true
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Afterparti",
+                "instagram": [
+                    "afterpartizine"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Advocacy, Architecture, Association, Editorial, Research",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "afterparti.zine@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
             },
             {
                 "studio_name": "Agency\u2014Agency",
                 "instagram": [
                     "teicarpenter"
                 ],
-                "location": [
-                    "NYC",
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": "https://thinkwilderarchitecture.com/",
+                "location": "NYC, NY, Toronto, Canada",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Tei Carpenter",
@@ -188,16 +246,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Aileen Kwun ",
+                "instagram": [
+                    "aileenkwun"
+                ],
+                "website": "https://www.aileenkwun.com",
+                "location": "New York City, NY",
+                "type": "Consulting, Editorial, Research, Design criticism, Journalism",
+                "contact": [
+                    {
+                        "name": "Aileen Kwun",
+                        "email": "aileenkwun@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Aisha Densmore-Bey",
                 "instagram": [
                     "aishadbdesigner"
                 ],
-                "location": [
-                    "Boston"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Boston, MA",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -217,13 +294,9 @@
                 "instagram": [
                     "actLAB_ao"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Aya Maceda",
@@ -243,12 +316,9 @@
                 "instagram": [
                     "alaska___alaska"
                 ],
-                "location": [
-                    "London"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -268,12 +338,9 @@
                 "instagram": [
                     "alda_ly_architecture"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Alda Ly",
@@ -289,16 +356,33 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Andrade Architecture ",
+                "instagram": [],
+                "website": null,
+                "location": "Kingston, NYC",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Robin Andrade",
+                        "email": "ra@andradearchitecture.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": true,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Angela Belt",
                 "instagram": [
                     "_angelabelt"
                 ],
-                "location": [
-                    "West Hartford"
-                ],
-                "type": [
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "West Hartford, CT",
+                "type": "Interior Design",
                 "contact": [
                     {
                         "name": "Angela Belt",
@@ -314,16 +398,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Anne Quito",
+                "instagram": [
+                    "annequito"
+                ],
+                "website": "https://authory.com/annequito",
+                "location": "Brooklyn, NY",
+                "type": "Editorial, Design criticism / journalism",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "annequito@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Aquilo Interiors",
                 "instagram": [
                     "aquilointeriors"
                 ],
-                "location": [
-                    "Oakland"
-                ],
-                "type": [
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "Oakland, CA",
+                "type": "Interior Design",
                 "contact": [
                     {
                         "name": "Carmen Rene",
@@ -343,12 +446,9 @@
                 "instagram": [
                     "architectureatlarge"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -368,12 +468,9 @@
                 "instagram": [
                     "architensions"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Nick Roseboro",
@@ -389,20 +486,38 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Ariel Claudet",
+                "instagram": [
+                    "arieldigital"
+                ],
+                "website": null,
+                "location": "Paris, France, Rotterdam, The Netherlands",
+                "type": "Architecture, Design, Augmented Reality, Art direction, Art",
+                "contact": [
+                    {
+                        "name": "Ariel Claudet",
+                        "email": "mail@arielclaudet.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "looking for partners",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Ariel Roman",
                 "instagram": [
                     "arielcrisis"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Graphic Design",
-                    "Art Director"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Graphic Design, Art Direction",
                 "contact": [
                     {
-                        "name": "Ariel Roman ",
+                        "name": "Ariel Roman",
                         "email": "hello@arielroman.com"
                     }
                 ],
@@ -415,20 +530,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Asthetique",
+                "instagram": [
+                    "asthetiquegroup"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Atelier Cory Henry",
                 "instagram": [
                     "ateliercoryhenry"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design",
-                    "Research",
-                    "Urban Design",
-                    "Academia"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Design, Research, Urban Design, Academia",
                 "contact": [
                     {
                         "name": "Cory Henry or Semantha Morales",
@@ -444,15 +574,33 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "atelier MIDE",
+                "instagram": [
+                    "atelierMIDE"
+                ],
+                "website": "https://www.ateliermide.com",
+                "location": "Baltimore, Maryland, USA",
+                "type": "Architecture, Art, Art Direction, Design, Interior Design, Urban Design",
+                "contact": [
+                    {
+                        "name": "Mide O. Akinsade",
+                        "email": "Mide.Akinsade@ateliermide.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Aziza Chaouni",
                 "instagram": [],
-                "location": [
-                    "Toronto",
-                    "Fes"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "Toronto, Canada, Fes, Morocco",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -476,14 +624,13 @@
                 "instagram": [
                     "baida.to"
                 ],
-                "location": [],
-                "type": [
-                    "Association"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Association",
                 "contact": [
                     {
                         "name": "Anne-Marie Armstrong",
-                        "email": "https://www.baida.ca/contact"
+                        "email": "www.baida.ca/contact"
                     }
                 ],
                 "black_owned": true,
@@ -495,14 +642,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "BBBBLANC* ",
+                "instagram": [
+                    "bbbblanc.ca"
+                ],
+                "website": "https://www.bbbblanc.com",
+                "location": "St.Catharines, Ontario",
+                "type": "Art Direction, Branding",
+                "contact": [
+                    {
+                        "name": "Chance Mutuku",
+                        "email": "chancemutuku@bbbblanc.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Black Females in Architecture",
                 "instagram": [
                     "blackfemarc"
                 ],
-                "location": [],
-                "type": [
-                    "Association"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Association",
                 "contact": [
                     {
                         "name": null,
@@ -518,17 +686,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "BlackArc",
+                "instagram": [
+                    "BlackArc.Design"
+                ],
+                "website": "https://www.blackarcdesign.com",
+                "location": "Saint Louis, Missouri",
+                "type": "Advocacy, Architecture, Design, Interior Design, Research, Strategy, Urban Design",
+                "contact": [
+                    {
+                        "name": "Melisa Sanders",
+                        "email": "m.sanders@blackarcdesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "BlackSpace",
+                "instagram": [
+                    "blackspaceorg"
+                ],
+                "website": null,
+                "location": "NYC, NY, Oklahoma City, OK, Chicago, IL",
+                "type": "Urban Strategy, Urban Planning, Design, Heritage & Historic Preservation, Arts & Culture",
+                "contact": [
+                    {
+                        "name": "Emma Osore, Kenyatta McLean ",
+                        "email": "contact@blackspace.org "
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "blink!LAB",
                 "instagram": [
                     "blinklabarchitecture"
                 ],
-                "location": [
-                    "Oakland"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urban Design"
-                ],
+                "website": null,
+                "location": "Oakland, CA",
+                "type": "Architecture, Urban Design",
                 "contact": [
                     {
                         "name": "June A Grant, NOMA",
@@ -544,14 +752,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Boschulte Architecture LLC",
+                "instagram": [
+                    "boschulte.architecture"
+                ],
+                "website": "https://www.boschulte.com",
+                "location": "St. Thomas, U.S. Virgin Islands",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Jeffrey Boschulte",
+                        "email": "info@boschulte.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "CAD/BIM Technicians",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Branding Chicks",
                 "instagram": [
                     "realbrandingchicks"
                 ],
-                "location": [],
-                "type": [
-                    "Branding"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Branding",
                 "contact": [
                     {
                         "name": null,
@@ -571,13 +800,9 @@
                 "instagram": [
                     "brandt_haferd"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Jerome Haferd",
@@ -593,16 +818,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "BRIDGEGOOD",
+                "instagram": [
+                    "bridgegoodcom"
+                ],
+                "website": null,
+                "location": "Oakland, CA",
+                "type": "Design, UX/UI, Nonprofit",
+                "contact": [
+                    {
+                        "name": "Chelsea Seabron",
+                        "email": "support@bridgegood.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Looking to assist student Creatives of color",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Ca-Che",
                 "instagram": [
                     "cachetoronto"
                 ],
-                "location": [
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -618,16 +862,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Cain Interiors & Construction ",
+                "instagram": [
+                    "Caininteriors"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture,Design/Build,Interior Design, Furniture Design, Landscape Design  ",
+                "contact": [
+                    {
+                        "name": "Cain@caininteriors.com",
+                        "email": "Cain Calderon Leon"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Carson Chan",
+                "instagram": [
+                    "chan.carson"
+                ],
+                "website": "https://www.carsonchan.net",
+                "location": "Berlin, Germany",
+                "type": "Editorial, Research, Architecture curator",
+                "contact": [
+                    {
+                        "name": "Carson Chan",
+                        "email": "carson@programonline.de"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Chicago Design Office",
                 "instagram": [
                     "aneeshadharwadker"
                 ],
-                "location": [
-                    "Chicago"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Chicago, IL",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -643,16 +928,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Chicago Mobile Makers",
+                "instagram": [
+                    "chicagomobilemakers"
+                ],
+                "website": null,
+                "location": "Chicago, IL",
+                "type": "Youth Design Education",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "info@chicagomobilemakers.org"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Program Facilitator",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Chioco Design",
                 "instagram": [
                     "Chioco_design"
                 ],
-                "location": [
-                    "Austin"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Austin, TX",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -668,19 +972,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "City Design Studio LLC",
+                "instagram": [
+                    "citydesignstudio"
+                ],
+                "website": "http://www.citydesign-studio.com/",
+                "location": "Los Angeles, CA",
+                "type": "Advocacy, Architecture, Consulting, Design, Editorial, Research, Urban Design, Urban Planning",
+                "contact": [
+                    {
+                        "name": "Farooq Ameen",
+                        "email": "Urbanist@CityDesign-Studio.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Urban Designer",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Collective Operations",
+                "instagram": [
+                    "collectiveoperations"
+                ],
+                "website": null,
+                "location": "San Francisco, CA",
+                "type": "Architecture, Urban Design, Development",
+                "contact": [
+                    {
+                        "name": "Alex Yuen",
+                        "email": "ayuen@co-operations.org"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Designer",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Current Interests",
                 "instagram": [
                     "current__interests"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design",
-                    "Research",
-                    "Academic"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Design Research, Academic",
                 "contact": [
                     {
                         "name": "Mira Henry + Matthew Au",
@@ -696,16 +1038,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Cut Works Architecture Limited",
+                "instagram": [
+                    "cutworksja"
+                ],
+                "website": null,
+                "location": "Kingston, Jamaica",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "David Cuthbert",
+                        "email": "hello@cutworksja.com or cutworksja@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "DAS.ltd",
                 "instagram": [
                     "devang_"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Devang Arvind Shah",
@@ -725,13 +1086,9 @@
                 "instagram": [
                     "dashmarshall"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Strategy"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Strategy",
                 "contact": [
                     {
                         "name": "Amy Yang",
@@ -747,14 +1104,55 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Design Advocates",
+                "instagram": [],
+                "website": "design-advocates.org",
+                "location": null,
+                "type": null,
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Pro bono design services in response to COVID",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Design Stories Ltd",
+                "instagram": [
+                    "design__stories"
+                ],
+                "website": null,
+                "location": "Clerkenwell, London",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": "Murude Katipoglu",
+                        "email": "murude@studiodesignstories.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Designers for Justice",
                 "instagram": [
                     "designforjustice"
                 ],
-                "location": [],
-                "type": [
-                    "Association"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Association",
                 "contact": [
                     {
                         "name": null,
@@ -770,20 +1168,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Destechi",
+                "instagram": [
+                    "detechi_i"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Digital, Product and Service design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "hello@destechi.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Currently looking for freelance and collaborations!",
+                "looking_for_collaborators": true
+            },
+            {
                 "studio_name": "Determined by Design",
                 "instagram": [
-                    "determinedbydesign",
-                    "kianweatherspoon"
+                    "determinedbydesign"
                 ],
-                "location": [
-                    "Washington DC"
-                ],
-                "type": [
-                    "Interior Design",
-                    "Design Equity",
-                    "Affordable/Low Income Housing",
-                    "Small Business Retail"
-                ],
+                "website": null,
+                "location": "Washington, DC",
+                "type": "Interior Design, Design Equity, Affordable, Low-Income Housing, Small Business Retail",
                 "contact": [
                     {
                         "name": "Kia Weatherspoon",
@@ -803,16 +1216,9 @@
                 "instagram": [
                     "dreamthecombine"
                 ],
-                "location": [
-                    "Minneapolis"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urbanism",
-                    "Installation",
-                    "Community Development",
-                    "Collaborative Engineering"
-                ],
+                "website": null,
+                "location": "Minneapolis, MN",
+                "type": "Architecture, Urban Design, Installation, Community Development, Collaborative Engineering",
                 "contact": [
                     {
                         "name": "Jennifer Newsom and Tom Carruthers",
@@ -830,15 +1236,11 @@
             {
                 "studio_name": "DS Studio",
                 "instagram": [
-                    "dsstudio.ca",
-                    "dinasarhane"
+                    "dsstudio.ca"
                 ],
-                "location": [
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -855,13 +1257,16 @@
             },
             {
                 "studio_name": "Educated Guess",
-                "instagram": [],
-                "location": [],
-                "type": [],
+                "instagram": [
+                    "educated__guess"
+                ],
+                "website": "educated--guess.com",
+                "location": "Atlanta, GA",
+                "type": "Design, Education",
                 "contact": [
                     {
-                        "name": null,
-                        "email": null
+                        "name": "Justin McElderry",
+                        "email": "justin@educated--guess.com"
                     }
                 ],
                 "black_owned": true,
@@ -873,16 +1278,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "ELLA",
+                "instagram": [
+                    "ellalosangeles"
+                ],
+                "website": "http://www.ella-la.com/",
+                "location": "Los Angeles, CA",
+                "type": "Graphic Design",
+                "contact": [
+                    {
+                        "name": "Stephen Serrato, River Jukes-Hudson",
+                        "email": "hello@ella-la.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Ernsteverything",
                 "instagram": [
                     "ernsteverything"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Multi-disciplinary Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Multidisciplinary Design",
                 "contact": [
                     {
                         "name": "Anthony Hope",
@@ -898,19 +1322,38 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "EVOKE Studio",
+                "instagram": [
+                    "evokestudioarch"
+                ],
+                "website": "@evokestudioarch",
+                "location": "Durham, North Carolina",
+                "type": "Architecture/Design",
+                "contact": [
+                    {
+                        "name": "Teri Canada",
+                        "email": "teri@evokestudio.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "EXTENTS",
                 "instagram": [
                     "extents.us"
                 ],
-                "location": [
-                    "Ann Arbor"
-                ],
-                "type": [
-                    "Architecture/Urban Design"
-                ],
+                "website": null,
+                "location": "Ann Arbor, MI",
+                "type": "Architecture, Urban Design",
                 "contact": [
                     {
-                        "name": "Cyrus Peñarroyo",
+                        "name": "Cyrus Pe\u00f1arroyo",
                         "email": "penarc@umich.edu"
                     }
                 ],
@@ -923,19 +1366,60 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "F.A. Morrison",
+                "instagram": [
+                    "f_morrison"
+                ],
+                "website": "https://www.famorrison.com",
+                "location": "Toronto, Ontario",
+                "type": "Architecture, Consulting, Research, Strategy",
+                "contact": [
+                    {
+                        "name": "Felicia-Alexsandra Morrison",
+                        "email": "morrisonfa@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "F.A. Morrison",
+                "instagram": [
+                    "f_morrison"
+                ],
+                "website": "https://www.famorrison.com",
+                "location": "Toronto, Ontario",
+                "type": "Architecture, Consulting, Research, Strategy, Project Management",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "morrisonfa@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Partners/Collaborators",
+                "looking_for_collaborators": true
+            },
+            {
                 "studio_name": "FIERRO",
                 "instagram": [
                     "studiofierro_pllc"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
-                        "name": "Laura González Fierro",
+                        "name": "Laura Gonz\u00e1lez Fierro",
                         "email": "laura@studiofierro.com"
                     }
                 ],
@@ -952,47 +1436,82 @@
                 "instagram": [
                     "firebrand.house"
                 ],
-                "location": [
-                    "Inglewood"
-                ],
-                "type": [
-                    "Graphic Design",
-                    "Brand Identity",
-                    "UX/UI",
-                    "Packaging"
-                ],
+                "website": null,
+                "location": "Inglewood, CA",
+                "type": "Graphic Design",
                 "contact": [
                     {
                         "name": "Schessa Garbutt",
-                        "email": "https://firebrand.house/get-started"
+                        "email": "firebrand.house/get-started"
                     }
                 ],
                 "black_owned": true,
                 "indigenous_owned": false,
                 "women_owned": true,
                 "non_binary_owned": false,
-                "hiring": false,
+                "hiring": true,
                 "hiring_positions": "open to working with freelancers",
-                "looking_for_collaborators": true
+                "looking_for_collaborators": false
             },
             {
                 "studio_name": "Food New York",
                 "instagram": [
                     "foodnewyork"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": "food-newyork.com",
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Dong-Ping Wong",
-                        "email": "dpw@food-newyork.com"
+                        "email": "office@food-newyork.com"
                     }
                 ],
                 "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Project Lead 5+ years experience",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "FOUND.arch (Feature of Underrepresented Notable Designers)",
+                "instagram": [
+                    "found.arch"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": null,
+                "contact": [
+                    {
+                        "name": "Rajiv Fernandez",
+                        "email": "hello@lil-icon.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Freeform Deform LLC",
+                "instagram": [
+                    "freeformdeform"
+                ],
+                "website": "https://freeformdeform.com",
+                "location": "Brooklyn, New York",
+                "type": "Architecture, Design, Interior Design, Urban Design, Urban Planning",
+                "contact": [
+                    {
+                        "name": "Anaelechi Owunwanne",
+                        "email": "anaele@freeformdeform.com"
+                    }
+                ],
+                "black_owned": true,
                 "indigenous_owned": false,
                 "women_owned": false,
                 "non_binary_owned": false,
@@ -1005,12 +1524,9 @@
                 "instagram": [
                     "fultzsingharchitects"
                 ],
-                "location": [
-                    "Richmond"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Richmond, VA",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -1030,13 +1546,9 @@
                 "instagram": [
                     "futurefirm"
                 ],
-                "location": [
-                    "Chicago"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "Chicago, IL",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": null,
@@ -1056,13 +1568,9 @@
                 "instagram": [
                     "dal333n"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Urban Planning",
-                    "Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Urban Planning, Design",
                 "contact": [
                     {
                         "name": "Daleen Saah",
@@ -1082,12 +1590,9 @@
                 "instagram": [
                     "futureprojectsarch"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Khoi Nguyen",
@@ -1103,19 +1608,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "GLO.design",
+                "instagram": [
+                    "design_glo"
+                ],
+                "website": "https://www.glo.design",
+                "location": "Brooklyn, NY",
+                "type": "Architecture, Art, Consulting, Design, Interior Design, Research",
+                "contact": [
+                    {
+                        "name": "Joanie Tom",
+                        "email": "joanie@glo.design"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "design intern",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Gordon Kipping",
+                "instagram": [
+                    "gordonkipping"
+                ],
+                "website": "www.gtects.com",
+                "location": "New York, NY",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "office@gtects.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Grayscale Collaborative LLC",
                 "instagram": [
-                    "grayscalecollaborative",
-                    "sgrayUD"
+                    "grayscalecollaborative"
                 ],
-                "location": [
-                    "Boston"
-                ],
-                "type": [
-                    "Urban Design",
-                    "Urban Planning",
-                    "Community Engagement"
-                ],
+                "website": null,
+                "location": "Boston, MA",
+                "type": "Urban Design, Urban Planning, Community Engagement",
                 "contact": [
                     {
                         "name": "Stephen Gray",
@@ -1131,18 +1674,35 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "Hassan Rahim 12:01 ",
+                "studio_name": "Haeccity Studio Architecture",
                 "instagram": [
-                    "1201.am",
-                    "hassanrahim"
+                    "haeccitystudio"
                 ],
-                "location": [
-                    "NYC",
-                    "LA"
+                "website": null,
+                "location": "Vancouver, Canada",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Shirley Shen",
+                        "email": "hello@haeccity.com"
+                    }
                 ],
-                "type": [
-                    "Design"
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Hassan Rahim 12:01",
+                "instagram": [
+                    "1201.am"
                 ],
+                "website": null,
+                "location": "NYC, NY, Los Angeles, CA",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -1162,15 +1722,12 @@
                 "instagram": [
                     "hivepublicspace"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Urban Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Urban Design",
                 "contact": [
                     {
-                        "name": "Alexa González",
+                        "name": "Alexa Gonz\u00e1lez",
                         "email": null
                     }
                 ],
@@ -1187,13 +1744,9 @@
                 "instagram": [
                     "hooddesignstudio"
                 ],
-                "location": [
-                    "Oakland"
-                ],
-                "type": [
-                    "Landscape Architecture",
-                    "Art"
-                ],
+                "website": "http://www.hooddesignstudio.com/",
+                "location": "Oakland, CA",
+                "type": "Landscape Architecture, Art",
                 "contact": [
                     {
                         "name": null,
@@ -1209,19 +1762,82 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "Ibañez Kim",
+                "studio_name": "House of Gul",
+                "instagram": [
+                    "houseofgul"
+                ],
+                "website": null,
+                "location": "Portland, OR",
+                "type": "Brand Identity, graphic design, content (photo / video), campaigns, and digital experiences",
+                "contact": [
+                    {
+                        "name": "Ali Godil",
+                        "email": "ali.godil@Houseofgul.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Junior Designers, Summer Interns",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Huff + Gooden Architects",
+                "instagram": [
+                    "huff_gooden_architects"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Writer, Urbanism, Research, Academic",
+                "contact": [
+                    {
+                        "name": "Mario Goodwin",
+                        "email": "mag6@columbia.edu"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Hye-Young Chung Architecture",
+                "instagram": [
+                    "hycarchitecture"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture/ Interior Design",
+                "contact": [
+                    {
+                        "name": "Hye-Young Chung",
+                        "email": "hychung@hycarch.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Iba\u00f1ez Kim",
                 "instagram": [
                     "ibanez.kim"
                 ],
-                "location": [
-                    "Boston"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Boston, MA",
+                "type": "Architecture",
                 "contact": [
                     {
-                        "name": "Mariana Ibañez",
+                        "name": "Mariana Iba\u00f1ez",
                         "email": "info@i-k-studio.com"
                     }
                 ],
@@ -1234,14 +1850,55 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Innerspaces Interior Design ",
+                "instagram": [
+                    "innerspacesid"
+                ],
+                "website": "http://www.innerspacesid.com",
+                "location": "Toronto, Ontario, Canada ",
+                "type": "Design, Industrial Design, Interior Design, Urban Design",
+                "contact": [
+                    {
+                        "name": "June Charles ",
+                        "email": "admin@innerspacesid.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Interior Design Assistant, Drafting/AutoCad Technician ",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Intents & Purposes",
+                "instagram": [
+                    "lorin_brown"
+                ],
+                "website": "https://www.intents-purposes.com",
+                "location": "New York, NY",
+                "type": "Art, Art Direction, Branding, Illustration ",
+                "contact": [
+                    {
+                        "name": "Lorin Brown",
+                        "email": "studio@intents-purposes.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "IR Design Firm",
                 "instagram": [],
-                "location": [
-                    "Chicago"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Chicago, IL",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Katmerka Ramic",
@@ -1261,14 +1918,9 @@
                 "instagram": [
                     "iansmithdesigngroup"
                 ],
-                "location": [
-                    "Philadelphia"
-                ],
-                "type": [
-                    "Architects",
-                    "Planners",
-                    "Interior Designers"
-                ],
+                "website": null,
+                "location": "Philadelphia, PA",
+                "type": "Architecture, Interior Design, Urban Planning",
                 "contact": [
                     {
                         "name": null,
@@ -1288,15 +1940,9 @@
                 "instagram": [
                     "isometricstudio"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Graphic Design",
-                    "Identity",
-                    "Exhibition",
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Graphic Design, Identity, Exhibition, Architecture",
                 "contact": [
                     {
                         "name": "Waqas Jawaid",
@@ -1316,14 +1962,9 @@
                 "instagram": [
                     "jeromebyron"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interiors",
-                    "Furniture"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Interiors, Furniture, Academia",
                 "contact": [
                     {
                         "name": "Jerome Byron",
@@ -1343,12 +1984,9 @@
                 "instagram": [
                     "jaarchitecturestudio"
                 ],
-                "location": [
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Nima Javidi and Behnaz Assadi",
@@ -1368,22 +2006,16 @@
                 "instagram": [
                     "hoodmidcenturymodern"
                 ],
-                "location": [
-                    "NYC",
-                    "London",
-                    "LA",
-                    "Ohio"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": "https://hoodmidcentury.com/",
+                "location": "NYC, NY, London, UK, Los Angeles, CA, Ohio",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
                         "email": null
                     }
                 ],
-                "black_owned": true,
+                "black_owned": false,
                 "indigenous_owned": false,
                 "women_owned": false,
                 "non_binary_owned": false,
@@ -1396,15 +2028,9 @@
                 "instagram": [
                     "joba_studio"
                 ],
-                "location": [
-                    "Blacksburg"
-                ],
-                "type": [
-                    "Industrial Design",
-                    "Graphic Design",
-                    "Interiors",
-                    "Marketing"
-                ],
+                "website": null,
+                "location": "Blacksburg, VA",
+                "type": "Industrial Design, Graphic Design, Interiors, Marketing",
                 "contact": [
                     {
                         "name": "Robyn Jones and Kevin Jones",
@@ -1424,19 +2050,12 @@
                 "instagram": [
                     "juanalfarodesign"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Fabrication"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Fabrication",
                 "contact": [
                     {
-                        "name": "Juan Alfaro",
-                        "email": "julia@juanalfarodesign.com"
-                    },
-                    {
-                        "name": "Julia Margaret Lu",
+                        "name": "Juan Alfaro & Julia Margaret Lu",
                         "email": "julia@juanalfarodesign.com"
                     }
                 ],
@@ -1449,17 +2068,79 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Junta Arquitetura Urbanismo e Design",
+                "instagram": [
+                    "na.junta"
+                ],
+                "website": null,
+                "location": "Rio de Janeiro, Brasil",
+                "type": "Architecture, Art, Consulting, Design, Graphic Design, Interior Design, Urban Design, Tactical urbanism",
+                "contact": [
+                    {
+                        "name": "Giordana Pacini, Heloisa Pisa, Louise Brunet, Tatiane Proba",
+                        "email": "contato@junta-arq.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "K. Dixon Architecture, PLLC",
+                "instagram": [
+                    "kdapllc"
+                ],
+                "website": null,
+                "location": "Washington, DC",
+                "type": "Architecture, Planning, Interiors",
+                "contact": [
+                    {
+                        "name": "Kathy Dixon",
+                        "email": "info@kdixonarchitecture.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "mid and senior level - Proj Mngr, Proj Arch, Interior Architect",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "KAA",
+                "instagram": [
+                    "kristoferadelaidearchitecture"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "developer LED Residential Architecture",
+                "contact": [
+                    {
+                        "name": "Kristofer Adelaide",
+                        "email": "Ka@ka-a.co.uk"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Kamara Projects",
                 "instagram": [
                     "kamaraprojects"
                 ],
-                "location": [
-                    "Kathmandu",
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Kathmandu, Nepal, NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Miku Dixit",
@@ -1475,17 +2156,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Kin Studio",
+                "instagram": [
+                    "alex.ortg"
+                ],
+                "website": "https://alexortega.co/",
+                "location": "San Francisco, CA, USA",
+                "type": "Industrial Design",
+                "contact": [
+                    {
+                        "name": "Alex Ortega",
+                        "email": "alexortega.design@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": true,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Ko J\u00fabilo",
+                "instagram": [
+                    "kojubilo"
+                ],
+                "website": "http://www.kojubilo.com/",
+                "location": "Vancouver, Canada",
+                "type": "Industrial Design",
+                "contact": [
+                    {
+                        "name": "Ko J\u00fabilo",
+                        "email": "info@kojubilo.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "KSD Architects",
                 "instagram": [
                     "ksdarchitects"
                 ],
-                "location": [
-                    "Cranbury",
-                    "Philadelphia"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Cranbury, NJ, Philadelphia PA",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "sshah@ksdarchitects.com",
@@ -1501,17 +2222,79 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "KUDOS Design Collaboratory",
+                "instagram": [
+                    "kudosnyc"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Graphic Design, Identity, Exhibition, Web UI/UX, Web/App Development",
+                "contact": [
+                    {
+                        "name": "John Kudos",
+                        "email": "info@kudos.nyc"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "la union studio",
+                "instagram": [
+                    "launionstudio"
+                ],
+                "website": null,
+                "location": "Seattle, WA",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Sergio Max Talomi",
+                        "email": "sergiomaxtalamoni@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "La Union Studio",
+                "instagram": [
+                    "launionstudio"
+                ],
+                "website": null,
+                "location": "Seattle, WA",
+                "type": "Architecture, Interior Design",
+                "contact": [
+                    {
+                        "name": "Sergio Legon-Talamoni",
+                        "email": "launionstudio@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Latent Design",
                 "instagram": [
                     "latent_design"
                 ],
-                "location": [
-                    "Chicago"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urban Design"
-                ],
+                "website": null,
+                "location": "Chicago, IL",
+                "type": "Architecture, Urban Design",
                 "contact": [
                     {
                         "name": "Katherine Darnstadt",
@@ -1532,13 +2315,9 @@
                     "leighton.moon",
                     "valovanity"
                 ],
-                "location": [
-                    "New Mexico (remote)"
-                ],
-                "type": [
-                    "Brand Identity",
-                    "Graphic Design"
-                ],
+                "website": null,
+                "location": "New Mexico, NM",
+                "type": "Brand Identity, Graphic Design",
                 "contact": [
                     {
                         "name": "Julia Royal",
@@ -1556,14 +2335,11 @@
             {
                 "studio_name": "Leong Leong",
                 "instagram": [
-                    "leong-leong.com"
+                    "leong_leong"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Dominic Leong",
@@ -1583,12 +2359,9 @@
                 "instagram": [
                     "lexxwilsonn"
                 ],
-                "location": [
-                    "San Antonio"
-                ],
-                "type": [
-                    "Model Maker"
-                ],
+                "website": null,
+                "location": "San Antonio, TX",
+                "type": "Model Maker",
                 "contact": [
                     {
                         "name": null,
@@ -1608,16 +2381,13 @@
                 "instagram": [
                     "leydenlewisdesignstudio"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": "https://www.leydenlewis.com",
+                "location": "Brooklyn, NY",
+                "type": "Architecture, Interior Design",
                 "contact": [
                     {
-                        "name": null,
-                        "email": null
+                        "name": "Leyden Ynobe Lewis ",
+                        "email": "leydenlewis@leydenlewis.com"
                     }
                 ],
                 "black_owned": true,
@@ -1629,21 +2399,79 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Leyden Lewis Design Studio",
+                "instagram": [
+                    "leydenlewisdesignstudio"
+                ],
+                "website": null,
+                "location": "Brooklyn, NY",
+                "type": "Interior and Architectural Design",
+                "contact": [
+                    {
+                        "name": "Leyden Ynobe Lewis",
+                        "email": "leydenlewis@leydenlewis.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Lo+Hi ",
+                "instagram": [
+                    "lo_plus_hi"
+                ],
+                "website": null,
+                "location": "Dar es Salaam, Tanzania",
+                "type": "Design & Research",
+                "contact": [
+                    {
+                        "name": "Nyirabu Nyirabu",
+                        "email": "nnyirabu@lohidesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "LOKI",
+                "instagram": [
+                    "lokimon"
+                ],
+                "website": "https://lokidesign.net",
+                "location": "Montreal, Quebec, Canada",
+                "type": "Advocacy, Art Direction, Branding, Consulting, Design, Editorial, Graphic Design, Research, Strategy",
+                "contact": [
+                    {
+                        "name": "Kevin Yuen Kit Lo",
+                        "email": "kevin@lokidesign.net"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Design Internship in the Fall",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Low Design Office",
                 "instagram": [
                     "lowdesignoffice"
                 ],
-                "location": [
-                    "Austin",
-                    "Tema"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urban Design",
-                    "Research",
-                    "Fabrication",
-                    "Design Build"
-                ],
+                "website": null,
+                "location": "Austin, TX, Tema, Ghana",
+                "type": "Architecture, Urban Design, Research, Fabrication, Design Build",
                 "contact": [
                     {
                         "name": "DK Osseo-Asare and Ryan Bollom",
@@ -1661,14 +2489,11 @@
             {
                 "studio_name": "MA-MA",
                 "instagram": [
-                    "ma.ma.NYC"
+                    "ma.ma.nyc"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture/Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Sanam Salek",
@@ -1684,16 +2509,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "MACHEN MACHEN",
+                "instagram": [
+                    "machenmachen"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Set Design, Production, Interiors",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "studio@machenmachen.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Maissa architectures",
+                "instagram": [
+                    "jpmaissa"
+                ],
+                "website": "www.jeanpierremaissa.com",
+                "location": "Libreville, Gabon, New York, NY",
+                "type": "Architecture, Urban Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Manuel Miranda Practice",
                 "instagram": [
                     "manuelsmiranda"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Graphic Design "
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Graphic Design",
                 "contact": [
                     {
                         "name": "Manuel Miranda",
@@ -1713,12 +2579,9 @@
                 "instagram": [
                     "gigajellyroll"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -1734,17 +2597,53 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Melvin Gill Architects",
+                "instagram": [],
+                "website": null,
+                "location": "Nashville, TN",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Melvin Gill",
+                        "email": "melvin@melvingillarchitects.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Merging Ecologies",
+                "instagram": [],
+                "website": null,
+                "location": "Galway, Ireland, Lagos, Nigeria",
+                "type": "Heritage Environmental Architectural Design Firm",
+                "contact": [
+                    {
+                        "name": "Dr Tokie Laotan-Brown",
+                        "email": "info@drtokie.com "
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Michael K. Chen Architecture",
                 "instagram": [
                     "mkcarchitecture"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Interior Design",
                 "contact": [
                     {
                         "name": null,
@@ -1760,18 +2659,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "MIIM DESIGNS",
+                "instagram": [
+                    "MIIMDesign"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA, Boston, MA",
+                "type": "Architecture, Urbanism",
+                "contact": [
+                    {
+                        "name": "Maryam Eskandari",
+                        "email": "studio@miimdesigns.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Architecture/Landscape Architecture/Graphic Design",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Mikel Welch",
                 "instagram": [
                     "mikelwelch"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Residential",
-                    "Commercial",
-                    "TV"
-                ],
+                "website": "https://www.mikelwelch.com/",
+                "location": "NYC, NY",
+                "type": "Interior Design",
                 "contact": [
                     {
                         "name": "Mikel Welch",
@@ -1787,26 +2703,22 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "Nwankpa Design",
+                "studio_name": "Mint five three",
                 "instagram": [
-                    "nwankpadesign"
+                    "mintfivethree"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Graphic Design",
                 "contact": [
                     {
-                        "name": "Susan Nwankpa",
-                        "email": "info@nwankpadesign.com"
+                        "name": null,
+                        "email": "delaney@mintfivethree.com"
                     }
                 ],
-                "black_owned": true,
+                "black_owned": false,
                 "indigenous_owned": false,
-                "women_owned": true,
+                "women_owned": false,
                 "non_binary_owned": false,
                 "hiring": false,
                 "hiring_positions": null,
@@ -1817,16 +2729,9 @@
                 "instagram": [
                     "misostudios"
                 ],
-                "location": [
-                    "Atlanta, GA",
-                    "NYC",
-                    "Tokyo"
-                ],
-                "type": [
-                    "Strategy",
-                    "Architecture",
-                    "Interiors"
-                ],
+                "website": null,
+                "location": "Atlanta, GA, NYC, NY, Tokyo, Japan",
+                "type": "Architecture, Interior Design, Strategy",
                 "contact": [
                     {
                         "name": null,
@@ -1846,12 +2751,9 @@
                 "instagram": [
                     "mndpc_ny"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -1871,12 +2773,9 @@
                 "instagram": [
                     "moduarchitecture"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Phu Hoang",
@@ -1896,13 +2795,9 @@
                 "instagram": [
                     "thisismold"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Design Research",
-                    "Editorial"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design Research, Editorial",
                 "contact": [
                     {
                         "name": "LinYee Yuan",
@@ -1922,15 +2817,9 @@
                 "instagram": [
                     "montoutearchitect"
                 ],
-                "location": [
-                    "NYC",
-                    "New Marlborough"
-                ],
-                "type": [
-                    "Architecture",
-                    "Planning Design",
-                    "Research"
-                ],
+                "website": null,
+                "location": "NYC, NY. New Marlborough, MA",
+                "type": "Architecture, Urban Planning, Design, Research",
                 "contact": [
                     {
                         "name": "Colin Montoute AIA, NCARB, NOMA",
@@ -1950,24 +2839,9 @@
                 "instagram": [
                     "moodynolandesign"
                 ],
-                "location": [
-                    "Columbus",
-                    "Cincinnati",
-                    "Cleveland",
-                    "Atlanta",
-                    "Boston",
-                    "Chicago",
-                    "NYC",
-                    "Houston",
-                    "Dallas",
-                    "Nashville",
-                    "Washington DC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interior Design",
-                    "Environmental Graphics (more on website)"
-                ],
+                "website": null,
+                "location": "Columbus, Cincinnati, Cleveland, OH, Atlanta, GA, Boston, MA, Chicago, IL, NYC, NY, Houston, Dallas, TX, Nashbille, TN, Washington DC",
+                "type": "Architecture, Interior Design, Environmental Graphics",
                 "contact": [
                     {
                         "name": "Elizabeth Robins, HR Contact",
@@ -1983,16 +2857,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Murray Design Group, Inc.",
+                "instagram": [
+                    "mdgorlandolandscapes"
+                ],
+                "website": "https://www.murraysitedesign.com",
+                "location": "Orlando, Florida",
+                "type": "Design, Landscape Architecture, Urban Design",
+                "contact": [
+                    {
+                        "name": "Ramon V Murray",
+                        "email": "ramon@murraysitedesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Nbello Studio",
                 "instagram": [
                     "nmbello1"
                 ],
-                "location": [
-                    "Lagod"
-                ],
-                "type": [
-                    "Product Design"
-                ],
+                "website": null,
+                "location": "Lagos, Nigeria",
+                "type": "Industrial Design",
                 "contact": [
                     {
                         "name": "Nifemi Marcus-Bello",
@@ -2012,12 +2905,9 @@
                 "instagram": [
                     "new_affiliates"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2037,13 +2927,9 @@
                 "instagram": [
                     "nhdm_arch"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urban Research"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Urban Research",
                 "contact": [
                     {
                         "name": null,
@@ -2063,13 +2949,9 @@
                 "instagram": [
                     "noarchitecture"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urban Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Urban Design",
                 "contact": [
                     {
                         "name": "Andrew Heid",
@@ -2085,16 +2967,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Nola Home Studio ",
+                "instagram": [
+                    "nolahomestudio"
+                ],
+                "website": null,
+                "location": "New Orleans, La ",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": "Jessica Holmes ",
+                        "email": "nolahomestudio@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Nudomi Design Build",
                 "instagram": [
                     "nudomi.design.build"
                 ],
-                "location": [
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2114,13 +3015,9 @@
                 "instagram": [
                     "nu__ova"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Industrial Design",
-                    "Creative Direction"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Industrial Design, Creative Direction",
                 "contact": [
                     {
                         "name": "Rodrigo Caula",
@@ -2136,19 +3033,82 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Nupe Studios",
+                "instagram": [
+                    "nupeproject"
+                ],
+                "website": null,
+                "location": "Lagos, Nigeria, London, UK",
+                "type": "Industrial Product Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "hello@nupeproject.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Remote Intern",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Nwankpa Design",
+                "instagram": [
+                    "nwankpadesign"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Interior Design",
+                "contact": [
+                    {
+                        "name": "Susan Nwankpa",
+                        "email": "info@nwankpadesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Office & Gallery",
+                "instagram": [
+                    "officeandgallery"
+                ],
+                "website": "http://officeandgallery.com",
+                "location": "Los Angeles, CA",
+                "type": "Art, Art Direction, Branding, Design, Graphic Design, Industrial Design",
+                "contact": [
+                    {
+                        "name": "Theo Martins",
+                        "email": "steven@officeandgallery.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "office ca",
                 "instagram": [
                     "officeca"
                 ],
-                "location": [
-                    "Columbus (subject to change)"
-                ],
-                "type": [
-                    "Architecture/Design/Research"
-                ],
+                "website": null,
+                "location": "Columbus, OH , (subject to change)",
+                "type": "Architecture, Design, Research",
                 "contact": [
                     {
-                        "name": "Galo Cañizares or Stephanie Sang Delgado",
+                        "name": "Galo Ca\u00f1izares or Stephanie Sang Delgado",
                         "email": "hello@officeca.com"
                     }
                 ],
@@ -2165,10 +3125,9 @@
                 "instagram": [
                     "officeiii"
                 ],
-                "location": [],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2184,17 +3143,277 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Office of Things",
+                "instagram": [
+                    "officeofthings"
+                ],
+                "website": "https://oo-t.co/",
+                "location": "Brooklyn, New York, USA",
+                "type": "Architecture, Art, Consulting, Design, Interior Design, Research, Strategy, Urban Design",
+                "contact": [
+                    {
+                        "name": "Ann Lane Rick and Can Vu Bui",
+                        "email": "lane@oo-t.co"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "offTOP Design Studio",
+                "instagram": [
+                    "demarmatthews"
+                ],
+                "website": "https://offtopdesign.com",
+                "location": "Los Angeles,CA",
+                "type": "Architecture, Art, Consulting, Design, Research, Urban Design",
+                "contact": [
+                    {
+                        "name": "Demar Matthews",
+                        "email": "demar@offtopdesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Olaniyi Studio",
+                "instagram": [
+                    "www.olaniyi.studio"
+                ],
+                "website": null,
+                "location": "Lagos, Nigeria, London, UK",
+                "type": "Architecture, Anthropological Research, Art, Material Science",
+                "contact": [
+                    {
+                        "name": "Yussef Agbo-Ola",
+                        "email": "create@olaniyi.studio"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Omois Design",
+                "instagram": [
+                    "omois_"
+                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": "Omo Iserhienrhien",
+                        "email": "info@omoisdesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "ONEHOUSE",
+                "instagram": [
+                    "onehousecreative"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA, NYC, NY, London, UK",
+                "type": "Renderings / CGI, Real Estate Branding & Identity",
+                "contact": [
+                    {
+                        "name": "Rachel Dao",
+                        "email": "info@onehousecreative.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Openbox",
+                "instagram": [
+                    "opnbx"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "hello@opnbx.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "ORI Works",
+                "instagram": [
+                    "ori.works"
+                ],
+                "website": "https://victorssantosarq.wixsite.com/oriworks",
+                "location": "Berlin, Germany",
+                "type": "Architecture, Art, Association, Consulting, Design, Interior Design, Landscape Architecture, Urban Design, Urban Planning",
+                "contact": [
+                    {
+                        "name": "Victor Santos",
+                        "email": "victorssantos.arq@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Oyler Wu Collaborative",
+                "instagram": [
+                    "lace_jennywu"
+                ],
+                "website": "https://www.oylerwu.com",
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Design, Interior Design, Urban Design, Product design",
+                "contact": [
+                    {
+                        "name": "Jenny Wu",
+                        "email": "jw@oylerwu.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "PARADYM",
+                "instagram": [
+                    "paradympixels"
+                ],
+                "website": "https://www.paradympixels.tumblr.com",
+                "location": "Durban, Kwa-Zulu Natal, South Africa",
+                "type": "Art, Art Direction, Consulting, Design, Editorial, Interior Design, Photography, Research, Strategy, Filmmaking and production, movement research, transdisciplinary performance practice.",
+                "contact": [
+                    {
+                        "name": "Qhawe Vumase , Luthabo Maduna",
+                        "email": "paradymcreate@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Paranoid Richard Studios",
+                "instagram": [
+                    "paranoidrichard"
+                ],
+                "website": "www.paranoidrichard.com",
+                "location": "Brooklyn, NY",
+                "type": "creative direction, production design, set design, experiential design, brand activations spatial designs, pop-ups, store layout, scenic design, interior design, exhibition design, event production, visual merchandising, store windows and public art",
+                "contact": [
+                    {
+                        "name": "Ramona Roye ",
+                        "email": "Contact@paranoidrichard.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Party of One Studio",
+                "instagram": [
+                    "partyofonestudio"
+                ],
+                "website": null,
+                "location": "Brooklyn, NY",
+                "type": null,
+                "contact": [
+                    {
+                        "name": "Melissa Deckert and Nicole Licht",
+                        "email": "hello@partyofonestudio.com "
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Pendulum",
+                "instagram": [
+                    "pendulum_kc"
+                ],
+                "website": null,
+                "location": "Kansas City, MO",
+                "type": "Architecture, Design, Interiors, Master Planning",
+                "contact": [
+                    {
+                        "name": "Jonathan O\u2019Neil Cole",
+                        "email": "info@pendulumkc.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Plexi Design Supply - Mitchell Reece",
                 "instagram": [
                     "plexidesignsupply"
                 ],
-                "location": [
-                    "NYC",
-                    "Houston"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "NYC, NY, Houston, TX",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -2214,13 +3433,9 @@
                 "instagram": [
                     "plot_twist_design"
                 ],
-                "location": [
-                    "Philadelphia"
-                ],
-                "type": [
-                    "Design",
-                    "Real Estate"
-                ],
+                "website": null,
+                "location": "Philadelphia, PA",
+                "type": "Design, Real Estate",
                 "contact": [
                     {
                         "name": "Kelly Collier",
@@ -2236,16 +3451,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Powerful Pathways",
+                "instagram": [
+                    "d18zephyr"
+                ],
+                "website": "powerfulpathways.org",
+                "location": "Boston, MA",
+                "type": "Urban Planning",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "powerfulpathwaysinc@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Present Forms",
                 "instagram": [
                     "presentforms"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Stephanie Lin",
@@ -2261,17 +3495,207 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Pretoria Cartel",
+                "instagram": [
+                    "contentlawd"
+                ],
+                "website": "https://www.pretoriacartel.com",
+                "location": "Pretoria, South Africa",
+                "type": "Strategy",
+                "contact": [
+                    {
+                        "name": "Masego Diale",
+                        "email": "dialemasego99@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": true,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Pure Fiction",
+                "instagram": [
+                    "purefiction.info"
+                ],
+                "website": "https://pure-fiction.info",
+                "location": "Auckland, New Zealand",
+                "type": "Design, Illustration",
+                "contact": [
+                    {
+                        "name": "Chanel Tukuitonga-Yandall",
+                        "email": "hi@pure-fiction.info"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": true,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Push Studio",
+                "instagram": [],
+                "website": null,
+                "location": "Washington, DC",
+                "type": "Landscape and Urban Design",
+                "contact": [
+                    {
+                        "name": "Glenn LaRue Smith",
+                        "email": "info@pushstudioform.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "R3 Designs",
+                "instagram": [
+                    "rs3_designs"
+                ],
+                "website": "https://rs3designs.com/",
+                "location": "Miami, Florida",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": "Raymond Jimenez",
+                        "email": "info@rs3designs.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Re:modern",
+                "instagram": [
+                    "remodern"
+                ],
+                "website": "https://www.re-modern.com",
+                "location": "San Francisco (Peninsula), CA",
+                "type": "Advocacy, Architecture, Interior Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "info@re-modern.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Reviewing candidates for Mid and Senior Level",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Reidy Creative",
+                "instagram": [
+                    "reidycreative"
+                ],
+                "website": "https://www.reidycreative.com",
+                "location": "Baltimore, MD",
+                "type": "Interior Design, Interior Architecture",
+                "contact": [
+                    {
+                        "name": "Tiffanni Reidy",
+                        "email": "design@reidycreative.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "REMI \u2022 C \u2022 T Stuido",
+                "instagram": [
+                    "remict_studio"
+                ],
+                "website": "https://www.remict.com",
+                "location": "London, England",
+                "type": "Architecture, Design, Interior Design",
+                "contact": [
+                    {
+                        "name": "Alycia Turner",
+                        "email": "info@remict.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Renderhaus",
+                "instagram": [],
+                "website": null,
+                "location": "West Bloomfield, MI",
+                "type": "Architectural Rendering Services",
+                "contact": [
+                    {
+                        "name": "Michael J. Brown",
+                        "email": "mbrown@renderhaus.net"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Rhodes+Brito Architects",
+                "instagram": [
+                    "Rhodesbritoarch"
+                ],
+                "website": null,
+                "location": "Orlando, FL",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Michelle Tatom Dir.",
+                        "email": "www.rbarchitects.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Room For Magic",
                 "instagram": [
                     "deemjournal"
                 ],
-                "location": [
-                    "LA",
-                    "Copenhagen"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA, Copenhagen, Denmark",
+                "type": "Design",
                 "contact": [
                     {
                         "name": null,
@@ -2291,15 +3715,9 @@
                 "instagram": [
                     "rued.arch"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architectural",
-                    "Interior Design",
-                    "Installations",
-                    "Research"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Interior Design, Research, Installations",
                 "contact": [
                     {
                         "name": "Jenna Miller",
@@ -2315,17 +3733,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Sabir, Richardson & Weisberg (SRW) Engineering & Architecture",
+                "instagram": [
+                    "srw_eng_arch"
+                ],
+                "website": null,
+                "location": "NYC, NY, Sicklerville, NJ, Philadelphia, PA",
+                "type": "Architecture & MEP Engineering",
+                "contact": [
+                    {
+                        "name": "Yvette Richardson",
+                        "email": "info@srw-eng.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Sarah Chavarria",
                 "instagram": [
                     "s___chav"
                 ],
-                "location": [
-                    "San Antonio"
-                ],
-                "type": [
-                    "Art",
-                    "Art Education"
-                ],
+                "website": null,
+                "location": "San Antonio, TX",
+                "type": "Art, Art Education",
                 "contact": [
                     {
                         "name": null,
@@ -2341,17 +3777,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "ScenesLab",
+                "instagram": [
+                    "wwwennndddyyy"
+                ],
+                "website": null,
+                "location": "Boston, MA",
+                "type": "Landscape/Design, Urban Design and Planning, Research",
+                "contact": [
+                    {
+                        "name": "Wendy Wang",
+                        "email": "wendywang@sceneslab.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Sekou Cooke Studio",
                 "instagram": [
-                    "sekoucookestudio",
-                    "sekou21"
+                    "sekoucookestudio"
                 ],
-                "location": [
-                    "Syracuse"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Syracuse, NY",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Sekou Cooke",
@@ -2369,23 +3823,62 @@
             {
                 "studio_name": "SHEEEP",
                 "instagram": [
-                    "sheeep_____",
-                    "rezaniik"
+                    "sheeep_____"
                 ],
-                "location": [
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture",
-                    "Climate Justice"
-                ],
+                "website": "www.sheeep.ca",
+                "location": "Toronto, Canada",
+                "type": "Architecture, Multidisciplinary Art, Design, Education",
                 "contact": [
                     {
-                        "name": "Reza Niik",
-                        "email": null
+                        "name": "Reza Nik",
+                        "email": "info@rezanik.com"
                     }
                 ],
                 "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "SIMONE DE GALE ARCHITECTS",
+                "instagram": [
+                    "simonedegale"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Architecture, Interior Design, Masterplanning",
+                "contact": [
+                    {
+                        "name": "Simone De Gale",
+                        "email": "careers@simonedegale.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Designers",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "SO dsgn LLC",
+                "instagram": [
+                    "so.dsgn"
+                ],
+                "website": null,
+                "location": "Chicago",
+                "type": "Industrial Design",
+                "contact": [
+                    {
+                        "name": "Rotimi Solola",
+                        "email": "info@so-design.co"
+                    }
+                ],
+                "black_owned": true,
                 "indigenous_owned": false,
                 "women_owned": false,
                 "non_binary_owned": false,
@@ -2398,12 +3891,9 @@
                 "instagram": [
                     "softsudio.us"
                 ],
-                "location": [
-                    "Oakland"
-                ],
-                "type": [
-                    "Landscape"
-                ],
+                "website": null,
+                "location": "Oakland, CA",
+                "type": "Landscape",
                 "contact": [
                     {
                         "name": null,
@@ -2421,16 +3911,11 @@
             {
                 "studio_name": "Soft-Firm",
                 "instagram": [
-                    "soft__firm",
-                    "lexitsien"
+                    "soft__firm"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": null,
@@ -2441,7 +3926,7 @@
                 "indigenous_owned": false,
                 "women_owned": true,
                 "non_binary_owned": false,
-                "hiring": false,
+                "hiring": true,
                 "hiring_positions": null,
                 "looking_for_collaborators": false
             },
@@ -2450,12 +3935,9 @@
                 "instagram": [
                     "sophieandhans"
                 ],
-                "location": [
-                    "Berlin"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Berlin, Germany",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2475,13 +3957,9 @@
                 "instagram": [
                     "spaceindustri.es"
                 ],
-                "location": [
-                    "Oakland",
-                    "LA"
-                ],
-                "type": [
-                    "Architecture/Design"
-                ],
+                "website": null,
+                "location": "Oakland, CA, Los Angeles, CA",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Kevin Bernard Moultrie Daye",
@@ -2501,13 +3979,9 @@
                 "instagram": [
                     "stimsonlandscapearchitects"
                 ],
-                "location": [
-                    "Cambridge",
-                    "Princeton"
-                ],
-                "type": [
-                    "Landscape Architecture"
-                ],
+                "website": null,
+                "location": "Cambridge, MA, Princeton, NJ",
+                "type": "Landscape Architecture",
                 "contact": [
                     {
                         "name": "Lauren Stimson",
@@ -2523,16 +3997,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Storyn Studio for Architecture",
+                "instagram": [
+                    "storynstudio"
+                ],
+                "website": null,
+                "location": "Miami, FL, St. Petersburg, FL",
+                "type": "Architecture, Interior Design, Planning, Product Design",
+                "contact": [
+                    {
+                        "name": "Everald Colas",
+                        "email": "contact@storynstudio.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Senior Licensed Architect 20 plus years",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Studio & Projects",
                 "instagram": [
                     "studio.and.projects"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Interior Design",
                 "contact": [
                     {
                         "name": "Little Wing Lee",
@@ -2548,19 +4041,57 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Studio AA",
+                "instagram": [
+                    "studioaa_co"
+                ],
+                "website": null,
+                "location": "Hong Kong",
+                "type": "Design/Design Curator",
+                "contact": [
+                    {
+                        "name": "Michale Leung",
+                        "email": "a@studioaa.co"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Studio Aorta",
+                "instagram": [
+                    "studioaorta"
+                ],
+                "website": null,
+                "location": " Washington, DC",
+                "type": "Exhibit and graphic design",
+                "contact": [
+                    {
+                        "name": "Rina Alfonso Osawa",
+                        "email": "info@studioaorta.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Studio Barnes",
                 "instagram": [
                     "gmane16"
                 ],
-                "location": [
-                    "Miami"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urbanism",
-                    "Research",
-                    "Academic"
-                ],
+                "website": null,
+                "location": "Miami, FL",
+                "type": "Architecture, Urbanism, Research, Academic",
                 "contact": [
                     {
                         "name": "Germane Barnes",
@@ -2580,13 +4111,9 @@
                 "instagram": [
                     "ninacookejohn"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interior Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Interior Design",
                 "contact": [
                     {
                         "name": null,
@@ -2606,12 +4133,9 @@
                 "instagram": [
                     "studio_elsewhere"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Immersive Physical and Digital Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Immersive Physical and Digital Design",
                 "contact": [
                     {
                         "name": "Nikita Huggins",
@@ -2627,16 +4151,11 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "STUDIO ENÉE",
+                "studio_name": "STUDIO EN\u00c9E",
                 "instagram": [],
-                "location": [
-                    "Boston"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interior Design",
-                    "Urban Design"
-                ],
+                "website": null,
+                "location": "Boston, MA",
+                "type": "Architecture, Interior Design, Urban Design",
                 "contact": [
                     {
                         "name": null,
@@ -2652,19 +4171,16 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "Studio Fōr",
+                "studio_name": "Studio F\u014dr",
                 "instagram": [
                     "studioforny"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
                 "contact": [
                     {
-                        "name": "Fauzia Khanulli",
+                        "name": "Fauzia Khanani",
                         "email": "info@studioforny.com"
                     }
                 ],
@@ -2677,16 +4193,13 @@
                 "looking_for_collaborators": false
             },
             {
-                "studio_name": "Studio Habeas Corpus",
+                "studio_name": "Studio Heabeas Corpus",
                 "instagram": [
                     "studiohabeascorpus"
                 ],
-                "location": [
-                    "New Orleans"
-                ],
-                "type": [
-                    "Natural Materials Consulting"
-                ],
+                "website": null,
+                "location": "New Orleans, LA",
+                "type": "Natural Materials Consulting",
                 "contact": [
                     {
                         "name": "Faune Stevens",
@@ -2695,7 +4208,7 @@
                 ],
                 "black_owned": false,
                 "indigenous_owned": false,
-                "women_owned": true,
+                "women_owned": false,
                 "non_binary_owned": false,
                 "hiring": false,
                 "hiring_positions": null,
@@ -2706,13 +4219,9 @@
                 "instagram": [
                     "pararaum"
                 ],
-                "location": [
-                    "Toronto",
-                    "Zürich"
-                ],
-                "type": [
-                    "Architecture/Design"
-                ],
+                "website": null,
+                "location": "Toronto, Canada, Z\u00fcrich, Switzerland",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Linda Zhang",
@@ -2728,12 +4237,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "studio PGRB",
+                "instagram": [
+                    "studiopgrb"
+                ],
+                "website": null,
+                "location": "Miami",
+                "type": "Light fixture designer and manufacturer",
+                "contact": [
+                    {
+                        "name": "Raymond Barberousse",
+                        "email": "info@studiopgrb.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Studio Sean Canty",
                 "instagram": [
                     "studioseancanty"
                 ],
-                "location": [],
-                "type": [],
+                "website": null,
+                "location": "Cambridge, MA",
+                "type": "Architecture, Interior Design, Design",
                 "contact": [
                     {
                         "name": "Sean Canty",
@@ -2749,14 +4281,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Studio Seitz",
+                "instagram": [
+                    "studioseitz"
+                ],
+                "website": "https://www.studioseitz.com",
+                "location": "NYC, NY",
+                "type": "Design, Industrial Design, Interior Design, Home / Furniture",
+                "contact": [
+                    {
+                        "name": "Kevin Seitz",
+                        "email": "kevin@studioseitz.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Studio Zeren/Joshua Jones",
                 "instagram": [
                     "studiozeren"
                 ],
-                "location": [],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": null,
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2776,14 +4329,9 @@
                 "instagram": [
                     "studio_zewde"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Landscape",
-                    "Urban Design",
-                    "Public Art"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Landscape, Urban Design, Public Art",
                 "contact": [
                     {
                         "name": "Sara Zewde",
@@ -2803,13 +4351,9 @@
                 "instagram": [
                     "studio_mla"
                 ],
-                "location": [
-                    "LA",
-                    "San Francisco"
-                ],
-                "type": [
-                    "Landscape Architecture"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA, San Francisco, CA",
+                "type": "Landscape Architecture",
                 "contact": [
                     {
                         "name": null,
@@ -2825,17 +4369,209 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "studio:indigenous",
+                "instagram": [
+                    "christcornelius"
+                ],
+                "website": null,
+                "location": "Milwaukee, WI",
+                "type": "Design, Architecture, Installations",
+                "contact": [
+                    {
+                        "name": "Chris T Cornelius",
+                        "email": "chris@studioindigenous.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": true,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Studioteka Design",
+                "instagram": [
+                    "studiotekadesign/"
+                ],
+                "website": "https://www.studioteka.com",
+                "location": "New York, NY",
+                "type": "Architecture, Consulting, Design, Interior Design, Research, Strategy, Urban Design, Urban Planning",
+                "contact": [
+                    {
+                        "name": "Vanessa Keith",
+                        "email": "info@studioteka.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Su\u00e1rez Architecture",
+                "instagram": [
+                    "suarezarchitecture"
+                ],
+                "website": null,
+                "location": "Sarasota, FL",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Javi Su\u00e1rez",
+                        "email": null
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Synthesis Design + Architecture ",
+                "instagram": [
+                    "synthesisdna"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Alvin Huang",
+                        "email": "alvin@synthesis-dna.com   "
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Table of Co.",
+                "instagram": [],
+                "website": "https://www.tableof.co/",
+                "location": "Chicago, USA / London, UK / NYC, USA",
+                "type": "architecture, interior design, and objects",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "hello@tableof.co"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Taiyo Watanabe",
+                "instagram": [
+                    "taiyo_watanabe"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture Photography",
+                "contact": [
+                    {
+                        "name": "Taiyo Watanabe",
+                        "email": "taiyo@taiyowatanabe.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Tale London",
+                "instagram": [
+                    "talelondon"
+                ],
+                "website": "https://talelondon.com",
+                "location": "London, UK",
+                "type": "Architecture, Design, Interior Design",
+                "contact": [
+                    {
+                        "name": "Andr\u00e9 Mathurin",
+                        "email": "andre@talelondon.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Taller Alfredo Pimentel",
+                "instagram": [
+                    "fredo00000"
+                ],
+                "website": "http://cargocollective.com/AlfredoPimentel",
+                "location": "Boston, MA",
+                "type": "Architecture, Art, Consulting, Design, Industrial Design, Urban Design",
+                "contact": [
+                    {
+                        "name": "Alfredo Pimentel, AIA",
+                        "email": "fraydo@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Taller Alfredo Pimentel",
+                "instagram": [
+                    "fredo00000"
+                ],
+                "website": "http://cargocollective.com/AlfredoPimentel",
+                "location": "Boston, MA",
+                "type": "Architecture, Art, Consulting, Design, Industrial Design, Urban Design",
+                "contact": [
+                    {
+                        "name": "Alfredo Pimentel, AIA",
+                        "email": "fraydo@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Tangible Design",
                 "instagram": [
                     "_tangible_design_"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture, Design",
                 "contact": [
                     {
                         "name": "Raven Hardison",
@@ -2851,18 +4587,189 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Teal Media",
+                "instagram": [
+                    "tealmedia"
+                ],
+                "website": "https://tealmedia.com/",
+                "location": "Washington, DC",
+                "type": "Advocacy, Art, Art Direction, Branding, Consulting, Design, Graphic Design, Strategy",
+                "contact": [
+                    {
+                        "name": "Jessica Teal",
+                        "email": "jessica@tealmedia.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Ten 2 Four Architecture Inc.",
+                "instagram": [
+                    "ten24architecture"
+                ],
+                "website": null,
+                "location": "Toronto, Canada",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Judah Mulalu",
+                        "email": "judah@ten24architecture.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Territorial Empathy",
+                "instagram": [
+                    "territorialempathy"
+                ],
+                "website": "https://www.territorialempathy.com/",
+                "location": "Brooklyn",
+                "type": "nonprofit organization: urban research, urban design, planning, architecture, data science and visualization",
+                "contact": [
+                    {
+                        "name": "Zarith Pineda",
+                        "email": "zarith@territorialempathy.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": true,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Part Time Urban Designer",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "THE DESIGN BLOC",
+                "instagram": [
+                    "thedesignbloc"
+                ],
+                "website": null,
+                "location": "Miami, FL, Orlando, FL",
+                "type": "Interior Design, Branding, Design Strategy + Research, Design/Tech Education",
+                "contact": [
+                    {
+                        "name": "Erica Williams",
+                        "email": "info@thedesignbloc.com "
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Virtual Summer Interns and Video Editor",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "The Design Concierge",
+                "instagram": [
+                    "the_design_concierge.com"
+                ],
+                "website": "https://www.thedesignconcierge.com",
+                "location": "San Carlos, CA",
+                "type": "Architecture, Consulting, Interior Design, Project Management",
+                "contact": [
+                    {
+                        "name": "Chevy or Sara",
+                        "email": "hello@thedesignconcierge.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "The Design Mint",
+                "instagram": [
+                    "thedesignmint"
+                ],
+                "website": null,
+                "location": "Abuja, Nigeria",
+                "type": "Branding",
+                "contact": [
+                    {
+                        "name": "Nabila Ahmed ",
+                        "email": "thedesignmint@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "The Marschall",
+                "instagram": [
+                    "the_marschall"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Design, Industrial Design, Manufacturing",
+                "contact": [
+                    {
+                        "name": "Wil Marschall",
+                        "email": "wil@themarschall.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "The Moving Company",
+                "instagram": [
+                    "the_moving_co"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA, NYC, NY",
+                "type": "Motion Design, Video",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "themovingcompany2020@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "the neverending balloon",
                 "instagram": [
                     "theneverendingballoon"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Furniture",
-                    "Interior",
-                    "Object Design"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Furniture Design, Interior Design, Industrial Design",
                 "contact": [
                     {
                         "name": null,
@@ -2874,22 +4781,17 @@
                 "women_owned": true,
                 "non_binary_owned": false,
                 "hiring": false,
-                "hiring_positions": "open to collabs",
-                "looking_for_collaborators": true
+                "hiring_positions": null,
+                "looking_for_collaborators": false
             },
             {
                 "studio_name": "The Open Workshop",
                 "instagram": [
                     "theopenworkshop"
                 ],
-                "location": [
-                    "San Francisco",
-                    "Toronto"
-                ],
-                "type": [
-                    "Architecture",
-                    "Urbanism"
-                ],
+                "website": null,
+                "location": "San Francisco, CA, Toronto, Canada",
+                "type": "Architecture, Urbanism",
                 "contact": [
                     {
                         "name": "Neeraj Bhatia",
@@ -2909,12 +4811,9 @@
                 "instagram": [
                     "theworkingassembly"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Design"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design",
                 "contact": [
                     {
                         "name": "Jolene Delisle",
@@ -2934,13 +4833,9 @@
                 "instagram": [
                     "helloyellowblog"
                 ],
-                "location": [
-                    "Lagos"
-                ],
-                "type": [
-                    "Interior Architecture",
-                    "Design"
-                ],
+                "website": null,
+                "location": "Lagos, Nigeria",
+                "type": "Interior Design, Interior Architecture",
                 "contact": [
                     {
                         "name": "Bukola Adeyemi",
@@ -2952,21 +4847,17 @@
                 "women_owned": false,
                 "non_binary_owned": false,
                 "hiring": false,
-                "hiring_positions": "open to international collabs",
-                "looking_for_collaborators": true
+                "hiring_positions": null,
+                "looking_for_collaborators": false
             },
             {
                 "studio_name": "Think Wilder Architecture",
                 "instagram": [
                     "think.Wilder.architecture"
                 ],
-                "location": [
-                    "NYC",
-                    "New Jersey"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "NYC, NY, West Orange, NJ",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Stephen M. Wilder",
@@ -2982,17 +4873,99 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Two Point Zero",
+                "instagram": [
+                    "twopointzero2.0"
+                ],
+                "website": "https://twopointzerony.com/",
+                "location": "New York City, NY",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": "Junho Choi",
+                        "email": null
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "UBIQUITOUS DESIGN, LTD.",
+                "instagram": [
+                    "wdanielbickerstaff"
+                ],
+                "website": null,
+                "location": "Cleveland/Shaker Heights, OH",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "W. Daniel Bickerstaff, II",
+                        "email": "arcatek@udltd.com    "
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Urban Patch",
+                "instagram": [
+                    "urbanpatchrw"
+                ],
+                "website": null,
+                "location": "Kigali, Rwanda",
+                "type": "Urban Policy & Planning, Urban Design, Architecture, Real Estate Development",
+                "contact": [
+                    {
+                        "name": "info@urbanpatch.org",
+                        "email": "Justin G. Moore "
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Vavaki Architects",
+                "instagram": [],
+                "website": null,
+                "location": "Rwanda, Uganda, London, UK",
+                "type": "Architecture, Masterplanning, Landscape Architecture, Urban Design, Project Management, Development Advisory",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "Info@vavaki.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Interns, Facade Architects, Design Architects",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "VBD",
                 "instagram": [
                     "veronicabarrowdesign"
                 ],
-                "location": [
-                    "Seattle"
-                ],
-                "type": [
-                    "Architecture",
-                    "Interiors"
-                ],
+                "website": null,
+                "location": "Seattle, WA",
+                "type": "Architecture, Interior Design",
                 "contact": [
                     {
                         "name": "Veronica Barrow",
@@ -3012,12 +4985,9 @@
                 "instagram": [
                     "vennstudio"
                 ],
-                "location": [
-                    "LA"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": "Tyler Thomas",
@@ -3033,17 +5003,35 @@
                 "looking_for_collaborators": false
             },
             {
+                "studio_name": "Viety Collection",
+                "instagram": [
+                    "viottycollection"
+                ],
+                "website": "sviotty.com",
+                "location": "Washington, DC (but does remote work)",
+                "type": "creative strategy, design research, social impact design, illustration",
+                "contact": [
+                    {
+                        "name": "Sam Viotty",
+                        "email": "sviotty@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Yes, looking for a remote intern",
+                "looking_for_collaborators": false
+            },
+            {
                 "studio_name": "Vigilism",
                 "instagram": [
                     "kidcadaver"
                 ],
-                "location": [
-                    "NYC"
-                ],
-                "type": [
-                    "Architecture",
-                    "Art"
-                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture, Art",
                 "contact": [
                     {
                         "name": "Olalekan Jeyifous",
@@ -3063,16 +5051,17 @@
                 "instagram": [
                     "vines.architecture"
                 ],
-                "location": [
-                    "Raleigh"
-                ],
-                "type": [
-                    "Architecture"
-                ],
+                "website": null,
+                "location": "Raleigh, NC",
+                "type": "Architecture",
                 "contact": [
                     {
                         "name": null,
-                        "email": "vvines@vinesarc.com\nrthomas@vincesarc.com"
+                        "email": "vvines@vinesarc.com"
+                    },
+                    {
+                        "name": null,
+                        "email": "rthomas@vincesarc.com"
                     }
                 ],
                 "black_owned": true,
@@ -3082,8 +5071,338 @@
                 "hiring": false,
                 "hiring_positions": null,
                 "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Visbility",
+                "instagram": [
+                    "visibility_office"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Industrial Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "WAI Architecture Think Tank",
+                "instagram": [
+                    "garciafrankowski"
+                ],
+                "website": null,
+                "location": "Currently Pittsburgh, PA (but oscillate between USA, Puerto Rico, France and China)",
+                "type": "Architecture, Design, Planning, Curatorial, Education, Publishing",
+                "contact": [
+                    {
+                        "name": "Cruz and Nathalie",
+                        "email": "contact@wai-architecture.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "WashingtonDesign",
+                "instagram": [
+                    "culturalboundaries"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design Strategy, Branding, Research",
+                "contact": [
+                    {
+                        "name": "Michele Y. Washington",
+                        "email": "michele@washingtondesign.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "WATER BLOCK",
+                "instagram": [
+                    "waterblockglobal"
+                ],
+                "website": null,
+                "location": "New Orleans, LA",
+                "type": "Design, Urban Design, Education, Research, Planning",
+                "contact": [
+                    {
+                        "name": "Atianna Cordova",
+                        "email": "waterblockllc@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Wayside Studio",
+                "instagram": [
+                    "wayside.studio"
+                ],
+                "website": null,
+                "location": "Washington, DC",
+                "type": "Public art & art direction geared toward cultural & environmental causes",
+                "contact": [
+                    {
+                        "name": "Curry Hackett",
+                        "email": "people@wayside.studio"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "WE-DESIGNS, LLC",
+                "instagram": [
+                    "WE_DESIGNS_LLC"
+                ],
+                "website": null,
+                "location": "NEW YORK",
+                "type": "Design, Architecture, Design-Build (Retail/Residential), Fabrication (Retail/Commercial), Creative Strategy, Experiential, Branding/Marketing",
+                "contact": [
+                    {
+                        "name": "Wendy W Fok",
+                        "email": "w@we-designs.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": true,
+                "hiring": true,
+                "hiring_positions": "a) CTO for equity on digital platform and real estate, b) RA for modular construction project for modular build, and c) project manager for residential build 5 - 10 years of construction experience required.",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "WeShouldDoItAll",
+                "instagram": [
+                    "weshoulddoitall"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Wkshps",
+                "instagram": [
+                    "wkshps"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design",
+                "contact": [
+                    {
+                        "name": "Prem Krishnamurthy, Chris Wu",
+                        "email": "wkshps@wkshps.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Wolff Architects",
+                "instagram": [
+                    "wolffcapetown"
+                ],
+                "website": null,
+                "location": "Cape Town, South Africa",
+                "type": "Architecture, Research, Urbanism",
+                "contact": [
+                    {
+                        "name": "Ilze Wolff",
+                        "email": null
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Works Studio",
+                "instagram": [
+                    "works.studio"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": null
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Worrell Yeung",
+                "instagram": [
+                    "worrellyeung"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Architecture",
+                "contact": [
+                    {
+                        "name": "Jejon Yeung",
+                        "email": "Jejon@worrellyeung.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": "Hiring a junior architect level 1-3 yrs experience",
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Yaminaglow",
+                "instagram": [
+                    "yaminahglow"
+                ],
+                "website": null,
+                "location": "Orlando, FL",
+                "type": "Design, Interior Design, Landscape Architecture",
+                "contact": [
+                    {
+                        "name": "Yaminah",
+                        "email": "yaminahglow@gmail.com"
+                    }
+                ],
+                "black_owned": false,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Yinka Ilori Studio",
+                "instagram": [
+                    "yinka_ilori"
+                ],
+                "website": null,
+                "location": "London, UK",
+                "type": "Art, Design",
+                "contact": [
+                    {
+                        "name": "Yinka Ilori",
+                        "email": "hello@yinkailori.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Youth Design Center",
+                "instagram": [
+                    "youthdesigncenter"
+                ],
+                "website": null,
+                "location": "NYC, NY",
+                "type": "Youth Workforce Development",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "info@youthdesigncenter.org"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": false,
+                "non_binary_owned": false,
+                "hiring": true,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
+            },
+            {
+                "studio_name": "Zen Ren Inc",
+                "instagram": [
+                    "zenreninc"
+                ],
+                "website": null,
+                "location": "Los Angeles, CA",
+                "type": "Interior Design",
+                "contact": [
+                    {
+                        "name": null,
+                        "email": "zenrenvanderveen@gmail.com"
+                    }
+                ],
+                "black_owned": true,
+                "indigenous_owned": false,
+                "women_owned": true,
+                "non_binary_owned": false,
+                "hiring": false,
+                "hiring_positions": null,
+                "looking_for_collaborators": false
             }
-        ]
+        ]        
     }, 
     "canty_200": {
         "source": "200 Black Creators",
@@ -3221,9 +5540,7 @@
                     "Architect"
                 ],
                 "instagram": "efebyefe",
-                "website_name": [
-                    "nan"
-                ],
+                "website_name": [],
                 "website_url": "https://nan"
             },
             {
