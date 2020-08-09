@@ -1,6 +1,5 @@
 {
-    "navigation": [
-        {
+    "navigation": [{
             "title": "Mission",
             "emoji": "💬",
             "emoji_name": "speech bubble",
@@ -25,10 +24,10 @@
             "link": "resources"
         },
         {
-            "title": "BIPOC Praxes",
+            "title": "BIPOC Studios",
             "emoji": "📐",
             "emoji_name": "triangular ruler",
-            "link": "bipoc-praxes"
+            "link": "https://docs.google.com/spreadsheets/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/edit#gid=636314262"
         },
         {
             "title": "One Click Activism",
@@ -49,16 +48,10 @@
             "link": "acknowledgments"
         },
         {
-            "title": "IG @justdesignonly",
-            "emoji": "✨",
-            "emoji_name": "sparkles",
-            "link": "https://www.instagram.com/justdesignonly/"
-        },
-        {
             "title": "Suggest an Addition",
             "emoji": "📨",
             "emoji_name": "incoming envelope",
-            "link": "mailto:william@marx.design?Subject=Suggest an Addition 📨&body=If we don't get back to you quickly, try DMing us on IG @justdesignonly 🙏"
+            "link": "mailto:w@marx.design?Subject=Suggest an Addition 📨&body=If we don't get back to you quickly, try DMing me on IG @williamwmarx 🙏"
         }
     ]
 }

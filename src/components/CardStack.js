@@ -20,15 +20,23 @@ export default class CardStack extends React.Component {
             total_height += card_height;
             if (card_height > max_height) max_height = card_height;
         }
-        if (window.innerWidth < 1100) {
-            average_height = total_height/2;
+        if (window.innerWidth < 700) {
+            this.setState({
+                height: "auto",
+                width: window.innerWidth
+            })
+
         } else {
-            average_height = total_height/3;
+            if (window.innerWidth < 1100) {
+                average_height = total_height/2;
+            } else {
+                average_height = total_height/3;
+            }
+            this.setState({
+                height: Math.ceil(average_height + max_height),
+                width: window.innerWidth
+            })
         }
-        this.setState({
-            height: Math.ceil(average_height + max_height),
-            width: window.innerWidth
-        })
     }
   
     componentDidMount() {
@@ -50,7 +58,11 @@ export default class CardStack extends React.Component {
       }
   
     render() {
-        return <div id="card-stack" style={{height: this.state.height}}>{this.props.children}</div>
+        return (
+            <div id="card-stack" style={{height: this.state.height}}>
+                {this.props.children}
+            </div>
+        )
     }
 }
   
