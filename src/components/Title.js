@@ -17,6 +17,19 @@ export default class Title extends React.Component {
       let text = document.createElement("h2"); 
       document.body.appendChild(text); 
       text.style.position = "absolute"; 
+      text.innerHTML = this.state.title; 
+      let width = Math.ceil(text.clientWidth); 
+      text.innerHTML = "I";
+      let height = Math.ceil(0.6 * text.clientWidth); 
+      document.body.removeChild(text);
+      return width;
+    }
+  
+    set_bar_dimensions() {
+      const that = this
+      let text = document.createElement("h2"); 
+      document.body.appendChild(text); 
+      text.style.position = "absolute"; 
       text.innerHTML = that.state.title;
       let width = Math.ceil(text.clientWidth); 
       text.innerHTML = "I";
@@ -28,28 +41,28 @@ export default class Title extends React.Component {
           underline_left: (window.innerWidth / 2) - (width / 2)
       });
     }
-  
+
     componentDidMount() {
       const windowsize = typeof window !== 'undefined' && window
       let title_words = this.state.title.split(" ")
-      if (title_words.length > 1 && windowsize.innerWidth < 700) this.setState({title: title_words[title_words.length - 1]})
+      if (calculate_bar_dimensions() > windowsize.innderWidth && windowsize.innerWidth < 700) this.setState({title: title_words[title_words.length - 1]})
       // Calculate initial gradient bar width, slightly off due to font load speed
-      this.calculate_bar_dimensions();
+      this.set_bar_dimensions();
 
       // Wait 10ms and do it again just to be more accurate
       this.timer = setInterval(
-        () => this.calculate_bar_dimensions(),
+        () => this.set_bar_dimensions(),
         10,
       );
       // Bind window resize to creating new dimensions for the gradient bar
-      window.addEventListener("resize", this.calculate_bar_dimensions.bind(this));
+      window.addEventListener("resize", this.set_bar_dimensions.bind(this));
     }
 
     componentWillUnmount() {
       // Clear the timer, it's no longer necessary
       clearTimeout(this.timer);
       // Remove resize listener
-      window.removeEventListener("resize", this.calculate_bar_dimensions.bind(this));
+      window.removeEventListener("resize", this.set_bar_dimensions.bind(this));
     }
 
     render() {
