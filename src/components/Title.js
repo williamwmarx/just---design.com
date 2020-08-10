@@ -21,8 +21,9 @@ export default class Title extends React.Component {
       text.style.position = "absolute"; 
       text.innerHTML = that.state.title;
       let width = Math.ceil(text.clientWidth); 
-      if (width >= 500 && windowsize.innerWidth < 700) {
+      if (width >= 500 && windowsize.innerWidth < 700 && that.state.title.split(" ").length > 1) {
         this.setState({"title": that.state.title.split(" ")[that.state.title.split(" ").length - 1]});
+        that.calculate_bar_dimensions()
       } 
       text.innerHTML = "I";
       let height = Math.ceil(0.6 * text.clientWidth); 
