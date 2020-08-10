@@ -17,10 +17,9 @@ export default class Title extends React.Component {
       let text = document.createElement("h2"); 
       document.body.appendChild(text); 
       text.style.position = "absolute"; 
-      text.innerHTML = this.state.title; 
+      text.innerHTML = that.state.title; 
       let width = Math.ceil(text.clientWidth); 
       text.innerHTML = "I";
-      let height = Math.ceil(0.6 * text.clientWidth); 
       document.body.removeChild(text);
       return width;
     }
@@ -45,7 +44,8 @@ export default class Title extends React.Component {
     componentDidMount() {
       const windowsize = typeof window !== 'undefined' && window
       let title_words = this.state.title.split(" ")
-      if (calculate_bar_dimensions() > windowsize.innderWidth && windowsize.innerWidth < 700) this.setState({title: title_words[title_words.length - 1]})
+      let dims = this.calculate_bar_dimensions()
+      if (dims >= windowsize.innerWidth) this.setState({title: title_words[title_words.length - 1]})
       // Calculate initial gradient bar width, slightly off due to font load speed
       this.set_bar_dimensions();
 
