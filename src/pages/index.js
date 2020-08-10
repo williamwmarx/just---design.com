@@ -103,7 +103,7 @@ export default function Home() {
       <Title name="THAT'S ALL IT TAKES." hide_bar={true}/>
       <div id="our-mission">
         <p>
-          For far too long, the worlds of architecture and design have been a plutocracy intent on social atomization and oppression of the Other. This website is intended as an evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangenital fields.
+          For far too long, the worlds of architecture and design have been a plutocracy intent on social atomization and oppression of the Other. This website is intended as an evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangential fields.
         </p>
       </div>
 
