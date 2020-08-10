@@ -43,9 +43,11 @@ export default class Title extends React.Component {
 
     componentDidMount() {
       const windowsize = typeof window !== 'undefined' && window
-      let title_words = this.state.title.split(" ")
-      let dims = this.calculate_bar_dimensions()
-      if (dims >= windowsize.innerWidth) this.setState({title: title_words[title_words.length - 1]})
+      if (this.state.title !== "THAT'S ALL IT TAKES.") {
+        let title_words = this.state.title.split(" ")
+        let dims = this.calculate_bar_dimensions()
+        if (dims >= 1 * windowsize.innerWidth) this.setState({title: title_words[title_words.length - 1]})
+      }
       // Calculate initial gradient bar width, slightly off due to font load speed
       this.set_bar_dimensions();
 
