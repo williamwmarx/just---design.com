@@ -101,8 +101,13 @@ export default function Home() {
     <div className="root">
       <Head title="JUST DESIGN. THAT'S ALL IT TAKES."/>
       <Title name="THAT'S ALL IT TAKES." hide_bar={true}/>
+      <div id="our-mission">
+        <p>
+          For far too long, the worlds of architecture and design have been a plutocracy intent on social atomization and oppression of the Other. This website is intended as an evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangenital fields.
+        </p>
+      </div>
 
-      <div style={{paddingTop: "2vh"}}>
+      <div>
         {Index.navigation.map((data, index) => {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (

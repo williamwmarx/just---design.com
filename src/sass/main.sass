@@ -6,10 +6,39 @@ body
     overflow-x: hidden
 
 a 
-    color: white  
+  color: white  
     
 .root 
-    position: absolute
-    width: 100vw
-    top: 5vh
-    padding-bottom: 10vh
+  position: absolute
+  width: 100vw
+  top: 5vh
+  padding-bottom: 10vh
+
+#our-mission
+  position: relative
+  width: 40%
+  left: 30% 
+  text-align: center
+  margin-bottom: 1.2em
+  // border-radius: 20px;
+  // background: #222222
+  // box-shadow: inset 15px 15px 17px #1d1d1d, inset -15px -15px 17px #272727
+
+  p
+    position: relative
+    font-weight: bold
+
+@media only screen and (max-width: 1100px)
+  #our-mission
+    width: 60%
+    left: 20%
+    margin-bottom: 1.5em
+
+@media only screen and (max-width: 700px)
+  #our-mission
+    width: 80%
+    left: 10%
+    margin-bottom: 1.2em
+
+    p
+      font-size: 92%

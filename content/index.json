@@ -1,27 +1,27 @@
 {
     "navigation": [{
-            "title": "Mission",
+            "title": "Further Information",
             "emoji": "💬",
             "emoji_name": "speech bubble",
-            "link": "mission"
+            "link": "further-information"
         },
         {
-            "title": "Readings",
+            "title": "Racial Justice Readings",
             "emoji": "📖",
             "emoji_name": "open book",
-            "link": "readings"
+            "link": "racial-justice-readings"
         },
         {
-            "title": "Media",
+            "title": "Racial Justice Media",
             "emoji": "📺",
             "emoji_name": "television",
-            "link": "media"
+            "link": "racial-justice-media"
         },
         {
-            "title": "Resources",
+            "title": "Design Resources",
             "emoji": "🧰",
             "emoji_name": "toolbox",
-            "link": "resources"
+            "link": "design-resources"
         },
         {
             "title": "BIPOC Studios",
@@ -51,7 +51,7 @@
             "title": "Suggest an Addition",
             "emoji": "📨",
             "emoji_name": "incoming envelope",
-            "link": "mailto:w@marx.design?Subject=Suggest an Addition 📨&body=If we don't get back to you quickly, try DMing me on IG @williamwmarx 🙏"
+            "link": "mailto:hello@just---design.com?Subject=Suggest an Addition 📨"
         }
     ]
 }

@@ -8,7 +8,7 @@ import CardStack from "../components/CardStack.js";
 import "../sass/main.sass";
 import "../sass/menu.component.sass";
 
-export default class Readings extends React.Component {
+export default class RacialJusticeReadings extends React.Component {
   constructor(props) {
     super(props);
     this.cardstackRef = React.createRef();
@@ -68,8 +68,8 @@ export default class Readings extends React.Component {
     } 
 
     return (
-      <CardContent title="READINGS.">
-        <CardContent.Header>Select Reading Type</CardContent.Header>
+      <CardContent title="RACIAL JUSTICE READINGS.">
+        <CardContent.Header>Select Topic</CardContent.Header>
         <div className="menu">
           <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
             {reading_tags.sort().map((tag, source_index) => {
@@ -112,7 +112,7 @@ export default class Readings extends React.Component {
                     {
                       source && <Card.Text>{source}</Card.Text>
                     }
-                    <Card.Link href={source_link} text="Read this text" emoji="📕" emoji_name="red textbook"/>
+                    <Card.Link href={source_link} text="Read this text" emoji="📙" emoji_name="orange textbook"/>
                   </Card.Body>
                 </Card>
               )

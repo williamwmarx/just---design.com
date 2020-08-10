@@ -39,7 +39,7 @@ export default class Link extends React.Component {
     render() {
         let nohover_transparency = 1;
         let hover_transparency = 0.9;
-        let color1 = [51, 51, 51];
+        let color1 = [80, 80, 80];
         let color2 = [115, 115, 115];
         let color3 = [75, 75, 75]
     

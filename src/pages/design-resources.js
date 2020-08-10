@@ -8,15 +8,14 @@ import CardStack from "../components/CardStack.js";
 import "../sass/main.sass";
 import "../sass/menu.component.sass";
 
-export default class Media extends React.Component {
+export default class DesignResources extends React.Component {
   constructor(props) {
     super(props);
     this.cardstackRef = React.createRef();
     this.handleSortChange = this.handleSortChange.bind(this);
     this.state = {
       typename: "All",
-      tag: "All",
-      media: []
+      resources: []
     };
   }
   
@@ -27,7 +26,7 @@ export default class Media extends React.Component {
 
   componentDidMount() {
     const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/1x-cYJY_dprfwvWXKUkwDn2Eiwzk0pIjZWLm0ZHLUk6w/1/public/full?alt=json")
+    fetch("https://spreadsheets.google.com/feeds/cells/1XV57oSsfezeajsXLC9EJD7_dRLLesBqB_bMVW2t5WeM/1/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
             console.log('Looks like there was a problem. Status Code: '+response.status);
@@ -39,7 +38,7 @@ export default class Media extends React.Component {
     ).then(function(data) {
       let content = []
       let entries = data["feed"]["entry"]
-      for (var i = 13; i < entries.length; i += 12) {
+      for (var i = 12; i < entries.length; i += 11) {
         let title = entries[i]["content"]["$t"]
         let typename = entries[i+1]["content"]["$t"]
         let source_link = entries[i+2]["content"]["$t"]
@@ -52,10 +51,9 @@ export default class Media extends React.Component {
         let summary_source_link = entries[i+7]["content"]["$t"]
         let taken_from = entries[i+8]["content"]["$t"]
         let taken_from_link = entries[i+9]["content"]["$t"]
-        let tag = entries[i+10]["content"]["$t"]
-        content.push([title, typename, source_link, creators, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
+        content.push([title, typename, source_link, creators, summary, summary_source, summary_source_link, taken_from, taken_from_link])
       }
-      that.setState({media: content})
+      that.setState({resources: content})
     })
     .catch(function(err) {
         console.log('Fetch Error: ', err);
@@ -63,68 +61,40 @@ export default class Media extends React.Component {
   }
 
   render() {
-    let media_typenames = ["All"];
-    let media_tags = ["All"];
-    for (let i = 0; i < this.state.media.length; i++) {
-      let typename = this.state.media[i][1]
-      let tag = this.state.media[i][9]
-      if (!media_typenames.includes(typename)) media_typenames.push(typename)
-      if (!media_tags.includes(tag)) media_tags.push(tag)
+    let resource_typenames = ["All"];
+    for (let i = 0; i < this.state.resources.length; i++) {
+      let typename = this.state.resources[i][1]
+      if (!resource_typenames.includes(typename)) resource_typenames.push(typename)
     } 
 
     return (
-      <CardContent title="MEDIA.">
-        <CardContent.Header>Select Media Type</CardContent.Header>
+      <CardContent title="DESIGN RESOURCES.">
+        <CardContent.Header>Select Resource Type</CardContent.Header>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
-            {media_typenames.sort().map((typename, source_index) => {
+            {resource_typenames.sort().map((typename, source_index) => {
               return <option key={`content_item_${source_index}`} value={typename}>{typename}</option> 
-            })}
-          </select>
-        </div>
-        <div className="menu">
-          <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
-            {media_tags.sort().map((tag, source_index) => {
-              return <option key={`content_item_${source_index}`} value={tag}>{tag}</option> 
             })}
           </select>
         </div>
 
         <CardStack ref={this.cardstackRef}>
-          {this.state.media.map((data, index) => {
+          {this.state.resources.map((data, index) => {
             let title = data[0] 
             let typename = data[1] 
             let source_link = data[2]
             let creators = data[3]
             let summary = data[4]
+            if (summary === "N/A") summary = null
             let summary_source = data[5]
             let summary_source_link = data[6] 
             let taken_from = data[7] 
             let taken_from_link = data[8] 
-            let tag = data[9]
 
             let source = null;
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
-            let emoji_name = null;
-            let emoji = null;
-            let verb = "View";
-            if (typename === "Film") {
-              emoji_name = "film frames"
-              emoji="🎞️"
-            } else if (typename === "Interview") {
-              emoji_name = "studio microphone"
-              emoji="🎙"
-            } else if (typename === "Video") {
-              emoji_name = "video camera"
-              emoji="📹"
-            } else if (typename === "Audiobook") {
-              emoji_name = "speaker with high volume"
-              emoji="🔊"
-              verb="Listen to"
-            }
-
-            if ((this.state.typename === "All" || this.state.typename === typename) && (this.state.tag === "All" || this.state.tag === tag)) {
+            if (this.state.typename === "All" || this.state.typename === typename) {
               return (
                 <Card key={`card_${index}`}>
                   <Card.Header>
@@ -140,8 +110,10 @@ export default class Media extends React.Component {
                   </Card.Header>
                   <Card.Body>
                     <Card.Text>{summary}</Card.Text>
-                    {source && <Card.Text>{source}</Card.Text>}
-                    <Card.Link href={source_link} text={`${verb} this ${typename}`} emoji={emoji} emoji_name={emoji_name}/>
+                    {
+                      source && <Card.Text>{source}</Card.Text>
+                    }
+                    <Card.Link href={source_link} text="View this resource" emoji="⚒️" emoji_name="hammer and pick"/>
                   </Card.Body>
                 </Card>
               )
