@@ -1,6 +1,10 @@
 .card 
-    width: 32%
-    margin-bottom: 20px
+  width: 30%
+  border-radius: 20px;
+  background: #222222
+  box-shadow:  8px 8px 16px #151515, -8px -8px 16px #2a2a2a
+  padding: 0.25em 0.15em 0.5em 0.25em
+  margin-bottom: 50px
 
 .card:nth-child(3n+1)
     order: 1 
@@ -11,18 +15,13 @@
 .card:nth-child(3n)
     order: 3 
 
-.card-bg 
-    background-color: #333
-
 .card-header 
     margin: 0 0 0 0.4em
     padding: 1.25em 0.5em 0em 1.25em
-    background-color: #1c1c1c
 
 .card-body 
     margin: 0 0 0 0.4em
     padding: 0.5em 1em 1.5em 1em
-    background-color: #1c1c1c
 
 .card-title 
     font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
@@ -75,7 +74,7 @@
 
 @media only screen and (max-width: 1100px) 
     .card 
-        width: 48%
+      width: 45%
     
     .card:nth-child(2n+1) 
         order: 1 
@@ -85,4 +84,5 @@
 
 @media only screen and (max-width: 700px) 
     .card 
-        width: 80vw
+      width: 78vw
+      margin-bottom: 25px

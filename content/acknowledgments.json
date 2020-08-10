@@ -1,7 +1,6 @@
 {
     "graphic_design_elements": {
-        "typefaces": [
-            {
+        "typefaces": [{
                 "font": "Carrie",
                 "font_link": "https://www.vocaltype.co/history-of/carrie",
                 "foundry": "VOCAL TYPE",
@@ -29,12 +28,11 @@
                 "letterSpacing": "normal"
             }
         ],
-        "color_palette": [
-            {
+        "color_palette": [{
                 "color_name": "Background",
-                "hex": "#111111",
-                "rgb": "17, 17, 17",
-                "cmyk": "0%, 0%, 0%, 93%",
+                "hex": "#222222",
+                "rgb": "34, 34, 34",
+                "cmyk": "0%, 0%, 0%, 87%",
                 "source": null,
                 "source_link": null,
                 "creators": []
@@ -46,12 +44,10 @@
                 "cmyk": "56%, 21%, 0%, 13%",
                 "source": "\"This Is What I Know About Art\" Cover",
                 "source_link": "https://www.penguinrandomhouse.com/books/612188/this-is-what-i-know-about-art-by-kimberly-drew-illustrated-by-ashley-lukashevsky/",
-                "creators": [
-                    {
-                        "name": "Kimberly Drew",
-                        "link": "https://www.instagram.com/museummammy"
-                    }
-                ]
+                "creators": [{
+                    "name": "Kimberly Drew",
+                    "link": "https://www.instagram.com/museummammy"
+                }]
             },
             {
                 "color_name": "Gradient Color 2",
@@ -60,12 +56,10 @@
                 "cmyk": "26%, 24%, 0%, 22%",
                 "source": "One Drop Can Make a Rainbow",
                 "source_link": "https://www.instagram.com/p/B6niRV0JE4S/",
-                "creators": [
-                    {
-                        "name": "Alaska-Alaska",
-                        "link": "https://www.instagram.com/alaska___alaska/"
-                    }
-                ]
+                "creators": [{
+                    "name": "Alaska-Alaska",
+                    "link": "https://www.instagram.com/alaska___alaska/"
+                }]
             },
             {
                 "color_name": "Gradient Color 3",
@@ -74,8 +68,7 @@
                 "cmyk": "0%, 66%, 34%, 6%",
                 "source": "Seriously Fun: Light Study",
                 "source_link": "https://www.instagram.com/p/BknjgrFg0Cj/",
-                "creators": [
-                    {
+                "creators": [{
                         "name": "Oana Stănescu",
                         "link": "http://oanas.net/"
                     },
@@ -87,8 +80,7 @@
             }
         ]
     },
-    "content": [
-        {
+    "content": [{
             "title": "Anti-Racism Design Resources",
             "source_link": "https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub",
             "complete": true
@@ -235,4 +227,3 @@
         }
     ]
 }
-

@@ -104,21 +104,21 @@ export default class Media extends React.Component {
             let tag = data[9]
 
             let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Subtext href={data.summary_source_link}>Summary c/o {data.summary_source}</Card.Subtext>
+            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
             let emoji_name = null;
             let emoji = null;
             let verb = "View";
-            if (data.typename === "film") {
+            if (typename === "Film") {
               emoji_name = "film frames"
               emoji="🎞️"
-            } else if (data.typename === "interview") {
+            } else if (typename === "Interview") {
               emoji_name = "studio microphone"
               emoji="🎙"
-            } else if (data.typename === "video") {
+            } else if (typename === "Video") {
               emoji_name = "video camera"
               emoji="📹"
-            } else if (data.typename === "audiobook") {
+            } else if (typename === "Audiobook") {
               emoji_name = "speaker with high volume"
               emoji="🔊"
               verb="Listen to"
@@ -140,9 +140,7 @@ export default class Media extends React.Component {
                   </Card.Header>
                   <Card.Body>
                     <Card.Text>{summary}</Card.Text>
-                    {
-                      source && <Card.Text>{source}</Card.Text>
-                    }
+                    {source && <Card.Text>{source}</Card.Text>}
                     <Card.Link href={source_link} text={`${verb} this ${typename}`} emoji={emoji} emoji_name={emoji_name}/>
                   </Card.Body>
                 </Card>

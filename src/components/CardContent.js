@@ -4,10 +4,11 @@ import Title from "./Title.js";
 import "../sass/main.sass";
 
 let header_style = {
-    margin: "0 0 0.5em 0", 
+    margin: "0 0 0.75em 0", 
+    zIndex: "100",
     padding: "0px", 
     fontFamily: "PoppinsMedium", 
-    fontSize: "150%",
+    fontSize: "135%",
     color: "#aaa"
 }
 

@@ -18,9 +18,7 @@ export default class Card extends React.Component {
     render() {
         return (
             <div className="card">
-                <div className="card-bg">
-                    {this.props.children}
-                </div>
+              {this.props.children}
             </div>
         )
     }
