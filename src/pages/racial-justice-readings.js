@@ -91,7 +91,7 @@ export default class RacialJusticeReadings extends React.Component {
             let tag = data[8]
 
             let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Subtext href={data.summary_source_link}>Summary c/o {data.summary_source}</Card.Subtext>
+            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
             if (this.state.tag === "All" || this.state.tag === tag) {
               return (
@@ -112,7 +112,7 @@ export default class RacialJusticeReadings extends React.Component {
                     {
                       source && <Card.Text>{source}</Card.Text>
                     }
-                    <Card.Link href={source_link} text="Read this text" emoji="📙" emoji_name="orange textbook"/>
+                    <Card.Link href={source_link} text="Read this text" emoji="📖" emoji_name="open book"/>
                   </Card.Body>
                 </Card>
               )
