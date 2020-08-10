@@ -5,7 +5,6 @@ export default class Title extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        first_load: true,
         underline_width: 0,
         underline_height: 0,
         underline_left: 0,
@@ -15,18 +14,11 @@ export default class Title extends React.Component {
 
     calculate_bar_dimensions() {
       const that = this
-      const fl = that.state.first_load 
-      that.setState({first_load: false})
-      const windowsize = typeof window !== 'undefined' && window
       let text = document.createElement("h2"); 
       document.body.appendChild(text); 
       text.style.position = "absolute"; 
       text.innerHTML = that.state.title;
       let width = Math.ceil(text.clientWidth); 
-      if (width >= windowsize.innerWidth * 0.95 && windowsize.innerWidth < 700 && that.state.title.split(" ").length > 1) {
-        this.setState({"title": that.state.title.split(" ")[that.state.title.split(" ").length - 1]});
-        if (fl) that.calculate_bar_dimensions()
-      } 
       text.innerHTML = "I";
       let height = Math.ceil(0.6 * text.clientWidth); 
       document.body.removeChild(text)
@@ -38,6 +30,9 @@ export default class Title extends React.Component {
     }
   
     componentDidMount() {
+      const windowsize = typeof window !== 'undefined' && window
+      let title_words = this.state.title.split(" ")
+      if (title_words.length > 1 && windowsize.innerWidth < 700) this.setState({title: title_words[title_words.length - 1]})
       // Calculate initial gradient bar width, slightly off due to font load speed
       this.calculate_bar_dimensions();
 
