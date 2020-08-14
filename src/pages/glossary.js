@@ -54,7 +54,6 @@ export default class Glossary extends React.Component {
   }
 
   render() {
-    console.log(this.state.glossary)
     return (
       <div className="root">
         <Head title="JUST DESIGN. Glossary."/>
