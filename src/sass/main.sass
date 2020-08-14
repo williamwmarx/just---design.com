@@ -25,7 +25,6 @@ a
     position: relative
     font-weight: bold
 
-
 .card-content-header
   margin: 0 0 0.75em 0
   z-index: 100
@@ -45,16 +44,11 @@ a
   font-size: 90% 
   line-height: 125% 
 
-.search
+
+.submission
+  margin: 0 0 0.4em 2vw
   font-size: 100%
-  width: 15em
-  margin: 0 2em 2.25em 0
-  padding: 1em 2.75em 1em 0.75em
-  color: white 
-  border-radius: 0.5em
-  background-color: #222 
-  box-shadow:  10px 10px 20px #1a1a1a, -10px -10px 20px #2a2a2a
-  border: 2px solid transparent !important
+  line-height: 150%
 
 .menu 
   position: relative
@@ -84,6 +78,18 @@ a
     background-size: 20px
     background-clip: padding-box
 
+.search
+  font-size: 100%
+  width: 20em
+  margin: 0 2em 2.25em 0
+  padding: 1em 2.75em 1em 0.75em
+  color: white 
+  border-radius: 0.5em
+  background-color: #222 
+  box-shadow:  10px 10px 20px #1a1a1a, -10px -10px 20px #2a2a2a
+  border: 2px solid transparent !important
+
+
 @media only screen and (max-width: 1100px)
   #our-mission
     width: 60%
@@ -92,10 +98,22 @@ a
 
 @media only screen and (max-width: 700px)
   .menu 
-    margin: 0.25em 2em 3em 0
+    margin: 0em 2em 1.5em 0
 
     select
-      font-size: 80%
+      font-family: "Poppins"
+      font-size: 85%
+      padding: 0.75em 40px 0.75em 0.75em
+
+  .search
+    font-size: 80%
+    width: 19.5em
+    margin-top: 0.5em
+    margin-bottom: 4em
+
+  .submission
+    width: 70%
+    margin-bottom: 0.75em
 
   #our-mission
     width: 80%
@@ -105,3 +123,5 @@ a
     p
       font-size: 92%
 
+  .glossary-definition
+    width: 88%

@@ -4,9 +4,12 @@ import React from "react";
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
+import Emoji from "../components/Emoji.js";
+import Link from "../components/Link.js";
 /* Import Styles */
 import "../sass/main.sass";
-import "../sass/menu.component.sass";
+/* Import Sparse Data */
+import DesignResourcesSparse from "../../static/json/DesignResourcesSparse.json"
 
 export default class DesignResources extends React.Component {
   constructor(props) {
@@ -15,13 +18,15 @@ export default class DesignResources extends React.Component {
     this.handleSortChange = this.handleSortChange.bind(this);
     this.state = {
       typename: "All",
-      resources: []
+      search_query: "",
+      resources: DesignResourcesSparse["resources"]
     };
   }
   
   handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
     this.setState({[event.target.name]: event.target.value});
+    if (event.target.name === "search_query") this.setState({typename: "All"})
   }
 
   componentDidMount() {
@@ -68,8 +73,15 @@ export default class DesignResources extends React.Component {
     } 
 
     return (
-      <CardContent title="DESIGN RESOURCES.">
-        <CardContent.Header>Select Resource Type</CardContent.Header>
+      <CardContent title="Design Resources.">
+        {/* Submissions */}
+        <CardContent.Header>Submissions</CardContent.Header>
+          <p className="submission">
+            <Link href="https://forms.gle/crnaPirDDpYLWHY48">Submit a design resource →</Link>&nbsp;&nbsp;<Emoji emoji="🔨" emoji_name="hammer"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
+        <br/>
+
+        <CardContent.Header>Filter Results</CardContent.Header>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {resource_typenames.sort().map((typename, source_index) => {
@@ -77,6 +89,7 @@ export default class DesignResources extends React.Component {
             })}
           </select>
         </div>
+        <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
         <CardStack ref={this.cardstackRef}>
           {this.state.resources.map((data, index) => {
@@ -94,26 +107,32 @@ export default class DesignResources extends React.Component {
             let source = null;
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
-            if (this.state.typename === "All" || this.state.typename === typename) {
+            // Search Query String
+            let search_string = [title, creators.flat(), summary].join().toLowerCase()
+
+            if (
+              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase())) 
+              && (this.state.typename === "All" || this.state.typename === typename)
+            ) {
               return (
                 <Card key={`card_${index}`}>
                   <Card.Header>
                     <Card.Title>{title}</Card.Title>
                     <Card.Subtitle>
                       {creators.map((creators, c_index) => {
-                        let creator = ""
-                        if (c_index === 0) creator = <Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author>                        
-                        else if (c_index > 0) creator = <span key={`creator_${c_index}`} style={{lineHeight: "170%"}}>&nbsp;and&nbsp;<Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author></span>                  
-                        return creator;
+                        let creator = null;
+                        if (creators[0] !== "N/A") {
+                          if (c_index === 0) creator = <Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author>                        
+                          else if (c_index > 0) creator = <span key={`creator_${c_index}`} style={{lineHeight: "170%"}}>&nbsp;and&nbsp;<Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author></span>                  
+                        }
+                      return creator;
                       })}
                     </Card.Subtitle>
                   </Card.Header>
                   <Card.Body>
                     <Card.Text>{summary}</Card.Text>
-                    {
-                      source && <Card.Text>{source}</Card.Text>
-                    }
-                    <Card.Link href={source_link} text="View this resource" emoji="⚒️" emoji_name="hammer and pick"/>
+                    {source && <Card.Text>{source}</Card.Text>}
+                    {(source_link !== null) && <Card.Link href={source_link} text="View this resource" emoji="⚒️" emoji_name="hammer and pick"/>}
                   </Card.Body>
                 </Card>
               )

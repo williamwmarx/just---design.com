@@ -4,9 +4,12 @@ import React from "react";
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
+import Emoji from "../components/Emoji.js";
+import Link from "../components/Link.js";
 /* Import Styles */
 import "../sass/main.sass";
-import "../sass/menu.component.sass";
+/* Import Spare Data */
+import RacialJusticeMediaSparse from "../../static/json/RacialJusticeMediaSparse.json"
 
 export default class RacialJusticeMedia extends React.Component {
   constructor(props) {
@@ -16,17 +19,22 @@ export default class RacialJusticeMedia extends React.Component {
     this.state = {
       typename: "All",
       tag: "All",
-      media: []
+      search_query: "",
+      glossary: [],
+      media: RacialJusticeMediaSparse["media"]
     };
   }
   
+  /* Handle changes to media type, category and/or search */
   handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
     this.setState({[event.target.name]: event.target.value});
+    if (event.target.name === "search_query") this.setState({typename: "All", tag: "All"})
   }
 
   componentDidMount() {
     const that = this;
+    /* Get media data from published Google Sheets */
     fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/2/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
@@ -56,6 +64,32 @@ export default class RacialJusticeMedia extends React.Component {
         content.push([title, typename, source_link, creators, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
       }
       that.setState({media: content})
+      /* Get glossary data from published Google Sheets */
+      fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
+      .then(function(response) {
+          if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: '+response.status);
+              return;
+          } else {
+            return response.json();
+          }
+        }
+      ).then(function(data) {
+        /* Parse glossary JSON and set state */
+        let glossary_content = []
+        let entries = data["feed"]["entry"]
+        for (var i = 0; i < entries.length; i += 4) {
+          let target_page = entries[i]["content"]["$t"]
+          let term = entries[i+1]["content"]["$t"]
+          let definition = entries[i+2]["content"]["$t"]
+          let link = entries[i+3]["content"]["$t"]
+          if (target_page === "Racial Justice Media") glossary_content.push([term, definition, link])
+        }
+        that.setState({glossary: glossary_content})
+      })
+      .catch(function(err) {
+          console.log('Fetch Error: ', err);
+      });
     })
     .catch(function(err) {
         console.log('Fetch Error: ', err);
@@ -63,6 +97,7 @@ export default class RacialJusticeMedia extends React.Component {
   }
 
   render() {
+    /* Gather all tags (categories) */
     let media_typenames = ["All"];
     let media_tags = ["All"];
     for (let i = 0; i < this.state.media.length; i++) {
@@ -72,9 +107,43 @@ export default class RacialJusticeMedia extends React.Component {
       if (!media_tags.includes(tag)) media_tags.push(tag)
     } 
 
+    let glossary = null;
+    if (this.state.glossary.length > 0) {
+      glossary = (
+        <div>
+          <CardContent.Header>Glossary</CardContent.Header>
+              {this.state.glossary.map((data, idx) => {
+                return (
+                  <div key={`entry_${idx}`}>
+                    <CardContent.Text>
+                      <strong><Link href={data[2]}>{data[0]}</Link></strong>
+                    </CardContent.Text>
+                    <p className="glossary-definition">
+                      {data[1]}
+                    </p>
+                  </div>
+                );
+              })}
+          <br/>
+        </div>
+      )
+    }
+
     return (
-      <CardContent title="RACIAL JUSTICE MEDIA.">
-        <CardContent.Header>Select Media Type</CardContent.Header>
+      <CardContent title="Racial Justice Media.">
+        {glossary}
+        
+        {/* Submissions */}
+        <CardContent.Header>Submissions</CardContent.Header>
+          <p className="submission">
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+          </p>
+          <p className="submission">
+            <Link href="https://forms.gle/RxnTpgK7v4PXTEHR8">Submit media relating to racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📺" emoji_name="television"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
+        <br/>
+
+        <CardContent.Header>Filter Results</CardContent.Header>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {media_typenames.sort().map((typename, source_index) => {
@@ -89,6 +158,7 @@ export default class RacialJusticeMedia extends React.Component {
             })}
           </select>
         </div>
+        <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
         <CardStack ref={this.cardstackRef}>
           {this.state.media.map((data, index) => {
@@ -106,13 +176,16 @@ export default class RacialJusticeMedia extends React.Component {
             let source = null;
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
+            // Search Query String
+            let search_string = [title, creators.flat(), summary, summary_source].join().toLowerCase()
+
             let emoji_name = null;
             let emoji = null;
             let verb = "View";
             if (typename === "Film") {
               emoji_name = "film frames"
               emoji="🎞️"
-            } else if (typename === "Interview") {
+            } else if (typename === "Podcast") {
               emoji_name = "studio microphone"
               emoji="🎙"
             } else if (typename === "Video") {
@@ -124,7 +197,10 @@ export default class RacialJusticeMedia extends React.Component {
               verb="Listen to"
             }
 
-            if ((this.state.typename === "All" || this.state.typename === typename) && (this.state.tag === "All" || this.state.tag === tag)) {
+            if (
+              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
+              && ((this.state.typename === "All" || this.state.typename === typename) && (this.state.tag === "All" || this.state.tag === tag))
+            ) {
               return (
                 <Card key={`card_${index}`}>
                   <Card.Header>

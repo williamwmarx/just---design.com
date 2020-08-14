@@ -13,7 +13,7 @@ export default function FurtherInformation() {
       <p>
         Although our mission is stated on our home page, it is important to reiterate this message.
       </p>
-      <p><strong><em>
+      <p style={{padding: "0 1em 0 1em"}}><strong><em>
         For far too long, the worlds of architecture and design have been a plutocracy intent on social atomization and oppression of the Other. This website is intended as an evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangential fields.
       </em></strong></p>
       <p>

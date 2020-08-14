@@ -11,7 +11,7 @@ import AcknowledgmentsData from "../../static/json/acknowledgments.json"
 
 export default function Acknowledgments() {
   return (
-    <TextContent title="ACKNOWLEDGMENTS.">        
+    <TextContent title="Acknowledgments.">        
       {/* GENERAL CREDITS */}
       <p style={{fontSize: "110%"}}>
         This site is intended to be as transparent as possible. As such, all sources used to build it are listed below.

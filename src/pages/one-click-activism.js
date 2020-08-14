@@ -4,9 +4,10 @@ import React from "react";
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
+import Emoji from "../components/Emoji.js";
+import Link from "../components/Link.js";
 /* Import Styles */
 import "../sass/main.sass";
-import "../sass/menu.component.sass";
 
 export default class OneClickActivism extends React.Component {
   constructor(props) {
@@ -23,7 +24,7 @@ export default class OneClickActivism extends React.Component {
   handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
     this.setState({[event.target.name]: event.target.value});
-    if (event.target.name === "search_query") this.setState({category: "All"})
+    if (event.target.name === "search_query") this.setState({typename: "All"})
   }
 
   componentDidMount() {
@@ -64,8 +65,15 @@ export default class OneClickActivism extends React.Component {
     } 
 
     return (
-      <CardContent title="ONE CLICK ACTIVISM.">
-        <CardContent.Header>Select Resource Type</CardContent.Header>
+      <CardContent title="One Click Activism.">
+        {/* Submissions */}
+        <CardContent.Header>Submissions</CardContent.Header>
+          <p className="submission">
+            <Link href="https://forms.gle/Rf7V3d69KN9D8GEFA">Submit an activism source →</Link>&nbsp;&nbsp;<Emoji emoji="✊" emoji_name="raised fist"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
+        <br/>
+
+        <CardContent.Header>Filter Results</CardContent.Header>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {resource_typenames.sort().map((typename, source_index) => {

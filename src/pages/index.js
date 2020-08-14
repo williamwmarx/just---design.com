@@ -46,60 +46,10 @@ function calculate_color(index, count) {
   return "#" + rgb_to_hex(color[0]) + rgb_to_hex(color[1]) + rgb_to_hex(color[2]); // Convert RGB to Hex
 }
 
-class HomeLink extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        href: null
-    }
-  }
-
-  async handle_link(link) {
-      if (link.includes("mailto:")) {
-        return "mailto:" + encodeURIComponent(link.split("mailto:")[1]);
-      } else if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
-          if (link.includes("instagram.com/p/")) {
-              let response = await fetch("https://api.instagram.com/oembed/?url=" + link);
-              if (response.status === 200) {
-                  let result = await response.json();
-                  return "instagram://media?id=" + result["media_id"]
-              } else {
-                  return link
-              }
-          } else if (link.includes("instagram.com/")) {
-              let pathname = new URL(link).pathname.split("/")[1];
-              return "instagram://user?username=" + pathname;
-          }
-      } else {
-        return link
-      }
-  }
-
-  componentDidMount() {
-      this.setState({ href: this.props.href })
-      if (this.props.href) {
-          if (this.props.href.toLowerCase().includes("instagram") || this.props.href.toLowerCase().includes("mailto:")) {
-            this.handle_link(this.props.href).then((result) => this.setState({ href: result }))
-          } 
-      }
-  }
-  
-  render() {
-    return (
-      <a href={this.state.href} style={{
-        color: this.props.nav_color,
-        borderBottomColor: this.props.nav_color
-      }}>
-        {this.props.children}
-      </a>
-    )
-  }
-}
-
 export default function Home() {
   return (
     <div className="root">
-      <Head title="JUST DESIGN. THAT'S ALL IT TAKES."/>
+      <Head title="JUST DESIGN. That's All It Takes."/>
       <Title name="THAT'S ALL IT TAKES." hide_bar={true}/>
       <div id="our-mission">
         <p>
@@ -112,9 +62,9 @@ export default function Home() {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (
             <h3 key={`link_${index}`}>
-              <HomeLink href={data.link} nav_color={nav_color}>
+              <a href={data.link} style={{color: nav_color,borderBottomColor: nav_color}}>
                 {data.title} <Emoji name={data.emoji_name} emoji={data.emoji}/> →
-              </HomeLink>
+              </a>
             </h3>
           );
         })}

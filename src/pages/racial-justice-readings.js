@@ -8,8 +8,8 @@ import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
 /* Import Styles */
 import "../sass/main.sass";
-import "../sass/menu.component.sass";
 /* Import Spare Data */
+import GlossarySparse from "../../static/json/GlossarySparse.json";
 import RacialJusticeReadingsSparse from "../../static/json/RacialJusticeReadingsSparse.json"
 
 export default class RacialJusticeReadings extends React.Component {
@@ -20,19 +20,21 @@ export default class RacialJusticeReadings extends React.Component {
     this.state = {
       tag: "All",
       search_query: "",
-      glossary: [],
+      glossary: GlossarySparse["glossary"],
       readings: RacialJusticeReadingsSparse["readings"]
     };
   }
   
+  /* Handle changes to category and/or search */
   handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
     this.setState({[event.target.name]: event.target.value});
-    if (event.target.name === "search_query") this.setState({category: "All"})
+    if (event.target.name === "search_query") this.setState({tag: "All"})
   }
 
   componentDidMount() {
     const that = this;
+    /* Get readings data from published Google Sheets */
     fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/1/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
@@ -43,6 +45,7 @@ export default class RacialJusticeReadings extends React.Component {
         }
       }
     ).then(function(data) {
+      /* Parse readings JSON and set state */
       let content = []
       let entries = data["feed"]["entry"]
       for (var i = 0; i < entries.length; i += 10) {
@@ -61,6 +64,7 @@ export default class RacialJusticeReadings extends React.Component {
         content.push([title, source_link, writers, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
       }
       that.setState({readings: content})
+      /* Get glossary data from published Google Sheets */
       fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
       .then(function(response) {
           if (response.status !== 200) {
@@ -71,6 +75,7 @@ export default class RacialJusticeReadings extends React.Component {
           }
         }
       ).then(function(data) {
+        /* Parse glossary JSON and set state */
         let glossary_content = []
         let entries = data["feed"]["entry"]
         for (var i = 0; i < entries.length; i += 4) {
@@ -81,15 +86,18 @@ export default class RacialJusticeReadings extends React.Component {
           if (target_page === "Racial Justice Readings") glossary_content.push([term, definition, link])
         }
         that.setState({glossary: glossary_content})
-      }).catch(function(err) {
+      })
+      .catch(function(err) {
           console.log('Fetch Error: ', err);
       });
-    }).catch(function(err) {
+    })
+    .catch(function(err) {
         console.log('Fetch Error: ', err);
     });
   }
 
   render() {
+    /* Gather all tags (categories) */
     let reading_tags = ["All"];
     for (let i = 0; i < this.state.readings.length; i++) {
       let tag = this.state.readings[i][8]
@@ -98,6 +106,7 @@ export default class RacialJusticeReadings extends React.Component {
 
     return (
       <CardContent title="Racial Justice Readings.">
+        {/* Glossary */}
         <CardContent.Header>Glossary</CardContent.Header>
             {this.state.glossary.map((data, idx) => {
               return (
@@ -112,16 +121,19 @@ export default class RacialJusticeReadings extends React.Component {
               );
             })}
         <br/>
+
+        {/* Submissions */}
         <CardContent.Header>Submissions</CardContent.Header>
-          <CardContent.Text>
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>  <Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
-          </CardContent.Text>
-          <CardContent.Text>
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a reading on racial justice→</Link>  <Emoji emoji="📖" emoji_name="open book"/><Emoji emoji="➕" emoji_name="plus sign"/>
-          </CardContent.Text>
-        <CardContent.Header></CardContent.Header>
+          <p className="submission">
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+          </p>
+          <p className="submission">
+            <Link href="https://forms.gle/soSFHXc9Nm5AMRuE9">Submit a reading on racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📖" emoji_name="open book"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
         <br/>
-        <CardContent.Header>Select Topic</CardContent.Header>
+
+        {/* Filter Results */}
+        <CardContent.Header>Filter Results</CardContent.Header>
         <div className="menu">
           <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
             {reading_tags.sort().map((tag, source_index) => {
