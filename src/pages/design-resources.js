@@ -108,7 +108,9 @@ export default class DesignResources extends React.Component {
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
             // Search Query String
-            let search_string = [title, creators.flat(), summary].join().toLowerCase()
+            let creators_string = ""
+            for (let i = 0; i < creators.length; i++) creators_string += creators[i][0]
+            let search_string = [title, creators_string, summary].join().toLowerCase()
 
             if (
               (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase())) 

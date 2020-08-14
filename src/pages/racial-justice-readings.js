@@ -160,7 +160,9 @@ export default class RacialJusticeReadings extends React.Component {
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
             // Search Query String
-            let search_string = [title, writers.flat(), summary, summary_source].join().toLowerCase()
+            let writers_string = ""
+            for (let i = 0; i < writers.length; i++) writers_string += writers[i][0]
+            let search_string = [title, writers_string, summary, summary_source].join().toLowerCase()
 
             if (
                 (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
