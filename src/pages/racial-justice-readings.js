@@ -4,9 +4,13 @@ import React from "react";
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
+import Emoji from "../components/Emoji.js";
+import Link from "../components/Link.js";
 /* Import Styles */
 import "../sass/main.sass";
 import "../sass/menu.component.sass";
+/* Import Spare Data */
+import RacialJusticeReadingsSparse from "../../static/json/RacialJusticeReadingsSparse.json"
 
 export default class RacialJusticeReadings extends React.Component {
   constructor(props) {
@@ -15,18 +19,21 @@ export default class RacialJusticeReadings extends React.Component {
     this.handleSortChange = this.handleSortChange.bind(this);
     this.state = {
       tag: "All",
-      readings: []
+      search_query: "",
+      glossary: [],
+      readings: RacialJusticeReadingsSparse["readings"]
     };
   }
   
   handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
     this.setState({[event.target.name]: event.target.value});
+    if (event.target.name === "search_query") this.setState({category: "All"})
   }
 
   componentDidMount() {
     const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/1zShcY5mOwDFPZi1OL0kiGUeoz9MJpSay19o9aN48xtY/1/public/full?alt=json")
+    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/1/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
             console.log('Looks like there was a problem. Status Code: '+response.status);
@@ -38,7 +45,7 @@ export default class RacialJusticeReadings extends React.Component {
     ).then(function(data) {
       let content = []
       let entries = data["feed"]["entry"]
-      for (var i = 12; i < entries.length; i += 11) {
+      for (var i = 0; i < entries.length; i += 10) {
         let title = entries[i]["content"]["$t"]
         let source_link = entries[i+1]["content"]["$t"]
         let writers = []
@@ -54,8 +61,30 @@ export default class RacialJusticeReadings extends React.Component {
         content.push([title, source_link, writers, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
       }
       that.setState({readings: content})
-    })
-    .catch(function(err) {
+      fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
+      .then(function(response) {
+          if (response.status !== 200) {
+              console.log('Looks like there was a problem. Status Code: '+response.status);
+              return;
+          } else {
+            return response.json();
+          }
+        }
+      ).then(function(data) {
+        let glossary_content = []
+        let entries = data["feed"]["entry"]
+        for (var i = 0; i < entries.length; i += 4) {
+          let target_page = entries[i]["content"]["$t"]
+          let term = entries[i+1]["content"]["$t"]
+          let definition = entries[i+2]["content"]["$t"]
+          let link = entries[i+3]["content"]["$t"]
+          if (target_page === "Racial Justice Readings") glossary_content.push([term, definition, link])
+        }
+        that.setState({glossary: glossary_content})
+      }).catch(function(err) {
+          console.log('Fetch Error: ', err);
+      });
+    }).catch(function(err) {
         console.log('Fetch Error: ', err);
     });
   }
@@ -68,7 +97,30 @@ export default class RacialJusticeReadings extends React.Component {
     } 
 
     return (
-      <CardContent title="RACIAL JUSTICE READINGS.">
+      <CardContent title="Racial Justice Readings.">
+        <CardContent.Header>Glossary</CardContent.Header>
+            {this.state.glossary.map((data, idx) => {
+              return (
+                <div key={`entry_${idx}`}>
+                  <CardContent.Text>
+                    <strong><Link href={data[2]}>{data[0]}</Link></strong>
+                  </CardContent.Text>
+                  <p className="glossary-definition">
+                    {data[1]}
+                  </p>
+                </div>
+              );
+            })}
+        <br/>
+        <CardContent.Header>Submissions</CardContent.Header>
+          <CardContent.Text>
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>  <Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+          </CardContent.Text>
+          <CardContent.Text>
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a reading on racial justice→</Link>  <Emoji emoji="📖" emoji_name="open book"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </CardContent.Text>
+        <CardContent.Header></CardContent.Header>
+        <br/>
         <CardContent.Header>Select Topic</CardContent.Header>
         <div className="menu">
           <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
@@ -77,6 +129,8 @@ export default class RacialJusticeReadings extends React.Component {
             })}
           </select>
         </div>
+        <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
+
 
         <CardStack ref={this.cardstackRef}>
           {this.state.readings.map((data, index) => {
@@ -93,7 +147,13 @@ export default class RacialJusticeReadings extends React.Component {
             let source = null;
             if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
 
-            if (this.state.tag === "All" || this.state.tag === tag) {
+            // Search Query String
+            let search_string = [title, writers.flat(), summary, summary_source].join().toLowerCase()
+
+            if (
+                (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
+                && (this.state.tag === "All" || this.state.tag === tag)
+              ) {
               return (
                 <Card key={`card_${index}`}>
                   <Card.Header>

@@ -26,7 +26,7 @@ export default class DesignResources extends React.Component {
 
   componentDidMount() {
     const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/1XV57oSsfezeajsXLC9EJD7_dRLLesBqB_bMVW2t5WeM/1/public/full?alt=json")
+    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/3/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
             console.log('Looks like there was a problem. Status Code: '+response.status);
@@ -38,7 +38,7 @@ export default class DesignResources extends React.Component {
     ).then(function(data) {
       let content = []
       let entries = data["feed"]["entry"]
-      for (var i = 12; i < entries.length; i += 11) {
+      for (var i = 0; i < entries.length; i += 10) {
         let title = entries[i]["content"]["$t"]
         let typename = entries[i+1]["content"]["$t"]
         let source_link = entries[i+2]["content"]["$t"]

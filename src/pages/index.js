@@ -7,7 +7,7 @@ import Title from "../components/Title";
 /* Import Styles */
 import "../sass/index.component.sass";
 /* Import Data */
-import Index from "../../content/index.json"
+import Index from "../../static/json/index.json"
 /* HELPER FUNCTIONS FOR GENERATING COLOR GRADIENT FOR NAV LINKS */
 function rgb_to_hex(color) {
   let hex = Number(Math.floor(color)).toString(16);  // Convert int RGB to Hex code

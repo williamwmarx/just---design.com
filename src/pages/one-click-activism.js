@@ -1,97 +1,113 @@
+/* Import React */
 import React from "react";
-import Emoji from "../components/Emoji.js"
-import OneClickActivismData from "../../content/one-click-activism.json"
-import "../sass/main.sass";
+/* Import Components */
 import Card from "../components/Card.js";
 import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
-import Link from "../components/Link.js";
+/* Import Styles */
+import "../sass/main.sass";
+import "../sass/menu.component.sass";
 
 export default class OneClickActivism extends React.Component {
   constructor(props) {
     super(props);
     this.cardstackRef = React.createRef();
-    this.handleChange = this.handleChange.bind(this);
+    this.handleSortChange = this.handleSortChange.bind(this);
     this.state = {
-      value: "Petitions"
+      typename: "All",
+      search_query: "",
+      resources: []
     };
   }
-
-  handleChange(event) {
+  
+  handleSortChange(event) {
     this.cardstackRef.current.update_cards_dims();
-    this.setState({value: event.target.value});
+    this.setState({[event.target.name]: event.target.value});
+    if (event.target.name === "search_query") this.setState({category: "All"})
+  }
+
+  componentDidMount() {
+    const that = this;
+    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/4/public/full?alt=json")
+    .then(function(response) {
+        if (response.status !== 200) {
+            console.log('Looks like there was a problem. Status Code: '+response.status);
+            return;
+        } else {
+          return response.json();
+        }
+      }
+    ).then(function(data) {
+      let content = []
+      let entries = data["feed"]["entry"]
+      for (var i = 0; i < entries.length; i += 6) {
+        let title = entries[i]["content"]["$t"]
+        let typename = entries[i+1]["content"]["$t"]
+        let source_link = entries[i+2]["content"]["$t"]
+        let summary = entries[i+3]["content"]["$t"]
+        let summary_source = entries[i+4]["content"]["$t"]
+        let summary_source_link = entries[i+5]["content"]["$t"]
+        content.push([title, typename, source_link, summary, summary_source, summary_source_link])
+      }
+      that.setState({resources: content})
+    })
+    .catch(function(err) {
+        console.log('Fetch Error: ', err);
+    });
   }
 
   render() {
-    let justice_emoji = <Emoji emoji="⚖️" name="balance scale"/>
-    let legislation_emoji = <Emoji emoji="🖋" name="fountain pen"/>
-    let arch_emoji = <Emoji emoji="🏘" name="group of houses"/>
-    let awareness_emoji = <Emoji emoji="👁" name="eye"/>
+    let resource_typenames = ["All"];
+    for (let i = 0; i < this.state.resources.length; i++) {
+      let typename = this.state.resources[i][1]
+      if (!resource_typenames.includes(typename)) resource_typenames.push(typename)
+    } 
+
     return (
       <CardContent title="ONE CLICK ACTIVISM.">
-        <CardContent.Header>Select Activism Type</CardContent.Header>
+        <CardContent.Header>Select Resource Type</CardContent.Header>
         <div className="menu">
-          <select value={this.state.value} onChange={this.handleChange}>
-            {Object.keys(OneClickActivismData).sort().map((key, idx) => {
-              return (
-                <option key={`option_${idx}`} value={OneClickActivismData[idx]}>
-                  {key}
-                </option>
-              );
+          <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
+            {resource_typenames.sort().map((typename, source_index) => {
+              return <option key={`content_item_${source_index}`} value={typename}>{typename}</option> 
             })}
           </select>
         </div>
-
-        {
-          this.state.value === "Petitions" && 
-          <div>
-            <CardContent.Header>Key</CardContent.Header>
-            <CardContent.Text>{arch_emoji}&nbsp;&nbsp;Architecture/Design</CardContent.Text>
-            <CardContent.Text>{awareness_emoji}&nbsp;&nbsp;Awareness</CardContent.Text>
-            <CardContent.Text>{justice_emoji}&nbsp;&nbsp;Justice</CardContent.Text>
-            <CardContent.Text>{legislation_emoji}&nbsp;&nbsp;Legislation</CardContent.Text>
-            <br/>
-            <CardContent.Header>Note</CardContent.Header>
-            <CardContent.Text>Please do NOT donate to <Link href="https://www.change.org/">Change.org</Link>– the money does not go to any causes, but rather the corporation itself.</CardContent.Text>
-            <br/>
-          </div>
-        }
+        <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
         <CardStack ref={this.cardstackRef}>
-          {OneClickActivismData[this.state.value].sort(function(a, b) {return a.title.localeCompare(b.title);}).map((data, index) => {
-            return (
-              <Card key={`card_${index}`}>
-                <Card.Header>
-                  <Card.Tags>
-                    {(data.tag === "Justice") && justice_emoji}
-                    {(data.tag === "Legislation") && legislation_emoji}
-                    {(data.tag === "Architecture/Design") && arch_emoji}
-                    {(data.tag === "Awareness") && awareness_emoji}
-                    {(data.tag.startsWith("Text")) && data.tag}
-                  </Card.Tags>
-                  <Card.Title>{data.title}</Card.Title>
-                </Card.Header>
-                <Card.Body>
-                  <Card.Text>{data.summary}</Card.Text>
-                  {
-                    this.state.value === "Petitions" && 
-                    <Card.Link href={data.source_link} text="Sign this petition" emoji="✍️" emoji_name="writing hand"/>
-                  }
-                  {
-                    this.state.value === "Emails" && 
-                    <Card.Link href={data.source_link} text="Send this email" emoji="📧" emoji_name="email"/>
-                  }
-                  {
-                    this.state.value === "More than One Click" && 
-                    <Card.Link href={data.source_link} text="Put in the work" emoji="🔩" emoji_name="nut and bolt"/>
-                  }
-                  {
-                    this.state.value === "Texts" && 
-                    <Card.Link href={data.source_link} text="Send the text" emoji="📲" emoji_name="phone with arrow"/>
-                  }
-                </Card.Body>
-              </Card>
-            );
+          {this.state.resources.map((data, index) => {
+            let title = data[0] 
+            let typename = data[1] 
+            let source_link = data[2]
+            let summary = data[3]
+            if (summary === "N/A") summary = null
+            let summary_source = data[4]
+            let summary_source_link = data[5] 
+
+            let source = null;
+            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
+
+            // Search Query String
+            let search_string = [title, summary].join().toLowerCase()
+
+            if (
+                (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase())) 
+                && (this.state.typename === "All" || this.state.typename === typename)
+              ) {
+              return (
+                <Card key={`card_${index}`}>
+                  <Card.Header>
+                    <Card.Title>{title}</Card.Title>
+                  </Card.Header>
+                  <Card.Body>
+                    <Card.Text>{summary}</Card.Text>
+                    { source && <Card.Text>{source}</Card.Text> }
+                    <Card.Link href={source_link} text="View this resource" emoji="⚒️" emoji_name="hammer and pick"/>
+                  </Card.Body>
+                </Card>
+              )
+            }
           })}
         </CardStack>
       </CardContent>

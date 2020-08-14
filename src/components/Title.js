@@ -86,7 +86,7 @@ export default class Title extends React.Component {
       return (
         <div style={{position: "relative", margin: "1.5em auto 0em auto"}}>
             <h1><a style={{textDecoration: "none"}} href="https://just---design.com">JUST DESIGN.</a></h1>
-            <h2>{this.state.title}</h2>
+            <h2>{this.state.title.toUpperCase()}</h2>
             {bar}
         </div>
       );

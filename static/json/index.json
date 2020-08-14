@@ -10,8 +10,7 @@
             "emoji": "📖",
             "emoji_name": "open book",
             "link": "racial-justice-readings"
-        },
-        {
+        }, {
             "title": "Racial Justice Media",
             "emoji": "📺",
             "emoji_name": "television",
@@ -40,6 +39,12 @@
             "emoji": "👤",
             "emoji_name": "bust in silhouette",
             "link": "featured-designers"
+        },
+        {
+            "title": "Site Glossary",
+            "emoji": "🔎",
+            "emoji_name": "right pointing magnifying glass",
+            "link": "glossary"
         },
         {
             "title": "Acknowledgments",

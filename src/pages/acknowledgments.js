@@ -7,7 +7,7 @@ import TextContent from "../components/TextContent.js";
 /* Import Styles */
 import "../sass/main.sass";
 /* Import Data */
-import AcknowledgmentsData from "../../content/acknowledgments.json"
+import AcknowledgmentsData from "../../static/json/acknowledgments.json"
 
 export default function Acknowledgments() {
   return (

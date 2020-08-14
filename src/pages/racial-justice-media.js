@@ -27,7 +27,7 @@ export default class RacialJusticeMedia extends React.Component {
 
   componentDidMount() {
     const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/1x-cYJY_dprfwvWXKUkwDn2Eiwzk0pIjZWLm0ZHLUk6w/1/public/full?alt=json")
+    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/2/public/full?alt=json")
     .then(function(response) {
         if (response.status !== 200) {
             console.log('Looks like there was a problem. Status Code: '+response.status);
@@ -39,7 +39,7 @@ export default class RacialJusticeMedia extends React.Component {
     ).then(function(data) {
       let content = []
       let entries = data["feed"]["entry"]
-      for (var i = 13; i < entries.length; i += 12) {
+      for (var i = 0; i < entries.length; i += 11) {
         let title = entries[i]["content"]["$t"]
         let typename = entries[i+1]["content"]["$t"]
         let source_link = entries[i+2]["content"]["$t"]
