@@ -8,6 +8,14 @@ module.exports = {
   /* Your site config here */
   plugins : [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/featured-designers`,
+        name: `featured-designers`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `JUST DESIGN.`,
@@ -33,6 +41,7 @@ module.exports = {
         }
       }
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-sharp`,

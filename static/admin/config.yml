@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: concurrent-studio/just---design.com
+
+media_folder: content/assets
+public_folder: ../assets
+
+collections:
+  - name: featured-designers 
+    label: Featured Designer 
+    folder: content/featured-designers
+    create: true
+    fields:
+      - { name: path, label: path}
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: tags, label: Tags}
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }

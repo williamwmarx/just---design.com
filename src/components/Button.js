@@ -37,9 +37,31 @@ export default class Button extends React.Component {
     }
 
     render() {
-        return (
+        let ThisButton = (
             <span>
                 <a className="gradient-button" rel="noreferrer" target="_blank" href={this.state.href}>
+                    {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
+                    <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
+                </a>
+                <br/>
+            </span>
+        )
+
+        if (this.props.newtab === false) {
+            ThisButton = (
+                <span>
+                    <a className="gradient-button" href={this.state.href}>
+                        {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
+                        <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
+                    </a>
+                    <br/>
+                </span>
+            )   
+        }
+
+        return (
+            <span>
+                <a className="gradient-button" href={this.state.href}>
                     {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
                     <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
                 </a>

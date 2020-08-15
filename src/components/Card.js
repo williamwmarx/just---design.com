@@ -14,6 +14,7 @@ export default class Card extends React.Component {
     static Text = ({ children }) => (<p className="card-text">{children}</p>)
     static Subtext = props =><a className="card-text-a" rel="noreferrer" target="_blank" href={props.href}>{props.children}</a>
     static Link = props => <span className="card-button" ><Button href={props.href} text={props.text} emoji={props.emoji} emoji_name={props.emoji_name}/></span>
+    static PostLink = props => <span className="card-button" ><Button href={props.href} newtab={false} text={props.text} emoji={props.emoji} emoji_name={props.emoji_name}/></span>
   
     render() {
         return (
