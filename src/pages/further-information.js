@@ -24,6 +24,9 @@ export default function FurtherInformation() {
         See the <Link href="../acknowledgments" new_tab={false}>acknowledgments</Link> page for a list of both sources and thank you&apos;s.
       </p>
       <p>
+        If you would like to help with this project, please send an email to <Link href="mailto:wearejustdesign@gmail.com?subject=I%20want%20to%20get%20involved!!%20🚨✨">wearejustdesign@gmail.com</Link>.
+      </p>
+      <p>
         Finally, if you&apos;d like to share this site, visit the <Link href="../social-media" new_tab={false}>social media page</Link> for some pre-made graphics.
       </p>
     </TextContent>

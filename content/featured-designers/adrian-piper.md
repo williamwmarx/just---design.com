@@ -18,19 +18,25 @@ In 1973, Adrian Piper created an alter-ego, the Mythic Being, who became the bas
 
 Piper—a light-skinned woman of mixed racial heritage—transformed herself into the Mythic Being by donning an Afro wig, sunglasses, and mustache and adopting behavior conventionally identified as masculine. She then explored how she and others responded to the Mythic Being. In the process, she transformed the conceptual art practices common in the period, infusing them with strong personal and political content.
 
-[Summary c/o UChicago](https://smartmuseum.uchicago.edu/exhibitions/adrian-piper-the-mythic-being/)
+[Summary c/o UChicago](https://smartmuseum.uchicago.edu/exhibitions/adrian-piper-the-mythic-being/)  
+&nbsp;   
+&nbsp;   
 
 #### What It’s Like, What It Is #3
 <iframe src="https://www.youtube.com/embed/USZMTvxhBz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 What It’s Like, What It Is #3 (1991), a large-scale mixed-media installation addressing racist stereotypes. Consisting of a gleaming white amphitheater with a nine-foot-tall column at its center and reflective mirrors surrounding its upper periphery, the installation’s sleek geometry recalls a work of Minimalist sculpture. Embedded within the column are four video screens depicting simultaneous views of an African American man; he speaks directly to the audience, negating a list of offensive racial stereotypes: “I’m not dirty, I’m not horny, I’m not selfish, I’m not evil …” while in the background, The Commodores sing of flying “far away from here, where my mind can be fresh and clear …”
 
-[Summary c/o Institute of Contemporary Art, Los Angeles](https://www.theicala.org/en/exhibitions/62-adrian-piper-br-what-its-like-what-it-is-3)
+[Summary c/o Institute of Contemporary Art, Los Angeles](https://www.theicala.org/en/exhibitions/62-adrian-piper-br-what-its-like-what-it-is-3)  
+&nbsp;   
+&nbsp;   
 
 #### Funk Lessons
 <iframe src="https://www.youtube.com/embed/XndghWPuMDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 A videotape piece based on an audience-interactive performance of Funk Lessons at the University of California, Berkeley that goes considerably beyond the performance. Both performance and tape address the ambiguous status of African-American working class music and dance as serious contributors to American art and culture. In the performance I teach my audience how to listen to this music and how to dance to it. There's a lot of audience response in this tape, which is humorous and also moving.
 
-[Summary c/o Adrian Piper](http://www.adrianpiper.com/vs/video_fl.shtml)
+[Summary c/o Adrian Piper](http://www.adrianpiper.com/vs/video_fl.shtml)  
+&nbsp;   
+&nbsp;   
 
 #### Deconstructing Race in the Indexical Present
 <iframe src="https://www.youtube.com/embed/SKPtKrKvXyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

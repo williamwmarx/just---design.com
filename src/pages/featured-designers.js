@@ -25,16 +25,25 @@ export default class FeaturedDesigners extends React.Component {
   render() {
     return (
       <CardContent title="Featured Designers.">
-        {/* Submissions */}
-        <CardContent.Header>Submissions</CardContent.Header>
+          {/* Summary */}
+          <CardContent.Header>Summary</CardContent.Header>
           <p className="submission">
-            <Link href="https://forms.gle/Rf7V3d69KN9D8GEFA">Submit a designer to be featured →</Link>&nbsp;&nbsp;<Emoji emoji="🎨" emoji_name="artist palette"/><Emoji emoji="➕" emoji_name="plus sign"/>
-          </p>
-          <p className="submission">
-            <Link href="https://forms.gle/Rf7V3d69KN9D8GEFA">Submit your writing about a designer →</Link>&nbsp;&nbsp;<Emoji emoji="✍️" emoji_name="writing hand"/><Emoji emoji="➕" emoji_name="plus sign"/>
+            Below are a list of designers, artists, architects and post-disciplinary designers who are working, or have worked, on design justice.
+            Extra emphasis is placed on BIPOC, Womxn and Non-Binary creatives.
           </p>
         <br/>
 
+        {/* Submissions */}
+        <CardContent.Header>Submissions</CardContent.Header>
+          <p className="submission">
+            <Link href="https://forms.gle/71Tsgg8jEAxLnakz8">Submit a designer to be featured →</Link>&nbsp;&nbsp;<Emoji emoji="🎨" emoji_name="artist palette"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
+          <p className="submission">
+            <Link href="mailto:wearejustdesign@gmail.com?subject=Featured%20Designer%20✍️✨">Submit your writing about a designer →</Link>&nbsp;&nbsp;<Emoji emoji="✍️" emoji_name="writing hand"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          </p>
+        <br/>
+
+        <CardContent.Header>Designers</CardContent.Header>
         <StaticQuery
           query={graphql`
             query {
@@ -65,7 +74,6 @@ export default class FeaturedDesigners extends React.Component {
                     <Card.Header>
                       <Card.Title>{edge.node.frontmatter.title}</Card.Title>
                       <Card.Subtitle>{edge.node.frontmatter.tags}</Card.Subtitle>
-                      <Card.Subtitle2>Posted {edge.node.frontmatter.date}</Card.Subtitle2>
                     </Card.Header>
                     <Card.Body>
                       <Card.Text>{edge.node.frontmatter.description}</Card.Text>
