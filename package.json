@@ -1,12 +1,13 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "just---design",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "It's all in the title",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "preload-fonts": "gatsby-preload-fonts",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -19,6 +20,7 @@
     "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-netlify-cms": "^4.3.11",
     "gatsby-plugin-offline": "^3.2.9",
+    "gatsby-plugin-preload-fonts": "^1.2.20",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sass": "^2.3.4",
     "gatsby-plugin-sharp": "^2.6.11",

@@ -41,6 +41,7 @@ module.exports = {
         }
       }
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
