@@ -9,7 +9,7 @@ import Link from "../components/Link.js"
 /* Import Styles */
 import "../sass/main.sass";
 /* Import Data */
-import BIPOCStudiosSparse from "../../static/json/BIPOCStudiosSparse.json"
+import BIPOCStudiosDataSparse from "../../static/json/BIPOCStudiosDataSparse.json"
 /* Import Content */
 import BlackOwned from "../../static/images/black_owned.png"
 import IndigenousOwned from "../../static/images/indigenous_owned.png"
@@ -25,7 +25,7 @@ let HiringEmoji = <Emoji emoji="🛠" name="hammer and wrench"/>
 let CollabEmoji = <Emoji emoji="🔎" name="magnifying glass tilted right"/>
 
 // MAIN RENDER
-export default class BIPOCStudios extends React.Component {
+export default class BIPOCPraxes extends React.Component {
    constructor(props) {
     super(props);
     this.cardstackRef = React.createRef();
@@ -33,7 +33,7 @@ export default class BIPOCStudios extends React.Component {
     this.state = {
       category: "All",
       search_query: "",
-      studios: BIPOCStudiosSparse["studios"]
+      studios: BIPOCStudiosDataSparse["studios"]
     };
   }
 
@@ -69,7 +69,6 @@ export default class BIPOCStudios extends React.Component {
         let contact_email = entries[i+10]["content"]["$t"];
         if (studio_name !== "") studio_list.push([studio_name, black_or_indigenous_owned, women_or_nonbinary_owned, studio_location, type_of_work, instagram, website, hiring, hiring_positions, contact_names, contact_email])
       }
-      console.log(studio_list)
       that.setState({studios: studio_list})
     })
     .catch(function(err) {
@@ -81,9 +80,8 @@ export default class BIPOCStudios extends React.Component {
     let categories = ["All", "Black Owned", "Indigenous Owned", "Non-Binary Owned", "Women Owned", "Hiring", "Looking for Collaborators"];
 
     return (
-      <CardContent>        
+      <CardContent title="BIPOC Studios.">        
         <div>
-          <h1>BIPOC Studios</h1>
           <CardContent.Header>Mission</CardContent.Header>
             <CardContent.Text>
               This is an ongoing list of BIPOC architecture, engineering, landscape, graphic design, industrial design and planning studios worldwide, some which are hiring, many many of which are Black owned. 

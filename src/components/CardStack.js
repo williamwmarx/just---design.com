@@ -16,7 +16,7 @@ export default class CardStack extends React.Component {
         let max_height = 0;
         let cards = document.getElementById("card-stack").childNodes;
         for (let i = 0; i < cards.length; i++) {
-            let card_height = cards[i].offsetHeight+parseInt(50)
+            let card_height = cards[i].offsetHeight+parseInt(55)
             total_height += card_height;
             if (card_height > max_height) max_height = card_height;
         }
@@ -65,4 +65,3 @@ export default class CardStack extends React.Component {
         )
     }
 }
-  
