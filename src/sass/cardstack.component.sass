@@ -1,21 +1,21 @@
 #card-stack
-    margin: 0 auto
-    display: flex
-    flex-flow: column wrap
-    align-content: space-between
-    height: 250vh
-    width: 100%
+  margin: 0 auto
+  display: flex
+  flex-flow: column wrap
+  align-content: space-between
+  height: 250vh
+  width: 100%
 
 #card-stack::before, #card-stack::after 
-    content: ""
-    flex-basis: 100%
-    width: 0
-    order: 2
+  content: ""
+  flex-basis: 100%
+  width: 0
+  order: 2
 
 @media only screen and (max-width: 700px) 
-    #card-stack 
-        left: 10vw
-        display: grid
-        grid-gap: 1rem
-        grid-template-columns: repeat(1, 1fr)
+  #card-stack 
+      left: 10vw
+      display: grid
+      grid-gap: 1rem
+      grid-template-columns: repeat(1, 1fr)
         

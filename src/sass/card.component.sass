@@ -1,10 +1,12 @@
+@import "variables"
+
 .card 
-  width: 30%
-  border-radius: 20px;
-  background: #222222
-  box-shadow:  8px 8px 16px #151515, -8px -8px 16px #2a2a2a
-  padding: 0.25em 0.15em 0.5em 0.25em
-  margin-bottom: 50px
+    width: 30%
+    margin-bottom: 40px // change this
+    padding: 0.25em 0 0.25em 0
+    border-radius: 30px
+    background: $background
+    box-shadow:  10px 10px 30px $shadow-se, -10px -10px 30px $shadow-nw
 
 .card:nth-child(3n+1)
     order: 1 
@@ -16,32 +18,31 @@
     order: 3 
 
 .card-header 
-    margin: 0 0 0 0.4em
-    padding: 1.25em 0.5em 0em 1.25em
+    margin: 0 0 0 0.8em
+    padding: 1.25em 0.7em 0em 1.25em
 
 .card-body 
-    margin: 0 0 0 0.4em
+    margin: 0 0 0 0.8em
     padding: 0.5em 1em 1.5em 1em
 
 .card-title 
-    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
-    padding: 0px 1em 0px 0px
+    font-family: Helvetica, Arial, sans-serif
+    padding: 0px
     margin: 0px
-    color: #fafafa
+    color: #000
     font-size: 1.4em
     margin-top: 0.5em
     margin-bottom: 0px
-    overflow-wrap: break-word
 
 .card-subtitle-p 
-    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    font-family: Helvetica, Arial, sans-serif
     font-size: 1.2em
     color: #aaa
-    padding: 0.15em 0 0 
+    padding: 0.25em 0 0 
     margin: 0px !important
 
 .card-subtitle-p-2 
-    font-family: "Poppins", Arial, Helvetica, sans-serif
+    font-family: Helvetica, Arial, sans-serif
     font-size: 1.1em
     color: #888
     padding: 0.25em 0 0 0 
@@ -56,7 +57,7 @@
     border-bottom: solid 0.15em #aaa
 
 .card-button
-    margin: 0em 1em 0.5em 0.75em !important
+    margin: 0em 1em 0.5em 0 !important
 
 .card-text 
     margin: 0em 1em 0.5em 0.75em
@@ -65,7 +66,7 @@
     line-height: 140%
 
 .card-text-a 
-    font-family: "PoppinsMedium", Arial, Helvetica, sans-serif
+    font-family: Helvetica, Arial, sans-serif
     font-size: 0.9em
     line-height: 40%
     color: #888
@@ -75,7 +76,7 @@
 
 @media only screen and (max-width: 1100px) 
     .card 
-      width: 45%
+        width: 45%
     
     .card:nth-child(2n+1) 
         order: 1 
@@ -85,5 +86,8 @@
 
 @media only screen and (max-width: 700px) 
     .card 
-      width: 78vw
-      margin-bottom: 25px
+        width: 80vw
+        margin-top: 5px
+        margin-bottom: 20px
+        border-radius: 15px
+        box-shadow:  7px 7px 21px #cacaca, -7px -7px 21px #ffffff
