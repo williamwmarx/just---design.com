@@ -1,5 +1,5 @@
 import React from "react";
-import "../sass/title.component.sass"
+import "../sass/main.sass"
 
 export default class Title extends React.Component {
     constructor(props) {

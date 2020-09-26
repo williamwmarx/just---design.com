@@ -1,0 +1,26 @@
+$background: #f7f7f7
+$text-color: black
+$title-color: black
+$subtitle-color: #aaa
+$subtitle-two-color: #888
+
+$link-color: #ddd
+$link-color-hover: #ccc
+
+$button-border: #ddd
+$button-hover: #f3f3f3
+
+$gradient-one: #63b1df
+$gradient-two: #9497c7
+$gradient-three: #ef519d
+$gradient: linear-gradient(90deg, $gradient-one, $gradient-two, $gradient-three)
+$gradient-tilt: linear-gradient(45deg, $gradient-one, $gradient-two, $gradient-three)
+
+@mixin neumorphic($intensity: 15%, $distance: 10px, $blur: 2*$distance, $radius: 30px)
+  background: $background
+  box-shadow: $distance $distance $blur darken($background, $intensity), (-$distance) (-$distance) $blur lighten($background, $intensity)
+  border-radius: $radius
+
+@mixin gradient-background
+  background-color: transparent
+  background-image: linear-gradient(90deg, $gradient-one, $gradient-two, $gradient-three) 

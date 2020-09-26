@@ -11,7 +11,7 @@ import imageFive from "../../static/images/five.png";
 import imageSix from "../../static/images/six.png";
 import imageSeven from "../../static/images/seven.png";
 import imageEight from "../../static/images/eight.png";
-import "../sass/card.component.sass"
+import "../sass/main.sass"
 
 let story_image = {
     position: "relative",

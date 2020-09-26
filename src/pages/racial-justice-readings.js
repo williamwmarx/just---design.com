@@ -157,7 +157,7 @@ export default class RacialJusticeReadings extends React.Component {
             let tag = data[8]
 
             let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
+            if (summary_source_link !== "N/A") source = <Card.Text><a href={summary_source_link}>Summary c/o {summary_source}</a></Card.Text>
 
             // Search Query String
             let writers_string = ""

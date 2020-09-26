@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: "OfficeCodeProDMedium";
+    font-family: "OfficeCodeProD";
     src: url("OfficeCodeProD-Medium.woff2");
 }
 
 @font-face {
-    font-family: "OfficeCodeProDMediumItalic";
+    font-family: "OfficeCodeProDItalic";
     src: url("OfficeCodeProD-MediumItalic.woff2");
 }
 

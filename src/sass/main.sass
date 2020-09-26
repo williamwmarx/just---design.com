@@ -1,17 +1,23 @@
-@import "variables"
+@import "colors"
+@import "fonts"
+@import "index"
+@import "cardstack"
+@import "card"
+@import "text-content"
+@import "title"
 
 body 
-    background: $background
-    margin: 0 !important
-    color: $text-color
-    font-family: "Poppins", Arial, sans-serif
-    overflow-x: hidden
+  @include body-font
+  background: $background
+  margin: 0 !important
+  color: $text-color
+  overflow-x: hidden
 
 a 
   color: $text-color
+  text-decoration: none
 
 .link
-  text-decoration: none
   background-image: linear-gradient(90deg, $link-color, $link-color)
   background-repeat: no-repeat
   background-size: 100% 35%
@@ -21,7 +27,7 @@ a
     color: #aaa
 
   &:hover
-    background-image: linear-gradient(90deg, $link-color-active, $link-color-active)
+    background-image: linear-gradient(90deg, $link-color-hover, $link-color-hover)
    
 
 .root 
@@ -45,7 +51,7 @@ a
   margin: 0 0 0.75em 0
   z-index: 100
   padding: 0px 
-  font-family: PoppinsMedium
+  @include body-font-bold
   font-size: 135%
   color: #aaa
 
@@ -56,7 +62,7 @@ a
 
 .glossary-definition
   margin: 0 0 1em calc(2vw + 1em)
-  font-family: Poppins
+  @include body-font
   font-size: 90% 
   line-height: 125% 
 
@@ -70,17 +76,16 @@ a
   display: inline-block
   margin: 0.25em 2em 2em 0
   border-radius: 0.5em
-  background-image: linear-gradient(45deg, #63b1df, #9497c7, #ef519d)
+  background-image: $gradient-tilt
 
   select
-    font-family: "PoppinsMedium"
+    @include body-font-bold
+    @include neumorphic
     font-size: 100%
     padding: 0.75em 45px 0.75em 0.75em
     display: block
     color: $text-color
     border-radius: 0.5em 
-    background-color: $background !important
-    box-shadow:  10px 10px 20px $shadow-se, -10px -10px 20px $shadow-nw
     border: 3px solid transparent
     -webkit-appearance: none
     -moz-appearance: none
@@ -93,14 +98,13 @@ a
     background-clip: padding-box
 
 .search
+  @include neumorphic
   font-size: 100%
   width: 20em
   margin: 0 2em 2.25em 0
   padding: 1em 2.75em 1em 0.75em
   color: $text-color 
   border-radius: 0.5em
-  background-color: $background
-  box-shadow:  10px 10px 20px $shadow-se, -10px -10px 20px $shadow-nw
   border: 2px solid transparent !important
 
 .featured-designer
@@ -110,7 +114,7 @@ a
   top: 1em
 
   h3
-    font-family: "PoppinsMedium"
+    @include body-font-bold
     font-size: 125%
     line-height: 100%
     color: #aaa
@@ -119,7 +123,7 @@ a
     margin: 2.5em 0 0.5em 0
 
   h4
-    font-family: "PoppinsMedium"
+    @include body-font-bold
     font-style: oblique 
     font-size: 110%
     line-height: 100%
@@ -172,7 +176,7 @@ a
     margin: 0em 2em 1.5em 0
 
     select
-      font-family: "Poppins"
+      @include body-font
       font-size: 85%
       padding: 0.75em 40px 0.75em 0.75em
 

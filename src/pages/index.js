@@ -5,7 +5,7 @@ import Emoji from "../components/Emoji";
 import Head from "../components/Head";
 import Title from "../components/Title";
 /* Import Styles */
-import "../sass/index.component.sass";
+import "../sass/main.sass";
 /* Import Data */
 import Index from "../../static/json/index.json"
 /* HELPER FUNCTIONS FOR GENERATING COLOR GRADIENT FOR NAV LINKS */
@@ -61,7 +61,7 @@ export default function Home() {
         {Index.navigation.map((data, index) => {
           let nav_color = calculate_color(index, Index.navigation.length); // Calculate nav link color
           return (
-            <h3 key={`link_${index}`}>
+            <h3 className="index-link" key={`link_${index}`}>
               <a href={data.link} style={{color: nav_color,borderBottomColor: nav_color}}>
                 {data.title} <Emoji name={data.emoji_name} emoji={data.emoji}/> →
               </a>

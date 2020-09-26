@@ -1,5 +1,5 @@
 import React from "react";
-import "../sass/cardstack.component.sass"
+import "../sass/main.sass"
 
 export default class CardStack extends React.Component {
     constructor(props) {

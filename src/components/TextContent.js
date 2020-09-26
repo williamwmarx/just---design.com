@@ -3,7 +3,6 @@ import Head from "./Head.js";
 import Link from "./Link.js";
 import Title from "./Title.js";
 import "../sass/main.sass";
-import "../sass/textcontent.component.sass";
 
 export default class TextContent extends React.Component {
     constructor(props) {

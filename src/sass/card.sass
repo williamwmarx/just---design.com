@@ -1,0 +1,80 @@
+@import "fonts"
+@import "colors"
+
+.card 
+  @include neumorphic($blur: 30px, $radius: 30px)
+
+  width: 30%
+  margin-bottom: 50px // change this
+  
+  .header
+    margin: 0 0.8em 0 0.8em
+    padding: 1.75em 0.7em 0em 1.25em
+
+    *
+      margin: 0
+
+    .title
+      @include card-title-text
+      
+    .subtitle
+      @include card-subtitle-text
+      padding: 0.25em 0 0.75em 0
+
+      a
+        color: inherit
+
+    .subtitle-two
+      @include card-subtitle-two-text
+      padding-top: 0.25em
+
+      a
+        color: inherit
+
+  .body
+    margin: 0 0.8em 0 0.8em
+    padding: 0.5em 1em 1.5em 1em
+
+    .text 
+      @include small-text
+      margin: 0em 1em 0.5em 0.75em
+      
+      a
+        @include extra-small-text
+
+    .button
+      @include small-text
+      display: inline-block
+      margin: 0.5em 0 0.5em 0
+      padding: 10px 12px 8px 12px
+      max-width: 80%
+
+      border: 3px solid $button-border
+      border-radius: 10px;
+
+      &:hover
+        background-color: $button-hover
+
+  &:nth-child(3n+1)
+    order: 1 
+
+  &:nth-child(3n+2)
+    order: 2 
+
+  &:nth-child(3n)
+    order: 3 
+
+@media only screen and (max-width: 1100px) 
+  .card 
+    width: 45%
+  
+  .card:nth-child(2n+1) 
+    order: 1 
+
+  .card:nth-child(2n) 
+    order: 2 
+
+@media only screen and (max-width: 700px) 
+  .card 
+    width: 80vw
+    margin: 5px 0 20px 0

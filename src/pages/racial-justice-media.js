@@ -136,10 +136,10 @@ export default class RacialJusticeMedia extends React.Component {
         {/* Submissions */}
         <CardContent.Header>Submissions</CardContent.Header>
           <p className="submission">
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝"/> <Emoji emoji="➕"/><br/>
           </p>
           <p className="submission">
-            <Link href="https://forms.gle/RxnTpgK7v4PXTEHR8">Submit media relating to racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📺" emoji_name="television"/><Emoji emoji="➕" emoji_name="plus sign"/>
+            <Link href="https://forms.gle/RxnTpgK7v4PXTEHR8">Submit media relating to racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📺"/><Emoji emoji="➕"/>
           </p>
         <br/>
 
@@ -174,27 +174,22 @@ export default class RacialJusticeMedia extends React.Component {
             let tag = data[9]
 
             let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
+            if (summary_source_link !== "N/A") source = <a href={summary_source_link}>Summary c/o {summary_source}</a>
 
             // Search Query String
             let creators_string = ""
             for (let i = 0; i < creators.length; i++) creators_string += creators[i][0]
             let search_string = [title, creators_string, summary, summary_source].join().toLowerCase()
 
-            let emoji_name = null;
             let emoji = null;
             let verb = "View";
             if (typename === "Film") {
-              emoji_name = "film frames"
               emoji="🎞️"
             } else if (typename === "Podcast") {
-              emoji_name = "studio microphone"
               emoji="🎙"
             } else if (typename === "Video") {
-              emoji_name = "video camera"
               emoji="📹"
             } else if (typename === "Audiobook") {
-              emoji_name = "speaker with high volume"
               emoji="🔊"
               verb="Listen to"
             }
@@ -219,7 +214,7 @@ export default class RacialJusticeMedia extends React.Component {
                   <Card.Body>
                     <Card.Text>{summary}</Card.Text>
                     {source && <Card.Text>{source}</Card.Text>}
-                    <Card.Link href={source_link} text={`${verb} this ${typename}`} emoji={emoji} emoji_name={emoji_name}/>
+                    <Card.Link href={source_link} text={`${verb} this ${typename}`} emoji={emoji}/>
                   </Card.Body>
                 </Card>
               )

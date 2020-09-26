@@ -5,7 +5,6 @@ import Link from "../components/Link.js";
 import TextContent from "../components/TextContent.js";
 /* Import Styles */
 import "../sass/main.sass";
-import "../sass/textcontent.component.sass";
 
 export default function FurtherInformation() {
   return (

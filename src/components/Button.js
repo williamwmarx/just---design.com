@@ -1,6 +1,5 @@
 import React from "react";
 import Emoji from "./Emoji.js";
-import "../sass/button.component.sass"
 
 export default class Button extends React.Component {
     constructor(props) {
@@ -40,7 +39,7 @@ export default class Button extends React.Component {
         let ThisButton = (
             <span>
                 <a className="gradient-button" rel="noreferrer" target="_blank" href={this.state.href}>
-                    {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
+                    {this.props.text} <Emoji emoji={this.props.emoji}/>&nbsp;
                     <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
                 </a>
                 <br/>
@@ -51,7 +50,7 @@ export default class Button extends React.Component {
             ThisButton = (
                 <span>
                     <a className="gradient-button" href={this.state.href}>
-                        {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
+                        {this.props.text} <Emoji emoji={this.props.emoji}/>&nbsp;
                         <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
                     </a>
                     <br/>
@@ -60,13 +59,10 @@ export default class Button extends React.Component {
         }
 
         return (
-            <span>
-                <a className="gradient-button" href={this.state.href}>
-                    {this.props.text} <Emoji name={this.props.emoji_name} emoji={this.props.emoji}/>&nbsp;
-                    <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
-                </a>
-                <br/>
-            </span>
+            <a className="button" href={this.state.href}>
+                {this.props.text} <Emoji emoji={this.props.emoji}/>&nbsp;
+                <span style={{fontFamily: "OfficeCodeProDMedium"}}>→</span>
+            </a>
         );
     }
 }

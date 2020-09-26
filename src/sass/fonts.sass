@@ -1,0 +1,63 @@
+@import "colors"
+
+@mixin title-font
+  font-family: VTCCarrie, "Arial Narrow", Helvetica, Arial, sans-serif
+  font-weight: normal
+
+@mixin body-font
+  font-family: Helvetica, Arial, sans-serif
+  
+@mixin body-font-bold
+  font-family: Helvetica, Arial, sans-serif
+  font-weight: bold
+
+@mixin secondary-font
+  font-family: OfficeCodeProD, monospace 
+
+@mixin secondary-font-italic
+  font-family: OfficeCodeProD, monospace 
+
+// Font Sizes 
+@mixin header-text($size)
+  font-size: $size
+  text-align: center 
+  margin: 0px
+  padding: 0px
+
+  @media only screen and (max-width: 1500px) 
+    font-size: 1.2 * $size
+    
+  @media only screen and (max-width: 1100px) 
+    font-size: 1.5 * $size
+
+  @media only screen and (max-width: 700px) 
+    font-size: 2.5 * $size
+
+@mixin extra-small-text
+  @include body-font
+  font-size: 0.9em
+  line-height: 40%
+  color: $subtitle-two-color
+
+@mixin small-text
+  @include body-font
+  font-size: 1em
+  line-height: 120%
+  
+  @media only screen and (max-width: 700px)
+    font-size: 0.9em
+
+@mixin card-title-text
+  @include body-font
+  font-size: 1.4em
+  color: $title-color
+
+@mixin card-subtitle-text
+  @include body-font
+  font-size: 1.2em
+  color: $subtitle-color
+
+@mixin card-subtitle-two-text
+  @include body-font
+  font-size: 1.1em
+  color: $subtitle-two-color
