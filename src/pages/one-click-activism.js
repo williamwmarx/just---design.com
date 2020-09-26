@@ -94,7 +94,7 @@ export default class OneClickActivism extends React.Component {
             let summary_source_link = data[5] 
 
             let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Subtext href={summary_source_link}>Summary c/o {summary_source}</Card.Subtext>
+            if (summary_source_link !== "N/A") source = <a href={summary_source_link}>Summary c/o {summary_source}</a>
 
             // Search Query String
             let search_string = [title, summary].join().toLowerCase()
