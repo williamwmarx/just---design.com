@@ -1,11 +1,12 @@
-$background: #f7f7f7
+// LIGHT THEME
+$background: #eee
 $text-color: black
 $title-color: black
-$subtitle-color: #aaa
-$subtitle-two-color: #888
+$subtitle-color: #888
+$subtitle-two-color: #aaa
 
-$link-color: #ddd
-$link-color-hover: #ccc
+$link-color: #d2d2d2
+$link-color-hover: darken($link-color, 8%) 
 
 $button-border: #ddd
 $button-hover: #f3f3f3
@@ -24,3 +25,16 @@ $gradient-tilt: linear-gradient(45deg, $gradient-one, $gradient-two, $gradient-t
 @mixin gradient-background
   background-color: transparent
   background-image: linear-gradient(90deg, $gradient-one, $gradient-two, $gradient-three) 
+
+// DARK THEME
+// $background: #222
+// $text-color: white
+// $title-color: white
+// $subtitle-color: #aaa
+// $subtitle-two-color: #888
+
+// $link-color: #ddd
+// $link-color-hover: #ccc
+
+// $button-border: #ddd
+// $button-hover: #f3f3f3

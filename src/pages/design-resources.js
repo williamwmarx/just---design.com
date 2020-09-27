@@ -2,7 +2,7 @@
 import React from "react";
 /* Import Components */
 import Card from "../components/Card.js";
-import CardContent from "../components/CardContent.js";
+import Page from "../components/Page.js";
 import CardStack from "../components/CardStack.js";
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
@@ -73,15 +73,15 @@ export default class DesignResources extends React.Component {
     } 
 
     return (
-      <CardContent title="Design Resources.">
+      <Page title="Design Resources.">
         {/* Submissions */}
-        <CardContent.Header>Submissions</CardContent.Header>
+        <Page.Heading>Submissions</Page.Heading>
           <p className="submission">
             <Link href="https://forms.gle/crnaPirDDpYLWHY48">Submit a design resource →</Link>&nbsp;&nbsp;<Emoji emoji="🔨" emoji_name="hammer"/><Emoji emoji="➕" emoji_name="plus sign"/>
           </p>
         <br/>
 
-        <CardContent.Header>Filter Results</CardContent.Header>
+        <Page.Heading>Filter Results</Page.Heading>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {resource_typenames.sort().map((typename, source_index) => {
@@ -141,7 +141,7 @@ export default class DesignResources extends React.Component {
             }
           })}
         </CardStack>
-      </CardContent>
+      </Page>
     )
   }
 }

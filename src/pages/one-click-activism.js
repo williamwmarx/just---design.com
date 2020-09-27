@@ -2,7 +2,7 @@
 import React from "react";
 /* Import Components */
 import Card from "../components/Card.js";
-import CardContent from "../components/CardContent.js";
+import Page from "../components/Page.js";
 import CardStack from "../components/CardStack.js";
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
@@ -65,15 +65,15 @@ export default class OneClickActivism extends React.Component {
     } 
 
     return (
-      <CardContent title="One Click Activism.">
+      <Page typename="card" title="One Click Activism.">
         {/* Submissions */}
-        <CardContent.Header>Submissions</CardContent.Header>
+        <Page.Heading>Submissions</Page.Heading>
           <p className="submission">
             <Link href="https://forms.gle/Rf7V3d69KN9D8GEFA">Submit an activism source →</Link>&nbsp;&nbsp;<Emoji emoji="✊" emoji_name="raised fist"/><Emoji emoji="➕" emoji_name="plus sign"/>
           </p>
         <br/>
 
-        <CardContent.Header>Filter Results</CardContent.Header>
+        <Page.Heading>Filter Results</Page.Heading>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {resource_typenames.sort().map((typename, source_index) => {
@@ -118,7 +118,7 @@ export default class OneClickActivism extends React.Component {
             }
           })}
         </CardStack>
-      </CardContent>
+      </Page>
     )
   }
 }

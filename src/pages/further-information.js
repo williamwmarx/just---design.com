@@ -2,13 +2,13 @@
 import React from "react";
 /* Import Components */
 import Link from "../components/Link.js";
-import TextContent from "../components/TextContent.js";
+import Page from "../components/Page.js";
 /* Import Styles */
 import "../sass/main.sass";
 
 export default function FurtherInformation() {
   return (
-    <TextContent title="FURTHER INFORMATION.">
+    <Page title="FURTHER INFORMATION.">
       <p>
         Although our mission is stated on our home page, it is important to reiterate this message.
       </p>
@@ -28,6 +28,6 @@ export default function FurtherInformation() {
       <p>
         Finally, if you&apos;d like to share this site, visit the <Link href="../social-media" new_tab={false}>social media page</Link> for some pre-made graphics.
       </p>
-    </TextContent>
+    </Page>
   )
 }

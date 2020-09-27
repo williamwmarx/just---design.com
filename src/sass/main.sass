@@ -1,17 +1,22 @@
 @import "colors"
 @import "fonts"
 @import "index"
-@import "cardstack"
 @import "card"
-@import "text-content"
+@import "page"
 @import "title"
 
 body 
   @include body-font
-  background: $background
-  margin: 0 !important
   color: $text-color
+  background: $background
+  margin: 0
   overflow-x: hidden
+
+.root 
+  position: absolute
+  width: 100vw
+  top: 5vh
+  padding-bottom: 10vh
 
 a 
   color: $text-color
@@ -23,18 +28,11 @@ a
   background-size: 100% 35%
   background-position: 0 95%
 
-  &.author
-    color: #aaa
-
   &:hover
     background-image: linear-gradient(90deg, $link-color-hover, $link-color-hover)
    
-
-.root 
-  position: absolute
-  width: 100vw
-  top: 5vh
-  padding-bottom: 10vh
+.arrow
+  @include secondary-font
 
 #our-mission
   position: relative
@@ -47,22 +45,9 @@ a
     position: relative
     font-weight: bold
 
-.card-content-header
-  margin: 0 0 0.75em 0
-  z-index: 100
-  padding: 0px 
-  @include body-font-bold
-  font-size: 135%
-  color: #aaa
-
-.card-content-text
-  margin: 0 0 0.4em 2vw
-  font-size: 100%
-  line-height: 150%
-
 .glossary-definition
-  margin: 0 0 1em calc(2vw + 1em)
   @include body-font
+  margin: 0 0 1em calc(2vw + 1em)
   font-size: 90% 
   line-height: 125% 
 
@@ -79,7 +64,7 @@ a
   background-image: $gradient-tilt
 
   select
-    @include body-font-bold
+    @include body-font(bold)
     @include neumorphic
     font-size: 100%
     padding: 0.75em 45px 0.75em 0.75em
@@ -102,7 +87,7 @@ a
   font-size: 100%
   width: 20em
   margin: 0 2em 2.25em 0
-  padding: 1em 2.75em 1em 0.75em
+  padding: 0.75em 2.75em 0.75em 0.75em
   color: $text-color 
   border-radius: 0.5em
   border: 2px solid transparent !important
@@ -114,7 +99,7 @@ a
   top: 1em
 
   h3
-    @include body-font-bold
+    @include body-font(bold)
     font-size: 125%
     line-height: 100%
     color: #aaa
@@ -123,7 +108,7 @@ a
     margin: 2.5em 0 0.5em 0
 
   h4
-    @include body-font-bold
+    @include body-font(bold)
     font-style: oblique 
     font-size: 110%
     line-height: 100%

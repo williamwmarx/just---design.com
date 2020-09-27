@@ -3,7 +3,7 @@ import React from "react";
 /* Import Components */
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
-import TextContent from "../components/TextContent.js";
+import Page from "../components/Page.js";
 /* Import Styles */
 import "../sass/main.sass";
 /* Import Data */
@@ -46,7 +46,7 @@ export default class Acknowledgments extends React.Component {
 
   render() {
     return (
-      <TextContent title="Acknowledgments.">        
+      <Page title="Acknowledgments.">        
         {/* GENERAL CREDITS */}
         <p style={{fontSize: "110%"}}>
           This site is intended to be as transparent as possible. As such, all sources used to build it are listed below.
@@ -54,28 +54,28 @@ export default class Acknowledgments extends React.Component {
         </p>
   
         {/* GRAPHIC DESIGN ELEMENTS CREDITS */}
-        <TextContent.Section>Graphic Design Elements</TextContent.Section>
+        <Page.Heading>Graphic Design Elements</Page.Heading>
           {/* TYPEFACE CREDITS */}
-          <TextContent.Subsection>Typefaces</TextContent.Subsection>
+          <Page.SubHeading>Typefaces</Page.SubHeading>
             {AcknowledgmentsData.graphic_design_elements.typefaces.map((data, credit_index) => {
               return (
                 <span key={`credit_${credit_index}`} style={{fontFamily: data.css_fontface, fontSize: data.fontSize, letterSpacing: data.letterSpacing}}>
-                  <TextContent.Credit
+                  <Page.Credit
                     content={data.font} content_source={data.font_link} 
                     creator={data.foundry} creator_source={data.foundry_link}
                   />
                 </span>
               );
             })}
-            <TextContent.Text>
+            <Page.Text>
               <span style={{fontSize: "90%", color: "#aaa"}}>
                 * Carrie is not free/open source, however, due to its historical importance and aesthetic beauty, I thought it was necessary to include it.
               </span>
-            </TextContent.Text>
+            </Page.Text>
             <br/>
   
           {/* COLOR PALETTE CREDITS */}
-          <TextContent.Subsection>Color Palette</TextContent.Subsection>
+          <Page.SubHeading>Color Palette</Page.SubHeading>
             {AcknowledgmentsData.graphic_design_elements.color_palette.map((data, index) => {
               let color_detail = {
                 backgroundColor: data.hex,
@@ -87,13 +87,13 @@ export default class Acknowledgments extends React.Component {
   
               return (
                 <div key={`content_item_${index}`}>
-                  <TextContent.Text>{data.color_name}:</TextContent.Text>
-                  <TextContent.TextIndent>HEX:<span style={color_detail}>{data.hex}</span></TextContent.TextIndent>
-                  <TextContent.TextIndent>RGB:<span style={color_detail}>{data.rgb}</span></TextContent.TextIndent>
-                  <TextContent.TextIndent>CMYK:<span style={color_detail}>{data.cmyk}</span></TextContent.TextIndent>
+                  <Page.Text>{data.color_name}:</Page.Text>
+                  <Page.Text>HEX:<span style={color_detail}>{data.hex}</span></Page.Text>
+                  <Page.Text>RGB:<span style={color_detail}>{data.rgb}</span></Page.Text>
+                  <Page.Text>CMYK:<span style={color_detail}>{data.cmyk}</span></Page.Text>
                   {
                     data.source &&
-                    <TextContent.TextIndent>
+                    <Page.Text>
                       Source:&nbsp;
                         <Link href={data.source_link}>{data.source}</Link>
                         &nbsp;c/o&nbsp;
@@ -103,7 +103,7 @@ export default class Acknowledgments extends React.Component {
                           else creator_html = <span> and <Link href={creators.link}>{creators.name}</Link></span>
                           return creator_html;
                         })}
-                    </TextContent.TextIndent>
+                    </Page.Text>
                   }
                   <br/>
                 </div>
@@ -112,22 +112,25 @@ export default class Acknowledgments extends React.Component {
           <br/>
   
         {/* CONTENT SOURCES CREDITS */}
-        <TextContent.Section>Content</TextContent.Section>
+        <Page.Heading>Content</Page.Heading>
           <p className="submission">
-            <Link href="https://forms.gle/1xyjG8HHBNKtAC8d8">Submit a source to catalogue →</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+            <Link href="https://forms.gle/1xyjG8HHBNKtAC8d8">Submit a source to catalogue →</Link>
+            &nbsp;&nbsp;
+            <Emoji>📝</Emoji><Emoji>➕</Emoji><br/>
           </p>
   
-        <TextContent.Subsection>Key</TextContent.Subsection>
-        <TextContent.Text><Emoji emoji="✅" emoji_name="check mark"/> Source catalogued</TextContent.Text>
-        <TextContent.Text><Emoji emoji="🚧" emoji_name="construction sign"/> Under construction</TextContent.Text>
-        <TextContent.Text><Emoji emoji="⏳" emoji_name="hourglass with flowing sand"/> To be done</TextContent.Text>
+        <Page.SubHeading>Key</Page.SubHeading>
+        <Page.Text><Emoji>✅</Emoji> Source catalogued</Page.Text>
+        <Page.Text><Emoji>🚧</Emoji> Under construction</Page.Text>
+        <Page.Text><Emoji>⏳</Emoji> To be done</Page.Text>
         <br/>
-        <TextContent.Subsection>Sources</TextContent.Subsection>
+
+        <Page.SubHeading>Sources</Page.SubHeading>
           {this.state.sources.map((data, index) => {
             let emoji = ""
-            if (data[0] === "Catalogued") emoji = <Emoji emoji="✅" emoji_name="check mark"/>
-            else if (data[0] === "Pending") emoji = <Emoji emoji="🚧" emoji_name="construction sign"/>
-            else if (data[0] === "To-do") emoji = <Emoji emoji="⏳" emoji_name="hourglass with flowing sand"/>
+            if (data[0] === "Catalogued") emoji = <Emoji>✅</Emoji>
+            else if (data[0] === "Pending") emoji = <Emoji>🚧</Emoji>
+            else if (data[0] === "To-do") emoji = <Emoji>⏳</Emoji>
             return (
               <p className="submission" key={`source_${index}`}>
                 <Link href={data[2]}>{data[1]}</Link>
@@ -135,7 +138,7 @@ export default class Acknowledgments extends React.Component {
               </p>
             );
           })}
-      </TextContent>
+      </Page>
     )
   }
 }

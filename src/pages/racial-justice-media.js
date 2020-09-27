@@ -2,7 +2,7 @@
 import React from "react";
 /* Import Components */
 import Card from "../components/Card.js";
-import CardContent from "../components/CardContent.js";
+import Page from "../components/Page.js";
 import CardStack from "../components/CardStack.js";
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
@@ -111,13 +111,13 @@ export default class RacialJusticeMedia extends React.Component {
     if (this.state.glossary.length > 0) {
       glossary = (
         <div>
-          <CardContent.Header>Glossary</CardContent.Header>
+          <Page.Heading>Glossary</Page.Heading>
               {this.state.glossary.map((data, idx) => {
                 return (
                   <div key={`entry_${idx}`}>
-                    <CardContent.Text>
+                    <Page.Text>
                       <strong><Link href={data[2]}>{data[0]}</Link></strong>
-                    </CardContent.Text>
+                    </Page.Text>
                     <p className="glossary-definition">
                       {data[1]}
                     </p>
@@ -130,11 +130,11 @@ export default class RacialJusticeMedia extends React.Component {
     }
 
     return (
-      <CardContent title="Racial Justice Media.">
+      <Page typename="card" title="Racial Justice Media.">
         {glossary}
         
         {/* Submissions */}
-        <CardContent.Header>Submissions</CardContent.Header>
+        <Page.Heading>Submissions</Page.Heading>
           <p className="submission">
             <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝"/> <Emoji emoji="➕"/><br/>
           </p>
@@ -143,7 +143,7 @@ export default class RacialJusticeMedia extends React.Component {
           </p>
         <br/>
 
-        <CardContent.Header>Filter Results</CardContent.Header>
+        <Page.Heading>Filter Results</Page.Heading>
         <div className="menu">
           <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
             {media_typenames.sort().map((typename, source_index) => {
@@ -221,7 +221,7 @@ export default class RacialJusticeMedia extends React.Component {
             }
           })}
         </CardStack>
-      </CardContent>
+      </Page>
     )
   }
 }

@@ -4,10 +4,10 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby"
 /* Import Components */
 import Card from "../components/Card.js";
-import CardContent from "../components/CardContent.js";
 import CardStack from "../components/CardStack.js";
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
+import Page from "../components/Page.js";
 /* Import Styles */
 import "../sass/main.sass";
 
@@ -24,9 +24,9 @@ export default class FeaturedDesigners extends React.Component {
 
   render() {
     return (
-      <CardContent title="Featured Designers.">
+      <Page typename="card" title="Featured Designers.">
           {/* Summary */}
-          <CardContent.Header>Summary</CardContent.Header>
+          <Page.Heading>Summary</Page.Heading>
           <p className="submission">
             Below are a list of designers, artists, architects and post-disciplinary designers who are working, or have worked, on design justice.
             Extra emphasis is placed on BIPOC, Womxn and Non-Binary creatives.
@@ -34,7 +34,7 @@ export default class FeaturedDesigners extends React.Component {
         <br/>
 
         {/* Submissions */}
-        <CardContent.Header>Submissions</CardContent.Header>
+        <Page.Heading>Submissions</Page.Heading>
           <p className="submission">
             <Link href="https://forms.gle/71Tsgg8jEAxLnakz8">Submit a designer to be featured →</Link>&nbsp;&nbsp;<Emoji emoji="🎨" emoji_name="artist palette"/><Emoji emoji="➕" emoji_name="plus sign"/>
           </p>
@@ -43,7 +43,7 @@ export default class FeaturedDesigners extends React.Component {
           </p>
         <br/>
 
-        <CardContent.Header>Designers</CardContent.Header>
+        <Page.Heading>Designers</Page.Heading>
         <StaticQuery
           query={graphql`
             query {
@@ -85,7 +85,7 @@ export default class FeaturedDesigners extends React.Component {
             </CardStack>
           )}
         />
-      </CardContent>
+      </Page>
     )
   }
 }

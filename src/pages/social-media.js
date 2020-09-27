@@ -1,7 +1,7 @@
 import React from "react";
 import Emoji from "../components/Emoji.js";
 import Card from "../components/Card.js";
-import CardContent from "../components/CardContent.js";
+import Page from "../components/Page.js";
 import CardStack from "../components/CardStack.js";
 import imageOne from "../../static/images/one.png";
 import imageTwo from "../../static/images/two.png";
@@ -23,9 +23,9 @@ let story_image = {
 
 export default function Home() {
   return (
-    <CardContent title="SOCIAL MEDIA.">
-      <CardContent.Header>Graphics for stories &amp; posts below.</CardContent.Header>
-      <CardContent.Text>Do it for the gram. <Emoji name="sparkles" emoji="✨"/></CardContent.Text>
+    <Page typename="card" title="SOCIAL MEDIA.">
+      <Page.Heading>Graphics for stories &amp; posts below.</Page.Heading>
+      <Page.Text>Do it for the gram. <Emoji name="sparkles" emoji="✨"/></Page.Text>
       <br/>
       <CardStack>
         <Card>
@@ -69,6 +69,6 @@ export default function Home() {
           </Card.Body>
         </Card>
       </CardStack>
-    </CardContent>
+    </Page>
   )
 }

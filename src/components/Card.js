@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/Button.js"
+import Emoji from "../components/Emoji.js"
 import Link from "../components/Link.js"
 import "../sass/main.sass"
 
@@ -10,10 +10,13 @@ export default class Card extends React.Component {
   static Title = ({ children }) => <p className="title">{children}</p>
   static Subtitle = ({ children }) => <p className="subtitle">{children}</p>
   static Subtitle2 = ({ children }) => <p className="subtitle-two">{children}</p>
-  static Author = props => <Link author={true} href={props.href}>{props.children}</Link>
+  static Author = props => <Link newtab={true} href={props.href}>{props.children}</Link>
   static Text = ({ children }) => <p className="text">{children}</p>
-  static Link = props => <Button href={props.href} text={props.text} emoji={props.emoji}/>
-  static PostLink = props => <Button href={props.href} newtab={false} text={props.text} emoji={props.emoji}/>
+  static Button = props => (
+    <Link typename="button" href={props.href} newtab={!props.internal}>
+      {props.children} <Emoji>{props.emoji}</Emoji>
+    </Link>
+  )
 
   render() {
     return (

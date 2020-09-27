@@ -4,18 +4,19 @@
   font-family: VTCCarrie, "Arial Narrow", Helvetica, Arial, sans-serif
   font-weight: normal
 
-@mixin body-font
+@mixin body-font($weight: normal)
   font-family: Helvetica, Arial, sans-serif
+
+  @if $weight == medium
+    font-weight: 600
+  @else if $weight == bold
+    font-weight: bold
   
-@mixin body-font-bold
-  font-family: Helvetica, Arial, sans-serif
-  font-weight: bold
-
-@mixin secondary-font
+@mixin secondary-font($style: normal)
   font-family: OfficeCodeProD, monospace 
 
-@mixin secondary-font-italic
-  font-family: OfficeCodeProD, monospace 
+  @if $style == italic
+    font-family: OfficeCodeProDItalic, monospace 
 
 // Font Sizes 
 @mixin header-text($size)

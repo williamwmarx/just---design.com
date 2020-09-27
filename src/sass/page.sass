@@ -1,0 +1,47 @@
+@import "colors"
+@import "fonts"
+
+@mixin content-wrapper($type)
+  $w: 80%
+
+  @if $type == "card-page"
+    $w: 80%
+    top: 4em
+  @else if $type == "text-page"
+    $w: 60%
+    top: 1.5em
+    
+    @media only screen and (max-width: 1100px) 
+      $w: 80%
+
+  position: relative
+  width: $w
+  left: (100% - $w) / 2 
+
+  h3 
+    @include body-font(bold)
+    margin: 0 0 0.4em 0
+    text-align: left
+    font-size: 125%
+
+  h4 
+    @include body-font(bold)
+    margin: 0 0 0.25em 0
+    font-size: 120%
+    color: $subtitle-color 
+  
+  p
+    @include body-font
+    margin: 0 0 0.4em 2%
+    font-size: 110%
+
+  .credit
+    margin: 0 0 0.4em 2%
+    display: block
+
+    
+.card-page
+  @include content-wrapper("card-page")
+
+.text-page
+  @include content-wrapper("text-page")

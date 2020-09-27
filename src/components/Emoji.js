@@ -1542,7 +1542,5 @@ export default function Emoji(props) {
     "🇿🇲": "Zambia",
     "🇿🇼": "Zimbabwe"
   }
-    return (
-        <span role="img" aria-label={emoji_names[props.emoji]}>{props.emoji}</span>
-    );
+    return <span role="img" aria-label={emoji_names[props.children]}>{props.children}</span>
 }
