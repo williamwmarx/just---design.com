@@ -2,60 +2,50 @@
     "navigation": [{
             "title": "Further Information",
             "emoji": "💬",
-            "emoji_name": "speech bubble",
             "link": "further-information"
         },
         {
             "title": "Racial Justice Readings",
             "emoji": "📖",
-            "emoji_name": "open book",
             "link": "racial-justice-readings"
         }, {
             "title": "Racial Justice Media",
             "emoji": "📺",
-            "emoji_name": "television",
             "link": "racial-justice-media"
         },
         {
             "title": "Design Resources",
             "emoji": "🧰",
-            "emoji_name": "toolbox",
             "link": "design-resources"
         },
         {
             "title": "BIPOC Studios",
             "emoji": "📐",
-            "emoji_name": "triangular ruler",
             "link": "bipoc-studios"
         },
         {
             "title": "One Click Activism",
             "emoji": "🗳",
-            "emoji_name": "ballot box with ballot",
             "link": "one-click-activism"
         },
         {
             "title": "Featured Designers",
             "emoji": "👤",
-            "emoji_name": "bust in silhouette",
             "link": "featured-designers"
         },
         {
             "title": "Site Glossary",
             "emoji": "🔎",
-            "emoji_name": "right pointing magnifying glass",
             "link": "glossary"
         },
         {
             "title": "Acknowledgments",
             "emoji": "🙏",
-            "emoji_name": "folded hands",
             "link": "acknowledgments"
         },
         {
             "title": "Suggest an Addition",
             "emoji": "📨",
-            "emoji_name": "incoming envelope",
             "link": "mailto:wearejustdesign@gmail.com?subject=JUST DESIGN. Suggest an Addition 📨"
         }
     ]

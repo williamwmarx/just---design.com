@@ -1,12 +1,17 @@
 /* Import React */
 import React from "react";
+import { graphql }  from "gatsby";
+
 /* Import Components */
-import Head from "../components/Head.js"
-import Title from "../components/Title.js"
+import Root from "../components/Root.js"
+import Collapsible from "../components/Collapsible.js"
 import Emoji from "../components/Emoji.js"
+import Sheets from "../components/Sheets.js"
 import Link from "../components/Link.js"
+
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/main.scss";
+
 /* Import Sparse Data */
 import GlossarySparse from "../../static/json/GlossarySparse.json";
 
@@ -16,6 +21,7 @@ export default class Glossary extends React.Component {
     this.handleSortChange = this.handleSortChange.bind(this);
     this.state = {
       search_query: "",
+      category: "All",
       glossary: GlossarySparse["glossary"]
     };
   }
@@ -25,70 +31,67 @@ export default class Glossary extends React.Component {
   }
 
   componentDidMount() {
-    const that = this;
-    /* Get glossary data from published Google Sheets */
-    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
-    .then(function(response) {
-        if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: '+response.status);
-            return;
-        } else {
-          return response.json();
-        }
-      }
-    ).then(function(data) {
-      /* Parse glossary JSON and set state */
-      let glossary_content = []
-      let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length; i += 4) {
-        let term = entries[i+1]["content"]["$t"]
-        let definition = entries[i+2]["content"]["$t"]
-        let link = entries[i+3]["content"]["$t"]
-        glossary_content.push([term, definition, link])
-      }
-      that.setState({glossary: glossary_content})
-    })
-    .catch(function(err) {
-        console.log('Fetch Error: ', err);
+    let googleSheetsID = this.props.data.site.siteMetadata.googleSheetsID
+    Sheets.getData(googleSheetsID, 5, 4).then(sheet_data => {
+      this.setState({
+        glossary: sheet_data,
+      });
     });
   }
 
   render() {
+    let categories = [...new Set(["All", ...this.state.glossary.map((term) => term[0])])]
+
     return (
-      <div className="root">
-        <Head title="JUST DESIGN. Glossary."/>
-        <Title name="Site Glossary." hide_bar={false}/>
-        <div style={{position: "relative", width: "80vw", left: "10vw", paddingTop: "4em"}}>
-          <p className="card-content-header">Submissions</p>
-          <p className="submission">
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+      <Root page="Site Glossary.">
+        {/* Submissions */}
+        <Collapsible name="Submit a Term">
+          <p className="indent-1">
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">
+              Submit a term for the glossary <span className="arrow">→</span>
+            </Link> <Emoji emoji="📝"/><Emoji emoji="➕"/>
           </p>
-          <br/>
+        </Collapsible>
+        <br/>
 
-          <p className="card-content-header">Filter</p>
-          <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
-
-          <div>
-            {this.state.glossary.map((data, index) => {
-              let term = data[0]
-              let definition = data[1]
-              let link = data[2]
-
-              // Search Query String
-              let search_string = [term].join().toLowerCase()
-
-              if (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase())) {
-                return (
-                  <div key={`term_${index}`}>
-                    <p className="card-content-text"><Link href={link}>{term}</Link></p>
-                    <p className="glossary-definition">{definition}</p>
-                  </div>
-                )
-              }
+        <h3>Filter Results</h3>
+        <div className="menu">
+          <select name="category" value={this.state.category} onChange={this.handleSortChange}>
+            {categories.sort().map((category, idx) => {
+              return <option key={`category_${idx}`} value={category}>{category}</option> 
             })}
-          </div>
-        </div> 
-      </div> 
+          </select>
+        </div>
+        <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
+
+        <div>
+          {this.state.glossary.map((term, idx) => {
+            let search_string = [].concat(...Object.values(term)).filter(String).join(" ").toLowerCase()
+
+            if (
+              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
+              && (this.state.category === "All" || this.state.category === term[0])
+            ) {
+              return (
+                <section className="indent-1 glossary" key={`term_${idx}`}>
+                  <p><Link newtab={true} href={term[3]}>{term[1]}</Link></p>
+                  <p>{term[2]}</p>
+                </section>
+              );
+            }
+          })}
+        </div>
+      </Root> 
     )
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        googleSheetsID
+      }
+    }
+  }
+`

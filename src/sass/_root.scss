@@ -1,0 +1,30 @@
+@import "colors";
+@import "fonts";
+@import "mixins";
+
+@mixin content-wrapper($type) {
+  @if $type == "card-page" {
+    @include center(80%);
+  } @else if $type == "text-page" {
+    @include center(60%);
+    @media only screen and (max-width: 1100px) {
+      @include center(80%);
+    }
+  }
+
+  top: 2em;
+
+  .credit {
+    margin: 0 0 0.4em 2%;
+    display: block;
+  }
+}
+    
+.card-page {
+  @include content-wrapper("card-page");
+}
+
+.text-page {
+  @include content-wrapper("text-page");
+}
+

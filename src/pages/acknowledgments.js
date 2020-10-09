@@ -1,11 +1,12 @@
 /* Import React */
 import React from "react";
+
 /* Import Components */
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
-import Page from "../components/Page.js";
+import Root from "../components/Root.js";
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/main.scss";
 /* Import Data */
 import AcknowledgmentsData from "../../static/json/acknowledgments.json"
 
@@ -46,7 +47,7 @@ export default class Acknowledgments extends React.Component {
 
   render() {
     return (
-      <Page title="Acknowledgments.">        
+      <Root page="Acknowledgments.">        
         {/* GENERAL CREDITS */}
         <p style={{fontSize: "110%"}}>
           This site is intended to be as transparent as possible. As such, all sources used to build it are listed below.
@@ -54,28 +55,28 @@ export default class Acknowledgments extends React.Component {
         </p>
   
         {/* GRAPHIC DESIGN ELEMENTS CREDITS */}
-        <Page.Heading>Graphic Design Elements</Page.Heading>
+        <h3>Graphic Design Elements</h3>
           {/* TYPEFACE CREDITS */}
-          <Page.SubHeading>Typefaces</Page.SubHeading>
+          <h4>Typefaces</h4>
             {AcknowledgmentsData.graphic_design_elements.typefaces.map((data, credit_index) => {
               return (
                 <span key={`credit_${credit_index}`} style={{fontFamily: data.css_fontface, fontSize: data.fontSize, letterSpacing: data.letterSpacing}}>
-                  <Page.Credit
+                  <Root.Credit
                     content={data.font} content_source={data.font_link} 
                     creator={data.foundry} creator_source={data.foundry_link}
                   />
                 </span>
               );
             })}
-            <Page.Text>
+            <p>
               <span style={{fontSize: "90%", color: "#aaa"}}>
                 * Carrie is not free/open source, however, due to its historical importance and aesthetic beauty, I thought it was necessary to include it.
               </span>
-            </Page.Text>
+            </p>
             <br/>
   
           {/* COLOR PALETTE CREDITS */}
-          <Page.SubHeading>Color Palette</Page.SubHeading>
+          <h4>Color Palette</h4>
             {AcknowledgmentsData.graphic_design_elements.color_palette.map((data, index) => {
               let color_detail = {
                 backgroundColor: data.hex,
@@ -87,13 +88,13 @@ export default class Acknowledgments extends React.Component {
   
               return (
                 <div key={`content_item_${index}`}>
-                  <Page.Text>{data.color_name}:</Page.Text>
-                  <Page.Text>HEX:<span style={color_detail}>{data.hex}</span></Page.Text>
-                  <Page.Text>RGB:<span style={color_detail}>{data.rgb}</span></Page.Text>
-                  <Page.Text>CMYK:<span style={color_detail}>{data.cmyk}</span></Page.Text>
+                  <p>{data.color_name}:</p>
+                  <p>HEX:<span style={color_detail}>{data.hex}</span></p>
+                  <p>RGB:<span style={color_detail}>{data.rgb}</span></p>
+                  <p>CMYK:<span style={color_detail}>{data.cmyk}</span></p>
                   {
                     data.source &&
-                    <Page.Text>
+                    <p>
                       Source:&nbsp;
                         <Link href={data.source_link}>{data.source}</Link>
                         &nbsp;c/o&nbsp;
@@ -103,7 +104,7 @@ export default class Acknowledgments extends React.Component {
                           else creator_html = <span> and <Link href={creators.link}>{creators.name}</Link></span>
                           return creator_html;
                         })}
-                    </Page.Text>
+                    </p>
                   }
                   <br/>
                 </div>
@@ -112,33 +113,33 @@ export default class Acknowledgments extends React.Component {
           <br/>
   
         {/* CONTENT SOURCES CREDITS */}
-        <Page.Heading>Content</Page.Heading>
-          <p className="submission">
+        <h3>Content</h3>
+          <p className="indent-1">
             <Link href="https://forms.gle/1xyjG8HHBNKtAC8d8">Submit a source to catalogue →</Link>
             &nbsp;&nbsp;
             <Emoji>📝</Emoji><Emoji>➕</Emoji><br/>
           </p>
   
-        <Page.SubHeading>Key</Page.SubHeading>
-        <Page.Text><Emoji>✅</Emoji> Source catalogued</Page.Text>
-        <Page.Text><Emoji>🚧</Emoji> Under construction</Page.Text>
-        <Page.Text><Emoji>⏳</Emoji> To be done</Page.Text>
+        <h4>Key</h4>
+        <p><Emoji>✅</Emoji> Source catalogued</p>
+        <p><Emoji>🚧</Emoji> Under construction</p>
+        <p><Emoji>⏳</Emoji> To be done</p>
         <br/>
 
-        <Page.SubHeading>Sources</Page.SubHeading>
+        <h4>Sources</h4>
           {this.state.sources.map((data, index) => {
             let emoji = ""
             if (data[0] === "Catalogued") emoji = <Emoji>✅</Emoji>
             else if (data[0] === "Pending") emoji = <Emoji>🚧</Emoji>
             else if (data[0] === "To-do") emoji = <Emoji>⏳</Emoji>
             return (
-              <p className="submission" key={`source_${index}`}>
+              <p className="indent-1" key={`source_${index}`}>
                 <Link href={data[2]}>{data[1]}</Link>
                 &nbsp;{emoji}
               </p>
             );
           })}
-      </Page>
+      </Root>
     )
   }
 }

@@ -39,7 +39,7 @@ export default class Button extends React.Component {
         href={this.state.href}
       >
           {this.props.children} 
-          {(this.props.typename === "button") && <span className="arrow">→</span>}
+          {(this.props.typename === "button") && <span className="arrow"> →</span>}
       </a>
     );
   }

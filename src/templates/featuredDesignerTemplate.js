@@ -1,8 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Head from "../components/Head"
-import Title from "../components/Title"
-import "../sass/main.sass"
+import Head from "../components/Head.js"
+import "../sass/main.scss"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -10,9 +9,7 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
-    <div className="root">
-      <Head title={`JUST DESIGN. ${frontmatter.title}.`}/>
-      <Title name={`${frontmatter.title}.`}/>
+    <div id="root">
       <div className="featured-designer">
         <div
           dangerouslySetInnerHTML={{ __html: html }}
@@ -26,12 +23,12 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path} }) {
+  query($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug} }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path 
+        slug 
         title
       }
     }

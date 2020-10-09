@@ -6,6 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Just Design.`,
+    siteUrl: `https://www.just---design.com`,
+    description: `An evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangential fields.`,
+    googleSheetsID: `10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs`,
+  },
   plugins : [
     {
       resolve: `gatsby-source-filesystem`,
@@ -14,7 +20,9 @@ module.exports = {
         name: `featured-designers`,
       },
     },
-    `gatsby-transformer-remark`,
+    { 
+      resolve: `gatsby-transformer-remark`
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

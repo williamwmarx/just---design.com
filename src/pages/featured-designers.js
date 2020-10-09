@@ -5,11 +5,12 @@ import { StaticQuery, graphql } from "gatsby"
 /* Import Components */
 import Card from "../components/Card.js";
 import CardStack from "../components/CardStack.js";
+import Collapsible from "../components/Collapsible.js";
 import Emoji from "../components/Emoji.js";
 import Link from "../components/Link.js";
-import Page from "../components/Page.js";
+import Root from "../components/Root.js";
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/main.scss";
 
 export default class FeaturedDesigners extends React.Component {
   constructor(props) {
@@ -24,26 +25,30 @@ export default class FeaturedDesigners extends React.Component {
 
   render() {
     return (
-      <Page typename="card" title="Featured Designers.">
+      <Root typename="card" page="Featured Designers.">
           {/* Summary */}
-          <Page.Heading>Summary</Page.Heading>
-          <p className="submission">
-            Below are a list of designers, artists, architects and post-disciplinary designers who are working, or have worked, on design justice.
-            Extra emphasis is placed on BIPOC, Womxn and Non-Binary creatives.
+          <h3>Mission</h3>
+          <p className="indent-1">
+            Below are a list of designers, artists, architects and post-disciplinary designers who are working, or have worked, on design justice. Extra emphasis is placed on BIPOC, Womxn and Non-Binary creatives.
           </p>
         <br/>
 
         {/* Submissions */}
-        <Page.Heading>Submissions</Page.Heading>
-          <p className="submission">
-            <Link href="https://forms.gle/71Tsgg8jEAxLnakz8">Submit a designer to be featured →</Link>&nbsp;&nbsp;<Emoji emoji="🎨" emoji_name="artist palette"/><Emoji emoji="➕" emoji_name="plus sign"/>
+        <Collapsible name="Submit a Designer">
+          <p className="indent-1">
+            <Link href="https://forms.gle/71Tsgg8jEAxLnakz8">
+              Submit a designer to be featured <Emoji emoji="🎨"/> <span className="arrow">→</span>
+            </Link>
           </p>
-          <p className="submission">
-            <Link href="mailto:wearejustdesign@gmail.com?subject=Featured%20Designer%20✍️✨">Submit your writing about a designer →</Link>&nbsp;&nbsp;<Emoji emoji="✍️" emoji_name="writing hand"/><Emoji emoji="➕" emoji_name="plus sign"/>
+          <p className="indent-1">
+            <Link href="mailto:wearejustdesign@gmail.com?subject=Featured%20Designer%20✍️✨">
+              Submit your writing about a designer <Emoji emoji="✍️"/> <span className="arrow">→</span>
+            </Link>
           </p>
+        </Collapsible>
         <br/>
-
-        <Page.Heading>Designers</Page.Heading>
+        
+        <h3>Designers</h3>
         <StaticQuery
           query={graphql`
             query {
@@ -54,7 +59,7 @@ export default class FeaturedDesigners extends React.Component {
                     excerpt(pruneLength: 250)
                     frontmatter {
                       date(formatString: "MMMM DD, YYYY")
-                      path 
+                      slug 
                       title
                       tags
                       description 
@@ -72,12 +77,12 @@ export default class FeaturedDesigners extends React.Component {
                 .map(edge => (
                   <Card key={edge.node.id}>
                     <Card.Header>
-                      <Card.Title>{edge.node.frontmatter.title}</Card.Title>
-                      <Card.Subtitle>{edge.node.frontmatter.tags}</Card.Subtitle>
+                      <h4>{edge.node.frontmatter.title}</h4>
+                      <h5>{edge.node.frontmatter.tags}</h5>
                     </Card.Header>
                     <Card.Body>
-                      <Card.Text>{edge.node.frontmatter.description}</Card.Text>
-                      <Card.PostLink href={edge.node.frontmatter.path} text="Go to post" emoji="📜" emoji_name="scroll"/>
+                      <p>{edge.node.frontmatter.description}</p>
+                      <Card.Button internal={true} href={edge.node.frontmatter.slug}>Go to post <Emoji emoji="📜"/></Card.Button>
                     </Card.Body>
                   </Card>
                 ))
@@ -85,7 +90,7 @@ export default class FeaturedDesigners extends React.Component {
             </CardStack>
           )}
         />
-      </Page>
+      </Root>
     )
   }
 }

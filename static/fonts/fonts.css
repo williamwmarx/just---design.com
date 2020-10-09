@@ -1,29 +1,131 @@
+/* VTC Carrie */
 @font-face {
     font-family: "VTCCarrie";
-    src: url("VTCCarrie-Regular.woff2");
+    src: url("VTCCarrie/VTCCarrie-Regular.woff2");
+}
+
+/* Office Code Pro D */
+@font-face {
+    font-family: "OfficeCodeProDThin";
+    src: url("OfficeCodeProD/OfficeCodeProD-Light.woff2");
 }
 
 @font-face {
-    font-family: "OfficeCodeProD";
-    src: url("OfficeCodeProD-Medium.woff2");
+    font-family: "OfficeCodeProDThinItalic";
+    src: url("OfficeCodeProD/OfficeCodeProD-LightItalic.woff2");
 }
 
 @font-face {
-    font-family: "OfficeCodeProDItalic";
-    src: url("OfficeCodeProD-MediumItalic.woff2");
+    font-family: "OfficeCodeProDRegular";
+    src: url("OfficeCodeProD/OfficeCodeProD-Regular.woff2");
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("Poppins-Regular.ttf");
+    font-family: "OfficeCodeProDRegularItalic";
+    src: url("OfficeCodeProD/OfficeCodeProD-RegularItalic.woff2");
 }
 
 @font-face {
-    font-family: "PoppinsMedium";
-    src: url("Poppins-Medium.ttf");
+    font-family: "OfficeCodeProDMedium";
+    src: url("OfficeCodeProD/OfficeCodeProD-Medium.woff2");
 }
 
 @font-face {
-    font-family: "PoppinsBold";
-    src: url("Poppins-Bold.ttf");
+    font-family: "OfficeCodeProDMediumItalic";
+    src: url("OfficeCodeProD/OfficeCodeProD-MediumItalic.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDBold";
+    src: url("OfficeCodeProD/OfficeCodeProD-Bold.woff2");
+}
+
+@font-face {
+    font-family: "OfficeCodeProDBoldItalic";
+    src: url("OfficeCodeProD/OfficeCodeProD-BoldItalic.woff2");
+}
+
+/* Object Sans */
+@font-face {
+    font-family: "ObjectSansThin";
+    src: url("ObjectSans/ObjectSans-Thin.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansThinItalic";
+    src: url("ObjectSans/ObjectSans-ThinSlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-ThinSlanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansLight";
+    src: url("ObjectSans/ObjectSans-Light.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansLightItalic";
+    src: url("ObjectSans/ObjectSans-LightSlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-LightSlanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansRegular";
+    src: url("ObjectSans/ObjectSans-Regular.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansRegularItalic";
+    src: url("ObjectSans/ObjectSans-Slanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Slanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansMedium";
+    src: url("ObjectSans/ObjectSans-Medium.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansMediumItalic";
+    src: url("ObjectSans/ObjectSans-MediumSlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-MediumSlanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansBold";
+    src: url("ObjectSans/ObjectSans-Bold.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansBoldItalic";
+    src: url("ObjectSans/ObjectSans-BoldSlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-BoldSlanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansHeavy";
+    src: url("ObjectSans/ObjectSans-Heavy.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Heavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansHeavyItalic";
+    src: url("ObjectSans/ObjectSans-HeavySlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-HeavySlanted.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansBlack";
+    src: url("ObjectSans/ObjectSans-Black.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ObjectSansBlackItalic";
+    src: url("ObjectSans/ObjectSans-BlackSlanted.woff2") format("woff2"),
+        url("ObjectSans/ObjectSans-BlackSlanted.woff") format("woff");
 }

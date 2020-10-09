@@ -1,0 +1,58 @@
+@mixin center($width) {
+  position: relative;
+  width: $width;
+  left: (100% - $width) / 2;
+}
+
+@mixin table-center() {
+  position: relative;
+  display: table;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+@mixin neumorphic($intensity: 6%, $distance: 8px, $blur: 20px, $radius: 25px) {
+  @include themed() {
+    background: t(bg);
+    $left-shadow: (-$distance) (-$distance) $blur lighten(t(bg), 0.8 * $intensity);
+    $right-shadow: $distance $distance $blur darken(t(bg), $intensity);
+    box-shadow: $left-shadow, $right-shadow;
+  }
+  border-radius: $radius;
+}
+
+@mixin underline {
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  background-position: 0 95%;
+
+  @include themed() {
+    background-image: linear-gradient(90deg, t(link), t(link));
+    &:hover {
+      background-image: linear-gradient(90deg, darken(t(link), 8%), darken(t(link), 8%));
+    }
+  }
+}
+
+@mixin indent($count: 1, $side: left) {
+  margin-top: 0;
+  margin-bottom: 0;
+  @if $side == left or $side == both {
+    margin-left: $count * 1em;
+  }
+  @if $side == right or $side == both {
+    margin-right: $count * 1em;
+  }
+}
+
+@mixin youtube-container($w) {
+  margin: 0.5em 0 0.5em 0;
+  width: $w;
+  height: $w * 0.5625;
+}
+
+@mixin no-highlight {
+  &:focus {
+    outline: none;
+  }
+}

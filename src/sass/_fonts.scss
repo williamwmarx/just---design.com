@@ -1,0 +1,31 @@
+@mixin title-font {
+  font-family: VTCCarrie, "Arial Narrow", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+@function capitalize($string) {
+  @return to-upper-case(str-slice($string, 1, 1)) + str-slice($string, 2);
+}
+
+@mixin font($font, $backups, $weight, $style) {
+  // Get font weight from words
+  $weights: (thin: 200, light: 300, regular: 400, medium: 600, bold: 700, heavy: 800, black: 900);
+  // No string if font style is normal 
+  @if $style == normal {
+    $style: "";
+  }
+
+  font-family: "#{$font + capitalize($weight) + capitalize($style)}";
+  font-weight: map-get($weights, $weight);
+  font-style: $style;
+}
+
+@mixin body-font($weight: regular, $style: normal) {
+  $backup-fonts: Helvetica, Arial, sans-serif;
+  @include font(ObjectSans, $backup-fonts, $weight, $style);
+}
+
+@mixin secondary-font($weight: regular, $style: normal) {
+  @include font(OfficeCodeProD, monospace, $weight, $style);
+}
+

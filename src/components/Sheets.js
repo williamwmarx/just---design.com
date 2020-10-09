@@ -5,7 +5,7 @@ const Sheets = {
     ).then(data => {
       let sheet_data = []
       let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length - column_count; i += column_count) {
+      for (var i = 0; i < entries.length; i += column_count) {
         let row = entries.slice(i, i+column_count)
         let row_content = []
         for (var j = 0; j < column_count; j++) {

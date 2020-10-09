@@ -1,0 +1,45 @@
+@import "colors";
+
+$themes: (
+  light: (
+    bg: $light-grey,
+    text: $charcoal,
+    title: $black,
+    subtitle: $dark-grey,
+    subtitle-two: $dark-grey,
+    link: darken($light-grey, 10%),
+    button-border: darken($light-grey, 10%),
+    button-hover: lighten($light-grey, 1%)
+  ),
+  dark: (
+    bg: $charcoal,
+    text: $white,
+    title: $white,
+    subtitle: $grey,
+    subtitle-two: $grey,
+    link: darken($dark-grey, 20%),
+    button-border: darken($dark-grey, 20%),
+    button-hover: lighten($charcoal, 4%)
+  )
+);
+
+$transition-time: 1s;
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}
+

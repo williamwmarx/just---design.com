@@ -1,227 +1,202 @@
 /* Import React */
-import React from "react";
+import React from "react"
+import {  graphql  } from "gatsby"
+
 /* Import Components */
-import Card from "../components/Card.js";
-import Page from "../components/Page.js";
-import CardStack from "../components/CardStack.js";
-import Emoji from "../components/Emoji.js";
-import Link from "../components/Link.js";
+import Card from "../components/Card.js"
+import Root from "../components/Root.js"
+import Collapsible from "../components/Collapsible.js"
+import CardStack from "../components/CardStack.js"
+import Emoji from "../components/Emoji.js"
+import Link from "../components/Link.js"
+import Sheets from "../components/Sheets.js"
+
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/main.scss"
+
 /* Import Spare Data */
+import GlossarySparse from "../../static/json/GlossarySparse.json"
 import RacialJusticeMediaSparse from "../../static/json/RacialJusticeMediaSparse.json"
 
-export default class RacialJusticeMedia extends React.Component {
+export default class RacialJusticeReadings extends React.Component {
   constructor(props) {
-    super(props);
-    this.cardstackRef = React.createRef();
-    this.handleSortChange = this.handleSortChange.bind(this);
+    super(props)
+    this.cardstackRef = React.createRef()
+    this.handleSortChange = this.handleSortChange.bind(this)
     this.state = {
-      typename: "All",
-      tag: "All",
+      typename: "All Types",
+      category: "All Categories",
       search_query: "",
       glossary: [],
-      media: RacialJusticeMediaSparse["media"]
+      media: [] 
     };
   }
   
-  /* Handle changes to media type, category and/or search */
+  // Handle changes to category and/or search
   handleSortChange(event) {
-    this.cardstackRef.current.update_cards_dims();
-    this.setState({[event.target.name]: event.target.value});
-    if (event.target.name === "search_query") this.setState({typename: "All", tag: "All"})
+    this.cardstackRef.current.update_cards_dims()
+    this.setState({[event.target.name]: event.target.value})
+    if (event.target.name === "search_query") this.setState({category: "All"})
   }
 
   componentDidMount() {
-    const that = this;
-    /* Get media data from published Google Sheets */
-    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/2/public/full?alt=json")
-    .then(function(response) {
-        if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: '+response.status);
-            return;
-        } else {
-          return response.json();
-        }
-      }
-    ).then(function(data) {
-      let content = []
-      let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length; i += 11) {
-        let title = entries[i]["content"]["$t"]
-        let typename = entries[i+1]["content"]["$t"]
-        let source_link = entries[i+2]["content"]["$t"]
-        let creators = []
-        let creator_names = entries[i+3]["content"]["$t"].split("`")
-        let creator_links = entries[i+4]["content"]["$t"].split("`")
-        for (let i = 0; i < creator_names.length; i++) creators.push([creator_names[i], creator_links[i]])
-        let summary = entries[i+5]["content"]["$t"]
-        let summary_source = entries[i+6]["content"]["$t"]
-        let summary_source_link = entries[i+7]["content"]["$t"]
-        let taken_from = entries[i+8]["content"]["$t"]
-        let taken_from_link = entries[i+9]["content"]["$t"]
-        let tag = entries[i+10]["content"]["$t"]
-        content.push([title, typename, source_link, creators, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
-      }
-      that.setState({media: content})
-      /* Get glossary data from published Google Sheets */
-      fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
-      .then(function(response) {
-          if (response.status !== 200) {
-              console.log('Looks like there was a problem. Status Code: '+response.status);
-              return;
-          } else {
-            return response.json();
-          }
-        }
-      ).then(function(data) {
-        /* Parse glossary JSON and set state */
-        let glossary_content = []
-        let entries = data["feed"]["entry"]
-        for (var i = 0; i < entries.length; i += 4) {
-          let target_page = entries[i]["content"]["$t"]
-          let term = entries[i+1]["content"]["$t"]
-          let definition = entries[i+2]["content"]["$t"]
-          let link = entries[i+3]["content"]["$t"]
-          if (target_page === "Racial Justice Media") glossary_content.push([term, definition, link])
-        }
-        that.setState({glossary: glossary_content})
-      })
-      .catch(function(err) {
-          console.log('Fetch Error: ', err);
+    let googleSheetsID = this.props.data.site.siteMetadata.googleSheetsID
+
+    // Racial Justice Media
+    Sheets.getData(googleSheetsID, 2, 11).then(sheet_data => {
+      this.setState({
+        media: sheet_data,
       });
-    })
-    .catch(function(err) {
-        console.log('Fetch Error: ', err);
+    });
+
+    // Glossary
+    Sheets.getData(googleSheetsID, 5, 4).then(sheet_data => {
+      this.setState({
+        glossary: sheet_data.filter(n => n[0].includes("Racial Justice")),
+      });
     });
   }
 
   render() {
-    /* Gather all tags (categories) */
-    let media_typenames = ["All"];
-    let media_tags = ["All"];
-    for (let i = 0; i < this.state.media.length; i++) {
-      let typename = this.state.media[i][1]
-      let tag = this.state.media[i][9]
-      if (!media_typenames.includes(typename)) media_typenames.push(typename)
-      if (!media_tags.includes(tag)) media_tags.push(tag)
-    } 
-
-    let glossary = null;
-    if (this.state.glossary.length > 0) {
-      glossary = (
-        <div>
-          <Page.Heading>Glossary</Page.Heading>
-              {this.state.glossary.map((data, idx) => {
-                return (
-                  <div key={`entry_${idx}`}>
-                    <Page.Text>
-                      <strong><Link href={data[2]}>{data[0]}</Link></strong>
-                    </Page.Text>
-                    <p className="glossary-definition">
-                      {data[1]}
-                    </p>
-                  </div>
-                );
-              })}
-          <br/>
-        </div>
-      )
+    // Dropdown categories/typenames
+    let categories = [...new Set(["All Categories", ...this.state.media.map((m) => m[10])])]
+    let typenames = [...new Set(["All Types", ...this.state.media.map((m) => m[1])])]
+    let typestring = {
+      "Audiobook": {
+        "phrase": "Listen to this audiobook",
+        "emoji": "🔊"
+      },
+      "Film": {
+        "phrase": "Watch this film",
+        "emoji": "🎞️"
+      },
+      "Podcast": {
+        "phrase": "Listen to this podcast",
+        "emoji": "🎙"
+      },
+      "Video": {
+        "phrase": "Watch this video",
+        "emoji": "📹"
+      }
     }
 
     return (
-      <Page typename="card" title="Racial Justice Media.">
-        {glossary}
-        
+      <Root typename="card" page="Racial Justice Media.">
+        {/* Glossary */}
+        <Collapsible name="Glossary">
+          {this.state.glossary.map((term, idx) => {
+            return (
+              <section className="indent-1 glossary" key={`term_${idx}`}>
+                <p><Link newtab={true} href={term[3]}>{term[1]}</Link></p>
+                <p>{term[2]}</p>
+              </section>
+            );
+          })}
+        </Collapsible>
+
         {/* Submissions */}
-        <Page.Heading>Submissions</Page.Heading>
-          <p className="submission">
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝"/> <Emoji emoji="➕"/><br/>
+        <Collapsible name="Submit Media">
+          <p className="indent-1">
+            <Link href="https://forms.gle/RxnTpgK7v4PXTEHR8">
+              Submit media relating to racial justice <span className="arrow">→</span>
+            </Link> <Emoji emoji="📖"/><Emoji emoji="➕"/>
           </p>
-          <p className="submission">
-            <Link href="https://forms.gle/RxnTpgK7v4PXTEHR8">Submit media relating to racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📺"/><Emoji emoji="➕"/>
+        </Collapsible>
+
+        <Collapsible name="Submit a Term">
+          <p className="indent-1">
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">
+              Submit a term for the glossary <span className="arrow">→</span>
+            </Link> <Emoji emoji="📝"/><Emoji emoji="➕"/><br/>
           </p>
+        </Collapsible>
         <br/>
 
-        <Page.Heading>Filter Results</Page.Heading>
+        {/* Filter Results */}
+        <h3>Filter Results</h3>
         <div className="menu">
-          <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
-            {media_typenames.sort().map((typename, source_index) => {
-              return <option key={`content_item_${source_index}`} value={typename}>{typename}</option> 
+          <select name="category" value={this.state.category} onChange={this.handleSortChange}>
+            {categories.sort().map((category, idx) => {
+              return <option key={`category_${idx}`} value={category}>{category}</option> 
             })}
           </select>
         </div>
         <div className="menu">
-          <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
-            {media_tags.sort().map((tag, source_index) => {
-              return <option key={`content_item_${source_index}`} value={tag}>{tag}</option> 
+          <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
+            {typenames.sort().map((typename, idx) => {
+              return <option key={`typename_${idx}`} value={typename}>{typename}</option> 
             })}
           </select>
         </div>
         <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
         <CardStack ref={this.cardstackRef}>
-          {this.state.media.map((data, index) => {
-            let title = data[0] 
-            let typename = data[1] 
-            let source_link = data[2]
-            let creators = data[3]
-            let summary = data[4]
-            let summary_source = data[5]
-            let summary_source_link = data[6] 
-            let taken_from = data[7] 
-            let taken_from_link = data[8] 
-            let tag = data[9]
-
-            let source = null;
-            if (summary_source_link !== "N/A") source = <a href={summary_source_link}>Summary c/o {summary_source}</a>
-
-            // Search Query String
-            let creators_string = ""
-            for (let i = 0; i < creators.length; i++) creators_string += creators[i][0]
-            let search_string = [title, creators_string, summary, summary_source].join().toLowerCase()
-
-            let emoji = null;
-            let verb = "View";
-            if (typename === "Film") {
-              emoji="🎞️"
-            } else if (typename === "Podcast") {
-              emoji="🎙"
-            } else if (typename === "Video") {
-              emoji="📹"
-            } else if (typename === "Audiobook") {
-              emoji="🔊"
-              verb="Listen to"
+          {this.state.media.map((media_data, card_num) => {
+            // Organized media data 
+            let media = {
+              "title": media_data[0],
+              "typename": media_data[1],
+              "source_url": media_data[2],
+              "creators": media_data[3]?.split("`").map((k, i) => [k, media_data[4]?.split("`")[i]]),
+              "summary": media_data[5],
+              "summary_source": media_data[6],
+              "summary_source_url": media_data[7],
+              "taken_from": media_data[8],
+              "taken_from_url": media_data[9],
+              "category": media_data[10]
             }
 
+            // Search query string
+            let search_string = [].concat(...Object.values(media)).filter(String).join(" ").toLowerCase()
+            
+            //Filtering
             if (
               (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
-              && ((this.state.typename === "All" || this.state.typename === typename) && (this.state.tag === "All" || this.state.tag === tag))
+              && ((this.state.typename === "All Types" || this.state.typename === media["typename"]) 
+              && (this.state.category  === "All Categories" || this.state.category === media["category"]))
             ) {
               return (
-                <Card key={`card_${index}`}>
+                <Card key={`card_${card_num}`}>
                   <Card.Header>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Subtitle>
-                      {creators.map((creators, c_index) => {
-                        let creator = ""
-                        if (c_index === 0) creator = <Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author>                        
-                        else if (c_index > 0) creator = <span key={`creator_${c_index}`} style={{lineHeight: "170%"}}>&nbsp;and&nbsp;<Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author></span>                  
-                        return creator;
+                    <h4>{media["title"]}</h4>
+                    <h5>
+                      {media["creators"].map((creator, idx) => {
+                        return (
+                          <span key={`creator_${idx}`}>
+                            {(idx > 0) && " and "} <Card.Author href={creator[1]}>{creator[0]}</Card.Author>
+                          </span>
+                        )
                       })}
-                    </Card.Subtitle>
+                    </h5>
                   </Card.Header>
                   <Card.Body>
-                    <Card.Text>{summary}</Card.Text>
-                    {source && <Card.Text>{source}</Card.Text>}
-                    <Card.Link href={source_link} text={`${verb} this ${typename}`} emoji={emoji}/>
+                    <p>{media["summary"]}</p>
+                    {
+                      media["summary_source_url"] &&
+                      <p>
+                        <Link newtab={true} href={media["summary_source_url"]}>Summary c/o {media["summary_source"]}</Link>
+                      </p>
+                    }
+                    <Card.Button href={media["source_url"]}>
+                      {typestring[media["typename"]]["phrase"]} <Emoji emoji={typestring[media["typename"]]["emoji"]}/>
+                    </Card.Button>
                   </Card.Body>
                 </Card>
               )
             }
           })}
         </CardStack>
-      </Page>
+      </Root>
     )
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        googleSheetsID
+      }
+    }
+  }
+`

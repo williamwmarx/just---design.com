@@ -1,0 +1,75 @@
+/* Global colors */
+$white: #f4f9ff; // Pantone 11-0601 TCX Bright White
+$light-grey: #efedf1; // Pantone P 99-1 U
+$grey: #bbbcbc; // Pantone 14-4103 TCX
+$dark-grey: #868787; // Pantone 8400 C
+$charcoal:  #25282a; // Pantone 426 C
+$black: #1c1619; // Pantone 20-0198 TPM Moondrop Grapes
+$blue: #63b1df; // Kimberly Drew "This Is What I Know About Art"
+$purple: #9497c7; // Alaska—Alaska "One Drop Can Make a Rainbow"
+$pink: #ef519d; // Oana Stănescu "Seriousy Fun: Light Study"
+$gradient-colors: $blue, $purple, $pink; // Gradient
+
+/*
+ * Gradient Color At
+ *
+ * Get a single color at a certain location within a list of colors
+ * Used to simulate a gradient given a list of elements
+ *
+ * $location: Place in spectrum on [0, 1]
+ * $colors: List of colors
+ */
+@function gradient-color-at($location, $colors) {
+  // Find closest colors to point in gradient list
+  $color1: nth($colors, 1);
+  $color2: nth($colors, 2);
+  $delta: $location;
+
+  $len: length($colors) - 1;
+  @for $i from 0 through $len {
+    $current-location: $i / $len;
+    $next-location: ($i + 1) / $len;
+    @if $location >= $current-location and $location <= $next-location {
+      $color1: nth($colors, $i + 1);
+      $delta: ($location - $current-location) / ($next-location - $current-location);
+      @if ($i + 2) < length($colors) {
+        $color2: nth($colors, $i + 2);
+      } @else {
+        $color2: nth($colors, -1);
+      }
+    }
+  }
+
+  // Calculate color at point between the two 
+  $color: $color1;
+  @if $delta > 0 {
+    $color: adjust-color(
+      $color: $color1,
+      $hue: $delta * (hue($color2) - hue($color1)),
+      $saturation: $delta * (saturation($color2) - saturation($color1)),
+      $lightness: $delta * (lightness($color2) - lightness($color1)),
+      $alpha: $delta * (alpha($color2) - alpha($color1)),
+    );
+  }
+  @return $color;
+}
+
+/*
+ * Gradient Children
+ *
+ * Set all properties given to a color based on place in gradient
+ * 
+ * $count: Number of children
+ * $properties: CSS properties to assign color
+ */
+@mixin gradient-children($count, $properties) {
+  @for $i from 1 through $count {
+    &>:nth-child(#{$i}) {
+      @each $property in $properties {
+        #{$property}: gradient-color-at(($i - 1) / ($count - 1), $gradient-colors);
+      }
+      @content;
+    }
+  }
+}
+

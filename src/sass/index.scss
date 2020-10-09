@@ -1,0 +1,50 @@
+@import "fonts";
+@import "mixins";
+
+ul#nav-links {
+  padding: 0;
+
+  @include gradient-children(10, color border-bottom-color) {
+    border-bottom-width: 0.15em;
+    border-bottom-style: solid;
+  }
+
+  & > li {
+    @include table-center;
+    @include secondary-font(medium);
+    font-size: 1.4vw;
+    margin-bottom: 0.5em;
+
+    & > a {
+      color: inherit !important;
+    }
+
+    @media only screen and (max-width: 1100px) {
+      font-size: 2vw;
+    }
+
+    @media only screen and (max-width: 700px) {
+      font-size: 3vw;
+    }
+
+    @media only screen and (max-width: 400px) {
+      font-size: 4vw;
+    }
+  }
+}
+
+#our-mission {
+  margin: 0 0 1.5em 0;
+
+  @include center(50%);
+  text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    @include center(70%);
+  }
+
+  @media only screen and (max-width: 700px) {
+    @include center(90%);
+  }
+}
+

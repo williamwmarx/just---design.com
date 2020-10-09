@@ -1,0 +1,47 @@
+@import "themes";
+
+.collapsible {
+  h3 {
+    display: inline;
+  }
+
+  button {
+    position: absolute;
+    margin: 1px 0 0 0.75em;
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+    @include neumorphic($distance: 4px, $blur: 8px, $radius: 5px);
+    border: none;
+
+    img {
+      margin-top: 2px;
+      width: 16px;
+      transition: transform 0.75s ease;
+    }
+
+    &:hover {
+      @include themed() {
+        background-color: darken(t(bg), 2%);
+      }
+    }
+
+    &.active {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+    
+    @include no-highlight
+  }
+
+  div {
+    margin-bottom: 0.5em;
+    transition: max-height 0.75s ease;
+    overflow: hidden;
+
+    &.active {
+      margin-bottom: 1.5em;
+    }
+  }
+}

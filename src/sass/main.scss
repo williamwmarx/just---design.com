@@ -1,0 +1,180 @@
+@import "colors";
+@import "themes";
+@import "fonts";
+@import "index";
+@import "card";
+@import "collapsible";
+@import "menu";
+@import "search";
+@import "root";
+
+@mixin header-text($size) {
+  @include table-center;
+  margin: 0px;
+  padding: 0px;
+
+  @include title-font;
+  font-size: $size;
+  text-align: center;
+
+  @media only screen and (max-width: 1500px) {
+    font-size: 1.2 * $size;
+  }
+    
+  @media only screen and (max-width: 1100px) {
+    font-size: 1.5 * $size;
+  }
+
+  @media only screen and (max-width: 700px) {
+    font-size: 2 * $size;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: $light-grey; 
+}
+
+#root {
+  @include themed() {
+    color: t(text);
+    background: t(bg);
+  }
+  transition: all $transition-time;
+  position: absolute;
+  padding-top: 5vh;
+  min-width: 100%;
+  min-height: calc(100% - 5vh);
+}
+
+h1 {
+  transition: all $transition-time;
+  @include header-text(5vw);
+  @include themed() {
+    color: t(title);
+  }
+  line-height: 80%;
+}
+
+h2 {
+  transition: all $transition-time;
+  @include header-text(4.25vw);
+  @include themed() {
+    color: t(title);
+  }
+  background-repeat: no-repeat;
+  background-size: 100% 8%;
+  background-position: 0 100%;
+  background-image: linear-gradient(90deg, $gradient-colors);
+}
+
+h3 {
+  @include body-font(medium);
+  margin: 0;
+  text-align: left;
+  font-size: 125%;
+}
+
+h4 {
+  margin: 0;
+  @include body-font(bold);
+  font-size: 1.3em;
+  word-break: break-word;
+  hyphens: auto;
+  @include themed() {
+    color: t(text);
+  }
+}
+
+h5 {
+  margin: 0.2em 0 0 0;
+  @include body-font(medium);
+  line-height: 120%;
+  font-size: 1.1em;
+  @include themed() {
+    color: t(subtitle);
+  }
+}
+
+h6 {
+  margin: 0.3em 0 0 0;
+  @include body-font;
+  line-height: 120%;
+  font-size: 1em;
+  @include themed() {
+    color: t(subtitle-two);
+  }
+}
+
+p {
+  @include body-font;
+}
+
+q {
+  @include body-font(medium, italic);
+  display: block;
+
+  quotes: "“" "”" "‘" "’";
+  &::before {
+    content: open-quote;
+  }
+  &::after {
+    content: close-quote;
+  }
+
+  &.block {
+    @include indent($side: both)
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+iframe.youtube {
+  @include youtube-container(50vw);
+
+  @media only screen and (max-width: 1100px) {
+    @include youtube-container(60vw);
+  }
+
+  @media only screen and (max-width: 700px) {
+    @include youtube-container(74vw);
+  }
+}
+
+.indent-1 {
+  @include indent;
+}
+
+.link {
+  @include underline;
+}
+   
+.arrow {
+  @include secondary-font(medium);
+}
+
+.icon {
+  margin-right: 0.25em;
+  height: 16px ;
+}
+
+
+/* GLOSSARY PAGE */
+.glossary {
+  p:first-child {
+    @include body-font(medium)
+    font-size: 1.1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  p:last-child {
+    @include indent
+    margin-top: 0px;
+    font-size: 1em;
+  }
+}
+

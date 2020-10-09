@@ -1,147 +1,142 @@
 /* Import React */
-import React from "react";
+import React from "react"
+import {  graphql  } from "gatsby"
+
 /* Import Components */
-import Card from "../components/Card.js";
-import Page from "../components/Page.js";
-import CardStack from "../components/CardStack.js";
-import Emoji from "../components/Emoji.js";
-import Link from "../components/Link.js";
+import Card from "../components/Card.js"
+import Root from "../components/Root.js"
+import Collapsible from "../components/Collapsible.js"
+import CardStack from "../components/CardStack.js"
+import Emoji from "../components/Emoji.js"
+import Link from "../components/Link.js"
+import Sheets from "../components/Sheets.js"
+
 /* Import Styles */
-import "../sass/main.sass";
-/* Import Sparse Data */
+import "../sass/main.scss"
+
+/* Import Spare Data */
 import DesignResourcesSparse from "../../static/json/DesignResourcesSparse.json"
 
 export default class DesignResources extends React.Component {
   constructor(props) {
-    super(props);
-    this.cardstackRef = React.createRef();
-    this.handleSortChange = this.handleSortChange.bind(this);
+    super(props)
+    this.cardstackRef = React.createRef()
+    this.handleSortChange = this.handleSortChange.bind(this)
     this.state = {
-      typename: "All",
+      category: "All",
       search_query: "",
-      resources: DesignResourcesSparse["resources"]
+      resources: [] 
     };
   }
-  
+ 
+  // Handle changes to category and/or search
   handleSortChange(event) {
-    this.cardstackRef.current.update_cards_dims();
-    this.setState({[event.target.name]: event.target.value});
-    if (event.target.name === "search_query") this.setState({typename: "All"})
+    this.cardstackRef.current.update_cards_dims()
+    this.setState({[event.target.name]: event.target.value})
+    if (event.target.name === "search_query") this.setState({category: "All"})
   }
 
   componentDidMount() {
-    const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/3/public/full?alt=json")
-    .then(function(response) {
-        if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: '+response.status);
-            return;
-        } else {
-          return response.json();
-        }
-      }
-    ).then(function(data) {
-      let content = []
-      let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length; i += 10) {
-        let title = entries[i]["content"]["$t"]
-        let typename = entries[i+1]["content"]["$t"]
-        let source_link = entries[i+2]["content"]["$t"]
-        let creators = []
-        let creator_names = entries[i+3]["content"]["$t"].split("`")
-        let creator_links = entries[i+4]["content"]["$t"].split("`")
-        for (let i = 0; i < creator_names.length; i++) creators.push([creator_names[i], creator_links[i]])
-        let summary = entries[i+5]["content"]["$t"]
-        let summary_source = entries[i+6]["content"]["$t"]
-        let summary_source_link = entries[i+7]["content"]["$t"]
-        let taken_from = entries[i+8]["content"]["$t"]
-        let taken_from_link = entries[i+9]["content"]["$t"]
-        content.push([title, typename, source_link, creators, summary, summary_source, summary_source_link, taken_from, taken_from_link])
-      }
-      that.setState({resources: content})
-    })
-    .catch(function(err) {
-        console.log('Fetch Error: ', err);
+    let googleSheetsID = this.props.data.site.siteMetadata.googleSheetsID
+    Sheets.getData(googleSheetsID, 3, 10).then(sheet_data => {
+      this.setState({
+        resources: sheet_data,
+      });
     });
   }
 
   render() {
-    let resource_typenames = ["All"];
-    for (let i = 0; i < this.state.resources.length; i++) {
-      let typename = this.state.resources[i][1]
-      if (!resource_typenames.includes(typename)) resource_typenames.push(typename)
-    } 
+    // All categories
+    let categories = [...new Set(["All", ...this.state.resources.map((resource) => resource[1])])]
 
     return (
-      <Page title="Design Resources.">
+      <Root typename="card" page="Design Resources.">
         {/* Submissions */}
-        <Page.Heading>Submissions</Page.Heading>
-          <p className="submission">
-            <Link href="https://forms.gle/crnaPirDDpYLWHY48">Submit a design resource →</Link>&nbsp;&nbsp;<Emoji emoji="🔨" emoji_name="hammer"/><Emoji emoji="➕" emoji_name="plus sign"/>
+        <Collapsible name="Submit a Resource">
+          <p className="indent-1">
+            <Link href="https://forms.gle/soSFHXc9Nm5AMRuE9">
+              Submit a design resource <Emoji emoji="🔨"/> <span className="arrow">→</span>
+            </Link>
           </p>
+        </Collapsible>
         <br/>
-
-        <Page.Heading>Filter Results</Page.Heading>
+        
+        {/* Filter Results */}
+        <h3>Filter Results</h3>
         <div className="menu">
-          <select name="typename" value={this.state.typename} onChange={this.handleSortChange}>
-            {resource_typenames.sort().map((typename, source_index) => {
-              return <option key={`content_item_${source_index}`} value={typename}>{typename}</option> 
+          <select name="category" value={this.state.category} onChange={this.handleSortChange}>
+            {categories.sort().map((category, idx) => {
+              return <option key={`category_${idx}`} value={category}>{category}</option> 
             })}
           </select>
         </div>
         <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
         <CardStack ref={this.cardstackRef}>
-          {this.state.resources.map((data, index) => {
-            let title = data[0] 
-            let typename = data[1] 
-            let source_link = data[2]
-            let creators = data[3]
-            let summary = data[4]
-            if (summary === "N/A") summary = null
-            let summary_source = data[5]
-            let summary_source_link = data[6] 
-            let taken_from = data[7] 
-            let taken_from_link = data[8] 
+          {this.state.resources.map((resource_data, card_num) => {
+            // Organized resource data 
+            let resource = {
+              "title": resource_data[0],
+              "category": resource_data[1],
+              "source_url": resource_data[2],
+              "creators": resource_data[3]?.split("`").map((k, i) => [k, resource_data[4]?.split("`")[i]]),
+              "summary": resource_data[5],
+              "summary_source": resource_data[6],
+              "summary_source_url": resource_data[7],
+              "taken_from": resource_data[8],
+              "taken_from_url": resource_data[9]
+            }
 
-            let source = null;
-            if (summary_source_link !== "N/A") source = <a href={summary_source_link}>Summary c/o {summary_source}</a>
-
-            // Search Query String
-            let creators_string = ""
-            for (let i = 0; i < creators.length; i++) creators_string += creators[i][0]
-            let search_string = [title, creators_string, summary].join().toLowerCase()
-
+            // Search query string
+            let search_string = [].concat(...Object.values(resource)).filter(String).join(" ").toLowerCase()
+            
+            //Filtering
             if (
-              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase())) 
-              && (this.state.typename === "All" || this.state.typename === typename)
+              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
+              && (this.state.category === "All" || this.state.category === resource["category"])
             ) {
               return (
-                <Card key={`card_${index}`}>
+                <Card key={`card_${card_num}`}>
                   <Card.Header>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Subtitle>
-                      {creators.map((creators, c_index) => {
-                        let creator = null;
-                        if (creators[0] !== "N/A") {
-                          if (c_index === 0) creator = <Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author>                        
-                          else if (c_index > 0) creator = <span key={`creator_${c_index}`} style={{lineHeight: "170%"}}>&nbsp;and&nbsp;<Card.Author key={`creator_${c_index}`} href={creators[1]}>{creators[0]}</Card.Author></span>                  
-                        }
-                      return creator;
+                    <h4>{resource["title"]}</h4>
+                    <h5>
+                      {resource["creators"] && resource["creators"].map((creator, idx) => {
+                        return (
+                          <span key={`creator_${idx}`}>
+                            {(idx > 0) && " and "} <Card.Author href={creator[1]}>{creator[0]}</Card.Author>
+                          </span>
+                        )
                       })}
-                    </Card.Subtitle>
+                    </h5>
                   </Card.Header>
                   <Card.Body>
-                    <Card.Text>{summary}</Card.Text>
-                    {source && <Card.Text>{source}</Card.Text>}
-                    {(source_link !== null) && <Card.Link href={source_link} text="View this resource" emoji="⚒️" emoji_name="hammer and pick"/>}
+                    <p>{resource["summary"]}</p>
+                    {
+                      resource["summary_source_url"] &&
+                      <p>
+                        <Link newtab={true} href={resource["summary_source_url"]}>
+                          Summary c/o {resource["summary_source"]}
+                        </Link>
+                      </p>
+                    }
+                    <Card.Button href={resource["source_url"]}>View this resource <Emoji emoji="⚒️"/></Card.Button>
                   </Card.Body>
                 </Card>
               )
             }
           })}
         </CardStack>
-      </Page>
+      </Root>
     )
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        googleSheetsID
+      }
+    }
+  }
+`

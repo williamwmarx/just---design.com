@@ -1,199 +1,170 @@
 /* Import React */
-import React from "react";
+import React from "react"
+import {  graphql  } from "gatsby"
+
 /* Import Components */
-import Card from "../components/Card.js";
-import Page from "../components/Page.js";
-import CardStack from "../components/CardStack.js";
-import Emoji from "../components/Emoji.js";
-import Link from "../components/Link.js";
+import Card from "../components/Card.js"
+import Root from "../components/Root.js"
+import Collapsible from "../components/Collapsible.js"
+import CardStack from "../components/CardStack.js"
+import Emoji from "../components/Emoji.js"
+import Link from "../components/Link.js"
+import Sheets from "../components/Sheets.js"
+
 /* Import Styles */
-import "../sass/main.sass";
+import "../sass/main.scss"
+
 /* Import Spare Data */
-import GlossarySparse from "../../static/json/GlossarySparse.json";
 import RacialJusticeReadingsSparse from "../../static/json/RacialJusticeReadingsSparse.json"
 
 export default class RacialJusticeReadings extends React.Component {
   constructor(props) {
-    super(props);
-    this.cardstackRef = React.createRef();
-    this.handleSortChange = this.handleSortChange.bind(this);
+    super(props)
+    this.cardstackRef = React.createRef()
+    this.handleSortChange = this.handleSortChange.bind(this)
     this.state = {
-      tag: "All",
+      category: "All",
       search_query: "",
-      glossary: GlossarySparse["glossary"],
-      readings: RacialJusticeReadingsSparse["readings"]
+      glossary: [],
+      readings: [] 
     };
   }
   
-  /* Handle changes to category and/or search */
+  // Handle changes to category and/or search
   handleSortChange(event) {
-    this.cardstackRef.current.update_cards_dims();
-    this.setState({[event.target.name]: event.target.value});
-    if (event.target.name === "search_query") this.setState({tag: "All"})
+    this.cardstackRef.current.update_cards_dims()
+    this.setState({[event.target.name]: event.target.value})
+    if (event.target.name === "search_query") this.setState({category: "All"})
   }
 
   componentDidMount() {
-    const that = this;
-    /* Get readings data from published Google Sheets */
-    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/1/public/full?alt=json")
-    .then(function(response) {
-        if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: '+response.status);
-            return;
-        } else {
-          return response.json();
-        }
-      }
-    ).then(function(data) {
-      /* Parse readings JSON and set state */
-      let content = []
-      let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length; i += 10) {
-        let title = entries[i]["content"]["$t"]
-        let source_link = entries[i+1]["content"]["$t"]
-        let writers = []
-        let writer_names = entries[i+2]["content"]["$t"].split("`")
-        let writer_links = entries[i+3]["content"]["$t"].split("`")
-        for (let i = 0; i < writer_names.length; i++) writers.push([writer_names[i], writer_links[i]])
-        let summary = entries[i+4]["content"]["$t"]
-        let summary_source = entries[i+5]["content"]["$t"]
-        let summary_source_link = entries[i+6]["content"]["$t"]
-        let taken_from = entries[i+7]["content"]["$t"]
-        let taken_from_link = entries[i+8]["content"]["$t"]
-        let tag = entries[i+9]["content"]["$t"]
-        content.push([title, source_link, writers, summary, summary_source, summary_source_link, taken_from, taken_from_link, tag])
-      }
-      that.setState({readings: content})
-      /* Get glossary data from published Google Sheets */
-      fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/5/public/full?alt=json")
-      .then(function(response) {
-          if (response.status !== 200) {
-              console.log('Looks like there was a problem. Status Code: '+response.status);
-              return;
-          } else {
-            return response.json();
-          }
-        }
-      ).then(function(data) {
-        /* Parse glossary JSON and set state */
-        let glossary_content = []
-        let entries = data["feed"]["entry"]
-        for (var i = 0; i < entries.length; i += 4) {
-          let target_page = entries[i]["content"]["$t"]
-          let term = entries[i+1]["content"]["$t"]
-          let definition = entries[i+2]["content"]["$t"]
-          let link = entries[i+3]["content"]["$t"]
-          if (target_page === "Racial Justice Readings") glossary_content.push([term, definition, link])
-        }
-        that.setState({glossary: glossary_content})
-      })
-      .catch(function(err) {
-          console.log('Fetch Error: ', err);
+    let googleSheetsID = this.props.data.site.siteMetadata.googleSheetsID
+
+    // GLOSSARY 
+    Sheets.getData(googleSheetsID, 5, 4).then(sheet_data => {
+      this.setState({
+        glossary: sheet_data.filter(n => n[0].includes("Racial Justice")),
       });
-    })
-    .catch(function(err) {
-        console.log('Fetch Error: ', err);
+    });
+
+    // RACIAL JUSTICE READINGS
+    Sheets.getData(googleSheetsID, 1, 10).then(sheet_data => {
+      this.setState({
+        readings: sheet_data,
+      });
     });
   }
 
   render() {
-    /* Gather all tags (categories) */
-    let reading_tags = ["All"];
-    for (let i = 0; i < this.state.readings.length; i++) {
-      let tag = this.state.readings[i][8]
-      if (!reading_tags.includes(tag)) reading_tags.push(tag)
-    } 
+    // All categories
+    let categories = [...new Set(["All", ...this.state.readings.map((reading) => reading[9])])]
 
     return (
-      <Page typename="card" title="Racial Justice Readings.">
+      <Root typename="card" page="Racial Justice Readings.">
         {/* Glossary */}
-        <Page.Heading>Glossary</Page.Heading>
-            {this.state.glossary.map((data, idx) => {
-              return (
-                <div key={`entry_${idx}`}>
-                  <Page.Text>
-                    <strong><Link href={data[2]}>{data[0]}</Link></strong>
-                  </Page.Text>
-                  <p className="glossary-definition">
-                    {data[1]}
-                  </p>
-                </div>
-              );
-            })}
-        <br/>
+        <Collapsible name="Glossary">
+          {this.state.glossary.map((term, idx) => {
+            return (
+              <section className="indent-1 glossary" key={`term_${idx}`}>
+                <p><Link newtab={true} href={term[3]}>{term[1]}</Link></p>
+                <p>{term[2]}</p>
+              </section>
+            );
+          })}
+        </Collapsible>
 
         {/* Submissions */}
-        <Page.Heading>Submissions</Page.Heading>
-          <p className="submission">
-            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">Submit a term for the glossary→</Link>&nbsp;&nbsp;<Emoji emoji="📝" emoji_name="memo"/> <Emoji emoji="➕" emoji_name="plus sign"/><br/>
+        <Collapsible name="Submit a Reading">
+          <p className="indent-1">
+            <Link href="https://forms.gle/a3LyuVnYSUyRUJ5a9">
+              Submit a term for the glossary <span className="arrow">→</span>
+            </Link> <Emoji emoji="📝"/><Emoji emoji="➕"/>
           </p>
-          <p className="submission">
-            <Link href="https://forms.gle/soSFHXc9Nm5AMRuE9">Submit a reading on racial justice→</Link>&nbsp;&nbsp;<Emoji emoji="📖" emoji_name="open book"/><Emoji emoji="➕" emoji_name="plus sign"/>
+        </Collapsible>
+
+        <Collapsible name="Submit a Term">
+          <p className="indent-1">
+            <Link href="https://forms.gle/soSFHXc9Nm5AMRuE9">
+              Submit a reading on racial justice <span className="arrow">→</span>
+            </Link> <Emoji emoji="📖"/><Emoji emoji="➕"/>
           </p>
+        </Collapsible>
         <br/>
 
         {/* Filter Results */}
-        <Page.Heading>Filter Results</Page.Heading>
+        <h3>Filter Results</h3>
         <div className="menu">
-          <select name="tag" value={this.state.tag} onChange={this.handleSortChange}>
-            {reading_tags.sort().map((tag, source_index) => {
-              return <option key={`content_item_${source_index}`} value={tag}>{tag}</option> 
+          <select name="category" value={this.state.category} onChange={this.handleSortChange}>
+            {categories.sort().map((category, idx) => {
+              return <option key={`category_${idx}`} value={category}>{category}</option> 
             })}
           </select>
         </div>
         <input name="search_query" onChange={this.handleSortChange} className="search" type="text" placeholder="Search..."/>
 
-
         <CardStack ref={this.cardstackRef}>
-          {this.state.readings.map((data, index) => {
-            let title = data[0] 
-            let source_link = data[1]
-            let writers = data[2]
-            let summary = data[3]
-            let summary_source = data[4]
-            let summary_source_link = data[5] 
-            let taken_from = data[6] 
-            let taken_from_link = data[7] 
-            let tag = data[8]
+          {this.state.readings.map((reading_data, card_num) => {
+            // Organized reading data 
+            let reading  = {
+              "title": reading_data[0],
+              "source_url": reading_data[1],
+              "writers": reading_data[2]?.split("`").map((k, i) => [k, reading_data[3]?.split("`")[i]]),
+              "summary": reading_data[4],
+              "summary_source": reading_data[5],
+              "summary_source_url": reading_data[6],
+              "taken_from": reading_data[7],
+              "taken_from_url": reading_data[8],
+              "category": reading_data[9]
+            }
 
-            let source = null;
-            if (summary_source_link !== "N/A") source = <Card.Text><a href={summary_source_link}>Summary c/o {summary_source}</a></Card.Text>
-
-            // Search Query String
-            let writers_string = ""
-            for (let i = 0; i < writers.length; i++) writers_string += writers[i][0]
-            let search_string = [title, writers_string, summary, summary_source].join().toLowerCase()
-
+            // Search query string
+            let search_string = [].concat(...Object.values(reading)).filter(String).join(" ").toLowerCase()
+            
+            //Filtering
             if (
-                (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
-                && (this.state.tag === "All" || this.state.tag === tag)
-              ) {
+              (this.state.search_query === "" || search_string.includes(this.state.search_query.toLowerCase()))
+              && (this.state.category === "All" || this.state.category === reading["category"])
+            ) {
               return (
-                <Card key={`card_${index}`}>
+                <Card key={`card_${card_num}`}>
                   <Card.Header>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Subtitle>
-                      {writers.map((writers, c_index) => {
-                        let creator = ""
-                        if (c_index === 0) creator = <Card.Author key={`creator_${c_index}`} href={writers[1]}>{writers[0]}</Card.Author>                        
-                        else if (c_index > 0) creator = <span key={`creator_${c_index}`} style={{lineHeight: "170%"}}>&nbsp;and&nbsp;<Card.Author key={`creator_${c_index}`} href={writers[1]}>{writers[0]}</Card.Author></span>                  
-                        return creator;
+                    <h4>{reading["title"]}</h4>
+                    <h5>
+                      {reading["writers"].map((writer, idx) => {
+                        return (
+                          <span key={`writer_${idx}`}>
+                            {(idx > 0) && " and "} <Card.Author href={writer[1]}>{writer[0]}</Card.Author>
+                          </span>
+                        )
                       })}
-                    </Card.Subtitle>
+                    </h5>
                   </Card.Header>
                   <Card.Body>
-                    <Card.Text>{summary}</Card.Text>
+                    <p>{reading["summary"]}</p>
                     {
-                      source && <Card.Text>{source}</Card.Text>
+                      reading["summary_source_url"] &&
+                      <p>
+                        <Link newtab={true} href={reading["summary_source_url"]}>Summary c/o {reading["summary_source"]}</Link>
+                      </p>
                     }
-                    <Card.Link href={source_link} text="Read this text" emoji="📖" emoji_name="open book"/>
+                    <Card.Button href={reading["source_url"]}>Read this text <Emoji emoji="📖"/></Card.Button>
                   </Card.Body>
                 </Card>
               )
             }
           })}
         </CardStack>
-      </Page>
+      </Root>
     )
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        googleSheetsID
+      }
+    }
+  }
+`

@@ -12,7 +12,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             frontmatter {
-              path 
+              slug 
             }
           }
         }
@@ -28,11 +28,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: node.frontmatter.path,
+      path: node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
         // additional data can be passed via context
-        path: node.frontmatter.path,
+        slug: node.frontmatter.slug,
       },
     })
   })

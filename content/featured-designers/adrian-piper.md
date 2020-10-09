@@ -1,5 +1,5 @@
 ---
-path: "/featured-designers/adrian-piper"
+slug: "/featured-designers/adrian-piper"
 date: "2020-08-15"
 title: "Adrian Piper"
 tags: "Conceptual Artist, Philosopher"

@@ -1,0 +1,22 @@
+@import "fonts";
+@import "themes";
+
+.button {
+  @include body-font(medium);
+  display: table;
+  margin: 0.5em 0 0.5em 0;
+  padding: 4px 10px 6px 10px;
+  max-width: 80%;
+  font-size: 0.9em;
+
+  border-radius: 10px;
+  @include themed() {
+    border: 2px solid t(button-border);
+  }
+
+  &:hover {
+    @include themed() {
+      background-color: t(button-hover);
+    }
+  }
+}
