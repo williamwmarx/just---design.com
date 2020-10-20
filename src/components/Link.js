@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 
 export default class Button extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      href: null
+      href: null,
     }
   }
 
-  // Open Instagram link in app if on iPhone 
+  // Open Instagram link in app if on iPhone
   async instagram(link) {
     if (navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)) {
       if (link.includes("instagram.com/p/")) {
@@ -18,30 +18,28 @@ export default class Button extends React.Component {
           return "instagram://media?id=" + result["media_id"]
         } else return link
       } else if (link.includes("instagram.com/")) {
-        return "instagram://user?username=" + new URL(link).pathname.split("/")[1];
+        return "instagram://user?username=" + new URL(link).pathname.split("/")[1]
       }
-    } else return link;
+    } else return link
   }
 
   componentDidMount() {
     this.setState({ href: this.props.href })
     if (this.props.href?.toLowerCase().includes("instagram")) {
-      this.instagram(this.props.href).then((result) => this.setState({ href: result }))
+      this.instagram(this.props.href).then(result => this.setState({ href: result }))
     }
   }
 
   render() {
-    let link = null;
     return (
-      <a 
-        {...(this.props.newtab && {rel: "noreferrer", target: "_blank"})} 
-        className={(this.props.typename === "button") ? "button" :"link"}
+      <a
+        {...(this.props.newtab && { rel: "noreferrer", target: "_blank" })}
+        className={this.props.typename === "button" ? "button" : "link"}
         href={this.state.href}
       >
-          {this.props.children} 
-          {(this.props.typename === "button") && <span className="arrow"> →</span>}
+        {this.props.children}
+        {this.props.typename === "button" && <span className="arrow"> →</span>}
       </a>
-    );
+    )
   }
 }
-

@@ -11,7 +11,9 @@
 Work in progress.
 
 ## Racial Justice
+
 ### (Re)sources
+
 Organized alphabetically.
 
 - [Anti-Racism Design Resources](https://docs.google.com/document/d/e/2PACX-1vRkuF9o4WDiRW8v2nAPfJRttbZty5MADnFCt38PC4JPbqWMr4VrT307fzz5uAcYupTaWVwTrz-N8pUb/pub)
@@ -23,17 +25,17 @@ Organized alphabetically.
 - [Black Producers / Artists / Labels for Bandcamp Day](https://docs.google.com/spreadsheets/u/4/d/1OIUBp4kFxmpWJihhq6WLwJQR1Am4DsD59bEYlJZxeGY/htmlview?usp=sharing&pru=AAABcqRQFJU*bRqSxO62y3r2jK-_cx7KQw)
 - [Defund12](https://defund12.org)
 - [BIPOC Studio c/o Dong-Ping Wong & Associates](https://docs.google.com/spreadsheets/u/0/d/1ZiWjlfqc02OeWL4hTNZymVT_kyNnO42xG-hucO3rC0E/htmlview)
-- [Anti-racism resources for white people](https://docs.google.com/document/u/1/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic) 
+- [Anti-racism resources for white people](https://docs.google.com/document/u/1/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/mobilebasic)
 - [Black Photographers Covering Protests 2020](https://docs.google.com/spreadsheets/d/1DMDZZGSq5YLqlskIf30yM2p8G944grtHR_0zKl6MAXY/edit#gid=0)
 - [The Color of Fear, Lee Mun Wah](https://vimeo.com/127289854)
 - [Brown Eye Blue Eye, Jane Elliott](https://youtu.be/LNgS78-Wjcc)
 - [Civil Rights | James Baldwin Interview | Mavis on Four](https://youtu.be/3Wht4NSf7E4)
 - [Black Owned Bookstores](https://www.instagram.com/worn__ware/)
 
-
 To suggest additions, please email [marx@concurrent.studio](mailto:marx@concurrent.studio?subject=New%20Content%20Suggestion)
 
 ### Petitions
+
 - [Federally Required Psychological Screenings for Police Employment and Federal Reforms](http://chng.it/TP7q88f4gZ)
 - [Justice for Breonna Taylor](http://chng.it/rdTnkSxPR7)
 - [Justice for David McAtee](http://chng.it/YbRzyjfYzz)
@@ -59,6 +61,5 @@ To suggest additions, please email [marx@concurrent.studio](mailto:marx@concurre
 - [Justice For Joāo Pedro](http://chng.it/hRQ7dgkN7t)
 - [Justice for Matthew Tucker](http://chng.it/MRBHPjxjRB)
 - [Abolish Prison Labour in the USA](http://chng.it/d5YR6HLQyT)
-
 
 To suggest additions, please email [marx@concurrent.studio](mailto:marx@concurrent.studio?subject=New%20Petition%20Suggestion)

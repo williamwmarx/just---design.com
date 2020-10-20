@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export default function Emoji(props) {
   let emoji_names = {
@@ -1227,7 +1227,7 @@ export default function Emoji(props) {
     "🆑": "Cl Button",
     "🆒": "Cool Button",
     "🆓": "Free Button",
-    "ℹ️": "Information",
+    ℹ️: "Information",
     "🆔": "Id Button",
     "ⓜ️": "Circled M",
     "🆕": "New Button",
@@ -1540,7 +1540,11 @@ export default function Emoji(props) {
     "🇾🇹": "Mayotte",
     "🇿🇦": "South Africa",
     "🇿🇲": "Zambia",
-    "🇿🇼": "Zimbabwe"
+    "🇿🇼": "Zimbabwe",
   }
-    return <span role="img" aria-label={emoji_names[props.emoji]}>{props.emoji}</span>
+  return (
+    <span role="img" aria-label={emoji_names[props.emoji]}>
+      {props.emoji}
+    </span>
+  )
 }

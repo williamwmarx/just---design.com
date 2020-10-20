@@ -11,7 +11,7 @@
   transform: translate(-50%, 0%);
 }
 
-@mixin neumorphic($intensity: 6%, $distance: 8px, $blur: 20px, $radius: 25px) {
+@mixin neumorphic($intensity: 6%, $distance: 8px, $blur: 2*$distance, $radius: 25px) {
   @include themed() {
     background: t(bg);
     $left-shadow: (-$distance) (-$distance) $blur lighten(t(bg), 0.8 * $intensity);
@@ -55,4 +55,13 @@
   &:focus {
     outline: none;
   }
+}
+  
+@mixin theme_transition {
+  $attributes: color, background, background-color, box-shadow;
+  $trs: ();
+  @each $atr in $attributes {
+    $trs: append($trs, $atr $transition-time ease, comma);
+  }
+  transition: $trs;
 }

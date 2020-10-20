@@ -1,83 +1,84 @@
 {
-    "graphic_design_elements": {
-        "typefaces": [{
-                "font": "Carrie",
-                "font_link": "https://www.vocaltype.co/history-of/carrie",
-                "foundry": "VOCAL TYPE",
-                "foundry_link": "https://www.vocaltype.co/",
-                "css_fontface": "VTCCarrie",
-                "fontSize": "125%",
-                "letterSpacing": "normal"
-            },
-            {
-                "font": "Office Code Pro D",
-                "font_link": "https://github.com/nathco/Office-Code-Pro",
-                "foundry": "Nathan Rutzky",
-                "foundry_link": "https://nath.co/",
-                "css_fontface": "OfficeCodeProDMedium",
-                "fontSize": "115%",
-                "letterSpacing": "-1px"
-            },
-            {
-                "font": "Poppins",
-                "font_link": "https://github.com/itfoundry/Poppins",
-                "foundry": "Indian Type Foundry",
-                "foundry_link": "https://www.indiantypefoundry.com/",
-                "css_fontface": "PoppinsMedium",
-                "fontSize": "110%",
-                "letterSpacing": "normal"
-            }
-        ],
-        "color_palette": [{
-                "color_name": "Background",
-                "hex": "#222222",
-                "rgb": "34, 34, 34",
-                "cmyk": "0%, 0%, 0%, 87%",
-                "source": null,
-                "source_link": null,
-                "creators": []
-            },
-            {
-                "color_name": "Gradient Color 1",
-                "hex": "#63b1df",
-                "rgb": "99, 177, 223",
-                "cmyk": "56%, 21%, 0%, 13%",
-                "source": "\"This Is What I Know About Art\" Cover",
-                "source_link": "https://www.penguinrandomhouse.com/books/612188/this-is-what-i-know-about-art-by-kimberly-drew-illustrated-by-ashley-lukashevsky/",
-                "creators": [{
-                    "name": "Kimberly Drew",
-                    "link": "https://www.instagram.com/museummammy"
-                }]
-            },
-            {
-                "color_name": "Gradient Color 2",
-                "hex": "#9497c7",
-                "rgb": "148, 151, 199",
-                "cmyk": "26%, 24%, 0%, 22%",
-                "source": "One Drop Can Make a Rainbow",
-                "source_link": "https://www.instagram.com/p/B6niRV0JE4S/",
-                "creators": [{
-                    "name": "Alaska-Alaska",
-                    "link": "https://www.instagram.com/alaska___alaska/"
-                }]
-            },
-            {
-                "color_name": "Gradient Color 3",
-                "hex": "#ef519d",
-                "rgb": "239, 81, 157",
-                "cmyk": "0%, 66%, 34%, 6%",
-                "source": "Seriously Fun: Light Study",
-                "source_link": "https://www.instagram.com/p/BknjgrFg0Cj/",
-                "creators": [{
-                        "name": "Oana Stănescu",
-                        "link": "http://oanas.net/"
-                    },
-                    {
-                        "name": "Akane Moriyama",
-                        "link": "http://akanemoriyama.com/"
-                    }
-                ]
-            }
-        ]
+  "typefaces": [
+    {
+      "fontFamily": "VTCCarrie",
+      "fontSize": "1.2em",
+      "fontName": "CARRIE",
+      "fontURL": "https://www.vocaltype.co/history-of/carrie",
+      "foundryName": "VOCAL TYPE",
+      "foundryURL": "https://www.vocaltype.co/"
+    },
+    {
+      "fontFamily": "OfficeCodeProDMedium",
+      "fontSize": "1.05em",
+      "fontName": "Office Code Pro D",
+      "fontURL": "https://github.com/nathco/Office-Code-Pro",
+      "foundryName": "Nathan Rutzky",
+      "foundryURL": "https://nath.co/"
+    },
+    {
+      "fontFamily": "ObjectSansMedium",
+      "fontSize": "1em",
+      "fontName": "Object Sans",
+      "fontURL": "https://pangrampangram.com/products/object-sans",
+      "foundryName": "Pangram Pangram Foundry",
+      "foundryURL": "https://pangrampangram.com/"
     }
+  ],
+  "colors": {
+    "White": {
+      "hex": "#f4f9ff",
+      "textColor": "#25282a",
+      "source": "Pantone 11-0601 TCX Bright White",
+      "url": "https://www.pantone.com/color-finder/11-0601-TCX"
+    },
+    "Light Grey": {
+      "hex": "#efedf1",
+      "textColor": "#25282a",
+      "source": "Pantone P 99-1 U",
+      "url": "https://www.pantone.com/color-finder/P-99-1-U"
+    },
+    "Grey": {
+      "hex": "#bbbcbc",
+      "textColor": "#f4f9ff",
+      "source": "Pantone 14-4103 TCX",
+      "url": "https://www.pantone.com/color-finder/14-4103-TCX"
+    },
+    "Dark Grey": {
+      "hex": "#8c8985",
+      "textColor": "#f4f9ff",
+      "source": "Pantone 2332 C",
+      "url": "https://www.pantone.com/color-finder/2332-C"
+    },
+    "Charcoal": {
+      "hex": "#25282a",
+      "textColor": "#f4f9ff",
+      "source": "Pantone 426 C",
+      "url": "https://www.pantone.com/color-finder/426-C"
+    },
+    "Black": {
+      "hex": "#1c1619",
+      "textColor": "#f4f9ff",
+      "source": "Pantone 20-0198 TPM Moondrop Grapes",
+      "url": "https://www.pantone.com/color-finder/20-0198-TPM"
+    },
+    "Blue": {
+      "hex": "#63b1df",
+      "textColor": "#f4f9ff",
+      "source": "Kimberly Drew \"This Is What I Know About Art\"",
+      "url": "https://www.penguinrandomhouse.com/books/612188/this-is-what-i-know-about-art-by-kimberly-drew-illustrated-by-ashley-lukashevsky/"
+    },
+    "Purple": {
+      "hex": "#9497c7",
+      "textColor": "#f4f9ff",
+      "source": "Alaska—Alaska \"One Drop Can Make a Rainbow\"",
+      "url": "https://www.instagram.com/p/B6niRV0JE4S/"
+    },
+    "Pink": {
+      "hex": "#ef519d",
+      "textColor": "#f4f9ff",
+      "source": "Oana Stănescu \"Seriousy Fun: Light Study\"",
+      "url": "https://www.instagram.com/p/BknjgrFg0Cj/"
+    }
+  }
 }

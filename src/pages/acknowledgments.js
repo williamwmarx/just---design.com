@@ -1,145 +1,153 @@
-/* Import React */
-import React from "react";
+/* Import React and GraphQL */
+import React from "react"
+import { graphql } from "gatsby"
 
 /* Import Components */
-import Emoji from "../components/Emoji.js";
-import Link from "../components/Link.js";
-import Root from "../components/Root.js";
+import Emoji from "../components/Emoji.js"
+import Collapsible from "../components/Collapsible.js"
+import Link from "../components/Link.js"
+import Root from "../components/Root.js"
+import Sheets from "../components/Sheets.js"
+
 /* Import Styles */
-import "../sass/main.scss";
+import "../sass/main.scss"
+
 /* Import Data */
 import AcknowledgmentsData from "../../static/json/acknowledgments.json"
+import SourcesSparse from "../../static/json/SourcesSparse.json"
+
+function hexToRGB(h) {
+  let rgb = ""
+  h.match(/.{1,2}/g).forEach(c => (rgb += parseInt(c, 16) + ", "))
+  return "(" + rgb.slice(0, -2) + ")"
+}
 
 export default class Acknowledgments extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      sources: []
-    };
+      sources: SourcesSparse,
+    }
   }
 
   componentDidMount() {
-    const that = this;
-    fetch("https://spreadsheets.google.com/feeds/cells/10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs/6/public/full?alt=json")
-    .then(function(response) {
-        if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: '+response.status);
-            return;
-        } else {
-          return response.json();
-        }
-      }
-    ).then(function(data) {
-      let content = []
-      let entries = data["feed"]["entry"]
-      for (var i = 0; i < entries.length; i += 3) {
-        let status = entries[i]["content"]["$t"]
-        let title = entries[i+1]["content"]["$t"]
-        let source_link = entries[i+2]["content"]["$t"]
-        content.push([status, title, source_link])
-      }
-      that.setState({sources: content})
+    let googleSheetsID = this.props.data.site.siteMetadata.googleSheetsID
+    Sheets.getData(googleSheetsID, 6, 3).then(sheet_data => {
+      this.setState({
+        sources: sheet_data,
+      })
     })
-    .catch(function(err) {
-        console.log('Fetch Error: ', err);
-    });
   }
 
   render() {
     return (
-      <Root page="Acknowledgments.">        
+      <Root page="Acknowledgments.">
         {/* GENERAL CREDITS */}
-        <p style={{fontSize: "110%"}}>
-          This site is intended to be as transparent as possible. As such, all sources used to build it are listed below.
-          If you are interested in the source code for the site itself, that can be found on <Link href="https://github.com/concurrent-studio/just---design.com">GitHub</Link>.  
+        <p>
+          This site is intended to be as transparent as possible.&nbsp; As such, all sources used to
+          build it are listed below.&nbsp; The source code for this site can be found on&nbsp;
+          <Link newtab={true} href="https://github.com/concurrent-studio/just---design.com">
+            GitHub
+          </Link>
+          .
         </p>
-  
-        {/* GRAPHIC DESIGN ELEMENTS CREDITS */}
-        <h3>Graphic Design Elements</h3>
-          {/* TYPEFACE CREDITS */}
-          <h4>Typefaces</h4>
-            {AcknowledgmentsData.graphic_design_elements.typefaces.map((data, credit_index) => {
-              return (
-                <span key={`credit_${credit_index}`} style={{fontFamily: data.css_fontface, fontSize: data.fontSize, letterSpacing: data.letterSpacing}}>
-                  <Root.Credit
-                    content={data.font} content_source={data.font_link} 
-                    creator={data.foundry} creator_source={data.foundry_link}
-                  />
-                </span>
-              );
-            })}
-            <p>
-              <span style={{fontSize: "90%", color: "#aaa"}}>
-                * Carrie is not free/open source, however, due to its historical importance and aesthetic beauty, I thought it was necessary to include it.
-              </span>
-            </p>
-            <br/>
-  
-          {/* COLOR PALETTE CREDITS */}
-          <h4>Color Palette</h4>
-            {AcknowledgmentsData.graphic_design_elements.color_palette.map((data, index) => {
-              let color_detail = {
-                backgroundColor: data.hex,
-                fontFamily: "OfficeCodeProDMedium", 
-                letterSpacing: "-1px", 
-                padding: "0 0.3em 0 0.2em",
-                marginLeft: "0.5em"
-              }
-  
-              return (
-                <div key={`content_item_${index}`}>
-                  <p>{data.color_name}:</p>
-                  <p>HEX:<span style={color_detail}>{data.hex}</span></p>
-                  <p>RGB:<span style={color_detail}>{data.rgb}</span></p>
-                  <p>CMYK:<span style={color_detail}>{data.cmyk}</span></p>
-                  {
-                    data.source &&
-                    <p>
-                      Source:&nbsp;
-                        <Link href={data.source_link}>{data.source}</Link>
-                        &nbsp;c/o&nbsp;
-                        {data.creators.map((creators, index) => {
-                          let creator_html = null
-                          if (index === 0) creator_html = <Link href={creators.link}>{creators.name}</Link>
-                          else creator_html = <span> and <Link href={creators.link}>{creators.name}</Link></span>
-                          return creator_html;
-                        })}
-                    </p>
-                  }
-                  <br/>
-                </div>
-              );
-            })}
-          <br/>
-  
-        {/* CONTENT SOURCES CREDITS */}
-        <h3>Content</h3>
-          <p className="indent-1">
-            <Link href="https://forms.gle/1xyjG8HHBNKtAC8d8">Submit a source to catalogue →</Link>
-            &nbsp;&nbsp;
-            <Emoji>📝</Emoji><Emoji>➕</Emoji><br/>
-          </p>
-  
-        <h4>Key</h4>
-        <p><Emoji>✅</Emoji> Source catalogued</p>
-        <p><Emoji>🚧</Emoji> Under construction</p>
-        <p><Emoji>⏳</Emoji> To be done</p>
-        <br/>
 
-        <h4>Sources</h4>
-          {this.state.sources.map((data, index) => {
-            let emoji = ""
-            if (data[0] === "Catalogued") emoji = <Emoji>✅</Emoji>
-            else if (data[0] === "Pending") emoji = <Emoji>🚧</Emoji>
-            else if (data[0] === "To-do") emoji = <Emoji>⏳</Emoji>
-            return (
-              <p className="indent-1" key={`source_${index}`}>
-                <Link href={data[2]}>{data[1]}</Link>
-                &nbsp;{emoji}
+        {/* TYPEFACES */}
+        <Collapsible name="Typefaces" init="open">
+          <section style={{ lineHeight: "50%" }}>
+            {AcknowledgmentsData["typefaces"].map((t, i) => (
+              <p style={{ fontFamily: t["fontFamily"], fontSize: t["fontSize"] }}>
+                <Link newtab={true} href={t["fontURL"]}>
+                  {t["fontName"]}
+                </Link>
+                &nbsp;c/o&nbsp;
+                <Link newtab={true} href={t["foundryURL"]}>
+                  {t["foundryName"]}
+                </Link>
               </p>
-            );
+            ))}
+          </section>
+        </Collapsible>
+
+        {/* COLORS */}
+        <Collapsible name="Color Palette" init="open">
+          {Object.keys(AcknowledgmentsData["colors"]).map((k, i) => (
+            <section className="colors">
+              <h5>{k}</h5>
+              <div>
+                <p>
+                  Hex:&nbsp;
+                  <span
+                    style={{
+                      backgroundColor: AcknowledgmentsData["colors"][k]["hex"],
+                      color: AcknowledgmentsData["colors"][k]["textColor"],
+                    }}
+                  >
+                    {AcknowledgmentsData["colors"][k]["hex"]}
+                  </span>
+                </p>
+                <p>
+                  RGB:&nbsp;
+                  <span
+                    style={{
+                      backgroundColor: AcknowledgmentsData["colors"][k]["hex"],
+                      color: AcknowledgmentsData["colors"][k]["textColor"],
+                    }}
+                  >
+                    {hexToRGB(AcknowledgmentsData["colors"][k]["hex"].slice(1))}
+                  </span>
+                </p>
+                <p>
+                  Source:&nbsp;
+                  <Link newtab={true} href={AcknowledgmentsData["colors"][k]["url"]}>
+                    {AcknowledgmentsData["colors"][k]["source"]}
+                  </Link>
+                </p>
+              </div>
+            </section>
+          ))}
+        </Collapsible>
+
+        {/* SUBMIT A SOURCE */}
+        <Collapsible name="Submit a New Source" init="open">
+          <Link href="https://forms.gle/1xyjG8HHBNKtAC8d8">Submit a source to catalogue →</Link>
+        </Collapsible>
+
+        {/* SOURCES KEY */}
+        <Collapsible name="Key" init="open">
+          <p>
+            <Emoji emoji="✅" /> Source catalogued
+            <br />
+            <Emoji emoji="🚧" /> Under construction
+            <br />
+            <Emoji emoji="⏳" /> To be done
+          </p>
+        </Collapsible>
+
+        {/* SOURCES */}
+        <Collapsible name="Sources" init="open">
+          {this.state.sources.map((data, index) => {
+            return (
+              <p key={`source_${index}`}>
+                {data[0] === "Catalogued" && <Emoji emoji="✅" />}
+                {data[0] === "Pending" && <Emoji emoji="🚧" />}
+                {data[0] === "To-do" && <Emoji emoji="⏳" />}
+                &nbsp;<Link href={data[2]}>{data[1]}</Link>
+              </p>
+            )
           })}
+        </Collapsible>
       </Root>
     )
   }
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        googleSheetsID
+      }
+    }
+  }
+`

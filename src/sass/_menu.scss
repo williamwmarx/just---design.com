@@ -1,33 +1,37 @@
 @import "colors";
+@import "mixins";
 
 .menu {
   position: relative;
-  display: inline-block;
-  margin: 1em 2em 2em 0;
-  border-radius: 0.5em;
+  display: table;
+  margin: 0.5em 0 0.75em 0 !important;
+  @include neumorphic($radius: 0.5em, $distance: 0.25em, $blur: 0.3em);
   background-image: linear-gradient(45deg, $gradient-colors);
 
   select {
     @include body-font;
-    @include neumorphic;
     font-size: 100%;
-    padding: 0.75em 45px 0.75em 0.75em;
+    padding: 0.75em 45px 0.75em 0.25em;
     display: block;
     @include themed() {
-      color: t(text)
+      color: t(text);
+      background: t(bg)
     }
-    border-radius: 0.5em;
-    border: 3px solid transparent;
+    border: none; 
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
     appearance: none;
-    background-image: url("../../static/images/down_point.png");
-    background-position: calc(100% - 15px) center;
-    background-repeat: no-repeat;
-    background-size: 20px;
+    background-image: url("../../static/icons/down_point.png") !important;
+    background-position: calc(100% - 15px) center !important;
+    background-repeat: no-repeat !important;
+    background-size: 20px !important;
     background-clip: padding-box;
     @include no-highlight;
+
+    // @media (prefers-color-scheme: dark) {
+    //   background-image: url("../../static/icons/down_point_alt.png") !important;
+    // }
   }
 
 

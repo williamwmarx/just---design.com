@@ -7,6 +7,7 @@
 @import "menu";
 @import "search";
 @import "root";
+@import "form";
 
 @mixin header-text($size) {
   @include table-center;
@@ -41,11 +42,12 @@ body {
     color: t(text);
     background: t(bg);
   }
-  transition: all $transition-time;
   position: absolute;
   padding-top: 5vh;
+  margin-bottom: 10vh;
   min-width: 100%;
   min-height: calc(100% - 5vh);
+  @include theme_transition
 }
 
 h1 {
@@ -80,7 +82,7 @@ h4 {
   margin: 0;
   @include body-font(bold);
   font-size: 1.3em;
-  word-break: break-word;
+  word-break: normal;
   hyphens: auto;
   @include themed() {
     color: t(text);
@@ -162,6 +164,23 @@ iframe.youtube {
   height: 16px ;
 }
 
+/* ACKNOWLEDGMENTS PAGE */
+.colors {
+  line-height: 60%;
+
+  p {
+    @include body-font(medium);
+    span {
+      @include body-font;
+      font-size: 0.95em;
+      padding: 0.05em 0.35em 0.05em 0.25em;
+    }
+    .link {
+      @include body-font;
+    }
+  }
+}
+
 
 /* GLOSSARY PAGE */
 .glossary {
@@ -177,4 +196,3 @@ iframe.youtube {
     font-size: 1em;
   }
 }
-

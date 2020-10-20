@@ -2,19 +2,15 @@
 import React from "react"
 
 /* Import Styles */
-import "../sass/main.scss";
+import "../sass/main.scss"
 import { getCookie } from "../components/CookieUtils.js"
-
-/* Icons */
-import LightArrow from "../../static/images/arrow_light.svg";
-import DarkArrow from "../../static/images/arrow_dark.svg";
 
 export default class Collapsible extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       active: false,
-      theme: getCookie("theme")
+      theme: getCookie("theme"),
     }
     this.divRef = React.createRef()
   }
@@ -26,22 +22,36 @@ export default class Collapsible extends React.Component {
   toggle() {
     this.setState({
       active: !this.state.active,
-      theme: getCookie("theme")
+      theme: getCookie("theme"),
     })
+  }
+
+  componentDidMount() {
+    this.setState({ active: (this.props.init === "open")})
   }
 
   render() {
     return (
       <div className="collapsible">
         <h3>{this.props.name}</h3>
-        <button className={(this.state.active) ? "active" : ""} type="button" onClick={() => this.toggle()}>
-          <img src={(this.state.theme === "dark") ? LightArrow : DarkArrow} alt="arrow"/>
+        <button
+          className={this.state.active ? "active" : ""}
+          type="button"
+          onClick={() => this.toggle()}
+        >
+          <img
+            src={`icons/arrow_${this.state.theme === "dark" ? "light" : "dark"}.svg`}
+            alt="arrow"
+          />
         </button>
-        <div ref={this.divRef} style={this.getStyle()} className={this.state.active ? "active" : ""}>
+        <div
+          ref={this.divRef}
+          style={this.getStyle()}
+          className={this.state.active ? "active" : ""}
+        >
           {this.props.children}
         </div>
       </div>
     )
   }
 }
-

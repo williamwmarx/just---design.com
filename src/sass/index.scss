@@ -35,8 +35,8 @@ ul#nav-links {
 
 #our-mission {
   margin: 0 0 1.5em 0;
-
   @include center(50%);
+  @include body-font(medium)
   text-align: center;
 
   @media only screen and (max-width: 1100px) {
@@ -46,5 +46,6 @@ ul#nav-links {
   @media only screen and (max-width: 700px) {
     @include center(90%);
   }
+  transition: color $transition-time;
 }
 

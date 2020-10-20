@@ -12,7 +12,7 @@ module.exports = {
     description: `An evolving, community-run, open access resource for the democratization of knowledge surrounding architecture, design and any tangential fields.`,
     googleSheetsID: `10xoMrSOqSeUDrYtNgT8tIdsvQK1Qp1x7copA3kPu_cs`,
   },
-  plugins : [
+  plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,8 +20,15 @@ module.exports = {
         name: `featured-designers`,
       },
     },
-    { 
-      resolve: `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/images`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -31,30 +38,33 @@ module.exports = {
         start_url: `/`,
         background_color: `#111111`,
         display: `standalone`,
-        icon: `static/images/favicon.png`,
+        icon: `static/icons/favicon.png`,
       },
     },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-169387993-1"
-      }
+        trackingId: "UA-169387993-1",
+      },
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {
-          families: ["VTCCarrie, OfficeCodeProDMedium, OfficeCodeProDMediumItalic, Poppins, PoppinsMedium, PoppinsBold"],
-          urls: ["/fonts/fonts.css"]
-        }
-      }
+          families: [
+            "VTCCarrie, OfficeCodeProDMedium, OfficeCodeProDMediumItalic, Poppins, PoppinsMedium, PoppinsBold",
+          ],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
     },
     `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
+    `gatsby-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sass`
-  ]
+    `gatsby-plugin-sass`,
+  ],
 }

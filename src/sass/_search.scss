@@ -1,11 +1,12 @@
 @import "colors";
 
 .search {
-  @include neumorphic;
+  display: inline-block;
+  @include neumorphic($radius: 0.5em, $distance: 0.25em, $blur: 0.3em);
   @include body-font(regular);
   font-size: 100%;
   width: 20em;
-  margin: 0 2em 2.25em 0;
+  margin: 0 2em 0 0;
   padding: 0.75em 2.75em 0.75em 0.75em;
   @include themed() {
     color: t(text);

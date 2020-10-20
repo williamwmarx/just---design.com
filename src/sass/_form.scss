@@ -1,0 +1,111 @@
+@import "colors";
+@import "fonts";
+
+form {
+  display: block;
+
+  & > section {
+    display: table;
+    margin-bottom: 0.8em;
+
+    &.radio {
+      @include neumorphic($radius: 0.5em, $distance: 0.25em, $blur: 0.3em);
+      margin-top: 0.6em;
+      padding: 0.75em 1.75em 0.8em 0.75em;
+    }
+
+    p {
+      margin: 0 0 0.35em 0;
+      font-size: 100%;
+      @include themed() {
+        color: t(subtitle);
+      }
+    }
+
+    &>:not(p):not(div), &>div>:not(p) {
+      @include body-font(regular);
+      font-size: 100%;
+      @include themed() {
+        color: t(text);
+      }
+      border: none;
+      border-radius: 0.5em;
+
+      &:not(label):not([type="radio"]):not(#other-text) {
+        @include neumorphic($radius: 0.5em, $distance: 0.25em, $blur: 0.3em);
+        padding: 0.75em 1.25em 0.75em 1em;
+      }
+
+      @include no-highlight;
+    }
+
+    input {
+      &[type="radio"] + label {
+        @include themed() {
+          color: t(subtitle);
+        }
+      }
+
+      &[type="radio"]:checked + label {
+        @include themed() {
+          color: t(text);
+        }
+      }
+
+      &[type="text"] {
+        width: 15em;
+      }
+
+      &[type="url"] {
+        width: 20em;
+      }
+
+      &#other-text {
+        background-color: inherit;
+      }
+
+      &::placeholder {
+        @include themed() {
+          color: t(subtitle);
+        }
+      }
+    }
+
+    textarea {
+      display: block;
+      resize: none;
+      width: 20em;
+
+      &::placeholder {
+        @include themed() {
+          color: t(subtitle);
+        }
+      }
+    }
+
+    label {
+      margin-left: 0.25em;
+      @include themed() {
+        color: t(subtitle);
+      }
+    }
+  }
+
+  & > button {
+    position: relative !important;
+    padding: 0.75em 1em 0.75em 0.75em;
+    @include body-font(regular);
+    font-size: 90%;
+    border: none;
+    @include neumorphic($radius: 0.5em, $distance: 0.25em, $blur: 0.3em);
+    @include no-highlight;
+
+    &:hover {
+      @include themed() {
+        background-color: darken(t(bg), 2%);
+      }
+    }
+  }
+}
+
+

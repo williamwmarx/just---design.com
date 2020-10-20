@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Head from "../components/Head.js"
 import "../sass/main.scss"
 
 export default function Template({
@@ -11,9 +10,7 @@ export default function Template({
   return (
     <div id="root">
       <div className="featured-designer">
-        <div
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
         <div className="footer">
           <p>Originally posted {frontmatter.date}.</p>
         </div>
@@ -24,11 +21,11 @@ export default function Template({
 
 export const pageQuery = graphql`
   query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug} }) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        slug 
+        slug
         title
       }
     }
